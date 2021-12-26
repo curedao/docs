@@ -1,0 +1,6 @@
+---
+percentageToApprove: 51 # Percentage of votes required to approve a merge
+minVotersRequired: 1 # minimum number of unique voters needed to merge.
+minVotingWindowMinutes: 720 # minimum amount of time that must pass after the pull request is updated before any
+# vote can pass. 12 hours was selected because it allows at least 4 hours of review time after subtracting 8 hours
+# for sleep.
