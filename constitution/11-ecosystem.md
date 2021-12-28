@@ -6,6 +6,9 @@ an open and democratic manner. VitaDAO is a community owned collective funding e
 discover and fund the most 
 promising longevity research. We are funding early stage research, and try to turn it into biotech companies. Members can join VitaDAO by purchasing VITA tokens  or earning them through contributions of work or Intellectual Property.
 
+## George Health
+[George Health](https://www.george-health.com/) is pioneering improved treatments and technologies for non-communicable diseases, the world’s biggest killers, based on 20 years of world-leading research.
+
 ## BLOCKPHARMA
 
 Substandard and fake products are one of the challenges confronting the health sector globally. Substandard and fake drugs affect every region of the world but are more predominant in low and middle-income countries. The use of substandard and fake drugs contributes to drug-resistant infections, and antimicrobial resistance, ultimately causing over 800,000 deaths annually.
