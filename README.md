@@ -18,6 +18,12 @@ this mission will be an exponential function of the participation of people like
 Click 👉👉👉 [here](https://github.com/anonymous-dao/draft-whitepaper/discussions/new?category=voters) to tell us about your
 interests or project in the [Voters Discussion Channel](https://github.com/anonymous-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting.md).
 
+## How to Get Started
+
+* [ ]  Add to or edit the constitution. [Here's a visual walk-through](https://scribehow.com/shared/How_to_Write_a_Constitution_In_a_Democratic_Fashion__XPpT_GzCQC27ouEjEF2oXg) if you're new to Github.
+* [ ]  Decide what goes in the constitution by voting thumbs up👍 or down👎 or provide feedback💬 on changes in the [Pull Requests Tab](https://github.com/anonymous-dao/draft-whitepaper/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
+* [ ]  Help to prioritize tasks by voting thumbs up👍 or down👎 or comment💬 on issues in the [Issues Tab](https://github.com/anonymous-dao/draft-whitepaper/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+
 # Why Should I Join?
 
 [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every day. This is equivalent to a September 11th terrorist attack occurring every [28](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks#:~:text=During%20the%20September%2011%202001,and%2044%20were%20in%20Pennsylvania.) minutes. Additionally, there are over [2 billion](https://www.george-health.com/global-health-challenge/) people suffering from chronic diseases.
