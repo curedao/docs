@@ -1,6 +1,7 @@
 # tl;dr
 
-Anonymous DAO is a decentralized alliance of individuals and government, businesses, and nonprofits devoted to the minimization of suffering.
+Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the 
+minimization of suffering.
 
 To achieve this, we propose the creation of an open-source decentralized health platform
 that will produce a massive acceleration of large scale research to discover new ways to prevent and treat chronic diseases.

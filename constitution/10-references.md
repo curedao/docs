@@ -6,6 +6,5 @@
    de-identification of health data and re-linkage to an anonymous identifier for analysis.
 4. [Health Expenditures per Capita](https://fred.stlouisfed.org/series/HLTHSCPCHCSA)
 5. [List of countries by total health expenditure per capita](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
-6. 
 
 
