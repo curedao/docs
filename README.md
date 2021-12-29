@@ -107,17 +107,20 @@ meta-analyses found that when applying modern
 statistical methodologies to observational studies, the results are generally not quantitatively or qualitatively
 different from those obtained in randomized, controlled trials.
 
-Thus by treating the human as a black box and applying predictive
+Thus, we can treat the human as a black box and apply predictive
 machine learning models to all of the existing real-world data to stratified groups of similar people based on their:
 
-- Genomic
-- Metabolomic
-- Microbiomic
-- Diseasomic
-- Pharmacomic
+- [Genomic](https://en.wikipedia.org/wiki/Genomics)
+- [Metabolomic](https://en.wikipedia.org/wiki/Metabolomics)
+- [Microbiomic](https://en.wikipedia.org/wiki/Microbiota)
+- [Diseasomic](http://ijream.org/papers/IJREAMV05I0250057.pdf)
+- [Pharmacomicrobiomic](https://en.wikipedia.org/wiki/Pharmacomicrobiomics)
+- [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
+- [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
 
-will enable us to discover the full range of positive and negative for all factors without a profit incentive
-for traditional trials.
+profiles. This will enable us to discover the personalized full range of positive and negative for all factors 
+without a profit 
+incentive for traditional trials.
 
 # Platform
 
@@ -212,7 +215,6 @@ Fully realizing the potential of the personalized preventative medicine of the f
    2. allocate resources in proportion to their promotion of the general welfare
    3. require that all publicly funded software projects be free, secure, and open-source
    4. require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
-
 
 ## Requirements
 
