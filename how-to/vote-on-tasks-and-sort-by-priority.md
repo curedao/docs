@@ -2,11 +2,13 @@
 
 A big problem in projects is too many tasks and not enough time or resources to complete them.
 
-We can overcome this by using [crowdsourcing]() to prioritize issue importance. Anyone can click thumbs up or down on an 
+We can overcome this by using [crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing) to prioritize issue importance. Anyone can click thumbs up or down on an 
 issue.  Then it's possible to sort issues by importance based on the number of thumbs up or down.
 
 Additionally, the collectively defined importance of a task can be used as a variable in determining the level of 
 compensation for completing the task.
+
+![](../assets/vote-and-prioritize-tasks.gif)
 
 _[Interactive Walkthrough](https://app.tango.us/app/workflow/5e2db119-1a9d-4620-b586-58354543345f)_
 
