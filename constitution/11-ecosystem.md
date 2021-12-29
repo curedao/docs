@@ -1,5 +1,8 @@
 # Ecosystem
 
+## OpenCures
+[OpenCures](https://opencures.org/) provides next-gen molecular health tests to patients who want to monetize and control their data's destiny.
+
 ## VitaDAO
 [VitaDAO](https://www.vitadao.com/) is collectively researching, financing, and commercializing longevity research in 
 an open and democratic manner. VitaDAO is a community owned collective funding early stage longevity research. We 

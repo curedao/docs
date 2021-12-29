@@ -1,6 +1,6 @@
 # tl;dr
 
-Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the 
+Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the
 minimization of suffering.
 
 To achieve this, we propose the creation of an open-source decentralized health platform
@@ -136,7 +136,7 @@ The platform will consist of two primary components:
 Challenge: To acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed in order to derive clinical insight.
 
 Approach: We will develop an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) will be made available for 3rd party applications to use to interact with the API. Plugins will enable spreadsheet upload/import and scheduled imports from existing third-party
-API’s.
+APIs.
 
 Impact: The API connector framework will allow the ongoing regular import of user data after a single user authorization.  SDK’s will enable developers to implement easy automatic sharing options in their applications. An increase in the quantity of data will produce a proportional increase in the number of clinical discoveries made.
 
@@ -146,9 +146,9 @@ Data will be encrypted stored in its raw format in flat files on a secure cloud 
 framework instance platform settings.  Preservation of the data in its original format will allow for:
 
 1. Asynchronous Queued Data Parsing Jobs - This is necessary to allow for the data to be parsed in parallel
-   offline and avoid overloading the web server.
+   offline and avoid overloading the webserver.
 2. Storage of data incompatible with a time-series relational data store.
-3. Storage of data formats that do not yet have defined parser plugins.  This will allow for the data to imported
+3. Storage of data formats that do not yet have defined parser plugins.  This will allow for the data to be imported
    at a later date when the data mapper has been defined.
 4. Updating parsers to support changes in the response format for a particular API.
 
@@ -198,6 +198,21 @@ Challenge: To visualize the data from a given subject or group in a meaningful w
 ### 3. API Connectors
 
 TODO
+
+# Incentive Alignment
+
+Fully realizing the potential of the personalized preventative medicine of the future will require coordination between:
+
+1. Patients - Patients should be incentivized to easily and anonymously collect and share their treatment and outcome data.
+2. Business - Businesses should be incentivized to allow individuals to easily donate their data to research.
+3. Non-Profit Organizations - Disease advocacy non-profits should be incentivized to promote observational studies
+   through the anonymous donation data by their members.
+4. Government - Legislation should be introduced to:
+   1. require businesses to allow individuals to access and share their data
+   2. allocate resources in proportion to their promotion of the general welfare
+   3. require that all publicly funded software projects be free, secure, and open-source
+   4. require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
+
 
 ## Requirements
 
