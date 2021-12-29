@@ -186,6 +186,9 @@ A data owner dashboard will allow them to manage their data and access control s
 
 ## Plugin Types
 
+Plugins will be stored in their own repositories based on a plugin template repository.  The plugin template 
+repository will contain defined interfaces required for interoperability with the core framework.
+
 ### 1. Data Analysis
 
 Challenge: To quantify the effectiveness of treatments for specific individuals, reveal hidden factors exacerbating their illness, and determine personalized optimal daily values for these factors.
@@ -196,11 +199,14 @@ Impact: This will mitigate the incidence of chronic illnesses by informing the u
 
 ### 2. Data Visualization
 
-Challenge: To visualize the data from a given subject or group in a meaningful way.
+Data visualization plugin modules will be utilized to visualize the data from a given subject or group in a meaningful 
+way.
 
 ### 3. API Connectors
 
-TODO
+API Connector plugins will handle the OAuth2 authorization flow and store their credentials in the relational database. A job scheduler will call the connectors to refresh the user's OAuth access token and fetch data periodically (usually daily).  They will provide the original raw response to the framework for encryption and storage. They will also map the response to the standard format as defined by the OpenAPI specification for the framework API.
+
+### 3. Spreadsheet Connectors
 
 # Incentive Alignment
 
@@ -215,6 +221,8 @@ Fully realizing the potential of the personalized preventative medicine of the f
    2. allocate resources in proportion to their promotion of the general welfare
    3. require that all publicly funded software projects be free, secure, and open-source
    4. require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
+
+![](assets/)
 
 ## Requirements
 
