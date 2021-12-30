@@ -77,7 +77,7 @@ closed-source competitors an unfair advantage.  This increases their likelihood 
 
 1. Currently governments around the world are spending billions funding closed-source propriety health software. The
    Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we have the ability to guarantee ongoing compensation in the
+2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the
    form of royalties.
 
 ## Isolated Data Silos
@@ -89,6 +89,8 @@ findings and applying machine learning we may achieve “prescriptive” real-ti
 
 To facilitate data sharing, the DAO will provide data providers with an onsite easily provisionable OAuth2 API server that will allow individuals to anonymously share their data with the global biobank.
 
+![APIs make siloed data useful](./assets/apis-siloed-data.svg)
+
 ## Lack of Incentive to Research Unpatentable Molecules
 
 We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural chemicals you consume every day.
@@ -99,13 +101,17 @@ Lack of Incentive to Discover the Full Range of Applications for Off-Patent Trea
 
 There are roughly [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans, most of which (approximately 95%) are classified as “orphan” (rare) diseases. The current system requires that a pharmaceutical company predict a particular condition in advance of running clinical trials. If a drug is found to be effective for other diseases after the patent has expired, no one has the financial incentive to get it approved for another disease.
 
+![how much we know](./assets/how-much-we-know.png)
+
+# Benefits of an Open-Source Platform for Research
+
 Observational real-world evidence-based studies have several advantages over randomized, controlled trials, including
 lower cost, greater timeliness, and a broader range of patients. Concern about inherent bias in these studies,
 however, has limited their use in comparing treatments. Observational studies have been primarily used in
 situations in which randomized, controlled trials would be impossible or unethical. However,
 meta-analyses found that when applying modern
-statistical methodologies to observational studies, the results are generally not quantitatively or qualitatively
-different from those obtained in randomized, controlled trials.
+statistical methodologies to observational studies, the results are generally [not quantitatively or qualitatively
+different](https://www.nejm.org/doi/full/10.1056/NEJM200006223422506) from those obtained in randomized, controlled trials.
 
 Thus, we can treat the human as a black box and apply predictive
 machine learning models to all of the existing real-world data to stratified groups of similar people based on their:
@@ -118,25 +124,42 @@ machine learning models to all of the existing real-world data to stratified gro
 - [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
 - [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
 
-profiles. This will enable us to discover the personalized full range of positive and negative for all factors 
-without a profit 
-incentive for traditional trials.
+profiles. This will enable us to discover the personalized full range of positive and negative for all factors
+without a profit incentive for traditional trials.
+
+We have currently 
+
+## The Potential of Real-World Evidence-Based Studies
+
+- **Diagnostics** - Data mining and analysis to identify causes of illness
+- **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances
+  to prevent disease
+- **Precision medicine** - Leveraging aggregate data to drive hyper-personalized care
+- **Medical research** - Data-driven medical and pharmacological research to cure disease and discover new
+  treatments and medicines
+- **Reduction of adverse medication events** - Harnessing of big data to spot medication errors and flag potential
+  adverse reactions
+- **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
+- **Population health** - Monitor big data to identify disease trends and health strategies based on demographics,
+  geography, and socioeconomic
 
 # Platform
 
 The platform will consist of two primary components:
 
-1. Core Framework - This will be open-source and include only features that are universally necessary.  This
+1. **Core Framework** - This will be open-source and include only universally necessary features.  This
    primarily consists of user authentication, data owner access controls, data storage, data validation, and an API
    for storage and retrieval.
    The DAO will compensate contributors to the core platform.
-2. Plugins - These will be modules that provide additional functionality data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator.
+2. **Plugins** - These will be modules that provide additional functionality data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator.
+
+![platform diagram](./assets/platform-architecture.drawio.png)
 
 ## Technical Framework
 
 ### 1. Data Ingestion API (core component)
 
-Challenge: To acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed in order to derive clinical insight.
+Challenge: To acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed to derive clinical insight.
 
 Approach: We will develop an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) will be made available for 3rd party applications to use to interact with the API. Plugins will enable spreadsheet upload/import and scheduled imports from existing third-party
 APIs.
@@ -158,18 +181,22 @@ framework instance platform settings.  Preservation of the data in its original 
 ### 3. Data Mappers (core components and plugins)
 
 These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the
-validator.  The most common data mappers will be defined in the framework.  Less common data mappers will be
+validator.  The most common data mappers will be defined in the framework.
+
+These include
+
+Less common data mappers will be
 available as plugins from 3rd party developers.
 
 ### 4. Data Validation (core component)
 
-The data validation validation middleware will validate the data before it is stored in the relational database.  It
+The data validation middleware will validate the data before it is stored in the relational database.  It
 will be responsible for ensuring that the data is in a consistent format and that it is not malformed. It
 will also ensure that values are within the expected range for a given variable or unit.
 
 #### 5. Relational Time Series Data Storage (core component)
 
-After validation and mapping, time-series data will be stored in a relational database.  Use of a
+After validation and mapping, time-series data will be stored in a relational database.  The use of a
 relational data store with defined foreign key relationships will ensure atomicity and data veracity.
 
 ### 6. Data Owner Dashboard (core component)
@@ -186,45 +213,135 @@ A data owner dashboard will allow them to manage their data and access control s
 
 ## Plugin Types
 
-Plugins will be stored in their own repositories based on a plugin template repository.  The plugin template 
+Plugins will be stored in their own repositories based on a plugin template repository.  The plugin template
 repository will contain defined interfaces required for interoperability with the core framework.
 
-### 1. Data Analysis
+### 1. Data Analysis Plugins
 
 Challenge: To quantify the effectiveness of treatments for specific individuals, reveal hidden factors exacerbating their illness, and determine personalized optimal daily values for these factors.
 
-Approach: We will develop time-series data mining algorithms to quantify correlations between every combination of variables for a given subject. We will also design algorithms capable of determining the minimum quantities of nutrient intake, sleep, exercise, medications, and other factors necessary to minimize symptom severity.
+Approach: We will develop time-series machine learning algorithms to
+
+- quantify the effect size of all factors on symptom severity
+- determine the optimal daily dosage of
+  nutrients, sleep, exercise, medications, and other factors necessary to minimize symptom severity.
 
 Impact: This will mitigate the incidence of chronic illnesses by informing the user of symptom triggers, such as dietary sensitivities, to be avoided. This will also assist patients and clinicians in assessing the effectiveness of treatments despite the hundreds of uncontrollable variables in any prescriptive experiment.
 
 ### 2. Data Visualization
 
-Data visualization plugin modules will be utilized to visualize the data from a given subject or group in a meaningful 
-way.
+Data visualization plugin modules will be utilized to visualize the data from a given subject or group in a meaningful
+way.  Visualizations may be displayed in studies or on the data owner dashboard.
 
 ### 3. API Connectors
 
-API Connector plugins will handle the OAuth2 authorization flow and store their credentials in the relational database. A job scheduler will call the connectors to refresh the user's OAuth access token and fetch data periodically (usually daily).  They will provide the original raw response to the framework for encryption and storage. They will also map the response to the standard format as defined by the OpenAPI specification for the framework API.
+API Connector plugins will be called by the webserver to:
 
-### 3. Spreadsheet Connectors
+1. handle the OAuth2 authorization flow and store their credentials in the relational database
+2. provide the original raw response to the framework for encryption and storage
+
+A job scheduler will call the API connectors periodically (usually daily) to:
+
+1. Refresh the user's OAuth access token
+2. Fetch new data or data that has been modified since the last import
+3. Map the response to the standard format as defined by the OpenAPI specification for the framework API
+4. Provide the processed data to the framework's validation middleware.
+5. All valid data will be stored in the relational database. Otherwise, the data will be rejected and the plugin developer and data owner will be notified.
+
+### 4. Spreadsheet and PDF Importers
+
+Upon upload, the webserver will call the File Importer plugin:
+
+1. Provide the original file to the framework for encryption and storage
+2. Add the file to a queue for processing by the job scheduler
+   The background job scheduler will:
+3. Retrieve the file from the encrypted storage
+4. Extract the data from the file
+5. Mapped to the standard format as defined by the framework OpenAPI specification
+6. The processed data will be provided to the framework's validation middleware.
+7. Valid data will be stored in the relational database.
+8. Invalid data from the plugin will be rejected and the plugin developer and data owner will be notified.
 
 # Incentive Alignment
 
-Fully realizing the potential of the personalized preventative medicine of the future will require coordination between:
+Fully realizing the potential of the personalized preventative medicine of the future will require incentivizing
+cooperation between the following stakeholders.
 
-1. Patients - Patients should be incentivized to easily and anonymously collect and share their treatment and outcome data.
-2. Business - Businesses should be incentivized to allow individuals to easily donate their data to research.
-3. Non-Profit Organizations - Disease advocacy non-profits should be incentivized to promote observational studies
-   through the anonymous donation data by their members.
-4. Government - Legislation should be introduced to:
-   1. require businesses to allow individuals to access and share their data
-   2. allocate resources in proportion to their promotion of the general welfare
-   3. require that all publicly funded software projects be free, secure, and open-source
-   4. require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
+## 1. Patients
 
-![](assets/)
+Incentives for Patients to share their de-identified data will include:
 
-## Requirements
+1. Actionable ways to prevent and mitigate chronic illnesses.
+2. The ability to license and earn a share of income for use of their data for research and development by
+   pharmaceutical companies and other businesses.  This will be achieved by encoding the user data using
+   non-fungible tokens (NFTs) and issuing them to the user.  The NFTs will be linked to the user's cryptographic
+   wallet address.  Using a smart contract, the user will receive an ongoing royalty share of the profits for any
+   product that was developed using their data for research and development.
 
-* Individuals should be able to anonymously share data such as health records, insurance records, diet data, pharmacy records, and food purchase data with the biobank and receive compensation for use of their data.
-* All biobanks should have well-documented APIs (Application Programming Interfaces) that nonprofits, businesses, and academics can use to allow users to share their data.
+## 2. Business Housing Data Silos
+
+Business Housing Data Silos would include health insurers, pharmacies, grocery delivery services, digital health
+apps, hospitals, etc. These will be incentivized to allow individuals to easily share their data via a well-documented
+OAuth2 API by:
+
+1. A share of income for use of their data for research and development.
+2. An on-site instance of the OAuth2 server to retrieve required data from their
+   on-premise databases.
+3. An eventual reduction in their employee healthcare costs (one of their largest expenses) by resulting from the
+   discovery of new ways to prevent and mitigate chronic illnesses.
+
+### 4. Digital Health Businesses
+
+On top of the incentives for businesses listed above, the following incentives will be provided to digital health
+businesses which enable data sharing:
+
+1. A license to use a white-labelled version of the framework.  This will dramatically reduce the costs of software
+   development. These reduced costs will allow them to focus on innovating their unique value proposition, making
+   them more competitive in the market.
+
+## 5. Disease Advocacy Non-Profit Organizations
+
+Disease advocacy non-profits will be incentivized to promote observational studies
+through the anonymous donation data by their members by:
+
+1. Accelerated furtherance of their mission to reduce the incidence of chronic illnesses.
+2. A new method of member engagement more motivating and productive than the traditional charity walk.
+
+## 6. Government Health Agencies
+
+Governments will be incentivized by:
+
+1. A reduction in healthcare costs
+2. Furtherance of their stated reason for existence to protect and promote
+3. Public pressure on elective representatives
+   the general welfare to introduce legislation
+4. protect the rights of individual's data by requiring businesses in possession of silos
+   of user data allow individuals to access and share their data via a well-documented OAuth2 API
+5. Require that all publicly funded digital-health software projects be free, secure, and open-source. Currently, the
+   majority of government contracts go to closed-source and proprietary software.  This leads to massive waste as
+   governments around the world are paying to reinvent the wheel instead of sharing the costs. Shockingly, there is
+   even a great deal of wasted money on duplicated software contracts between different agencies within the same
+   government
+6. Require international cooperation for all public health efforts to reduce wasted duplication of effort and take
+   advantage of natural experiments resulting from differing public health regulations between nations.
+7. Allow citizens to anonymously share their data in a global database.  This will enable us to take advantage of
+   natural experiments resulting from differing public
+   health regulations between nations.  For instance, 27 countries have banned the use of the pesticide glyphosate
+   due to concerns about the health effects.  If no overall change in the health of the populations is observed, it
+   will suggest that the health concerns may be unfounded.
+
+## 6. Contributors to the Development of the Platform
+
+Members of the DAO will be incentivized to contribute to the development of the platform by:
+TODO
+
+![](assets/incentive-alignment.png)
+
+## References
+
+- [Healthcare Big Data and the Promise of Value-Based Care (nejm.org)](https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0290)
+-
+
+### License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
