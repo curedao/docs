@@ -1,15 +1,22 @@
 # Ecosystem
 
+# Decentralized Clinical Research
+
 ## OpenCures
+
 [OpenCures](https://opencures.org/) provides next-gen molecular health tests to patients who want to monetize and control their data's destiny.
 
+# Blockchain in Healthcare
+
 ## VitaDAO
-[VitaDAO](https://www.vitadao.com/) is collectively researching, financing, and commercializing longevity research in 
-an open and democratic manner. VitaDAO is a community owned collective funding early stage longevity research. We 
-discover and fund the most 
+
+[VitaDAO](https://www.vitadao.com/) is collectively researching, financing, and commercializing longevity research in
+an open and democratic manner. VitaDAO is a community owned collective funding early stage longevity research. We
+discover and fund the most
 promising longevity research. We are funding early stage research, and try to turn it into biotech companies. Members can join VitaDAO by purchasing VITA tokens  or earning them through contributions of work or Intellectual Property.
 
 ## George Health
+
 [George Health](https://www.george-health.com/) is pioneering improved treatments and technologies for non-communicable diseases, the world’s biggest killers, based on 20 years of world-leading research.
 
 ## BLOCKPHARMA
@@ -76,9 +83,20 @@ Despite its rather simplified process, ‘Care. Coins’ ensure payments are acc
 
 [Doc.ai](https://doc.ai/) is a tech company at the nexus of Artificial Intelligence, blockchain technology, and medical software. This company uses machine intelligence to centralize medical services. Their clients can log in to the company’s platform and voluntarily share their medical and genomic data with scientists.
 
-Scientists can then use this data for predictive modeling and other types of research. The company has partnered with other companies to use artificial intelligence to predict the incidence of allergic reactions. Doc.ai uses blockchain encryption to guarantee medical data safety and security.
+Scientists can then use this data for predictive modelling and other types of research. The company has partnered with other companies to use artificial intelligence to predict the incidence of allergic reactions. Doc.ai uses blockchain encryption to guarantee medical data safety and security.
+
+# Healthcare Big Data
 
 ## BC Platforms
 
-[BC Platforms](https://www.bcplatforms.com/) provide data management systems for clinical and genomic research, pharmacogenomics research, 
-preventive and personalized medicine, and biobanking.
+- [BC Platforms](https://www.bcplatforms.com/) provide data management systems for clinical and genomic research, pharmacogenomics research,
+  preventive and personalized medicine, and biobanking.
+
+* [The European Medical Information Framework (EMIF)](http://www.emif.eu/about) aims to improve access to health data derived from the electronic health records of some 50 million Europeans, as well as cohort datasets from participating research communities.
+* [Open PHACTS](http://www.openphacts.org/) is a platform for researchers and others who need access to pharmacological data. It was built in cooperation with academic and commercial organizations and allows users to extract information and make decisions on complex pharmacologic matters.
+* A division of the Dutch multinational company, N.V. Philips, has aggregated more than 15 [petabytes](https://techterms.com/definition/petabyte) of data taken from 390 million medical records, patient inputs, and imaging studies. Healthcare personnel can access this massive collection to obtain critical data for informing the clinical decision-making process.
+* In the U.S., the National Institute of Health established the [*Big Data to Knowledge*](https://commonfund.nih.gov/bd2k) (BD2K) program designed to bring biomedical big data to researchers, clinicians, and others. Initiatives such as these will increasingly empower healthcare providers to improve patient care while simultaneously countering the unsustainable cost trajectory. They will also provide researchers with a rich universe of accessible data and information for disease prevention and cure.
+
+# References
+
+[Healthcare Big Data and the Promise of Value-Based Care (nejm.org)](https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0290)
