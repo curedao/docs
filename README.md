@@ -103,16 +103,32 @@ There are roughly [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2
 
 ![how much we know](./assets/how-much-we-know.png)
 
-# Benefits of an Open-Source Platform for Research
+# Validation of Observational Research Using Real-World Evidence
+
+## Meta-Analyses Support of Real-World Evidence
 
 Observational real-world evidence-based studies have several advantages over randomized, controlled trials, including
 lower cost, greater timeliness, and a broader range of patients. Concern about inherent bias in these studies,
 however, has limited their use in comparing treatments. Observational studies have been primarily used in
-situations in which randomized, controlled trials would be impossible or unethical. However,
-meta-analyses found that when applying modern
-statistical methodologies to observational studies, the results are generally [not quantitatively or qualitatively
-different](https://www.nejm.org/doi/full/10.1056/NEJM200006223422506) from those obtained in randomized, controlled trials.
+situations in which randomized, controlled trials would be impossible or unethical.
 
+However, [meta-analyses](https://www.nejm.org/doi/full/10.1056/NEJM200006223422506) found that:
+
+> when applying modern statistical methodologies to observational studies, the results are generally **not quantitatively or qualitatively
+> different** from those obtained in randomized, controlled trials.
+
+![](https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2000/nejm_2000.342.issue-25/nejm200006223422506/production/images/img_medium/nejm200006223422506_f1.jpeg)
+
+![](https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2000/nejm_2000.342.issue-25/nejm200006223422506/production/images/img_medium/nejm200006223422506_f2.jpeg)
+
+## Historical Support of Real-World Evidence
+
+There is compelling historical evidence suggesting that large scale efficacy-trials based on real-world evidence 
+have ultimately led to better health outcomes than current pharmaceutical industry-driven randomized controlled trials.
+
+![](./assets/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
+
+## A Black Box Approach to Personalized Medicine
 Thus, we can treat the human as a black box and apply predictive
 machine learning models to all of the existing real-world data to stratified groups of similar people based on their:
 
@@ -127,7 +143,13 @@ machine learning models to all of the existing real-world data to stratified gro
 profiles. This will enable us to discover the personalized full range of positive and negative for all factors
 without a profit incentive for traditional trials.
 
-We have currently 
+## Our Current Research
+
+We publish our anonymously aggregated analyses at the [Journal of Citizen Science](https://app.crowdsourcingcures.org/). So far, we’ve collected over 10
+million data points on symptom severity and influencing factors from over 10,000 participants. This data has been
+used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
+
+![journal of citizen science](./assets/journal-of-citizen-science.png)
 
 ## The Potential of Real-World Evidence-Based Studies
 
@@ -180,13 +202,9 @@ framework instance platform settings.  Preservation of the data in its original 
 
 ### 3. Data Mappers (core components and plugins)
 
-These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the
-validator.  The most common data mappers will be defined in the framework.
+These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the validator.  The most common data mappers will be defined in the framework. Less common data mappers will be available as plugins from 3rd party developers.
 
-These include
-
-Less common data mappers will be
-available as plugins from 3rd party developers.
+TODO: Determine core data mappers
 
 ### 4. Data Validation (core component)
 
@@ -233,6 +251,45 @@ Impact: This will mitigate the incidence of chronic illnesses by informing the u
 Data visualization plugin modules will be utilized to visualize the data from a given subject or group in a meaningful
 way.  Visualizations may be displayed in studies or on the data owner dashboard.
 
+#### Example Visualizations
+
+Currently, all foods carry nutrition labels such as this one:
+
+![](https://crowdsourcingcures.org/wp-content/uploads/2021/02/nutrition-label-436x1024-1.jpg)
+
+But how useful is it to the average person to know the amount of Riboflavin in something? The purpose of nutritional labels is to help individuals make choices that will improve their health and prevent disease.
+
+Telling the average person the amount of riboflavin in something isn’t going to achieve this. This is evidenced by the fact that these labels have existed for decades and during this time, we’ve only seen increases in most diseases they were intended to reduce.
+
+We have created a new and improved **Outcomes Label** that instead lists the degree to which the product is likely 
+to improve or worsen specific health outcomes or symptoms. We currently have generated Outcome Labels for thousands 
+of foods, drugs, and nutritional supplements that can be found at [Journal of Citizen Science](https://studies.crowdsourcingcures.org/). These labels are derived from the analysis of 10 million data points anonymously donated 
+by over 10,000 study participants via [our web app](https://app.crowdsourcingcures.org/?swcfpc=1#/app/intro).
+
+![](https://crowdsourcingcures.org/wp-content/uploads/2021/05/nutrition-facts-vs-outcome-labels-melatonin-1024x592.png)
+
+### Data Quantity Required for Outcome Labels
+
+The Foundation has collected over 10 million data points on symptom severity and influencing factors from over 10,000 people. The Foundation develops and applies predictive machine learning algorithms to the data to reveal effectiveness and side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses
+
+These analytical results have been used to freely publish 90,000 studies on the effects of various treatments and food ingredients on symptom severity.
+
+![](https://crowdsourcingcures.org/wp-content/uploads/2021/03/johnny-5-need-input.gif)
+
+Although 10 million data points sound like a lot, currently, the usefulness and accuracy of these Outcome Labels are currently limited. This is due to the fact there are only a few study participants have donated data for a particular food paired with a particular symptom. In observational research such as this, a very large number of participants are required to cancel out all the errors and coincidences that can influence the data for a single individual.
+
+For instance, someone with depression may have started taking an antidepressant at the same time they started seeing a therapist. Then, if their depression improves, it’s impossible to know if the improvement was a result of the antidepressant, the therapist, both, or something else. These random factors are known as confounding variables. However, random confounding factors can cancel each other out when looking at large data sets. This is why it’s important to collect as much data as possible.
+
+### Data Sources for Outcome Labels
+
+Several types of data are used to derive the Outcome Labels:
+
+1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps 
+   in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods, 
+   drugs, or nutritional supplements purchased and insurance claim data.
+2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
+3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
+
 ### 3. API Connectors
 
 API Connector plugins will be called by the webserver to:
@@ -264,8 +321,9 @@ Upon upload, the webserver will call the File Importer plugin:
 
 # Incentive Alignment
 
-Fully realizing the potential of the personalized preventative medicine of the future will require incentivizing
-cooperation between the following stakeholders.
+Fully realizing the potential of the personalized preventative medicine of the future will require incentivizing cooperation between the following stakeholders:
+
+![incentive alignment](assets/incentive-alignment.png)
 
 ## 1. Patients
 
@@ -274,9 +332,8 @@ Incentives for Patients to share their de-identified data will include:
 1. Actionable ways to prevent and mitigate chronic illnesses.
 2. The ability to license and earn a share of income for use of their data for research and development by
    pharmaceutical companies and other businesses.  This will be achieved by encoding the user data using
-   non-fungible tokens (NFTs) and issuing them to the user.  The NFTs will be linked to the user's cryptographic
-   wallet address.  Using a smart contract, the user will receive an ongoing royalty share of the profits for any
-   product that was developed using their data for research and development.
+   non-fungible tokens (NFTs) and issuing them to the user.  The NFTs will be linked to the user's cryptographic wallet address.  Using a smart contract, the user will receive an ongoing royalty share of the profits for any product that was developed using their data for research and development.
+3. TODO: Determine amount of reward for sharing.
 
 ## 2. Business Housing Data Silos
 
@@ -287,17 +344,13 @@ OAuth2 API by:
 1. A share of income for use of their data for research and development.
 2. An on-site instance of the OAuth2 server to retrieve required data from their
    on-premise databases.
-3. An eventual reduction in their employee healthcare costs (one of their largest expenses) by resulting from the
-   discovery of new ways to prevent and mitigate chronic illnesses.
+3. An eventual reduction in their employee healthcare costs (one of their largest expenses) by resulting from the discovery of new ways to prevent and mitigate chronic illnesses.
 
 ### 4. Digital Health Businesses
 
-On top of the incentives for businesses listed above, the following incentives will be provided to digital health
-businesses which enable data sharing:
+On top of the incentives for businesses listed above, the following incentives will be provided to digital health businesses which enable data sharing:
 
-1. A license to use a white-labelled version of the framework.  This will dramatically reduce the costs of software
-   development. These reduced costs will allow them to focus on innovating their unique value proposition, making
-   them more competitive in the market.
+1. A license to use a white-labelled version of the framework.  This will dramatically reduce the costs of software development. These reduced costs will allow them to focus on innovating their unique value proposition, making them more competitive in the market.
 
 ## 5. Disease Advocacy Non-Profit Organizations
 
@@ -311,31 +364,19 @@ through the anonymous donation data by their members by:
 
 Governments will be incentivized by:
 
-1. A reduction in healthcare costs
-2. Furtherance of their stated reason for existence to protect and promote
-3. Public pressure on elective representatives
-   the general welfare to introduce legislation
-4. protect the rights of individual's data by requiring businesses in possession of silos
-   of user data allow individuals to access and share their data via a well-documented OAuth2 API
-5. Require that all publicly funded digital-health software projects be free, secure, and open-source. Currently, the
-   majority of government contracts go to closed-source and proprietary software.  This leads to massive waste as
-   governments around the world are paying to reinvent the wheel instead of sharing the costs. Shockingly, there is
-   even a great deal of wasted money on duplicated software contracts between different agencies within the same
-   government
-6. Require international cooperation for all public health efforts to reduce wasted duplication of effort and take
-   advantage of natural experiments resulting from differing public health regulations between nations.
-7. Allow citizens to anonymously share their data in a global database.  This will enable us to take advantage of
-   natural experiments resulting from differing public
-   health regulations between nations.  For instance, 27 countries have banned the use of the pesticide glyphosate
-   due to concerns about the health effects.  If no overall change in the health of the populations is observed, it
-   will suggest that the health concerns may be unfounded.
+1. A reduction in government healthcare costs due to the discovery of new ways to prevent and mitigate chronic illnesses.
+2. Furtherance of their stated reason for existence to protect and promote the general welfare.
+   The general welfare is defined as the overall health and happiness of the population.
+3. Their duty to protect the rights of individual's data. To fulfill this, they must requiring businesses in
+   possession of it to give them ability to access and share their data via a well-documented OAuth2 API
+4. Cost-savings from using open-source software.  All publicly funded digital-health software projects be free, secure, and open-source. Currently, the majority of government contracts go to closed-source and proprietary software.  This leads to massive waste as governments around the world are paying to reinvent the wheel instead of sharing the costs. Shockingly, there is even a great deal of wasted money on duplicated software contracts between different agencies within the same governments.
+5. Require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
+6. Epidemiological discoveries from allowing citizens to anonymously share their data in a global database.  This will enable us to take advantage of natural experiments resulting from differing public health regulations between nations.  For instance, 27 countries have banned the use of the pesticide glyphosate due to concerns about the health effects.  If no overall change in the health of the populations is observed, it will suggest that the health concerns may be unfounded.
 
-## 6. Contributors to the Development of the Platform
+## 7. Contributors to the Development of the Platform
 
 Members of the DAO will be incentivized to contribute to the development of the platform by:
-TODO
-
-![](assets/incentive-alignment.png)
+TODO: Determine amount and type of reward for contributing to the development of the platform.
 
 ## References
 
