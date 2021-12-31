@@ -25,22 +25,40 @@ interests or project in the [Voters Discussion Channel](https://github.com/anony
 * [ ]  Decide what goes in the constitution by voting thumbs up👍 or down👎 or provide feedback💬 on changes in the [Pull Requests Tab](https://github.com/anonymous-dao/draft-whitepaper/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
 * [ ]  Help to prioritize tasks by voting thumbs up👍 or down👎 or comment💬 on issues in the [Issues Tab](https://github.com/anonymous-dao/draft-whitepaper/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
-# Why Should I Join?
+# 1.    The Problem: You and Everyone You Love Will Suffer and Die
 
-[150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every day. This is equivalent to a September 11th terrorist attack occurring every [28](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks#:~:text=During%20the%20September%2011%202001,and%2044%20were%20in%20Pennsylvania.) minutes. Additionally, there are over [2 billion](https://www.george-health.com/global-health-challenge/) people suffering from chronic diseases.
+There are over [2 billion](https://www.george-health.com/global-health-challenge/) people suffering from chronic
+diseases.
 
-Since 2014, Healthcare spending has been [increasing faster than ever](https://fred.stlouisfed.org/series/HLTHSCPCHCSA).
-([chart](./assets/healthcare-expenditure-per-capita.png))
+Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/)
+people die every single day. For perspective, this is equivalent to:
 
-Fortunately, there has been an explosion of recent technological advances in digital health including:
+- **[FIFTY-ONE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** September 11th
+  attacks
+  every day
+- **[NINE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** Holocausts every year
+
+## 1.1  Failed Solutions
+
+### 1.1.1   Will throwing more money at the existing healthcare system save us?
+
+Since 2014, healthcare spending per person has been [increasing faster than ever](https://fred.stlouisfed.org/series/HLTHSCPCHCSA) faster than ever before.
+
+![health spending](./assets/us-healthcare-expenditure-per-person.png)
+
+Despite this additional spending, life expectancy has actually been [declining](./assets/life-expectancy-chart.png)
+since 2014.
+
+### 1.1.2   Will digital health innovation save us?
+
+There has been an explosion of recent technological advances in digital health including:
 
 * genetic sequencing
 * gut microbiome sequencing
-* [350,000](https://www2.deloitte.com/us/en/blog/health-care-blog/2021/how-digital-health-apps-are-empowering-patients.html#:~:text=Globally%2C%20more%20than%20350%2C000%20health,from%20the%20various%20app%20stores.) digital health apps
+* [350,000](https://www2.deloitte.com/us/en/blog/health-care-blog/2021/how-digital-health-apps-are-empowering-patients.html) digital health apps
 * a [billion](https://www.statista.com/statistics/487291/global-connected-wearable-devices/) connected wearable devices
 
-These innovations have produced [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
-growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
+These innovations have produced [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
 ([chart](./assets/growth-in-health-data-chart.png))
 
 This data exists in the form of:
@@ -53,14 +71,21 @@ This data exists in the form of:
 - Grocery, pharmacy, and nutritional supplement receipts
 - Clinical trial results
 
-Despite all of this, life expectancy has actually been [declining](./assets/life-expectancy-chart.png) since 2014.
+The digital health revolution started over a decade ago. It was promised to improve human health and reduce costs. Yet,
+all we've seen is increasing costs, increasing disease burden, and decreasing life expectancy.
 
-# Why haven't we seen a reduction in disease burden?
+![cost and death](./assets/health-care-costs-and-life-expectancy.png)
 
-So, this explosion in technology, data, and spending has produced no measurable improvement
-in human health.  The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
+## 1.2  Why haven't we seen a reduction in disease burden?
 
-## $157 Billion Wasted on Duplication of Effort
+So, this explosion in technology, data, and spending has produced no measurable improvement in human health.  The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
+
+## Conflicts of Interest
+
+Long-term randomized trials are extremely expensive to set up and run, and it can be difficult to find study funders. Unfortunately, typically the only one's that can afford to run these studies are industry groups. When a group's economic survival is at risk, bias will almost inevitably influence the results. For example, an analysis of beverage studies, [published in the journal PLOS Medicine,](https://web.archive.org/web/20211207021133/https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001578#s3) found that those funded by Coca-Cola, PepsiCo, the American Beverage Association and the sugar industry were **five times** more likely to find no link between sugary drinks and weight gain than studies whose authors reported no financial conflicts.
+
+
+### 1.2.1   $157 Billion Wasted on Duplication of Effort
 
 There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Most of these
 have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
@@ -73,14 +98,14 @@ progress by 350,000 times.
 The obstacle has been the free-rider problem. Software Developers that open source their code give their
 closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
 
-### How to Overcome the Free-Rider Problem
+#### How to Overcome the Free-Rider Problem
 
 1. Currently governments around the world are spending billions funding closed-source propriety health software. The
    Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
 2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the
    form of royalties.
 
-## Isolated Data Silos
+### Isolated Data Silos
 
 The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
 dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However,
@@ -91,21 +116,63 @@ To facilitate data sharing, the DAO will provide data providers with an onsite e
 
 ![APIs make siloed data useful](./assets/apis-siloed-data.svg)
 
-## Lack of Incentive to Research Unpatentable Molecules
+### Lack of Incentive to Research Unpatentable Molecules
 
 We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural chemicals you consume every day.
 
 Under the current system of research, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there is not a sufficient profit incentive for anyone to research the effects of any factor besides a molecule that can be patented.
 
-Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments
+![how much we know](./assets/how-much-we-know.png)
+
+### Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments
 
 There are roughly [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans, most of which (approximately 95%) are classified as “orphan” (rare) diseases. The current system requires that a pharmaceutical company predict a particular condition in advance of running clinical trials. If a drug is found to be effective for other diseases after the patent has expired, no one has the financial incentive to get it approved for another disease.
 
-![how much we know](./assets/how-much-we-know.png)
+# 2. Solution
 
-# Validation of Observational Research Using Real-World Evidence
+## Use The Oceans of Real-World Evidence to Discover New Cures
 
-## Meta-Analyses Support of Real-World Evidence
+## The Potential of Real-World Evidence-Based Studies
+
+- **Diagnostics** - Data mining and analysis to identify causes of illness
+- **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances
+  to prevent disease
+- **Precision medicine** - Leveraging aggregate data to drive hyper-personalized care
+- **Medical research** - Data-driven medical and pharmacological research to cure disease and discover new
+  treatments and medicines
+- **Reduction of adverse medication events** - Harnessing of big data to spot medication errors and flag potential
+  adverse reactions
+- **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
+- **Population health** - Monitor big data to identify disease trends and health strategies based on demographics,
+  geography, and socioeconomic
+
+### Correlational is Not The Same as Causation
+
+![Correlation vs Causation](./assets/correlation-does-not-equal-causation-comic.png)
+
+When people think of observational research, they typically think of correlational association studies.
+
+#### Why It Seems Like Diet Advice Flip-Flops All the Time
+
+In 1977, the USDA warned Americans against the perils of dietary cholesterol. And yet in 1999, TIME released a very
+different cover,
+suggesting that dietary cholesterol and eggs are in fact okay.
+
+![eggs time covers](assets/eggs-time-covers.png)
+
+[Hill’s criteria for causation](http://www.drabruzzi.com/hills_criteria_of_causation.htm) specify the minimal conditions necessary to accept the likelihood of a causal relationship between two measures as:
+
+* ***Strength***: A relationship is more likely to be causal if the correlation coefficient is large and statistically significant.
+* ***Consistency***: A relationship is more likely to be causal if it can be replicated.
+* ***Specificity***: A relationship is more likely to be causal if there is no other likely explanation.
+* ***Temporality***: A relationship is more likely to be causal if the effect always occurs after the cause.
+* ***Gradient***: A relationship is more likely to be causal if a greater exposure to the suspected cause leads to a greater effect.
+* ***Plausibility***: A relationship is more likely to be causal if there is a plausible mechanism between the cause and the effect
+* ***Coherence***: A relationship is more likely to be causal if it is compatible with related facts and theories.
+* ***Experiment***: A relationship is more likely to be causal if it can be verified experimentally.
+* ***Analogy***: A relationship is more likely to be causal if there are proven relationships between similar causes and effects.
+
+### Meta-Analyses Support of Real-World Evidence
 
 Observational real-world evidence-based studies have several advantages over randomized, controlled trials, including
 lower cost, greater timeliness, and a broader range of patients. Concern about inherent bias in these studies,
@@ -114,21 +181,27 @@ situations in which randomized, controlled trials would be impossible or unethic
 
 However, [meta-analyses](https://www.nejm.org/doi/full/10.1056/NEJM200006223422506) found that:
 
-> when applying modern statistical methodologies to observational studies, the results are generally **not quantitatively or qualitatively
-> different** from those obtained in randomized, controlled trials.
+> when applying modern statistical methodologies to observational studies, the results are generally **not quantitatively or qualitatively different** from those obtained in randomized, controlled trials.
 
-![](https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2000/nejm_2000.342.issue-25/nejm200006223422506/production/images/img_medium/nejm200006223422506_f1.jpeg)
+![Mortality Observational Studies](https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2000/nejm_2000.342.issue-25/nejm200006223422506/production/images/img_medium/nejm200006223422506_f1.jpeg)
 
-![](https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2000/nejm_2000.342.issue-25/nejm200006223422506/production/images/img_medium/nejm200006223422506_f2.jpeg)
+![Observational Studies for Various Outcomes](https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2000/nejm_2000.342.issue-25/nejm200006223422506/production/images/img_medium/nejm200006223422506_f2.jpeg)
 
-## Historical Support of Real-World Evidence
+## Evidence in Support of Real-World Evidence
 
-There is compelling historical evidence suggesting that large scale efficacy-trials based on real-world evidence 
+Let's start at the beginning.  The beginning of human history.
+
+There is compelling historical evidence suggesting that large scale efficacy-trials based on real-world evidence
 have ultimately led to better health outcomes than current pharmaceutical industry-driven randomized controlled trials.
 
 ![](./assets/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
 
+### An Experiment on Experiments
+
+Validation of the theory that large-scale real-world evidence can produce better health outcomes, will require us to run an experiment to validate this method of experimentation.
+
 ## A Black Box Approach to Personalized Medicine
+
 Thus, we can treat the human as a black box and apply predictive
 machine learning models to all of the existing real-world data to stratified groups of similar people based on their:
 
@@ -150,20 +223,6 @@ million data points on symptom severity and influencing factors from over 10,000
 used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
 
 ![journal of citizen science](./assets/journal-of-citizen-science.png)
-
-## The Potential of Real-World Evidence-Based Studies
-
-- **Diagnostics** - Data mining and analysis to identify causes of illness
-- **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances
-  to prevent disease
-- **Precision medicine** - Leveraging aggregate data to drive hyper-personalized care
-- **Medical research** - Data-driven medical and pharmacological research to cure disease and discover new
-  treatments and medicines
-- **Reduction of adverse medication events** - Harnessing of big data to spot medication errors and flag potential
-  adverse reactions
-- **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
-- **Population health** - Monitor big data to identify disease trends and health strategies based on demographics,
-  geography, and socioeconomic
 
 # Platform
 
@@ -261,10 +320,9 @@ But how useful is it to the average person to know the amount of Riboflavin in s
 
 Telling the average person the amount of riboflavin in something isn’t going to achieve this. This is evidenced by the fact that these labels have existed for decades and during this time, we’ve only seen increases in most diseases they were intended to reduce.
 
-We have created a new and improved **Outcomes Label** that instead lists the degree to which the product is likely 
-to improve or worsen specific health outcomes or symptoms. We currently have generated Outcome Labels for thousands 
-of foods, drugs, and nutritional supplements that can be found at [Journal of Citizen Science](https://studies.crowdsourcingcures.org/). These labels are derived from the analysis of 10 million data points anonymously donated 
-by over 10,000 study participants via [our web app](https://app.crowdsourcingcures.org/?swcfpc=1#/app/intro).
+We have created a new and improved **Outcomes Label** that instead lists the degree to which the product is likely
+to improve or worsen specific health outcomes or symptoms. We currently have generated Outcome Labels for thousands
+of foods, drugs, and nutritional supplements that can be found at [Journal of Citizen Science](https://studies.crowdsourcingcures.org/). These labels are derived from the analysis of 10 million data points anonymously donated by over 10,000 study participants via [our web app](https://app.crowdsourcingcures.org/?swcfpc=1#/app/intro).
 
 ![](https://crowdsourcingcures.org/wp-content/uploads/2021/05/nutrition-facts-vs-outcome-labels-melatonin-1024x592.png)
 
@@ -284,8 +342,8 @@ For instance, someone with depression may have started taking an antidepressant 
 
 Several types of data are used to derive the Outcome Labels:
 
-1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps 
-   in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods, 
+1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps
+   in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods,
    drugs, or nutritional supplements purchased and insurance claim data.
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
 3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
@@ -346,7 +404,7 @@ OAuth2 API by:
    on-premise databases.
 3. An eventual reduction in their employee healthcare costs (one of their largest expenses) by resulting from the discovery of new ways to prevent and mitigate chronic illnesses.
 
-### 4. Digital Health Businesses
+## 4. Digital Health Businesses
 
 On top of the incentives for businesses listed above, the following incentives will be provided to digital health businesses which enable data sharing:
 
@@ -378,10 +436,21 @@ Governments will be incentivized by:
 Members of the DAO will be incentivized to contribute to the development of the platform by:
 TODO: Determine amount and type of reward for contributing to the development of the platform.
 
-## References
+# Sources
 
-- [Healthcare Big Data and the Promise of Value-Based Care (nejm.org)](https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0290)
--
+1. [Infographic: How Big Data Will Unlock the Potential of Healthcare](https://www.visualcapitalist.com/big-data-healthcare/)
+2. [George Health Global Health Challenge](https://www.george-health.com/global-health-challenge/) - Pioneering life-saving treatments for people suffering from chronic diseases.
+3. [HealthVerity Census - HealthVerity](https://healthverity.com/solutions/healthverity-census/) - De-identification of health data and re-linkage to an anonymous identifier for analysis.
+4. [Health Expenditures per Capita](https://fred.stlouisfed.org/series/HLTHSCPCHCSA)
+5. [List of countries by total health expenditure per capita](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
+6. [Healthcare Big Data and the Promise of Value-Based Care](https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0290)
+7. [PDX and Personalized Medicine](https://blog.crownbio.com/pdx-personalized-medicine#_)
+8. [Healthcare Big Data and the Promise of Value-Based Care (nejm.org)](https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0290)
+9. [Fifty Years of Progress in Chronic Disease Epidemiology and Control (cdc.gov)](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6004a12.htm)
+10. [The Problem with Observational Studies (Epidemiology)](https://www.jeffnobbs.com/posts/the-problem-with-observational-studies-epidemiology)
+11. [Flat Icons](https://www.flaticon.com/packs/flat-icons)
+12. [Why Does the Federal Government Issue Damaging Dietary Guidelines?](https://www.cato.org/policy-analysis/why-does-federal-government-issue-damaging-dietary-guidelines-lessons-thomas#why-did-the-senate-select-committee-launch-an-attack-on-fats)
+13. [Big fat controversy: changing opinions about saturated fats](https://www.aocs.org/stay-informed/inform-magazine/featured-articles/big-fat-controversy-changing-opinions-about-saturated-fats-june-2015?SSO=True)
 
 ### License
 
