@@ -436,6 +436,36 @@ Governments will be incentivized by:
 Members of the DAO will be incentivized to contribute to the development of the platform by:
 TODO: Determine amount and type of reward for contributing to the development of the platform.
 
+# Privacy
+
+The Health Insurance Portability and Accountability Act of 1996 (“HIPAA”) protects the privacy of patients and sets forth guidelines on how this private health information can be shared.  Though the privacy of a patient must be protected, the legal right of a business to sell health information of patients has been upheld by the Supreme Court of the United States.
+
+## Safe Harbor Method of De-identification
+
+The HIPAA Safe Harbor Method is a precise standard for the de-identification of personal health information when 
+disclosed for secondary purposes.  It requires the removal of 18 identifiers from a dataset:
+
+1. Names
+2. All geographical subdivisions smaller than a State, including street address, city, county, precinct, zip code, and their equivalent geocodes, except for the initial three digits of a zip code, if according to the current publicly available data from the Bureau of the Census:
+   1. The geographic unit formed by combining all zip codes with the same three initial digits contains more than 20,000 people and
+   2. The initial three digits of a zip code for all such geographic units containing 20,000 or fewer people is changed to 000.
+3. All elements of dates (except year) for dates directly related to an individual, including birth date, admission date, discharge date, date of death and all ages over 89 and all elements of dates (including year) indicative of such age, except that such ages and elements may be aggregated into a single category of age 90 or older
+4. Phone numbers
+5. Fax numbers
+6. Electronic mail addresses
+7. Social Security numbers
+8. Medical record numbers
+9. Health plan beneficiary numbers
+10. Account numbers
+11. Certificate/license numbers
+12. Vehicle identifiers and serial numbers, including license plate numbers
+13. Device identifiers and serial numbers
+14. Web Universal Resource Locators (URLs)
+15. Internet Protocol (IP) address numbers
+16. Biometric identifiers, including finger and voice prints
+17. Full face photographic images and any comparable images and
+18. Any other unique identifying number, characteristic, or code (note this does not mean the unique code assigned by the investigator to code the data).
+
 # Sources
 
 1. [Infographic: How Big Data Will Unlock the Potential of Healthcare](https://www.visualcapitalist.com/big-data-healthcare/)
@@ -451,6 +481,17 @@ TODO: Determine amount and type of reward for contributing to the development of
 11. [Flat Icons](https://www.flaticon.com/packs/flat-icons)
 12. [Why Does the Federal Government Issue Damaging Dietary Guidelines?](https://www.cato.org/policy-analysis/why-does-federal-government-issue-damaging-dietary-guidelines-lessons-thomas#why-did-the-senate-select-committee-launch-an-attack-on-fats)
 13. [Big fat controversy: changing opinions about saturated fats](https://www.aocs.org/stay-informed/inform-magazine/featured-articles/big-fat-controversy-changing-opinions-about-saturated-fats-june-2015?SSO=True)
+14. [Bytes to Bucks: The Valuation of Data - HealthCare Appraisers](https://healthcareappraisers.com/bytes-to-bucks-the-valuation-of-data/)
+15. Berwick, Donald M.; Nolan, Thomas W.; and Whittington, John. “The Triple Aim: Care, Health, and Cost.”   *Health Affairs* : Vol. 27, No. 3. May/June 2008.  Retrieved May 1, 2019 from: [https://www.healthaffairs.org/doi/full/10.1377/hlthaff.27.3.759
+16. health data. (n.d.)  *McGraw-Hill Concise Dictionary of Modern Medicine* . (2002). Retrieved May 1, 2019 from: [https://medical-dictionary.thefreedictionary.com/health+data
+17. William H. Sorrell, Attorney General of Vermont, Et Al., Petitioners v. IMS Healthcare Inc. ET Al. ([link for more background](https://www.oyez.org/cases/2010/10-779))
+18. https://www.federalregister.gov/d/2019-08530](https://www.federalregister.gov/d/2019-08530)
+19. [https://compliancy-group.com/hipaa-fines-directory-year/](https://compliancy-group.com/hipaa-fines-directory-year/)
+20. 45 CFR § 164.514 (b)(1)(i); As set forth in the HIPAA Privacy Rule
+21. [https://www.bloomberg.com/graphics/infographics/reidentifying-anonymous-medical-records.html
+22. Na L, Yang C, Lo C, Zhao F, Fukuoka Y, Aswani A. Feasibility of Reidentifying Individuals in Large National Physical Activity Data Sets From Which Protected Health Information Has Been Removed With Use of Machine Learning; [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2719130
+23. [https://california.public.law/codes/ca_bus_and_prof_code_section_650
+24. https://www.nytimes.com/2018/09/20/health/memorial-sloan-kettering-cancer-paige-ai.html
 
 ### License
 
