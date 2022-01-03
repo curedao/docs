@@ -15,6 +15,6 @@ The name, tagline, token name, and logo for the DAO will be determined using the
 
 We'd be very grateful if you'd submit your name, tagline, and/or logo ideas 👉 [HERE](https://forms.gle/Yf6TGNxR5zrYf9EG7)
 
-The winning ideas will be compensated with X Anonymous DAO tokens. [TODO: Vote on how much to award]
+The winning ideas will be compensated with X . [TODO: Vote on what to award]
 
 
