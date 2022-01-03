@@ -11,7 +11,7 @@ The name, tagline, token name, and logo for the DAO will be determined using the
 1. Google Ads Conversion Rate - The click rate and conversion rate for all combinations of names and taglines and logos will be determined using Google Ads. (The click rate is the percentage of people that click on the ad. The conversion rate is the percentage of people that both click on the ad and take an action, like sign up for our newsletter.)
 2. Rank Choice Voting - The list of options will be provided to DAO members with the Google Ads conversion rates. DAO members will then rank the options in order of preference.
 
-## Turn Your 💡Ideas💡 into 💰!
+## Get rewards for your brilliant 💡Ideas💡!
 
 We'd be very grateful if you'd submit your name, tagline, and/or logo ideas 👉 [HERE](https://forms.gle/Yf6TGNxR5zrYf9EG7)
 
