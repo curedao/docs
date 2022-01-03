@@ -89,7 +89,7 @@ So, this explosion in technology, data, and spending has produced no measurable 
 
 ### 1.2.1 The Cost of Clinical Research
 
-It costs over a [billion dollars](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41 ) and takes over 10 years to bring a new treatment to market. It
+It costs over a [billion dollars](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) and takes over 10 years to bring a new treatment to market. It
 costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials.
 
 ![clinical trial cost](./assets/cost-to-develop-a-drug-chart.png)
@@ -160,7 +160,7 @@ The results of crowd-sourced studies would exhibit complete and utter external v
 Furthermore, self-trackers represent a massive pool of potential subjects dwarfing any traditional trial cohort.
 Diet tracking is the most arduous form of self-tracking. Yet, just one of the many available diet tracking apps, **MyFitnessPal,** has 30 million users.
 
-Tracking any variable in isolation is nearly useless in that it cannot provide the causal which can be derived from combining data streams. Hence, this 30 million user cohort is a small fraction of the total possible stratifiable base.
+Tracking any variable in isolation is nearly useless in that it cannot provide the causal which can be derived from combining data streams. Hence, this 30 million user cohort is a small fraction of the total possible [stratifiable](https://en.wikipedia.org/wiki/Stratified_sampling) base.
 
 ## Criticism of Observational Research
 
@@ -294,16 +294,39 @@ However, [meta-analyses](https://www.nejm.org/doi/full/10.1056/NEJM2000062234225
 
 ## Evidence in Support of Real-World Evidence
 
-For over 99% of recorded human history, the average human life expectancy has been around 30 years.
-
-[historical life expectancy](./assets/)
-
-At the end of
-
 There is compelling historical evidence suggesting that large scale efficacy-trials based on real-world evidence
 have ultimately led to better health outcomes than current pharmaceutical industry-driven randomized controlled trials.
 
+For over 99% of recorded human history, the average human life expectancy has been around 30 years.
+
+![historical life expectancy](./assets/life-expectancy-historical.jpg)
+
+At the end of the 19th century, the average life expectancy was around 30 years.  
+
+In the late nineteenth and early twentieth century, interest in clinical objectivity grew.  The independent 
+peer-reviewed Journal of the American Medical Association (JAMA) was founded in 1893.  It would gather case reports 
+from the 144,000 physicians members of the AMA on the safety and effectiveness of drugs. The leading experts in the area of a specific drug would review all of the data and compile them into a study listing side-effect and the conditions for which a drug was or was not effective. If a drug was found to be safe, JAMA would would its seal of approval for conditions it was found to be effective.
+
+The adoption of this system of this crowd-sourced, observational, objective, and peer-reviewed clinical research 
+was followed by a sudden shift the growth of human life expectancy.  After over 10,000 years of almost no 
+improvement, we suddenly saw a strangely linear 4 year increase in life expectancy every single year.
+
+This consistent 4 year/year increase continued until around 1962 when the growth rate was abruptly cut in half to a 
+2 year per year growth rate.  This coincided with the 1962 regulations, it cost a drug manufacturer an 
+average of $74 million dollars (2020 inflation-adjusted)
+to develop and test a new drug for safety before bringing it to market. Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
+
+The 1962 regulations made these large real-world efficacy trials illegal. Ironically, despite the fact that the new regulations were primarily focused on ensuring that drugs were effective through controlled FDA efficacy trials, they massively reduced the quantity and quality of the efficacy data that was collected for several reasons:
+New Trials Were Much Smaller
+Were Far More Expensive
+Participants Were Less Representative of Actual Patients
+They Were Run by Drug Companies with Conflicts of Interest Instead of the 3rd Party AMA
+
 ![](./assets/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
+
+This coincided with the 1962 regulations, it cost a drug manufacturer an
+average of $74 million dollars (2020 inflation-adjusted)
+to develop and test a new drug for safety before bringing it to market. Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
 
 ### An Experiment on Experiments
 
@@ -312,7 +335,7 @@ Validation of the theory that large-scale real-world evidence can produce better
 ## A Black Box Approach to Personalized Medicine
 
 Thus, we can treat the human as a black box and apply predictive
-machine learning models to all of the existing real-world data to stratified groups of similar people based on their:
+machine learning models to all of the existing real-world data to [stratified groups](https://en.wikipedia.org/wiki/Stratified_sampling) of similar people based on their:
 
 - [Genomic](https://en.wikipedia.org/wiki/Genomics)
 - [Metabolomic](https://en.wikipedia.org/wiki/Metabolomics)
@@ -437,7 +460,7 @@ of foods, drugs, and nutritional supplements that can be found at [Journal of Ci
 
 #### Data Quantity Required for Outcome Labels
 
-The Foundation has collected over 10 million data points on symptom severity and influencing factors from over 10,000 people. The Foundation develops and applies predictive machine learning algorithms to the data to reveal effectiveness and side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses
+The Foundation has collected over 10 million data points on symptom severity and influencing factors from over 10,000 people. The Foundation develops and applies predictive machine learning algorithms to the data to reveal the effectiveness and side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses
 
 These analytical results have been used to freely publish 90,000 studies on the effects of various treatments and food ingredients on symptom severity.
 
@@ -455,7 +478,7 @@ Several types of data are used to derive the Outcome Labels:
    in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods,
    drugs, or nutritional supplements purchased and insurance claim data.
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
-3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
+3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved, we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
 
 ### 3. API Connectors
 
@@ -500,7 +523,7 @@ Incentives for Patients to share their de-identified data will include:
 2. The ability to license and earn a share of income for use of their data for research and development by
    pharmaceutical companies and other businesses.  This will be achieved by encoding the user data using
    non-fungible tokens (NFTs) and issuing them to the user.  The NFTs will be linked to the user's cryptographic wallet address.  Using a smart contract, the user will receive an ongoing royalty share of the profits for any product that was developed using their data for research and development.
-3. TODO: Determine amount of reward for sharing.
+3. TODO: Determine the amount of reward for sharing.
 
 ## 2. Businesses Housing Data Silos
 
@@ -509,15 +532,14 @@ apps, hospitals, etc. These will be incentivized to allow individuals to easily 
 OAuth2 API by:
 
 1. A share of income for use of their data for research and development.
-2. An on-site instance of the OAuth2 server to retrieve required data from their
-   on-premise databases.
+2. An on-site instance of the OAuth2 server to retrieve required data from their on-premise databases.
 3. An eventual reduction in their employee healthcare costs (one of their largest expenses) by resulting from the discovery of new ways to prevent and mitigate chronic illnesses.
 
 ## 4. Digital Health Businesses
 
 On top of the incentives for businesses listed above, the following incentives will be provided to digital health businesses which enable data sharing:
 
-1. A license to use a white-labelled version of the framework.  This will dramatically reduce the costs of software development. These reduced costs will allow them to focus on innovating their unique value proposition, making them more competitive in the market.
+1. A license to use a white-labeled version of the framework.  This will dramatically reduce the costs of software development. These reduced costs will allow them to focus on innovating their unique value proposition, making them more competitive in the market.
 
 ## 5. Disease Advocacy Non-Profit Organizations
 
@@ -533,10 +555,10 @@ Governments will be incentivized by:
 
 1. A reduction in government healthcare costs due to the discovery of new ways to prevent and mitigate chronic illnesses.
 2. Furtherance of their stated reason for existence to protect and promote the general welfare.
-   The general welfare is defined as the overall health and happiness of the population.
-3. Their duty to protect the rights of individual's data. To fulfill this, they must requiring businesses in
-   possession of it to give them ability to access and share their data via a well-documented OAuth2 API
-4. Cost-savings from using open-source software.  All publicly funded digital-health software projects be free, secure, and open-source. Currently, the majority of government contracts go to closed-source and proprietary software.  This leads to massive waste as governments around the world are paying to reinvent the wheel instead of sharing the costs. Shockingly, there is even a great deal of wasted money on duplicated software contracts between different agencies within the same governments.
+   General welfare is defined as the overall health and happiness of the population.
+3. Their duty to protect the rights of individuals' data. To fulfill this, they must require businesses in
+   possession of it to give them the ability to access and share their data via a well-documented OAuth2 API
+4. Cost-savings from using open-source software.  All publicly funded digital-health software projects should be free, secure, and open-source. Currently, the majority of government contracts go to closed-source and proprietary software.  This leads to massive waste as governments around the world are paying to reinvent the wheel instead of sharing the costs. Shockingly, there is even a great deal of wasted money on duplicated software contracts between different agencies within the same governments.
 5. Require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
 6. Epidemiological discoveries from allowing citizens to anonymously share their data in a global database.  This will enable us to take advantage of natural experiments resulting from differing public health regulations between nations.  For instance, 27 countries have banned the use of the pesticide glyphosate due to concerns about the health effects.  If no overall change in the health of the populations is observed, it will suggest that the health concerns may be unfounded.
 
@@ -595,17 +617,18 @@ disclosed for secondary purposes.  It requires the removal of 18 identifiers fro
 12. [Why Does the Federal Government Issue Damaging Dietary Guidelines?](https://www.cato.org/policy-analysis/why-does-federal-government-issue-damaging-dietary-guidelines-lessons-thomas#why-did-the-senate-select-committee-launch-an-attack-on-fats)
 13. [Big fat controversy: changing opinions about saturated fats](https://www.aocs.org/stay-informed/inform-magazine/featured-articles/big-fat-controversy-changing-opinions-about-saturated-fats-june-2015?SSO=True)
 14. [Bytes to Bucks: The Valuation of Data - HealthCare Appraisers](https://healthcareappraisers.com/bytes-to-bucks-the-valuation-of-data/)
-15. Berwick, Donald M.; Nolan, Thomas W.; and Whittington, John. “The Triple Aim: Care, Health, and Cost.”   *Health Affairs* : Vol. 27, No. 3. May/June 2008.  Retrieved May 1, 2019 from: [https://www.healthaffairs.org/doi/full/10.1377/hlthaff.27.3.759
-16. health data. (n.d.)  *McGraw-Hill Concise Dictionary of Modern Medicine* . (2002). Retrieved May 1, 2019 from: [https://medical-dictionary.thefreedictionary.com/health+data
-17. William H. Sorrell, Attorney General of Vermont, Et Al., Petitioners v. IMS Healthcare Inc. ET Al. ([link for more background](https://www.oyez.org/cases/2010/10-779))
-18. https://www.federalregister.gov/d/2019-08530](https://www.federalregister.gov/d/2019-08530)
+15. [Berwick, Donald M.; Nolan, Thomas W.; and Whittington, John. “The Triple Aim: Care, Health, and Cost.”   
+    *Health Affairs*: Vol. 27, No. 3. May/June 2008.  Retrieved May 1, 2019](https://www.healthaffairs.org/doi/full/10.1377/hlthaff.27.3.759)
+16. [health data. (n.d.)  *McGraw-Hill Concise Dictionary of Modern Medicine*. (2002). Retrieved May 1, 2019](https://medical-dictionary.thefreedictionary.com/health+data)
+17. [William H. Sorrell, Attorney General of Vermont, Et Al., Petitioners v. IMS Healthcare Inc. ET Al.](https://www.oyez.org/cases/2010/10-779)
+18. [https://www.federalregister.gov/d/2019-08530](https://www.federalregister.gov/d/2019-08530)
 19. [https://compliancy-group.com/hipaa-fines-directory-year/](https://compliancy-group.com/hipaa-fines-directory-year/)
 20. 45 CFR § 164.514 (b)(1)(i); As set forth in the HIPAA Privacy Rule
-21. [https://www.bloomberg.com/graphics/infographics/reidentifying-anonymous-medical-records.html
+21. https://www.bloomberg.com/graphics/infographics/reidentifying-anonymous-medical-records.html
 22. Na L, Yang C, Lo C, Zhao F, Fukuoka Y, Aswani A. Feasibility of Reidentifying Individuals in Large National Physical Activity Data Sets From Which Protected Health Information Has Been Removed With Use of Machine Learning; [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2719130
 23. [https://california.public.law/codes/ca_bus_and_prof_code_section_650
 24. https://www.nytimes.com/2018/09/20/health/memorial-sloan-kettering-cancer-paige-ai.html
-25. [NC233 causal inference)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fnc233.com%2Ftag%2Fcausal-inference%2F&psig=AOvVaw3NGk_rBxJAuMTZ3fjt5ix-&ust=1641224926850000&source=images&cd=vfe&ved=0CAwQjhxqGAoTCIDv74W2k_UCFQAAAAAdAAAAABCTAQ)
+25. [NC233 causal inference](https://nc233.com/tag/causal-inference/)
 26. [Inferring causal impact using Bayesian structural time-series models](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41854.pdf)
 27. [CausalImpact R Package](http://google.github.io/CausalImpact/CausalImpact.html)
 
