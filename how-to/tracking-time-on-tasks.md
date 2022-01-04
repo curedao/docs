@@ -1,4 +1,4 @@
-# How to Earn DAO Tokens
+# How to Contribute
 
 1. Submit name, tagline, token name, and logo ideas 👉 [here](https://forms.gle/S4SbV3VUR7JgXEScA)
 2. Track your time with Toggl and submit your weekly timesheet to the DAO
@@ -6,7 +6,7 @@
 
 ## Time-Tracking
 
-Toggl is a free and [open source](https://github.com/toggl/track-extension) time tracking app that you can use to track time spent on our Github Issues:
+Toggl is a free and [open source](https://github.com/toggl/track-extension) time tracking app that you can use to track time spent on our GitHub Issues:
 
 ![Start the timer in GitHub](https://public-assets.toggl.space/b/static/71ced834c33158630c07c940d9426732/9ae35/integration-github-step4.png)
 
@@ -19,7 +19,7 @@ Toggl is a free and [open source](https://github.com/toggl/track-extension) time
 ![Image of time tracking integration](https://public-assets.toggl.com/b/static/feature-toggltrackbutton-283c6688afbe7ab5017805fa0f5d83fc.svg)
 
 
-## Github Integration Setup
+## GitHub Integration Setup
 
 A step-by-step guide on how to integrate Toggl Track with GitHub
 
@@ -34,8 +34,6 @@ Download the Toggl Track extension and install it. Click [here](https://chrome.g
 #### Log in to Toggl Track & close the tab
 
 The extension should now appear in your taskbar. Click on it and login into your Toggl Track account. If you do not have one, you can sign up for free [here](https://toggl.com/track/signup/). Integration with GitHub works with a free account.
-
-![]()
 
 ![Enable the integration in the Settings page](https://public-assets.toggl.space/b/static/8e520d8adf2367a5d8de2a8df37d7dd4/e70c8/integration-github-step3.png)
 
@@ -57,16 +55,9 @@ Head over to [track.toggl.com](https://track.toggl.com/) to export a time report
 
 ![](../assets/export-toggl-timesheet.png)
 
-#### Submit Billable Hours
+#### Submit Hours
 
 1. Create an [issue on GitHub](https://github.com/anonymous-dao/draft-whitepaper/issues/new).
 2. Add tag `timesheet`
 3. Assign `anonymous-dao-human`
 4. Attach the report by clicking the picture button and selecting the file
-5. Add your ethereum wallet address to the body of the issue
-
-![How to submit a timesheet](../assets/how-to-submit-timesheets.png)
-
-Payment should occur within 48 hours. If you do not receive a payment within 48 hours, please notify us with a 
-comment on the issue you created.
-
