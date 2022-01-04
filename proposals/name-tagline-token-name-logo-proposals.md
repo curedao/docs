@@ -15,6 +15,15 @@ The name, tagline, token name, and logo for the DAO will be determined using the
 
 We'd be very grateful if you'd submit your name, tagline, and/or logo ideas 👉 [HERE](https://forms.gle/Yf6TGNxR5zrYf9EG7)
 
+### Name Criteria
+
+- Ideally no more than 3 syllables (like google, ebay, amazon). DAO is one syllable.
+- .org domain must be available (unless the domain owner is willing to transfer ownership to the DAO). Check here: 
+  [domains.google](https://domains.google) before submitting.
+- Cannot be trademarked (unless the trademark owner is willing to cease and desist usage and transfer sole ownership 
+  of all logos, web properties, social media accounts, etc. to the DAO). Check here: 
+  [trademark-search.marcaria.com](https://trademark-search.marcaria.com)  before submitting.
+
 The winning ideas will be compensated with X . [TODO: Vote on what to award]
 
 
