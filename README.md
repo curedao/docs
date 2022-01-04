@@ -366,7 +366,7 @@ The platform will consist of two primary components:
    The DAO will compensate contributors to the core platform.
 2. **Plugins** - These will be modules that provide additional functionality data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator.
 
-![platform diagram](./assets/platform-architecture.drawio.png)
+![platform diagram](./assets/platform-architecture.png)
 
 ## Technical Framework
 
