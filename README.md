@@ -565,11 +565,11 @@ Governments will be incentivized by:
 ## 7. Contributors to the Development of the Platform
 
 Members of the DAO will be incentivized to contribute to the development of the platform by:
-TODO: Determine amount and type of reward for contributing to the development of the platform by voting here 👉 Vote on the Amount of Token Compensation for Specific Tasks
+TODO: Determine amount and type of reward for contributing to the development of the platform by voting here 👉 Vote on the Amount of Compensation for Specific Tasks
 
 ## 8. Compensation
 
-Compensation for various tasks will be determined democratically by voting here 👉 [Vote on the Amount of Token Compensation for Specific Tasks](https://docs.google.com/forms/d/1zNRRLEOnrQmlbKu33NORJQDktJhgneQHsQtJHW3erL0/edit)
+Compensation for various tasks will be determined democratically by voting here 👉 [Vote on Compensation for Specific Tasks](https://docs.google.com/forms/d/1zNRRLEOnrQmlbKu33NORJQDktJhgneQHsQtJHW3erL0/edit)
 
 # Privacy
 
