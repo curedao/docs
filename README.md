@@ -166,7 +166,7 @@ Tracking any variable in isolation is nearly useless in that it cannot provide t
 
 ## 1.3 Problems in Digital Health Innovation
 
-### 1.2.1   $157 Billion Wasted on Duplication of Effort
+### 1.3.1   $157 Billion Wasted on Duplication of Effort
 
 There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Most of these
 have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
@@ -186,7 +186,7 @@ closed-source competitors an unfair advantage.  This increases their likelihood 
 2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the
    form of royalties.
 
-### 1.2.2 Isolated Data Silos
+### 1.3.2 Isolated Data Silos
 
 The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
 dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However,
@@ -196,6 +196,25 @@ findings and applying machine learning we may achieve “prescriptive” real-ti
 To facilitate data sharing, the DAO will provide data providers with an onsite easily provisionable OAuth2 API server that will allow individuals to anonymously share their data with the global biobank.
 
 ![APIs make siloed data useful](./assets/apis-siloed-data.svg)
+
+## 1.4 Lack of knowledge about the underlying root of degenerative diseases -> aging
+
+If we would have reliable biomarkers for aging already, research could find interventions for the root cause of degenerative diseases whixh is aging itself.
+Despite many years of research, we still don’t have reliable biomarkers for aging.  One of the main problems is the distance between genotype and phenotype.  It is proposed that by studying the relationships between proteins and metabolites, essentially a multi-omic process, would allow the creation of “endophenotypes” to help identify a signature (Hoffman et al. 2017).
+
+![Multiomics appproach](./assets/Genotype.png)
+
+### Problems with current biomarkers for aging:
+Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans. 
+Humans are genetically diverse in comparison to model organisms and this contributes to the weak signature of any set of genes towards longevity.
+Environmental effects on aging are relatively unknown.
+
+### Problems with current approaches:
+GWAS can only explain a small fraction of the heritability of many human traits, including aging. Transcriptomics can help, but it can’t explain the whole story.
+Proteomics is actually the enzyme workhorse of biology and the insight into protein levels is especially important.
+Metabolomics are the building blocks that proteins work with and is necessary for a better insight into the state of the running system.
+
+Rather than focusing on individual proteins and metabolites, a multi-omics approach can focus on pathway activation and how those pathways are maintained by individual entities and their relationships with each other. We want to identify the difference between young and old network states and be able to tell when an intervention is moving a system towards a more healthy state.
 
 # 2. Solution
 
