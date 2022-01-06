@@ -30,6 +30,11 @@ disclosed for secondary purposes.  It requires the removal of 18 identifiers fro
 17. Full face photographic images and any comparable images and
 18. Any other unique identifying number, characteristic, or code (note this does not mean the unique code assigned by the investigator to code the data).
 
+## De-identification
+
+
+
+
 # References
 
 1. [HealthVerity Census - HealthVerity](https://healthverity.com/solutions/healthverity-census/)

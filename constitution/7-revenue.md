@@ -1,6 +1,8 @@
 👈 [Back to Table of Contents](../README.md#Whitepaper)
 # Revenue
 
+![](../assets/value-flow-chain.png)
+
 ## Hosted Software as a Service
 
 ## Data Licensing
