@@ -55,7 +55,7 @@ Governments will be incentivized by:
 
 ## 7. Contributors to the Development of the Platform
 
-Members of the DAO will be incentivized to contribute to the development of the platform by:
+Citizens of the DAO will be incentivized to contribute to the development of the platform by:
 TODO: Determine amount and type of reward for contributing to the development of the platform by voting here 👉 Vote on the Amount of Compensation for Specific Tasks
 
 ## 8. Compensation

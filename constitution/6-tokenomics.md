@@ -1,7 +1,6 @@
 👈 [Back to Table of Contents](../README.md#Whitepaper)
-# 2. Solution
 
-
+# Tokenomics
 
 
 ### [Next Revenue](./7-revenue.md) 👉

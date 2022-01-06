@@ -4,7 +4,7 @@
 
 ## DAO Lists
 
-- [DAO List with Platform, Value, Members, Proposals, Voter Participation](https://deepdao.io/#/deepdao/dashboard)
+- [DAO List with Platform, Value, Citizens, Proposals, Voter Participation](https://deepdao.io/#/deepdao/dashboard)
 - [Huge Airtable data on 500 DAOs](https://airtable.com/appi2w73tltd9MXqp/tblgjlCTBYuGwSt3N/viwEhKy7PYAeYLYa3?blocks=hide)
 - [SuperDAO DAO directory with Type and Twitter followers](https://directory.superdao.co/)
 
@@ -21,7 +21,7 @@
 [VitaDAO](https://www.vitadao.com/) is collectively researching, financing, and commercializing longevity research in
 an open and democratic manner. VitaDAO is a community owned collective funding early stage longevity research. We
 discover and fund the most
-promising longevity research. We are funding early stage research, and try to turn it into biotech companies. Members can join VitaDAO by purchasing VITA tokens  or earning them through contributions of work or Intellectual Property.
+promising longevity research. We are funding early stage research, and try to turn it into biotech companies. Citizens can join VitaDAO by purchasing Governance Tokens  or earning them through contributions of work or Intellectual Property.
 
 ## George Health
 
@@ -43,7 +43,7 @@ It also promotes the patients’ long-term oral health instead of short-term car
 
 As the global life expectancy continues to improve, the elderly population will continue to increase. Along with this increase, there will be a rise in the number of people taking several medications for various chronic conditions. In that case, the risk of drug-to-drug interactions is also bound to increase, and that is where BlockPill steps in.
 
-BlockPill aims to eliminate this challenge by providing a solution that ensures safer prescriptions and facilitates communication between different patient management team members. This will reduce the incidence of unwanted drug interactions and allow the modification of medication with ease.
+BlockPill aims to eliminate this challenge by providing a solution that ensures safer prescriptions and facilitates communication between different patient management team Citizens. This will reduce the incidence of unwanted drug interactions and allow the modification of medication with ease.
 
 ## ENCRYPGEN
 

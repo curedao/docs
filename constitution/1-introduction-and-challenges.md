@@ -160,6 +160,8 @@ dashboards telling us how many steps we got or how much sleep we got are known a
 by integrating all available data from individuals, similar populations, as well as existing clinical research
 findings and applying machine learning we may achieve “prescriptive” real-time decision support.
 
+![real-time decision support](../assets/quantimodo-real-time-decision-support-notification.png)
+
 To facilitate data sharing, the DAO will provide data providers with an onsite easily provisionable OAuth2 API server that will allow individuals to anonymously share their data with the global biobank.
 
 ![APIs make siloed data useful](../assets/apis-siloed-data.svg)

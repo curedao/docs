@@ -1,5 +1,5 @@
 👈 [Back to Table of Contents](../README.md#Whitepaper)
-# 2. Solution
+# Revenue
 
 ## Hosted Software as a Service
 

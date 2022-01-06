@@ -29,18 +29,18 @@ interests or project in the [Voters Discussion Channel](https://github.com/anony
 
 
 ## Whitepaper
-1. [Introduction and Challenges](./whitepaper/1-introduction-and-challenges.md)
-2. [Solution](./whitepaper/2-solution.md)
-3. [Platform](./whitepaper/3-platform.md)
-4. [Incentivization](./whitepaper/4-incentivization.md)
-5. [Organization](./whitepaper/5-organization.md)
-6. [Tokenomics](./whitepaper/6-tokenomics.md)
-7. [Revenue](./whitepaper/7-revenue.md)
-8. [Legal Framework](./whitepaper/8-legal-framework.md)
-9. [Privacy](./whitepaper/9-privacy.md)
-10. [Ecosystem](./whitepaper/10-ecosystem.md)
-11. [Roadmap](./whitepaper/11-roadmap.md)
-11. [References](./whitepaper/12-references.md)
+1. [Introduction and Challenges](constitution/1-introduction-and-challenges.md)
+2. [Solution](constitution/2-solution.md)
+3. [Platform](constitution/3-platform.md)
+4. [Incentivization](constitution/4-incentivization.md)
+5. [Organization](constitution/5-organization.md)
+6. [Tokenomics](constitution/6-tokenomics.md)
+7. [Revenue](constitution/7-revenue.md)
+8. [Legal Framework](constitution/8-legal-framework.md)
+9. [Privacy](constitution/9-privacy.md)
+10. [Ecosystem](constitution/10-ecosystem.md)
+11. [Roadmap](constitution/11-roadmap.md)
+11. [References](constitution/12-references.md)
 
 
 
