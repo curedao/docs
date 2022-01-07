@@ -6,6 +6,12 @@ Fully realizing the potential of the personalized preventative medicine of the f
 
 ![incentive alignment](../assets/incentive-alignment.png)
 
+This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, 
+Anonymous DAO provides a way for each self-interested party can derive more value from participation than they have 
+to put into it. 
+
+![](../assets/value-flow-chain.svg)
+
 ## 1. Patients
 
 Incentives for Patients to share their de-identified data will include:
