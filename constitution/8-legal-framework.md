@@ -1,10 +1,14 @@
 👈 [Back to Table of Contents](../README.md#Whitepaper)
+
 # Legal Framework
 
 
 
-- [ErichDylus/Open-Source-Law: open source templates, forms, writings and other materials for DAOs, devs, and incentive programmers (github.com)](https://github.com/ErichDylus/Open-Source-Law)
-- 
+## References
+
+1. [ErichDylus/Open-Source-Law: open source templates, forms, writings and other materials for DAOs, devs, and incentive programmers (github.com)](https://github.com/ErichDylus/Open-Source-Law)
+2. [LexDAO](https://www.lexdao.coop/) - The World's First Web 3 Legal Engineering Guild
+
 ### [Next Privacy](./9-privacy.md) 👉
 
 <sub><sub>
