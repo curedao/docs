@@ -1,9 +1,11 @@
-👈 [Back to Table of Contents](../README.md#Whitepaper)
+👈 [Back to Table of Contents](../README.md)
+
 # 2. Solution
 
 The solution is to use the oceans of real-world evidence to discover new cures.
 
 ## The Potential of Real-World Evidence-Based Studies
+
 - **Diagnostics** - Data mining and analysis to identify causes of illness
 - **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances
   to prevent disease
@@ -22,7 +24,8 @@ When people think of observational research, they typically think of correlation
 
 #### Why It Seems Like Diet Advice Flip-Flops All the Time
 
-In 1977, the USDA warned Americans against the perils of dietary cholesterol. And yet in 1999, TIME released a very different cover, suggesting that dietary cholesterol is fine.
+In 1977, the USDA and Time Magazine warned Americans against the perils of dietary cholesterol. And yet in 1999, TIME 
+released a very different cover, suggesting that dietary cholesterol is fine.
 
 ![eggs time covers](../assets/analytics/eggs-time-covers.png)
 
@@ -80,6 +83,7 @@ At this time, we apply coefficients representative of each of [Hill’s criteria
 
 ### Meta-Analyses Support of Real-World Evidence
 
+
 Observational real-world evidence-based studies have several advantages over randomized, controlled trials, including
 lower cost, greater timeliness, and a broader range of patients. Concern about inherent bias in these studies,
 however, has limited their use in comparing treatments. Observational studies have been primarily used in
@@ -131,7 +135,8 @@ to develop and test a new drug for safety before bringing it to market. Once the
 
 ### An Experiment on Experiments
 
-Validation of the theory that large-scale real-world evidence can produce better health outcomes, will require us to run an experiment to validate this method of experimentation.
+Validation of the theory that large-scale real-world evidence can produce better health outcomes, will require us to 
+run an experiment to validate this method of experimentation.  Of course, there's a risk that 
 
 ## A Black Box Approach to Personalized Medicine
 

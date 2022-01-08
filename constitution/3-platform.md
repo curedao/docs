@@ -1,5 +1,7 @@
-👈 [Back to Table of Contents](../README.md#Whitepaper)
+👈 [Back to Table of Contents](../README.md)
 # 3. Platform
+
+![platform diagram](../assets/platform-architecture.png)
 
 The platform will consist of two primary components:
 
@@ -9,7 +11,7 @@ The platform will consist of two primary components:
    The DAO will compensate contributors to the core platform.
 2. **Plugins** - These will be modules that provide additional functionality data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator.
 
-![platform diagram](../assets/platform-architecture.png)
+![platform diagram](../assets/plugins/plugin-marketplace.png)
 
 ## Technical Framework
 
