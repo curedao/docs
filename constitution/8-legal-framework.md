@@ -4,8 +4,9 @@
 
 ## References
 
-1. [ErichDylus/Open-Source-Law: open source templates, forms, writings and other materials for DAOs, devs, and incentive programmers (github.com)](https://github.com/ErichDylus/Open-Source-Law)
+1. [ErichDylus/Open-Source-Law: open-source templates, forms, writings and other materials for DAOs, devs, and incentive programmers (github.com)](https://github.com/ErichDylus/Open-Source-Law)
 2. [LexDAO](https://www.lexdao.coop/) - The World's First Web 3 Legal Engineering Guild
+3. [Library | OpenLaw](https://lib.openlaw.io/web/default/search/general)
 
 ### [Next Privacy](./9-privacy.md) 👉
 
