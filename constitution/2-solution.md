@@ -24,7 +24,7 @@ When people think of observational research, they typically think of correlation
 
 In 1977, the USDA warned Americans against the perils of dietary cholesterol. And yet in 1999, TIME released a very different cover, suggesting that dietary cholesterol is fine.
 
-![eggs time covers](../assets/eggs-time-covers.png)
+![eggs time covers](../assets/analytics/eggs-time-covers.png)
 
 ### Correlational is Not The Same as Causation
 
@@ -46,7 +46,7 @@ The primary flaw with observational research is that they lack the control group
 people who don't receive the intervention or medication in a randomly-controlled trial.  With high-frequency
 longitudinal data, a single person can act as their own control group, by using an A/B experiment design.
 
-![](../assets/causal_clues-1024x652.png)
+![](../assets/analytics/causal_clues-1024x652.png)
 
 For instance, if one is suffering from arthritis and they want to know if a Turmeric Curcumin supplement helps, the  experimental sequence would look like this:
 
@@ -76,7 +76,7 @@ At this time, we apply coefficients representative of each of [Hill’s criteria
 * ***Experiment Coefficient***: A relationship is more likely to be causal if it can be verified experimentally. This coefficient is proportional to the number of times an A/B experiment is run.
 * ***Analogy***: A relationship is more likely to be causal if there are proven relationships between similar causes and effects.  This coefficient is proportional to the consistency of the result for a particular individual with the number of other individuals who also observed a similar effect.
 
-![Correlation vs Causation](../assets/correlation-does-not-equal-causation-comic.png)
+![Correlation vs Causation](../assets/analytics/correlation-does-not-equal-causation-comic.png)
 
 ### Meta-Analyses Support of Real-World Evidence
 
@@ -100,7 +100,7 @@ have ultimately led to better health outcomes than current pharmaceutical indust
 
 For over 99% of recorded human history, the average human life expectancy has been around 30 years.
 
-![historical life expectancy](../assets/life-expectancy-historical.jpg)
+![historical life expectancy](../assets/life-expectancy/life-expectancy-historical.jpg)
 
 At the end of the 19th century, the average life expectancy was around 30 years.
 
@@ -123,7 +123,7 @@ Were Far More Expensive
 Participants Were Less Representative of Actual Patients
 They Were Run by Drug Companies with Conflicts of Interest Instead of the 3rd Party AMA
 
-![](../assets/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
+![](../assets/trials/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
 
 This coincided with the 1962 regulations, it cost a drug manufacturer an
 average of $74 million dollars (2020 inflation-adjusted)
