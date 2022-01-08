@@ -1,4 +1,4 @@
-### 👈 [Back to Table of Contents](../README.md#Whitepaper)
+### 👈 [Back to Table of Contents](../README.md)
 
 # 1.    The Problem: You and Everyone You Love Will Suffer and Die
 
