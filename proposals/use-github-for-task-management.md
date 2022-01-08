@@ -20,5 +20,5 @@ Some benefits I see of using GitHub issues for task management:
   creation. The smart contract can be defined as such that contributors get rewarded in proportion to the ultimate
   value produced by their ideas.
 - **Search Engine Visibility**: Google indexes GitHub issues. This will increase the potential for recruiting new
-  members of the DAO who discover the project through search engines.
+  Citizens of the DAO who discover the project through search engines.
 - **GitHub Projects**: Built like a spreadsheet, project tables give you a live canvas to filter, sort, and group issues and pull requests. Tailor them to your needs with custom fields and saved views. (i.e. [Draft Whitepaper Project](https://github.com/orgs/anonymous-dao/projects/1))

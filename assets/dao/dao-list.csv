@@ -1,0 +1,166 @@
+﻿Name,Platform,USD Value,Total In,Total Out,Citizens,Proposals,Voters,Voter Participation,Image
+Uniswap,6,3002760886,6007536430,3004775550,275652,8,1204,0.43678261,uniswap.png
+BitDAO,12,2654378008,2665118700,197871362.2,10000,5,25,0.25,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/bitdao.eth.png
+Lido,4,767780772.5,1731122080,907487729.7,0,45,384,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/lido-snapshot.eth.png
+Compound,6,581760532.1,1275331009,693570278.9,174329,77,1021,0.585674214,compound.png
+Radicle,6,579706574.1,635396452.7,55689878.52,5612,4,60,1.069137562,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/radicle.png
+Aave,11,553926549.7,811381400.8,257454851.1,11212,77,13731,100,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/aave.png
+Olympus DAO,12,415573377.9,2415026112,1999510308,8328,171,7643,91.77473583,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/olympus.eth-alt.jpeg
+dHedge,12,398557380.9,613857888.4,215336006.9,8347,80,246,30.96379427,dhedge.jpeg
+Gnosis,12,361825601.8,511558267.3,149768180.1,10000,11,553,5.53,gnosis.jpeg
+ENS,11,232053200.5,277166735.9,90792110.31,10000,8,85319,100,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/ens.eth.png
+Maker Dao,-1,199090734.7,902394288.4,703303553.7,82614,-1,-1,-1,maker-dao.jpeg
+Fei,6,179920901.9,1980671474,1800750572,10000,87,5160,3.045,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/fei.png
+Rarible,12,152786950,178248717.5,25461767.53,0,133,2159,0,rarible.png
+ShapeShift,12,144365077.7,196797398.6,52436134.11,10000,51,1119,11.19,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/shapeshiftdao.eth.png
+Kusama,13,139909780.6,-1,-1,229447,690,1358,66.85859576,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/kusama/kusama.jpeg
+Badger DAO,4,132286071.8,365300845.6,233841835,10000,76,4,0.04,badgerdao.jpg
+PleasrDAO,11,125376025.7,235894552.8,148991703.8,69,48,60,86.95652174,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/pleasrdao.eth.png
+Aragon Network Budget,4,121180476.4,250851277.4,138826871.2,4,590,5,100,aragon.png
+Gitcoin,6,118508510.1,170921022.1,54924251.1,10000,12,103,1.03,gitcoin.png
+Decentraland,4,107813247.2,129149981.2,21336404.07,13009,862,2546,59.57234059,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/snapshot.dcl.eth.png
+Perpetual Protocol,12,98852994.49,186759988.8,87907999.9,8997,20,526,5.846393242,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/vote-perp.eth.png
+DXdao,1,94476560.18,140537139.3,44416006.93,773,736,132,14.58342081,dxDAO.png
+API3 DAOv1,4,83580945.11,461281982.2,377701698.9,31,136,9,29.03225806,api3.jpg
+Nouns DAO,6,62555476.36,72530197.87,8649157.073,90,30,66,73.33333333,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/nouns.eth.png
+Cryptex,6,60727483.02,73878486.26,13106215.29,781,3,11,1.408450704,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/cryptex.jpeg
+Decentral Games,11,54645711.88,54920699.08,48189815.85,3195,65,681,21.31455399,decentralgames.eth.png
+Alchemix,11,51192841.11,202249160.7,155155705,7705,35,1617,-1,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/alchemixstakers.eth-alt.jpeg
+BarnBridge,-1,49235120.13,228514075.4,179278955.3,15,98,13,86.66666667,barnbridgelaunch.jpg
+Index,11,42971344.92,78287177.4,35319788.5,4158,269,2658,63.92496392,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/index-coop.eth.png
+PrimeDAO,12,40315434.63,50244611.89,533294291.3,308,176,72,25.52005013,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/primexyz.eth.png
+Tornado Cash,11,39967738.09,89851673.53,49883972.83,7552,13,83,1.09904661,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/torn-community.eth.png
+pNetwork,4,38140863.01,89239881.69,51099018.68,1090,0,0,0,ptokens.jpg
+PieDAO,4,36849260.67,143302698,125500808.9,3029,345,53,1.749752394,PieDAO.jpg
+bZx,11,36564553.01,61850786.13,25286233.12,6143,10,80,1.302295295,bzx.png
+NFTX,4,33751755.15,135963183.3,102191634,5070,587,6,0.118343195,nftx.png
+Tracer,11,33452297.95,134325580,101032365,818,33,67,8.190709046,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/tracer.eth.png
+The LAO,3,28821231.01,57952202.12,29130971.11,100,164,42,42,TheLAO.jpg
+VitaDAO,-1,23455861.51,86058445.03,62602583.52,-1,-1,-1,-1,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/vitaDAO.jpeg
+yearn.finance,12,20786774.19,506388187.2,487362562.8,660,16,3258,100,yearn.png
+MetaCartel Ventures,2,19683767.52,68143220.84,48459453.32,240955,417,75,0.031126144,metacartelventures.jpg
+Inverse,6,17992623.36,34831238.65,16838615.29,2356,29,420,17.82682513,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/inverse.jpeg
+PoolTogether,6,17649822.33,23951921.63,6302099.301,7960,28,353,4.434673367,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/pool_toogether.jpeg
+Varen,11,17564055.64,43288020.75,25726322.07,5371,14,76,1.415006516,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/varen.eth.png
+Bankless DAO,11,16023370.74,126667911.7,110703431.1,4385,22,2445,55.75826682,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/banklessvault.eth.png
+Unslashed,6,15834919.12,19818083.03,3984210.658,1372,0,0,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/unslashed.jpeg
+Aragon Trust,4,12295418.42,52116433.28,42467096.89,4,162,6,100,aragon.png
+Sushiswap,12,11346370.02,197592653.4,189573249.1,52030,249,9353,17.9761676,sushiswap.jpeg
+Airalab,4,10512496.35,32371948.57,21858233.71,10,477,14,100,airalab.jpg
+Idle Finance,6,9613025.212,22093911.74,12484624.9,3732,17,55,1.473740622,idle-finance.png
+CityDAO,11,7014722.9,655944.0453,595440.8969,-1,19,2171,-1,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/daocity.eth.png
+Aavegotchi,4,6392922.872,20675626.03,14282703.15,7009,319,8304,100,aavegotchi.jpg
+Yam Finance,6,4142253.425,16908978088,16904837308,10000,7,156,1.56,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/yam.eth.png
+Aragon Network,4,4008599.428,4008599.428,0,5,28,4,80,aragon.png
+BProtocol,6,2898223.973,5234261.753,2336037.78,1670,11,123,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/bprotocol.png
+necDAO,1,2061821.037,6936037.689,4948984.164,140,40,39,27.85714286,necDAO.jpg
+Stacker Ventures,4,1285281.802,2653429.288,1653514.448,427,50,14,3.278688525,stackerVentures.jpeg
+0x117d1F8CB4Bf6e74Bc5D667f15af7b810baCCCD6,4,832648.4601,3662563.476,2854909.399,3,396,5,100,
+UberHAUS,2,758818.0302,2640840.199,1882022.169,182,66,25,13.73626374,daohaus.png
+Odyssy,2,554863.9864,554903.9864,40,6,10,3,50,odyssey.png
+Balancer,12,417579.8938,94527153.77,94109573.88,10000,78,7336,73.36,balancer.png
+StakeWise,12,414593.007,268863730,268450950.9,1541,13,235,15.24983777,stackwise.png
+Governor DAO,4,195882.0872,1048183.833,853332.6055,1839,80,134,48.84623036,governordao.jpg
+JINN,2,151413.6602,207004.3328,55590.67264,8,8,4,50,
+dOrg,12,130991.3668,3174693.546,3825401.754,123,179,55,49.52311079,dorg.jpg
+PartyDAO,11,119312.637,833981.5177,883307.0038,158,12,77,48.73417722,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/partydao.eth-alt.jpeg
+array.finance CCO,2,96624.21671,1422135.43,1362894.969,10309,122,5,0.04850131,arrayFinanceCCO.png
+murziki,4,82244.27408,179226.9128,96982.63868,3,26,2,66.66666667,
+blequity,4,78505.88749,78505.88749,0,7,8,2,28.57142857,blequity.jpg
+Trojan DAO,2,69075.40795,104324.3459,35248.93798,0,35,7,100,trojandao.jpg
+flamingo,3,66738.70959,30736420.2,30669681.49,0,111,18,100,flamingo.png
+Raid Guild War Chest,2,61963.44944,604842.3799,535402.1792,19592,188,31,0.158227848,RaidGuild.jpg
+Ampleforth,6,59399.19873,59399.19873,0,10000,1,24,0.24,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/ampleforth.png
+XDAO,2,55483.39864,57053.39864,1570,21,7,1,4.761904762,xdao.jpeg
+Hakt DAO,12,53876.81522,65850.83225,15775.94501,63,2,8,12.6984127,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/hakt.eth.png
+Conjure,6,50606.62337,50606.62337,0,311,0,0,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/conjure.png
+MarsDao,4,43210.8142,422372.842,385024.2983,80,438,11,13.75,MarsDao.jpg
+cadcad,4,39988.22165,54714.02907,14892.25672,5,8,1,20,cadCAD.png
+Defi Omega,2,39342.83333,59099,19756.16667,475,42,1,0.210526316,defi-omega.jpeg
+Cyber Congress,4,39024.90284,39024.90284,0,43,32,7,16.27906977,cyberdevs.png
+Buyback CC1,2,36942.69626,206942.8726,170000.1763,26,16,3,11.53846154,
+JuiceboxDAO,12,36841.08558,87437.02355,60876.47085,3502,60,409,11.67904055,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/jbdao.eth.png
+Aragon One,4,32841.85603,18977253.05,18944411.19,4,388,7,100,AragonOne.jpg
+DAOhaus Second Story CCO,2,29140.23943,6133803.052,6104662.813,611,386,4,0.654664484,daohaus.png
+Curio,4,26552.44905,347030.6432,320478.1941,179,102,27,15.08379888,Curio.jpg
+Rocket LP DAO,2,23783.9712,1088928.877,1065144.906,0,29,6,100,rocketdao.jpg
+TYAN Intergalactic,2,23363.64401,28112.45832,4748.814313,25,33,4,16,tyan.jpeg
+1HiveLLC,4,20796.28197,841476.2806,820679.9986,7,216,2,28.57142857,1HiveLLC.png
+DimensionLab,4,19691.88048,1000.002503,0,1,2,0,0,dimension-lab.jpeg
+MetaCartel v2,2,18952.81969,2340862.673,2321909.853,132,157,22,16.66666667,metacartelventureschina.png
+Keytree,4,18692.25431,0.00249845,0,2,10,2,100,
+lexDAO,4,15589.07174,23423.07439,7885.194298,41,176,24,58.53658537,lexdao.jpg
+Markeing DAO,2,14358.61965,89741.37284,75382.75319,0,10,2,100,marketingdao.jpg
+Burn Signal,5,13298.81348,20176.64396,7236.527618,0,0,0,-1,BurnSignal.jpg
+Srt,4,12602.06413,18695.61635,6093.55222,3,6,2,66.66666667,
+Status,4,12297.24167,115811.4925,103514.2508,3,26,1,33.33333333,status.png
+Urza,2,11180.27937,22435.34321,11255.06384,5,4,1,20,Urza.png
+HausDAO,2,10118.10794,330333.3419,320215.234,45,57,8,17.77777778,daohaus.jpg
+yEarn DAO ($YFI Community Funding),2,10101.07194,75423.86539,65322.79345,10043,20,6,0.059743105,yearn.png
+Warcamp,2,8570.361207,279980.3612,271410,72,301,30,41.09803922,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/warcamp.png
+Metafam,4,7809.256626,7805.144413,0,294,68,24,8.163265306,metagame.jpg
+Futhorcecosystem,4,7336.776637,828.9873164,0,6,40,6,100,Futhorcecosystem.jpg
+Arca,4,7018.526211,25068.44738,18049.92117,9,116,20,100,arcadao.jpg
+0x06Bdd90Cc7122D4531ab7CbB3C22D265Cb112ABD,4,6940.397154,29270.93033,22330.53318,0,20,6,100,
+snglsDAO,1,6546.379333,2808.003738,0,9530,2,1,0.010493179,snglsDAO.jpg
+BrightID,4,6392.194513,1596626.089,1595902.393,15,208,14,93.33333333,BrightID.jpg
+Constitution,-1,5460.373624,45146569.73,90388803,9040,0,0,-1,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/constitution.jpeg
+ShillShop,2,5119.287069,6142.887069,1023.6,12,21,6,50,daohaus.png
+Arweavers,4,3497.272148,3497.272148,0,4,10,4,100,Arweavers.jpg
+Betacolony,5,3264.491171,9992.206138,6753.883596,0,0,0,-1,Betacolony.jpg
+brightiddev,4,3208.09879,336936.0761,333727.9773,3,134,3,100,BrightID.jpg
+Raid Guild,2,2926.544203,225849.1217,222922.5775,0,54,12,100,RaidGuild.jpg
+ApocalypseDAO,1,2636.231165,0,0,7,22,4,57.14285714,apocalypsedao.jpg
+Meta Gamma Delta,2,2612.49302,41159.35659,38546.86357,1336,114,41,50.67365269,metagammadelta.jpg
+CENNZnet Grants DAO,1,2327.171149,59281.52217,60692.72661,12,21,8,66.66666667,CENNZnetDao.png
+MetaCartel Ventures China,2,2118.812556,17238.45411,15119.64155,17,19,12,70.58823529,metacartelventureschina.png
+HelpDao,4,1772.030741,1998.441228,263.794242,3,5,1,33.33333333,HelpDAO.jpg
+Cura Dao,1,1764.278535,59176.81351,98613.99386,55,49,11,20,CuraDAO.jpg
+Orochi DAO V2,2,1498.691743,3996.882455,2498.190712,0,11,2,100,OrochiDao.jpg
+Creative Collabo DAO,2,997.1263649,1495.689547,498.5631825,0,6,1,100,
+Genesis Alpha,1,564.0140623,132766.0793,4478354.29,266,387,128,48.12030075,GenesisAlpha.jpg
+Estonia,4,425.7289533,1171.531811,749.9150706,7,14,1,14.28571429,Estonia.png
+MetaClan,2,250.9504871,4756.422119,4505.471631,65,88,8,12.30769231,metaclan.jpeg
+Machi X DAO,2,232.4810366,41703.77502,41471.29398,876,49,6,0.684931507,MachiX.png
+Fest Dao,1,215.8653909,219997.4939,225704.8001,39,86,15,38.46153846,FestDAO.jpg
+MansaNetwork,4,155.3730526,5392.158979,5236.785926,5,20,2,40,
+Elimuai,4,122.2587017,72082.85158,72801.72739,4,58,3,75,elimuai.jpg
+Melon Council,4,74.7675119,74.7675119,0,20,156,12,60,meloncouncil.png
+clr.fund,5,55.90832416,169600.8216,169544.9132,0,0,0,-1,clr.fund.jpg
+6Ef0c0b0,4,14.73617134,826131113.2,826131098.5,5,276,5,100,
+4c4bf6a8,4,11.32821034,765764329.4,765764318,5,266,6,100,
+DeoraTest,2,10.88247219,11.09134881,0.208876625,0,16,4,100,
+Daoversify,4,5.774015235,2913.070496,2907.296481,3,4,1,33.33333333,Daoversify.png
+MetaCartel,2,2.815991822,5646128.698,5646125.882,0,146,41,100,MetaCartelDAO.jpg
+Aragon Association DAO,4,1.42993656,1981351.649,1981350.219,3,142,2,66.66666667,aragon.png
+mStable,4,1.00684966,85354658.78,85354657.77,7,267,2061,33.33333333,mstable.jpg
+1UP,1,0.770920073,14467.16807,15176.68851,14,40,4,28.57142857,1UP.jpg
+MyDaoDashboard,4,0.322956446,20524.94919,20524.62623,6,60,4,66.66666667,mydaodashboard.jpg
+f25f0531,4,0.010201338,53570014.32,53570014.31,5,332,4,80,
+Neptune DAO,3,5.10E-09,37915730.03,37915730.03,75,96,6,8,neptune.jpeg
+centrifugelabic01,4,1.82E-12,20000,20000,16,24,12,75,
+STAKEhaus,2,0,0,0,27,34,8,29.62962963,stakeHause.png
+DAOSquare,2,0,0,0,55,31,5,9.090909091,daosquare.jpg
+Dandy,4,0,0,0,6,1,3,50,
+Valtech,4,0,0,0,1,8,1,100,
+Collab19,4,0,2031.415508,2031.415508,76,86,19,25,Collab19.png
+Meter Governance MTRG,11,0,0,0,1562,15,236,15.10883483,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/meter-mainnet.eth.png
+ShieldDao,4,0,512080.6093,512080.6093,16,5,8,50,ShieldDao.jpg
+Bancor 0x3EcD508F87Ef27417474B0FDF8dd90A3b2B337C9,4,0,0,0,1,0,0,0,bancor.png
+MeebitsDAO,11,0,0,0,3146,8,61,1.938970121,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/manekari.eth.png
+ArbitrageDAO,2,0,41131.46255,41131.46255,0,1,1,100,
+Indexed,6,0,0,0,5632,16,272,4.829545455,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/dao/logo/indexed.png
+OceanDAO,11,-1,-1,-1,10000,138,457,4.57,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/officialoceandao.eth.png
+CrisisDAO,11,-1,-1,-1,37,57,57,100,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/crisisdao.eth.png
+Proof Of Humanity,11,-1,-1,-1,10000,86,1093,10.93,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/poh.eth.png
+Seedify.fund,11,-1,-1,-1,0,52,5,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/seedifyfund.eth.png
+Pragma,11,-1,-1,-1,0,45,6,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/pragmadev2.eth.png
+Carbonswap,11,-1,-1,-1,0,84,2182,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/carbonswap.eth.png
+TeaSwap,11,-1,-1,-1,5482,114,70,1.276906239,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/tea-swap.eth.png
+PancakeSwap,11,-1,-1,-1,0,656,50095,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/cake.eth.png
+Farmgod DAO,11,-1,-1,-1,374,30,40,10.69518717,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/farmgod.eth.png
+Stacker Ventures DDC,11,-1,-1,-1,0,21,20,0,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/stackerventures.eth.png
+Friends With Benefits Pro,11,-1,-1,-1,5124,30,1233,24.06323185,https://deepdao-uploads.s3.us-east-2.amazonaws.com/assets/snapshots/spaces/friendswithbenefits.eth.png
+EulerBeats OG DAO,12,-1,-1,-1,0,5,233,0,eulerBeatsOG.png
+Moloch,2,-104411.6204,28862696.29,28967107.91,0,144,60,100,MolochDAO.jpg
+BerezkafLexDAO,4,-248141.1605,42467348.49,45813453.44,89,1589,5,5.617977528,lexdao.jpg
