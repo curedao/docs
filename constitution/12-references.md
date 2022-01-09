@@ -12,7 +12,6 @@
 8. [Healthcare Big Data and the Promise of Value-Based Care (nejm.org)](https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0290)
 9. [Fifty Years of Progress in Chronic Disease Epidemiology and Control (cdc.gov)](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6004a12.htm)
 10. [The Problem with Observational Studies (Epidemiology)](https://www.jeffnobbs.com/posts/the-problem-with-observational-studies-epidemiology)
-
 11. [Infographic: How Big Data Will Unlock the Potential of Healthcare](https://www.visualcapitalist.com/big-data-healthcare/)
 12. [George Health Global Health Challenge](https://www.george-health.com/global-health-challenge/) - Pioneering life-saving treatments for people suffering from chronic diseases.
 13. [HealthVerity Census - HealthVerity](https://healthverity.com/solutions/healthverity-census/) - De-identification of health data and re-linkage to an anonymous identifier for analysis.
@@ -40,7 +39,26 @@
 35. [NC233 causal inference](https://nc233.com/tag/causal-inference/)
 36. [Inferring causal impact using Bayesian structural time-series models](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41854.pdf)
 37. [CausalImpact R Package](http://google.github.io/CausalImpact/CausalImpact.html)
+38. [A Comparison of Observational Studies and Randomized, Controlled Trials | NEJM](https://www.nejm.org/doi/full/10.1056/NEJM200006223422506)
+39. [FDA and Clinical Drug Trials: A Short History](https://www.fda.gov/media/110437/download#:~:text=Efficacy%20Under%20the%201962%20Drug,%22efficacious%22%20prior%20to%20marketing.)
+40.
 
+### Health Data Brokers
 
+- [Healthcare Analytics &amp; Provider Data | Definitive Healthcare (definitivehc.com)](https://www.definitivehc.com/)
+- [Syntropy | Unlocking the value of untapped scientific data](https://syntropy.com/)
+- [Current use and costs of electronic health records for clinical trial research: a descriptive study - PubMed (nih.gov)](https://pubmed.ncbi.nlm.nih.gov/30718353/)
+
+### Digital Health Companies
+
+- [Enlyt Health - Add-ons - Heroku Elements](https://elements.heroku.com/addons/ramp#details)
+
+### ETL Companies
+
+- [Integrate.io data integration for e-commerce](https://www.integrate.io/)
+
+### DAOs
+
+- [A Model for Biotech Laboratory Infrastructure | by Maximilian Schulz | Jan, 2022 | Ageless Society](https://ageless.blog/a-model-for-biotech-laboratory-infrastructure-81c9b96a88c8)
 
 <div>Some Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

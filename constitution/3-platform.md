@@ -5,10 +5,7 @@
 
 The platform will consist of two primary components:
 
-1. **Core Framework** - This will be open-source and include only universally necessary features.  This
-   primarily consists of user authentication, data owner access controls, data storage, data validation, and an API
-   for storage and retrieval.
-   The DAO will compensate contributors to the core platform.
+1. **Core Framework** - This will be open-source and include only universally necessary features.  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
 2. **Plugins** - These will be modules that provide additional functionality data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator.
 
 ![platform diagram](../assets/plugins/plugin-marketplace.png)
@@ -19,21 +16,17 @@ The platform will consist of two primary components:
 
 Challenge: To acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed to derive clinical insight.
 
-Approach: We will develop an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) will be made available for 3rd party applications to use to interact with the API. Plugins will enable spreadsheet upload/import and scheduled imports from existing third-party
-APIs.
+Approach: We will develop an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) will be made available for 3rd party applications to use to interact with the API. Plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
 
 Impact: The API connector framework will allow the ongoing regular import of user data after a single user authorization.  SDK’s will enable developers to implement easy automatic sharing options in their applications. An increase in the quantity of data will produce a proportional increase in the number of clinical discoveries made.
 
 ### 2. Raw Data Storage (core component)
 
-Data will be encrypted stored in its raw format in flat files on a secure cloud provider defined in the
-framework instance platform settings.  Preservation of the data in its original format will allow for:
+Data will be encrypted stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.  Preservation of the data in its original format will allow for:
 
-1. Asynchronous Queued Data Parsing Jobs - This is necessary to allow for the data to be parsed in parallel
-   offline and avoid overloading the webserver.
+1. Asynchronous Queued Data Parsing Jobs - This is necessary to allow for the data to be parsed in parallel offline and avoid overloading the webserver.
 2. Storage of data incompatible with a time-series relational data store.
-3. Storage of data formats that do not yet have defined parser plugins.  This will allow for the data to be imported
-   at a later date when the data mapper has been defined.
+3. Storage of data formats that do not yet have defined parser plugins.  This will allow for the data to be imported at a later date when the data mapper has been defined.
 4. Updating parsers to support changes in the response format for a particular API.
 
 ### 3. Data Mappers (core components and plugins)
