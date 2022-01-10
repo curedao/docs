@@ -32,7 +32,7 @@ disclosed for secondary purposes.  It requires the removal of 18 identifiers fro
 13. Device identifiers and serial numbers
 14. Web Universal Resource Locators (URLs)
 15. Internet Protocol (IP) address numbers
-16. Biometric identifiers, including finger and voiceprints
+16. Biometric identifiers, including finger and voice-prints
 17. Full face photographic images and any comparable images and
 18. Any other unique identifying number, characteristic, or code (note this does not mean the unique code assigned by the investigator to code the data).
 
@@ -45,6 +45,11 @@ disclosed for secondary purposes.  It requires the removal of 18 identifiers fro
 ### 2. deid software package
 
 The [deid software package](https://archive.physionet.org/physiotools/deid/) includes code and dictionaries that automatically locate and remove PHI in free text from medical records. It was developed using over 2,400 nursing notes that were methodically de-identified by a multi-pass process including various automated methods as well as reviews by multiple experts working autonomously.
+
+### 3. Synthetic Patient Generation
+
+[Synthea](https://synthetichealth.github.io/synthea/) is an open-source, synthetic patient generator that models the medical history of synthetic patients. Our 
+mission is to provide high-quality, synthetic, realistic but not real, patient data and associated health records covering every aspect of healthcare. The resulting data is free from cost, privacy, and security restrictions, enabling research with Health IT data that is otherwise legally or practically unavailable.
 
 # References
 
