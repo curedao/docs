@@ -1,6 +1,7 @@
-## Deciphering the Anti-Aging Code
 
-<iframe allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="https://www.youtube.com/embed/3icK4qMJGwE?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fagelesspartners.com&amp;widgetid=1" id="widget2" width="640" height="360" frameborder="0"></iframe>
+![](https://i1.wp.com/agelesspartners.com/wp-content/uploads/2020/11/age-logo.jpg?fit=250%2C250&ssl=1)
+
+## Deciphering the Anti-Aging Code
 
 Ageless Partners LLC is a research company that helps individuals decipher the anti-aging code. We develop solutions to advance anti-aging medical science worldwide. Our goal is to create machine learning (ML) and artificial intelligence (AI) innovations that help customers analyze complex datasets that focus on reverse aging. As the rapidly growing healthcare industry continues to gravitate toward personalized medicine, we believe targeted anti-aging solutions are the key to extending our healthspan. Our team specializes in delivering tailored software products and services — unlocking the potential of data — thereby accelerating discoveries for anti-aging pharmaceuticals and therapies.
 
@@ -8,11 +9,10 @@ Our strategic focus is to build a network of like-minded individuals with the un
 
 We continue to grow strategic partnerships with skilled experts across the world to accelerate the development of reverse aging solutions. Currently, we see value in partnering with researchers and organizations focusing on genomics, nanotechnology, and artificial intelligence — the foundational building blocks to accelerate reverse aging technologies.
 
+
+
 ![](https://i0.wp.com/agelesspartners.com/wp-content/uploads/2021/09/jason-headshot.jpg?fit=250%2C250&ssl=1)
 
-![](https://i1.wp.com/agelesspartners.com/wp-content/uploads/2020/12/jin-xiong.jpg?fit=250%2C250&ssl=1)
-
-![](https://i1.wp.com/agelesspartners.com/wp-content/uploads/2021/01/ian-white-headshot.jpg?fit=250%2C250&ssl=1)
 
 ### Ian White, PhD
 
