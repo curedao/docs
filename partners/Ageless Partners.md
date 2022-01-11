@@ -14,7 +14,5 @@ Our involvment with OmicsDAO is to accelerate the age reversal movement. We aim 
 ![](https://i0.wp.com/agelesspartners.com/wp-content/uploads/2021/09/jason-headshot.jpg?fit=250%2C250&ssl=1)
 
 **Jason C. Mercurio, MFE**
-
 **Chief Executive Officer**
-
 **Ageless Partners LLC**
