@@ -169,10 +169,10 @@ To facilitate data sharing, the DAO will provide data providers with an onsite e
 
 ## 1.4 Lack of knowledge about the underlying root of degenerative diseases -> aging
 
-If we would have reliable biomarkers for aging already, research could find interventions for the root cause of degenerative diseases whixh is aging itself.
+If we would have reliable biomarkers for aging already, research could find interventions for the root cause of degenerative diseases which is aging itself.
 Despite many years of research, we still don’t have reliable biomarkers for aging.  One of the main problems is the distance between genotype and phenotype.  It is proposed that by studying the relationships between proteins and metabolites, essentially a multi-omic process, would allow the creation of “endophenotypes” to help identify a signature (Hoffman et al. 2017).
 
-![Multiomics appproach](./assets/data/Genotype.png)
+![Multiomics appproach](../assets/data/omics.png)
 
 ### Problems with current biomarkers for aging:
 Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans. 
@@ -180,7 +180,7 @@ Humans are genetically diverse in comparison to model organisms and this contrib
 Environmental effects on aging are relatively unknown.
 
 ### Problems with current approaches:
-GWAS can only explain a small fraction of the heritability of many human traits, including aging. Transcriptomics can help, but it can’t explain the whole story.
+A genome-wide association study (GWAS) is an approach used in genetics research to associate specific genetic variations with particular diseases. GWAS can only explain a small fraction of the heritability of many human traits, including aging. Transcriptomics can help, but it can’t explain the whole story.
 Proteomics is actually the enzyme workhorse of biology and the insight into protein levels is especially important.
 Metabolomics are the building blocks that proteins work with and is necessary for a better insight into the state of the running system.
 
