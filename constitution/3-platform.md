@@ -85,8 +85,17 @@ The proposed solution for overcoming challenges with interoperating with data fo
 
 ### 6. Time Series Data Storage (core component)
 
-After validation and mapping, time-series data will be stored in a purpose built and scalable database. The use of a
-relational data store with defined foreign key relationships will ensure atomicity and data veracity. The use of a graph-database could ensure the efficient querying of large cohort data sets with complex and beforehand unknown queries. The database architecture design will be further developed in the roadmap of the DAO to meet the functional requirements like scalability, speed and complexity of possible queries, security, use for decentralized encrypted storage, being suitable for ML and algorithm development, etc.
+After validation and mapping, time-series data will be stored in a relational database.  
+The use of a relational data store with defined foreign key relationships will ensure atomicity and data veracity.
+
+Functional Requirements:
+- Large scale data storage for time-series data
+- Standard format
+
+#### Implementations
+- Relational Data Store
+- Document-based Data Store
+- Graph-based Data Store
 
 ### 7. Data Ownership management (core component)
 
@@ -154,9 +163,7 @@ For instance, someone with depression may have started taking an antidepressant 
 
 Several types of data are used to derive the Outcome Labels:
 
-1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps
-   in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods,
-   drugs, or nutritional supplements purchased and insurance claim data.
+1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods, drugs, or nutritional supplements purchased and insurance claim data.
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
 3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved, we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
 
