@@ -47,13 +47,13 @@ Add links to other wiki pages wherever possible and avoid duplicating content.
 
 ## Flags
 
-Flags (or tags) can be appended to text to signify a need for verification, revision, or other purposes. The most common kind is the missing citation flag or "cite flag" that appears in the form of {{citation_needed}}.
+Flags (or tags) can be appended to text to signify a need for verification, revision, or other purposes. The most common kind is the missing citation flag or "cite flag" that appears in the form of [citation_needed].
 
 The various kinds of flags available for use are listed below:
 
 
-| **Flag type**       | **Purpose**                      |
-|---------------------|----------------------------------|
-| {{citation_needed}} | Statement is missing citation    |
-| {{clarify}}         | Statement needs clarification    |
-| {{imperative}}      | Statement uses imperative speech |
+| **Flag type**     | **Purpose**                      |
+|-------------------|----------------------------------|
+| [citation_needed] | Statement is missing citation    |
+| [clarify]         | Statement needs clarification    |
+| [imperative]      | Statement uses imperative speech |
