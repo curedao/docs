@@ -8,8 +8,7 @@ Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-d
 people die every single day. For perspective, this is equivalent to:
 
 - **[FIFTY-ONE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** September 11th
-  attacks
-  every day
+  attacks every day
 - **[NINE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** Holocausts every year
 
 **Will throwing more money at the existing healthcare system save us?**
@@ -18,8 +17,8 @@ Since 2014, healthcare spending per person has been [increasing faster than ever
 
 ![health spending](../assets/cost/us-healthcare-expenditure-per-person.png)
 
-Despite this additional spending, life expectancy has actually been [declining](../assets/life-expectancy/life-expectancy-chart.png)
-since 2014.
+Despite this additional spending, life expectancy has actually been [declining](..
+/assets/life-expectancy/life-expectancy-chart.png) since 2014.
 
 **Will digital health innovation save us?**
 
@@ -56,12 +55,13 @@ So, this explosion in technology, data, and spending has produced no measurable 
 
 ### 1.2.1 The Cost of Clinical Research
 
-It costs over a [billion dollars](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) and takes over 10 years to bring a new treatment to market. It
-costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials.
+- It costs [$2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
+- The process takes over 10 years.
+- It costs [$36k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001) per subject in Phase III clinical trials.
 
-![clinical trial cost](../assets/cost/cost-to-develop-a-drug-chart.png)
+![clinical trial cost](../assets/trials/why-trials-are-so-expensive-cost.png)
 
-This leads to the following problems:
+This high cost leads to the following problems:
 
 #### No Data on Unpatentable Molecules
 
@@ -85,8 +85,7 @@ For instance, even after controlling for co-morbidities, the Journal of American
 
 Long-term randomized trials are extremely expensive to set up and run. When billions of dollars in losses or gains are riding on the results of a study, this will almost inevitably influence the results. For example, an analysis of beverage studies, [published in the journal PLOS Medicine,](https://web.archive.org/web/20211207021133/https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001578#s3) found that those funded by Coca-Cola, PepsiCo, the American Beverage Association, and the sugar industry were **five times** more likely to find no link between sugary drinks and weight gain than studies whose authors reported no financial conflicts.
 
-The economic survival of the pharmaceutical company is dependent on the positive outcome of the trial.  While there's
-not a lot of evidence to support that there's any illegal manipulation of results, it leads to two problems:
+The economic survival of the pharmaceutical company is dependent on the positive outcome of the trial.  While there's not a lot of evidence to support that there's any illegal manipulation of results, it leads to two problems:
 
 #### Negative Results are Never Published
 
@@ -94,7 +93,7 @@ Pharmaceutical companies that sponsor research often report only “positive” 
 
 This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
 
-### 1.2.3 Trials Often Aren't Representative of Real Patients
+#### Trials Often Aren't Representative of Real Patients
 
 External validity is the extent to which the results can be generalized to a population of interest. The population of interest is usually defined as the people the intervention is intended to help.
 
@@ -149,19 +148,15 @@ closed-source competitors an unfair advantage.  This increases their likelihood 
 
 #### How DAOs Overcomes the Free-Rider Problem
 
-1. Currently governments around the world are spending billions funding closed-source propriety health software. The
-   Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the
-   form of royalties.
+1. Currently governments around the world are spending billions funding closed-source propriety health software. The Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
+2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the form of royalties.
 
 ### 1.3.2 Isolated Data Silos
 
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
-dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However,
-by integrating all available data from individuals, similar populations, as well as existing clinical research
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However, by integrating all available data from individuals, similar populations, as well as existing clinical research
 findings and applying machine learning we may achieve “prescriptive” real-time decision support.
 
-![real-time decision support](../assets/plugins/quantimodo-real-time-decision-support-notification.png)
+![real-time decision support](../assets/plugins/quantimodo-real-time-decision-support-notification-small.png)
 
 To facilitate data sharing, the DAO will provide data providers with an onsite easily provisionable OAuth2 API server that will allow individuals to anonymously share their data with the global biobank.
 
@@ -175,20 +170,20 @@ Despite many years of research, we still don’t have reliable biomarkers for ag
 ![Multiomics appproach](../assets/data/omics.png)
 
 ### Problems with current biomarkers for aging:
-Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans. 
+
+Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans.
 Humans are genetically diverse in comparison to model organisms and this contributes to the weak signature of any set of genes towards longevity.
 Environmental effects on aging are relatively unknown.
 
 ### Problems with current approaches:
+
 A genome-wide association study (GWAS) is an approach used in genetics research to associate specific genetic variations with particular diseases. GWAS can only explain a small fraction of the heritability of many human traits, including aging. Transcriptomics can help, but it can’t explain the whole story.
 Proteomics is actually the enzyme workhorse of biology and the insight into protein levels is especially important.
 Metabolomics are the building blocks that proteins work with and is necessary for a better insight into the state of the running system.
 
 Rather than focusing on individual proteins and metabolites, a multi-omics approach can focus on pathway activation and how those pathways are maintained by individual entities and their relationships with each other. We want to identify the difference between young and old network states and be able to tell when an intervention is moving a system towards a more healthy state.
 
-
 ### [Next Solution](./2-solution.md) 👉
-
 
 <sub><sub>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

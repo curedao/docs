@@ -122,16 +122,18 @@ average of $74 million dollars (2020 inflation-adjusted)
 to develop and test a new drug for safety before bringing it to market. Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
 
 The 1962 regulations made these large real-world efficacy trials illegal. Ironically, despite the fact that the new regulations were primarily focused on ensuring that drugs were effective through controlled FDA efficacy trials, they massively reduced the quantity and quality of the efficacy data that was collected for several reasons:
-New Trials Were Much Smaller
-Were Far More Expensive
-Participants Were Less Representative of Actual Patients
-They Were Run by Drug Companies with Conflicts of Interest Instead of the 3rd Party AMA
+- New Trials Were Much Smaller
+- Were Far More Expensive
+- Participants Were Less Representative of Actual Patients
+- They Were Run by Drug Companies with Conflicts of Interest Instead of the 3rd Party AMA
 
 ![](../assets/trials/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
 
-This coincided with the 1962 regulations, it cost a drug manufacturer an
-average of $74 million dollars (2020 inflation-adjusted)
-to develop and test a new drug for safety before bringing it to market. Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
+This coincided with the 1962 regulations, it cost a drug manufacturer an average of $74 million dollars (2020 inflation-adjusted) to develop and test a new drug for safety before bringing it to market. 
+Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
+
+Since abandonment of the former efficacy trial model, costs have exploded. 
+![cost to develop and test a new drug](../assets/cost/cost-to-develop-a-drug-chart.png)
 
 ### An Experiment on Experiments
 
