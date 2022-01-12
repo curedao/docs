@@ -13,10 +13,20 @@ It will overcome the traditional barriers to collaboration and data sharing by e
 
 Hey, you! 👀
 
-Anonymous DAO is open to anyone interested in alleviating the suffering from chronic diseases and from dying of degenerative diseases. Our success in
+Anonymous DAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in
 this mission will be an exponential function of the participation of people like you. 🚀
 
-Creating a new kind of software ecosystem for health data does not only need help from developers, but as well from any kind of people with skills in project management, marketing, web3, business, life sciences, etc. but our main philosophy is: Not what you CAN do but what do you WANT to do is what counts.
+Creating a new software ecosystem for health data not only requires developers but anyone with skills in:
+- user interface and user experience design
+- project management
+- communications and marketing
+- web3 technologies
+- business development
+- life sciences
+- medicine
+- data science
+
+Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
 
 Click 👉👉👉 [here](https://github.com/anonymous-dao/draft-whitepaper/discussions/new?category=voters) to tell us about your
 interests or project in the [Voters Discussion Channel](https://github.com/anonymous-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting.md).
