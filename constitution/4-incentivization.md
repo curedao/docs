@@ -24,8 +24,7 @@ Incentives for Patients to share their de-identified data will include:
 
 ## 2. Businesses Housing Data Silos
 
-Businesses housing data silos include health insurers, pharmacies, grocery delivery services, digital health
-apps, hospitals, etc. These will be incentivized to allow individuals to easily share their data via a well-documented
+Businesses housing data silos include health insurers, pharmacies, grocery delivery services, digital health apps, hospitals, etc. These will be incentivized to allow individuals to easily share their data via a well-documented
 OAuth2 API by:
 
 1. A share of income for use of their data for research and development.
@@ -37,6 +36,10 @@ OAuth2 API by:
 On top of the incentives for businesses listed above, the following incentives will be provided to digital health businesses which enable data sharing:
 
 1. A license to use a white-labeled version of the framework.  This will dramatically reduce the costs of software development. These reduced costs will allow them to focus on innovating their unique value proposition, making them more competitive in the market.
+2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
+3. Revenue derived through subscription or licensing agreements for usage of their plugins in the Plugin Marketplace.
+
+![Branded Plugins](../assets/plugins/plugin-marketplace.png)
 
 ## 5. Disease Advocacy Non-Profit Organizations
 

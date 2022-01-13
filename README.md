@@ -3,18 +3,30 @@
 Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the
 minimization of suffering.
 
-To achieve this, we propose the creation of an open-source decentralized health platform
-that will produce a massive acceleration of large-scale research to discover new ways to prevent and treat chronic diseases.
+To achieve this, we propose the creation of an open source software framework for aggregating, managing, processing and storing of health data for better interoperability, portability, availability, analysis, interpretation and security.
 
-It will overcome the traditional barriers to collaboration and data sharing by encoding all data and
-intellectual property contributions to the platform in a non-fungible token (NFT). Using smart contracts, the platform will be able to compensate all contributors with royalties for their contributions.
+With that basic technology layer in place it will help health application businesses and researchers to produce a massive acceleration of large-scale research to discover new ways to prevent and treat chronic diseases, to create precision medicine and ultimately to new insights for more health performance and a longer health span.
+
+It will overcome the traditional barriers to collaboration and data sharing by encoding all data and intellectual property contributions to the platform in a non-fungible token (NFT). Using smart contracts, the platform will be able to compensate all contributors with royalties for their contributions.
 
 # Join Us Right Now!
 
 Hey, you! 👀
 
-Anonymous DAO is open to anyone interested in alleviating the suffering of chronic diseases. Our success in
+Anonymous DAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in
 this mission will be an exponential function of the participation of people like you. 🚀
+
+Creating a new software ecosystem for health data not only requires developers but anyone with skills in:
+- user interface and user experience design
+- project management
+- communications and marketing
+- web3 technologies
+- business development
+- life sciences
+- medicine
+- data science
+
+Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
 
 Click 👉👉👉 [here](https://github.com/anonymous-dao/draft-whitepaper/discussions/new?category=voters) to tell us about your
 interests or project in the [Voters Discussion Channel](https://github.com/anonymous-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting.md).
