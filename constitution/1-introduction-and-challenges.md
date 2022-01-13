@@ -8,8 +8,7 @@ Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-d
 people die every single day by possibly preventable degenerative diseases. For perspective, this is equivalent to:
 
 - **[FIFTY-ONE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** September 11th
-  attacks
-  every day
+  attacks every day
 - **[NINE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** Holocausts every year
 
 ## 1.1 The status quo in numbers
@@ -20,8 +19,8 @@ Since 2014, healthcare spending per person has been [increasing faster than ever
 
 ![health spending](../assets/cost/us-healthcare-expenditure-per-person.png)
 
-Despite this additional spending, life expectancy has actually been [declining](../assets/life-expectancy/life-expectancy-chart.png)
-since 2014.
+Despite this additional spending, life expectancy has actually been [declining](..
+/assets/life-expectancy/life-expectancy-chart.png) since 2014.
 
 **Will digital health innovation save us?**
 
@@ -58,12 +57,13 @@ So, this explosion in technology, data, and spending has produced no measurable 
 
 ### 1.2.1 The Cost of Clinical Research
 
-It costs over a [billion dollars](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) and takes over 10 years to bring a new treatment to market. It
-costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials.
+- It costs [$2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
+- The process takes over 10 years.
+- It costs [$36k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001) per subject in Phase III clinical trials.
 
-![clinical trial cost](../assets/cost/cost-to-develop-a-drug-chart.png)
+![clinical trial cost](../assets/trials/why-trials-are-so-expensive-cost.png)
 
-This leads to the following problems:
+This high cost leads to the following problems:
 
 #### No Data on Unpatentable Molecules
 
@@ -87,14 +87,14 @@ For instance, even after controlling for co-morbidities, the Journal of American
 
 Long-term randomized trials are extremely expensive to set up and run. When billions of dollars in losses or gains are riding on the results of a study, this will almost inevitably influence the results. For example, an analysis of beverage studies, [published in the journal PLOS Medicine,](https://web.archive.org/web/20211207021133/https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001578#s3) found that those funded by Coca-Cola, PepsiCo, the American Beverage Association, and the sugar industry were **five times** more likely to find no link between sugary drinks and weight gain than studies whose authors reported no financial conflicts.
 
-The economic survival of the pharmaceutical company is dependent on the positive outcome of the trial.  While there's
-not a lot of evidence to support that there's any illegal manipulation of results, it leads to two problems:
+The economic survival of the pharmaceutical company is dependent on the positive outcome of the trial.  While there's not a lot of evidence to support that there's any illegal manipulation of results, it leads to two problems:
 
 #### Negative Results are Never Published
 
 Pharmaceutical companies that sponsor research often report only “positive” results, leaving out the non-findings or negative findings where a new drug or procedure may have proved more harmful than helpful. Selective publishing can prevent the rapid spread of beneficial treatments or interventions, but more commonly it means that bad news and failure of medical interventions go unpublished. Past analysis of clinical trials supporting new drugs approved by the FDA showed that just [43 percent of more than 900 trials on 90 new drugs](https://www.livescience.com/8365-dark-side-medical-research-widespread-bias-omissions.html) ended up being published. In other words, about 60 percent of the related studies remained unpublished even five years after the FDA had approved the drugs for market. That meant physicians were prescribing the drugs and patients were taking them without full knowledge of how well the treatments worked.
 
 This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
+
 
 ### 1.2.3 Questionable Representation of Real Patients through Trials
 
@@ -149,6 +149,7 @@ dashboards telling us how many steps we made or how much sleep we got are known 
 by integrating all available data from individuals, similar populations, as well as existing clinical research
 findings and applying machine learning we may achieve “prescriptive” statistics for advanced insight generation. From that point functionalities like real-time decision support for improving health or biological age clocks and health risks can be leveraged.
 
+
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
 
 ## 1.4 Problems with knowledge about the underlying root of degenerative diseases (aging)
@@ -159,20 +160,20 @@ Despite many years of research, we still don’t have reliable biomarkers for ag
 ![Multiomics appproach](../assets/data/omics.png)
 
 ### Problems with current biomarkers for aging:
-Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans. 
+
+Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans.
 Humans are genetically diverse in comparison to model organisms and this contributes to the weak signature of any set of genes towards longevity.
 Environmental effects on aging are relatively unknown.
 
 ### Problems with current approaches:
+
 A genome-wide association study (GWAS) is an approach used in genetics research to associate specific genetic variations with particular diseases. GWAS can only explain a small fraction of the heritability of many human traits, including aging. Transcriptomics can help, but it can’t explain the whole story.
 Proteomics is actually the enzyme workhorse of biology and the insight into protein levels is especially important.
 Metabolomics are the building blocks that proteins work with and is necessary for a better insight into the state of the running system.
 
 Rather than focusing on individual proteins and metabolites, a multi-omics approach can focus on pathway activation and how those pathways are maintained by individual entities and their relationships with each other. We want to identify the difference between young and old network states and be able to tell when an intervention is moving a system towards a more healthy state.
 
-
 ### [Next Solution](./2-solution.md) 👉
-
 
 <sub><sub>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
