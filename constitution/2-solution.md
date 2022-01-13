@@ -2,9 +2,48 @@
 
 # 2. Solution
 
-The solution is to use the oceans of real-world evidence to discover new cures.
+In short the solution is to create a software ecosystem that makes it easier or even possible to aggregate and analyze the oceans of real-world evidence sitting in data silos to discover new and more precise cures.
 
-## The Potential of Real-World Evidence-Based Studies
+## 2.1 Open source collaboration powered by a DAO
+
+With a lot of health applications in need for the same basic underlying technology for handling health data and missing data format standards and reference databases it is obvious that an open sourced collaborative approach would distribute development efforts for these businesses and making interoperability and portabilty of data more efficient.
+
+-> TODO: Examples of successfull open source
+
+Within this whitepaper an addition to a regular open source collaboration approach a combination with the governance through a decentralized autonomous organization (DAO) is proposed. The advantages of this combination are
+
+- Better organization in working groups with organized project management from a core team
+- Compensation of interested developers for their contributions
+- Distributed voting to the community of collaborator instead of centralized management of soource code repositories 
+- Funding vehicle for achievement of the open source software
+
+-> TODO: detail Advantages
+-> TODO: Example of successful Open source software development + DAO if existent
+
+With these advantages an faster success and completion of the open source framework is projected, which means that the applications that need this software can get sooner into operation to achieve the overarching mission of faster interventions.
+
+## 2.2 A data-driven Approach to Personalized Medicine
+
+Out of an existing pool of big health data an insilico model of human biology can be developed for the discovery of new interventions and their personalized application.
+
+One way to achieve this is to view the human body from a input-output black box systematic perspective and apply predictive machine learning models to [stratified groups](https://en.wikipedia.org/wiki/Stratified_sampling) of similar people based on their data of their following profiles:
+
+- [Genomic](https://en.wikipedia.org/wiki/Genomics)
+- [Transcriptomic](https://en.wikipedia.org/wiki/Transcriptome)
+- [Proteomic](https://en.wikipedia.org/wiki/Proteomics)
+- [Metabolomic](https://en.wikipedia.org/wiki/Metabolomics)
+- [Microbiomic](https://en.wikipedia.org/wiki/Microbiota)
+- [Phenotype](https://en.wikipedia.org/wiki/Phenotype)
+- [Diseasomic](http://ijream.org/papers/IJREAMV05I0250057.pdf)
+- [Pharmacomicrobiomic](https://en.wikipedia.org/wiki/Pharmacomicrobiomics)
+- [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
+- [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
+- [Exposome](https://en.wikipedia.org/wiki/Environmental_factor#Exposome)
+
+This will enable the discovery of the personalized full range of positive and negative relationships for all factors
+without a profit incentive for traditional trials.
+
+## 2.3 The Potential of Real-World Evidence-Based Studies
 
 - **Diagnostics** - Data mining and analysis to identify causes of illness
 - **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances
@@ -122,45 +161,32 @@ average of $74 million dollars (2020 inflation-adjusted)
 to develop and test a new drug for safety before bringing it to market. Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
 
 The 1962 regulations made these large real-world efficacy trials illegal. Ironically, despite the fact that the new regulations were primarily focused on ensuring that drugs were effective through controlled FDA efficacy trials, they massively reduced the quantity and quality of the efficacy data that was collected for several reasons:
-New Trials Were Much Smaller
-Were Far More Expensive
-Participants Were Less Representative of Actual Patients
-They Were Run by Drug Companies with Conflicts of Interest Instead of the 3rd Party AMA
+- New Trials Were Much Smaller
+- Were Far More Expensive
+- Participants Were Less Representative of Actual Patients
+- They Were Run by Drug Companies with Conflicts of Interest Instead of the 3rd Party AMA
 
 ![](../assets/trials/real-world-evidence-in-efficacy-clinical-trials-vs-rcts.png)
 
-This coincided with the 1962 regulations, it cost a drug manufacturer an
-average of $74 million dollars (2020 inflation-adjusted)
-to develop and test a new drug for safety before bringing it to market. Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
+This coincided with the 1962 regulations, it cost a drug manufacturer an average of $74 million dollars (2020 inflation-adjusted) to develop and test a new drug for safety before bringing it to market. 
+Once the FDA had approved it as safe, efficacy testing was performed by the third-party American Medical Association.
 
-### An Experiment on Experiments
+Since abandonment of the former efficacy trial model, costs have exploded. 
+![cost to develop and test a new drug](../assets/cost/cost-to-develop-a-drug-chart.png)
 
-Validation of the theory that large-scale real-world evidence can produce better health outcomes, will require us to 
-run an experiment to validate this method of experimentation.  Of course, there's a risk that 
+To validate the theory that large-scale real-world evidence can produce better health outcomes requires further validation of this method of experimentation. 
 
-## A Black Box Approach to Personalized Medicine
 
-Thus, we can treat the human as a black box and apply predictive
-machine learning models to all of the existing real-world data to [stratified groups](https://en.wikipedia.org/wiki/Stratified_sampling) of similar people based on their:
+## 2.4 The Citizen science approach
 
-- [Genomic](https://en.wikipedia.org/wiki/Genomics)
-- [Metabolomic](https://en.wikipedia.org/wiki/Metabolomics)
-- [Microbiomic](https://en.wikipedia.org/wiki/Microbiota)
-- [Diseasomic](http://ijream.org/papers/IJREAMV05I0250057.pdf)
-- [Pharmacomicrobiomic](https://en.wikipedia.org/wiki/Pharmacomicrobiomics)
-- [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
-- [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
-
-profiles. This will enable us to discover the personalized full range of positive and negative for all factors
-without a profit incentive for traditional trials.
-
-## Our Current Research
-
-We publish our anonymously aggregated analyses at the [Journal of Citizen Science](https://app.crowdsourcingcures.org/). So far, we’ve collected over 10
+An example of the application and usage of aggregated health data and applied statisitics is the publishing of observational studies of different relationships.
+The [Journal of Citizen Science](https://app.crowdsourcingcures.org/) used an anonymously aggregated and analysed data set from over 10
 million data points on symptom severity and influencing factors from over 10,000 participants. This data has been
 used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
 
 ![journal of citizen science](../assets/journal-of-citizen-science.png)
+
+Another example is to organize and harness the data and insights of the actions of the communities of people with specific conditions or performance enhancement experiments and pool this in a trial/ study way into knowledge for the public research to directly develop new cures or to take these findings as a basis to propose new clinical trials.
 
 ### [Next 3. Platform](./3-platform.md) 👉
 
