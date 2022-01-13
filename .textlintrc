@@ -1,0 +1,7 @@
+{
+  "filters": {},
+  "rules": {
+    "en-max-word-count": {
+        "max" : 100
+    }
+}

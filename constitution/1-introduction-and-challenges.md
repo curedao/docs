@@ -5,15 +5,17 @@
 There are over [2 billion](https://www.george-health.com/global-health-challenge/) people suffering from chronic diseases.
 
 Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/)
-people die every single day. For perspective, this is equivalent to:
+people die every single day by possibly preventable degenerative diseases. For perspective, this is equivalent to:
 
 - **[FIFTY-ONE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** September 11th
   attacks every day
 - **[NINE](https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks)** Holocausts every year
 
+## 1.1 The status quo in numbers
+
 **Will throwing more money at the existing healthcare system save us?**
 
-Since 2014, healthcare spending per person has been [increasing faster than ever](https://fred.stlouisfed.org/series/HLTHSCPCHCSA) faster than ever before.
+Since 2014, healthcare spending per person has been [increasing faster than ever before](https://fred.stlouisfed.org/series/HLTHSCPCHCSA).
 
 ![health spending](../assets/cost/us-healthcare-expenditure-per-person.png)
 
@@ -35,11 +37,11 @@ These innovations have produced [50-fold](https://www.weforum.org/agenda/2015/10
 This data exists in the form of:
 
 - Electronic Medical Records
-- Nutritional Supplement Purchases
-- Data from diet and treatment tracking apps
 - Genetic Sequencing
+- Data from Fitness and Sleep trackers
+- Data from diet and treatment tracking apps
 - Health insurance claims
-- Grocery, pharmacy, and nutritional supplement receipts
+- Grocery, pharmacy, and nutritional supplement receipts and purchases
 - Clinical trial results
 
 The digital health revolution started over a decade ago. It was promised to improve human health and reduce costs. Yet,
@@ -93,7 +95,8 @@ Pharmaceutical companies that sponsor research often report only “positive” 
 
 This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
 
-#### Trials Often Aren't Representative of Real Patients
+
+### 1.2.3 Questionable Representation of Real Patients through Trials
 
 External validity is the extent to which the results can be generalized to a population of interest. The population of interest is usually defined as the people the intervention is intended to help.
 
@@ -117,52 +120,39 @@ Furthermore, patient sample sizes are very small. The number of subjects per tri
 
 ![wellbutrin small sample size](../assets/trials/wellbutrin-effectiveness-small-sample-size.png)
 
-### **Solution: Collect Data on Actual Patients**
+In the example in graphic above a drug is prescribed to millions of patients based on a study with only 36 subjects, where a representation of the general public is questionable.
 
-In the real world, no patient can be excluded. Even people with a history of drug or alcohol abuse, people on multiple medications, and people with multiple conditions must be treated. Only through the crowdsourcing of this research, would physicians have access to the true effectiveness rates and risks for their real-world patients.
-
-The results of crowd-sourced studies would exhibit complete and utter external validity since the test subjects are identical to the population of interest.
-
-Furthermore, self-trackers represent a massive pool of potential subjects dwarfing any traditional trial cohort.
-Diet tracking is the most arduous form of self-tracking. Yet, just one of the many available diet tracking apps, **MyFitnessPal,** has 30 million users.
-
-Tracking any variable in isolation is nearly useless in that it cannot provide the causal which can be derived from combining data streams. Hence, this 30 million user cohort is a small fraction of the total possible [stratifiable](https://en.wikipedia.org/wiki/Stratified_sampling) base.
-
-## Criticism of Observational Research
+The Vision of personalized Precision Medicine still opens up a lot of room to grow for our knowledge about the efficacy of drugs. Therefore a patient would like to know which drug or therapy has the most potential success with his specific demographic or phenotypic profile like age, gender, ethnicity, lifestyle and factors like family history and interferences with other conditions and interventions.
 
 ## 1.3 Problems in Digital Health Innovation
 
-### 1.3.1   $157 Billion Wasted on Duplication of Effort
+### 1.3.1 Resources Wasted on Duplication of Effort
 
 There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Most of these
-have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
+have a big overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
 
-If this code was freely shared, everyone could build on what everyone else had done could increase the rate of
-progress by 350,000 times.
+Therefore the rate of progress could in theory be increased by a estimated 350,000 times with shared source code of the overlapping functionalities.
 
 ![closed source competition vs open source collaboration](..
 /assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
 
-The obstacle has been the free-rider problem. Software Developers that open source their code give their
+The obstacle has been the free-rider problem. Businesses that open source their code give their
 closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
 
-#### How DAOs Overcomes the Free-Rider Problem
+Currently governments around the world are spending billions in funding closed-source propriety health software. The Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
 
-1. Currently governments around the world are spending billions funding closed-source propriety health software. The Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the form of royalties.
 
 ### 1.3.2 Isolated Data Silos
 
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However, by integrating all available data from individuals, similar populations, as well as existing clinical research
-findings and applying machine learning we may achieve “prescriptive” real-time decision support.
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
+dashboards telling us how many steps we made or how much sleep we got are known as “descriptive statistics”.  However,
+by integrating all available data from individuals, similar populations, as well as existing clinical research
+findings and applying machine learning we may achieve “prescriptive” statistics for advanced insight generation. From that point functionalities like real-time decision support for improving health or biological age clocks and health risks can be leveraged.
 
-![real-time decision support](../assets/plugins/quantimodo-real-time-decision-support-notification-small.png)
-
-To facilitate data sharing, the DAO will provide data providers with an onsite easily provisionable OAuth2 API server that will allow individuals to anonymously share their data with the global biobank.
 
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
 
-## 1.4 Lack of knowledge about the underlying root of degenerative diseases -> aging
+## 1.4 Problems with knowledge about the underlying root of degenerative diseases (aging)
 
 If we would have reliable biomarkers for aging already, research could find interventions for the root cause of degenerative diseases which is aging itself.
 Despite many years of research, we still don’t have reliable biomarkers for aging.  One of the main problems is the distance between genotype and phenotype.  It is proposed that by studying the relationships between proteins and metabolites, essentially a multi-omic process, would allow the creation of “endophenotypes” to help identify a signature (Hoffman et al. 2017).
