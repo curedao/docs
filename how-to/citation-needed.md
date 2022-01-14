@@ -4,7 +4,7 @@ To ensure that all content is verifiable, anyone may question an uncited claim b
 
 tag, or by using a more comprehensive
 
-`{{citation needed|reason=<i>Your explanation here</i>|date=January 2022}}`
+`[citation needed|reason=<i>Your explanation here</i>|date=January 2022]`
 
 clause.
 

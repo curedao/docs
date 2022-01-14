@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Notion Documentation Sync
+        uses: imnotjames/notion-docs-sync@latest
+        with:
+          docs_path: ./constitution/
+          notion_url: ${{ secrets.NOTION_URL }}
+          notion_token: ${{ secrets.NOTION_TOKEN }}
