@@ -6,8 +6,7 @@
 * **Avoid Walls of Text**: Readability is the ease with which a reader can understand a written text. Due to the 
   nature of the modern attention span, the way the text is structured is vital. This mostly comes in the form of simple, concise sentences and properly spaced paragraphs. Nothing gets people to disengage faster than a wall of text in poetic or abstract language.
 * **Paragraph Length**: A typical paragraph should be roughly four simple sentences in length. Use three if they are more complex sentences with long dependent clauses (parts of a sentence that cannot stand alone). It is acceptable sometimes to use shorter paragraphs if they express a self-contained thought.
-* **Short Sentences**: Minimize the use of dependent clauses or chains of independent clauses in a single sentence. 
-  Err on the side of sentence breaks, even if it may sound a little stuttery.
+* **Short Sentences**: Minimize the use of dependent clauses or chains of independent clauses in a single sentence. Err on the side of sentence breaks, even if it may sound a little stuttery.
 
 ### Example
 
