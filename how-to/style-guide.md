@@ -6,8 +6,7 @@
 * **Avoid Walls of Text**: Readability is the ease with which a reader can understand a written text. Due to the 
   nature of the modern attention span, the way the text is structured is vital. This mostly comes in the form of simple, concise sentences and properly spaced paragraphs. Nothing gets people to disengage faster than a wall of text in poetic or abstract language.
 * **Paragraph Length**: A typical paragraph should be roughly four simple sentences in length. Use three if they are more complex sentences with long dependent clauses (parts of a sentence that cannot stand alone). It is acceptable sometimes to use shorter paragraphs if they express a self-contained thought.
-* **Short Sentences**: Minimize the use of dependent clauses or chains of independent clauses in a single sentence. 
-  Err on the side of sentence breaks, even if it may sound a little stuttery.
+* **Short Sentences**: Minimize the use of dependent clauses or chains of independent clauses in a single sentence. Err on the side of sentence breaks, even if it may sound a little stuttery.
 
 ### Example
 
@@ -47,13 +46,13 @@ Add links to other wiki pages wherever possible and avoid duplicating content.
 
 ## Flags
 
-Flags (or tags) can be appended to text to signify a need for verification, revision, or other purposes. The most common kind is the missing citation flag or "cite flag" that appears in the form of {{citation_needed}}.
+Flags (or tags) can be appended to text to signify a need for verification, revision, or other purposes. The most common kind is the missing citation flag or "cite flag" that appears in the form of [citation_needed].
 
 The various kinds of flags available for use are listed below:
 
 
-| **Flag type**       | **Purpose**                      |
-|---------------------|----------------------------------|
-| {{citation_needed}} | Statement is missing citation    |
-| {{clarify}}         | Statement needs clarification    |
-| {{imperative}}      | Statement uses imperative speech |
+| **Flag type**     | **Purpose**                      |
+|-------------------|----------------------------------|
+| [citation_needed] | Statement is missing citation    |
+| [clarify]         | Statement needs clarification    |
+| [imperative]      | Statement uses imperative speech |

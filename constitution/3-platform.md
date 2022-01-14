@@ -19,9 +19,9 @@ The possibility for development teams to easily create software modules on top o
 
 ![framework diagram](../assets/plugins/plugin-marketplace.png)
 
-## Technical Framework
+## 3.1 Core Components
 
-### 1. Data Ingestion API (core component)
+### 3.1.1 Data Ingestion API
 
 Challenge: To acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed to derive clinical insight.
 
@@ -56,26 +56,44 @@ Adressed existing health data formats:
 In theory any kind of generated health data source which could be ingested and saved in an accessible form for further machine analysis to generate more knowledge for the mission described within this paper.
 
 
-### 2. Raw Data and Files Storage (core component)
+### 3.1.2 Raw Data and Files Storage
 
-Data will be encrypted stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.  Preservation of the data in its original format will allow for:
+To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files or PDF reports from the sources and the raw API responses are stored separately in a raw data and file storage.
+Data will be encrypted and stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.  Preservation of the data in its original format will allow for:
 
 1. Asynchronous Queued Data Parsing Jobs - This is necessary to allow for the data to be parsed in parallel offline and avoid overloading the webserver.
 2. Storage of data incompatible with a time-series relational data store.
 3. Storage of data formats that do not yet have defined parser plugins.  This will allow for the data to be imported at a later date when the data mapper has been defined.
 4. Updating parsers to support changes in the response format for a particular API.
 
-### 3. Data Mappers (core components and plugins)
+The original raw data and files can be accessed at any time by the owner, independently from any other process involved with the structured data storage.
 
+### 3.1.3 Data Mappers
+
+To make the standardized stuctured storage of health data and the envisioned queries possible, the data has to be ingested from files or API requests and mapped from many differents standards and proprietary formats into a single purpose built definition.
 These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the validator.  The most common data mappers will be defined in the framework. Less common data mappers will be available as plugins from 3rd party developers.
 
-TODO: Determine core data mappers
+Core data mappers (Initial proposal)
+- FHIR
+- LOINC
+- SNOMED 
+- RXNORM
+- openEHR
 
-### 4. Data Validation (core component)
+The within here proposed format and data standard is built out of existing formats with filled gaps of missing definitions and is defined by the database design and the reference definitions mentioned in the next paragraphs. The goal is to make multi-omics data as well as environmental, social and new types e.g. digital biomarkers quickly accessible and usable for health data analysis.
 
-The data validation middleware will validate the data before it is stored in the time series database. It will be responsible for ensuring that the data is in a consistent format and that it is not malformed. The validation will also ensure that values are within the expected range for a given variable or unit.
+### 3.1.4. Data Validation
 
-### 5. Reference Data Definitions (core component)
+To ensure the quality and consistency of ingested data, the validation in many different aspects is necessary to avoid malformed data entered in the database.
+
+- Allowed biological ranges detect outliers based on value or unit
+- Data type checks detect errors from applications or data transfers
+- Data deviating from expected formats are filtered
+- Duplicated data is ignored
+
+The data validation middleware will validate the data before it is stored in the time series database. The scope is to create this data processing in a peer reviewed and professional way to make this accessible for the use in healthcare and clinical trials.
+
+### 3.1.5. Reference Data Definitions
 
 Mapping data from different formats into a one standardized format suitable for a measurements analysis requires a reference data base with tables of definitions and descriptions to be used by the data mappers and by the API for displaying this information in applications. The type of data to be defined includes biomarkers, health related variables of any kind, interventions, therapies, outcomes, conditions, etc. 
 
@@ -83,40 +101,67 @@ Examples of currently used existing reference databases include LOINC, RXNORM, I
 
 The proposed solution for overcoming challenges with interoperating with data formats like FHIR is a single Table with all definitions query-able by beforehand mentioned categories and types. The main reason for this solution is the complexity of the nature of the definition of a health related measurement, that can be a observation, a intervention or an predictor. Being the input or the status or the output of the black-box system human body is not that strictly defineable always, so all measured values are thrown in one "pool" and can be queried according to the needs of analysis without having to worry about the aggregation of the data.
 
-### 6. Time Series Data Storage (core component)
+### 3.1.6. Time Series Data Storage
 
-After validation and mapping, time-series data will be stored in a relational database.  
-The use of a relational data store with defined foreign key relationships will ensure atomicity and data veracity.
+After validation and mapping, the data will be stored in a purpose designed database. The storing of standardized and structured time series data requires a purpose built database design to make data access and analysis queries efficient and scalable. Especially with value attachment, decentralized storage and big data in mind the architecture and technology stack used needs to be carefully selected and tested.
 
 Functional Requirements:
 - Large scale data storage for time-series data
-- Standard format
+- Standardized format
+- Atomicity
+- Data veracity
+- Compatibility with value pointing
+- Combatibility with decentralized storage
+- Safety and Security
 
-#### Implementations
-- Relational Data Store
-- Document-based Data Store
-- Graph-based Data Store
+This core feature is the center of functionality and used for central storage of platforms or for decentralized storage for users privately.
 
-### 7. Data Ownership management (core component)
+### 3.1.7. Data Ownership management
+
+Data should be owned and controlled by the person in the whole cycle from generation, while processing until deletion. The end user is put into the center of data management and can access all functionalities necessary for these type of actions. This is the touch point for individuals to their so called health identity. 
 
 Ownership management functionalities will allow the individial to manage their data and access control settings for sharing purposes. It will allow them to:
 
-- view their data and the OAuth clients with access to it
-- modify read/write permissions for specific OAuth clients
-- restrict access to their data to specific users, groups or researchers
-- delete data
-- view their current compensation balance and make withdrawals
-- update their phenotypic and demographic profile information
-- configure security measures such as encryption or 2-factor authentication
+- View and Access their data
+- View the OAuth clients with access to the data
+- Modify read/write permissions for specific OAuth clients
+- Restrict data access to specific users, groups, researchers or applications
+- Restrict data access to specific data categories, types and markers
+- Restrict time and expiration of data access
+- Configure security measures such as encryption or 2-factor authentication
+- Overview of statistics of data (amount, averages, sources, etc..)
+- Export stored data or the original files
+- Delete data
 
-## Research Platform
+This feature can be used by user centered applications and dashboards for personal health management, direct sharing with docotrs or research or for participation in trials.
 
-## Plugin Types
+### 3.1.8. Data Value Stream management
+
+Health data is a very sensitive and highly valuable form of personal data of individuals. Many business cases profit from the direct use or further processing  of this data including the individual himself. Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
+Value stream management functionalities will allow the exchange from data against tokenized value assets in different szenarios. It will allow:
+
+- Individuals to share data against specified amounts of compensation
+- Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
+- Researchers apply, formulate and visualize values of data sets
+- Connect data to value in general for administration purposes
+- Applications to create a value based feedback loop for research or behavioral outcomes
+
+Data Value Szenarios:
+- Raw data sets or streams of individuals 
+- Cohort raw data sets of grouped individuals 
+- Interpreted data, scores and recommendations 
+- Generated insights and IP out of data analysis
+- Specifically aggregated data according requested needs from buyers
+- Phentypic, demographic, lifestyle, conditions, environmental context
+
+This feature can be used for exchanging data on marketplace applications or clinical trial platforms.
+
+## 3.2 Plugins
 
 Plugins will be stored in their own repositories based on a plugin template repository.  The plugin template
 repository will contain defined interfaces required for interoperability with the core framework.
 
-### 1. Data Analysis Plugins
+### 3.2.1 Data Analysis
 
 Challenge: To quantify the effectiveness of treatments for specific individuals, reveal hidden factors exacerbating their illness, determine personalized optimal values for these factors, find new insights and relationships between the variables to create new interventions or protocols for more health
 
@@ -127,7 +172,7 @@ Approach: We will develop time-series machine learning algorithms to
 
 Impact: This will mitigate the incidence of chronic illnesses by informing the user of symptom triggers, such as dietary sensitivities, to be avoided. This will also assist patients and clinicians in assessing the effectiveness of treatments despite the hundreds of uncontrollable variables in any prescriptive experiment.
 
-### 2. Data Visualization
+### 3.2.2 Data Visualization
 
 Data visualization plugin modules will be utilized to visualize the data from a given subject or group to make insights and correlation visible. The task of such a plugin is to query the data pools with defined filters such as time frames to get to defined data sets and transform them into formats readable by e.g. frontend charting libraries. Some regular ways to visualize data a are Scatter plots, timeline charts, heatmaps or novel ways like the proposed outcome labels in the next paragraph. Visualizations can be displayed in studies, publications or to the end user.
 
@@ -167,7 +212,7 @@ Several types of data are used to derive the Outcome Labels:
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
 3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved, we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
 
-### 3. API Connectors
+### 3.2.3 API Connectors
 
 API Connector plugins will be called by the webserver to:
 
@@ -182,7 +227,7 @@ A job scheduler will call the API connectors periodically (usually daily) to:
 4. Provide the processed data to the framework's validation middleware.
 5. All valid data will be stored in the relational database. Otherwise, the data will be rejected and the plugin developer and data owner will be notified.
 
-### 4. File importer (e.g. Spreadsheets, PDF's, Genomics raw files)
+### 3.2.4 File importer (e.g. Spreadsheets, PDF's, Genomics raw files)
 
 Upon upload, the webserver will call the File Importer plugin:
 
@@ -196,6 +241,7 @@ Upon upload, the webserver will call the File Importer plugin:
 7. Valid data will be stored in the relational database.
 8. Invalid data from the plugin will be rejected and the plugin developer and data owner will be notified.
 
+## 3.3 Research Platform
 
 ### [Next Incentivization](./4-incentivization.md) 👉
 
