@@ -253,11 +253,28 @@ An API connector plugin handles:
 
 This type of plugins also takes care of the error handling and the communication with the user within this multiple step process.
 
+Flow of technical actions:
+1. Refresh the user's OAuth access token
+2. Fetch new data or data that has been modified since the last import
+3. Map the response to the standard format as defined by the OpenAPI specification for the framework API
+4. Provide the processed data to the framework's validation middleware.
+5. All valid data will be stored in the relational database. Otherwise, the data will be rejected and the plugin developer and data owner will be notified.
+
 ### 3.2.4 File importer
 
 For importing specific files, many file importing plugins are needed for specific source or devices, where API's are not available and the user has access to file exports such as spreadsheets, PDF's or raw files from genomics. The files themselves and their contained data have to be validated on the file level first.
 
 The file passed by an upload action on the frontend application is passed to the matching file importer plugin that handles the passing to the core data mapping module and after successful processing to the raw data storage module. 
+
+1. Provide the original file to the framework for encryption and storage
+2. Add the file to a queue for processing by the job scheduler
+   The background job scheduler will:
+3. Retrieve the file from the encrypted storage
+4. Extract the data from the file
+5. Mapped to the standard format as defined by the framework OpenAPI specification
+6. The processed data will be provided to the framework's validation middleware.
+7. Valid data will be stored in the relational database.
+8. Invalid data from the plugin will be rejected and the plugin developer and data owner will be notified.
 
 A link between the created structured data and the original file allows backup and reprocessing e.g. into future standard versions.
 This type of plugin also takes care of the error handling and user notification of this multiple step process.
