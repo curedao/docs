@@ -62,6 +62,7 @@ So, this explosion in technology, data, and spending has produced no measurable 
 - It costs [$36k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001) per subject in Phase III clinical trials.
 
 ![clinical trial cost](../assets/cost/cost-of-clinical-trials.png)
+[source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
 
 This high cost leads to the following problems:
 
