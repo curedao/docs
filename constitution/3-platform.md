@@ -1,21 +1,32 @@
 👈 [Back to Table of Contents](../README.md)
-# 3. The Software Framework
+# 3. The Platform
 
-This chapter describes the functional description of the proposed software framework to be develped in more detail. Scope is the development of an software framework for the aggregation, managing, processing and storage of health data from different sources 
+This chapter describes the functional description of the proposed software platform and plugin framework to be develped in more detail. Scope is the development is functionalities for the aggregation, managing, processing and storage of health data from different sources.
 
-The goal is to achieve better interoperability, portability, availability, analysis, security of the data and to a stable set of software for this basic technology layer suitable for a number of applications that can be built on top of it.
+The goal is to achieve better interoperability, portability, availability, analysis, security of the data and a basic technology layer suitable for a number of applications that can be built on top of it:
 
-A simplified representation of the Software architecture to be developed can be seen in the following graphic:
+- User centered dashboards for personal health management
+- Direct to customer and value-based health care
+- Data sharing with doctors, health coaches or family members
+- Dezentralised clinical trial platforms (e.g. BYOD wearables)
+- Patient recruitment services for clinical trials
+- Citizen science platforms
+- Health data marketplaces
+- Open health data bases for research
+- Algorithm and scores development (e.g. in silico trials)
+- Niche health applications with specific custom requirements or custom integrations
+
+A simplified representation of the architecture is drafted in the following graphic:
 
 
 ![framework diagram](../assets/platform-architecture.png)
 
-The framework consists of two primary components:
+The platform consists of two primary components:
 
-1. **Core Framework** - This will be open-source and include only universally necessary features.  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
-2. **Plugins** - These will be modules that provide additional functionality such as data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integated into the core based on community voting.
+- **Core** - This will be open-source and include only universally necessary features.  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
+- **Plugins** - These will be modules that provide additional functionality such as data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integated into the core based on community voting.
 
-The possibility for development teams to easily create software modules on top of the core framework out of the box opens up the basis for no-code marketplaces for plugins for easier and quicker applications. A widely known successful example is Wordpress and it's plugin ecosystem. An example of an envisioned plugin marketplace is illustrated in the graphic below:
+The possibility for development teams to easily create software modules on top of the core opens up the basis for no-code marketplaces for plugins for easier and faster application development. A famous successful example is Wordpress and it's plugin ecosystem. A possible implementation of the envisioned plugin marketplace is illustrated in the graphic below:
 
 ![framework diagram](../assets/plugins/plugin-marketplace.png)
 
@@ -23,11 +34,11 @@ The possibility for development teams to easily create software modules on top o
 
 ### 3.1.1 Data Ingestion API
 
-Challenge: To acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed to derive clinical insight.
+In theory any kind of human generated data which can be ingested and used for getting health insights should be defined as health data and be made accessible for further analysis. 
 
-Approach: Development of an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Development of Software development kits (SDK’s) made available for 3rd party applications to use to interact with the API. Plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
+The goal is to acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed.
 
-Impact: The API connector framework will allow the ongoing regular import of user data after a single user authorization.  SDK’s will enable developers to implement easy automatic sharing options in their applications. An increase in the quantity of data will produce a proportional increase in the number of clinical discoveries made.
+Proposed is the development of an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API. SDK’s will enable developers to implement easy automatic sharing options in their applications. 
 
 Adressed Health Data sources:
 - Laboratory and Home tests (Standard Blood panels, Metabolomics, Proteomics, Genetics, Urinalysis, Toxins, etc)
@@ -53,12 +64,11 @@ Adressed existing health data formats:
 - ICD-10
 - openMhealth
 
-In theory any kind of generated health data source which could be ingested and saved in an accessible form for further machine analysis to generate more knowledge for the mission described within this paper.
-
+Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs. The API connector framework will allow the ongoing regular import of user data after a single user authorization.  
 
 ### 3.1.2 Raw Data and Files Storage
 
-To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files or PDF reports from the sources and the raw API responses are stored separately in a raw data and file storage.
+To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files, PDF reports and the raw API responses are stored separately in a raw data and file storage.
 Data will be encrypted and stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.  Preservation of the data in its original format will allow for:
 
 1. Asynchronous Queued Data Parsing Jobs - This is necessary to allow for the data to be parsed in parallel offline and avoid overloading the webserver.
@@ -68,19 +78,19 @@ Data will be encrypted and stored in its raw format in flat files on a secure cl
 
 The original raw data and files can be accessed at any time by the owner, independently from any other process involved with the structured data storage.
 
-### 3.1.3 Data Mappers
+### 3.1.3 Data Mapping
 
 To make the standardized stuctured storage of health data and the envisioned queries possible, the data has to be ingested from files or API requests and mapped from many differents standards and proprietary formats into a single purpose built definition.
-These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the validator.  The most common data mappers will be defined in the framework. Less common data mappers will be available as plugins from 3rd party developers.
+These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the validator.  The most common data mappers will be integrated into the core. Less common data mappers will be available as plugins from 3rd party developers. 
 
-Core data mappers (Initial proposal)
+Core data mappers (Initial proposal):
 - FHIR
 - LOINC
 - SNOMED 
 - RXNORM
 - openEHR
 
-The within here proposed format and data standard is built out of existing formats with filled gaps of missing definitions and is defined by the database design and the reference definitions mentioned in the next paragraphs. The goal is to make multi-omics data as well as environmental, social and new types e.g. digital biomarkers quickly accessible and usable for health data analysis.
+The used data standard is built from existing formats with filled gaps of missing definitions and is defined by the database design and the reference definitions mentioned in the next paragraphs. The goal is to make multi-omics data as well as environmental, social and new types e.g. digital biomarkers easily accessible and usable for the mentioned applications.
 
 ### 3.1.4. Data Validation
 
@@ -118,7 +128,7 @@ This core feature is the center of functionality and used for central storage of
 
 ### 3.1.7. Data Ownership management
 
-Data should be owned and controlled by the person in the whole cycle from generation, while processing until deletion. The end user is put into the center of data management and can access all functionalities necessary for these type of actions. This is the touch point for individuals to their so called health identity. 
+Data should be owned and controlled by the person in the whole cycle from generation, while processing until deletion. The end user is put into the center of data management and can access all functionalities necessary for these type of actions. This is the touch point for individuals to their so called health identity, like a wallet for health data in a single source of truth. 
 
 Ownership management functionalities will allow the individial to manage their data and access control settings for sharing purposes. It will allow them to:
 
@@ -133,7 +143,7 @@ Ownership management functionalities will allow the individial to manage their d
 - Export stored data or the original files
 - Delete data
 
-This feature can be used by user centered applications and dashboards for personal health management, direct sharing with docotrs or research or for participation in trials.
+This feature can be used by user centered applications and dashboards for personal health management, for data sharing with care providers, research or for participation in trials.
 
 ### 3.1.8. Data Value Stream management
 
@@ -158,23 +168,40 @@ This feature can be used for exchanging data on marketplace applications or clin
 
 ## 3.2 Plugins
 
-Plugins will be stored in their own repositories based on a plugin template repository.  The plugin template
-repository will contain defined interfaces required for interoperability with the core framework.
+Defined interfaces will allow 3rd party development of software modules that interact with the core and provide additional functionality. They may be free or monetized by their creator. 
+
+Plugins will be stored in their own repositories based on a plugin template repository. The plugin template
+repository will contain defined interfaces required for interoperability with the core.
 
 ### 3.2.1 Data Analysis
 
-Challenge: To quantify the effectiveness of treatments for specific individuals, reveal hidden factors exacerbating their illness, determine personalized optimal values for these factors, find new insights and relationships between the variables to create new interventions or protocols for more health
+Searching for a meaning, correlations and new insights in the data is the primary goal of the project. The impact of effective and detailed analysis is the finding of root causes of disease, development of new interventions and the precise and personalized application of these.
 
-Approach: We will develop time-series machine learning algorithms to
+In more detail the outcomes of processing the data are:
+- Reveal hidden factors and root causes of diseases
+- Undiscovered relationships between variables or combinations of interventions
+- Correlations between interventions/exposures and outcomes/conditions and different protocols
+- Optimal dosages of interventions or levels of markers dependent on phenotypes and demographics
+- Quantification of the effectiveness of treatments for specific individuals
+- Quantification of effect sizes of all factors on symptom severity
 
-- quantify the effect size of all factors on symptom severity
-- determine the optimal dosage or values of health related variables like nutrients or medications.
+For that a lot of analysis methods can be implemented:
+- Statistical methods (e.g. Linear regression)
+- Longitudinal analysis
+- Machine learning models
+- Population analysis 
 
-Impact: This will mitigate the incidence of chronic illnesses by informing the user of symptom triggers, such as dietary sensitivities, to be avoided. This will also assist patients and clinicians in assessing the effectiveness of treatments despite the hundreds of uncontrollable variables in any prescriptive experiment.
+Data analysis can reach from simple correlations of lifestyle factors for personal health management to large cohort clincal analysis of new molecules for longevity. To be even more impactful, the integation with more sophisticated data science software will be brought into discussion when arriving at this point.
+
 
 ### 3.2.2 Data Visualization
 
-Data visualization plugin modules will be utilized to visualize the data from a given subject or group to make insights and correlation visible. The task of such a plugin is to query the data pools with defined filters such as time frames to get to defined data sets and transform them into formats readable by e.g. frontend charting libraries. Some regular ways to visualize data a are Scatter plots, timeline charts, heatmaps or novel ways like the proposed outcome labels in the next paragraph. Visualizations can be displayed in studies, publications or to the end user.
+Data visualization modules are utilized to visualize the data from individual or multiple subjects or markers to make insights and correlation visible and understandable to the human. The task of such a plugin is to query the data pools with defined filters such as time frames to get to defined data sets and transform them into formats readable by e.g. frontend charting libraries. Some regular ways to visualize data are Scatter plots, timeline charts, heatmaps or novel ways like the in the following proposed outcome labels. Visualizations can be displayed in studies, publications or to the end user.
+
+Tasks of data visualisation plugins:
+- Query the database according to filters and sorting commands
+- Handle the processing of data processing functions like statistical analysis
+- Map the data into a simpler format suitable for frontend visualisation libraries
 
 #### Example Visualizations
 
@@ -212,24 +239,32 @@ Several types of data are used to derive the Outcome Labels:
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
 3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved, we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
 
-### 3.2.3 API Connectors
+### 3.2.3 Application Programming Interface (API) Connectors
 
-API Connector plugins will be called by the webserver to:
+Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data. 
 
-1. handle the OAuth2 authorization flow and store their credentials in the relational database
-2. provide the original raw response to the framework for encryption and storage
+So far the proprietary silo developments have produced many different data formats, which could be replaced with the data standard proposed within this projet. Until the success of a common language for all type of health data and between all stakeholders, many API connecting plugins are necessary for this interoperability.
 
-A job scheduler will call the API connectors periodically (usually daily) to:
+An API connector plugin handles: 
+- User interface and tokens for authentication and authorization with the 3rd party applications
+- Automation and the periodic fetching of health data
+- Mapping to the standard specification
+- Providing the responses to the origin raw storage module
 
+This type of plugins also takes care of the error handling and the communication with the user within this multiple step process.
+
+Flow of technical actions:
 1. Refresh the user's OAuth access token
 2. Fetch new data or data that has been modified since the last import
 3. Map the response to the standard format as defined by the OpenAPI specification for the framework API
 4. Provide the processed data to the framework's validation middleware.
 5. All valid data will be stored in the relational database. Otherwise, the data will be rejected and the plugin developer and data owner will be notified.
 
-### 3.2.4 File importer (e.g. Spreadsheets, PDF's, Genomics raw files)
+### 3.2.4 File importer
 
-Upon upload, the webserver will call the File Importer plugin:
+For importing specific files, many file importing plugins are needed for specific source or devices, where API's are not available and the user has access to file exports such as spreadsheets, PDF's or raw files from genomics. The files themselves and their contained data have to be validated on the file level first.
+
+The file passed by an upload action on the frontend application is passed to the matching file importer plugin that handles the passing to the core data mapping module and after successful processing to the raw data storage module. 
 
 1. Provide the original file to the framework for encryption and storage
 2. Add the file to a queue for processing by the job scheduler
@@ -241,7 +276,10 @@ Upon upload, the webserver will call the File Importer plugin:
 7. Valid data will be stored in the relational database.
 8. Invalid data from the plugin will be rejected and the plugin developer and data owner will be notified.
 
-## 3.3 Research Platform
+A link between the created structured data and the original file allows backup and reprocessing e.g. into future standard versions.
+This type of plugin also takes care of the error handling and user notification of this multiple step process.
+
+Challenges include changing proprietary formats, spreadsheet column matching, long upload times with raw files like from genomic testing.
 
 ### [Next Incentivization](./4-incentivization.md) 👉
 
