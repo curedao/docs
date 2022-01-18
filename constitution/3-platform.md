@@ -40,7 +40,7 @@ The goal is to acquire, extract, transform, and normalize the countless unstanda
 
 Proposed is the development of an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API. SDK’s will enable developers to implement easy automatic sharing options in their applications. 
 
-Adressed Health Data sources:
+Addressed Health Data sources:
 - Laboratory and Home tests (Standard Blood panels, Metabolomics, Proteomics, Genetics, Urinalysis, Toxins, etc)
 - Wearables (Sleep and Fitness trackers, etc)
 - Health apps (Meal tracking, Fertility, etc)
@@ -54,7 +54,7 @@ Adressed Health Data sources:
 - Digital biomarkers
 - Location
 
-Adressed existing health data formats:
+Addressed existing health data formats:
 - FHIR
 - openEHR
 - LOINC
@@ -121,16 +121,18 @@ Functional Requirements:
 - Atomicity
 - Data veracity
 - Compatibility with value pointing
-- Combatibility with decentralized storage
+- Compatibility with decentralized storage
 - Safety and Security
 
 This core feature is the center of functionality and used for central storage of platforms or for decentralized storage for users privately.
 
-### 3.1.7. Data Ownership management
+### 3.1.7. Data Ownership Management
 
-Data should be owned and controlled by the person in the whole cycle from generation, while processing until deletion. The end user is put into the center of data management and can access all functionalities necessary for these type of actions. This is the touch point for individuals to their so called health identity, like a wallet for health data in a single source of truth. 
+Data should be owned by the individual who generated it. 
+It should remain under their control throughout the entire data life-cycle from generation to deletion. 
+The data owner shall have the unrestricted ability to manage their digital health identity.
 
-Ownership management functionalities will allow the individial to manage their data and access control settings for sharing purposes. It will allow them to:
+Ownership management functionalities will allow the individual to manage their data and access control settings for sharing purposes. It will allow them to:
 
 - View and Access their data
 - View the OAuth clients with access to the data
@@ -150,19 +152,19 @@ This feature can be used by user centered applications and dashboards for person
 Health data is a very sensitive and highly valuable form of personal data of individuals. Many business cases profit from the direct use or further processing  of this data including the individual himself. Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
 Value stream management functionalities will allow the exchange from data against tokenized value assets in different szenarios. It will allow:
 
-- Individuals to share data against specified amounts of compensation
+- Individuals to share data and receive defined compensation
 - Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
 - Researchers apply, formulate and visualize values of data sets
 - Connect data to value in general for administration purposes
 - Applications to create a value based feedback loop for research or behavioral outcomes
 
-Data Value Szenarios:
+Data Value Scenarios:
 - Raw data sets or streams of individuals 
 - Cohort raw data sets of grouped individuals 
 - Interpreted data, scores and recommendations 
 - Generated insights and IP out of data analysis
 - Specifically aggregated data according requested needs from buyers
-- Phentypic, demographic, lifestyle, conditions, environmental context
+- Phenotypic, demographic, lifestyle, conditions, environmental context
 
 This feature can be used for exchanging data on marketplace applications or clinical trial platforms.
 
@@ -241,11 +243,12 @@ Several types of data are used to derive the Outcome Labels:
 
 ### 3.2.3 Application Programming Interface (API) Connectors
 
-Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data. 
+Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
 
-So far the proprietary silo developments have produced many different data formats, which could be replaced with the data standard proposed within this projet. Until the success of a common language for all type of health data and between all stakeholders, many API connecting plugins are necessary for this interoperability.
+So far the proprietary silo developments have produced many different data formats, which could be replaced with the data standard proposed within this project. 
+Until the success of a common language for all type of health data and between all stakeholders, many API connecting plugins are necessary for this interoperability.
 
-An API connector plugin handles: 
+An API connector plugin handles:
 - User interface and tokens for authentication and authorization with the 3rd party applications
 - Automation and the periodic fetching of health data
 - Mapping to the standard specification
@@ -253,7 +256,15 @@ An API connector plugin handles:
 
 This type of plugins also takes care of the error handling and the communication with the user within this multiple step process.
 
-Flow of technical actions:
+### Technical Flow
+
+API Connector plugins will be called by the webserver to:
+
+1. handle the OAuth2 authorization flow and store their credentials in the relational database
+2. provide the original raw response to the core platform for encryption and storage
+
+A job scheduler will call the API connectors periodically (usually daily) to:
+
 1. Refresh the user's OAuth access token
 2. Fetch new data or data that has been modified since the last import
 3. Map the response to the standard format as defined by the OpenAPI specification for the framework API
@@ -262,22 +273,24 @@ Flow of technical actions:
 
 ### 3.2.4 File importer
 
-For importing specific files, many file importing plugins are needed for specific source or devices, where API's are not available and the user has access to file exports such as spreadsheets, PDF's or raw files from genomics. The files themselves and their contained data have to be validated on the file level first.
+File importing plugins are needed for specific source or devices, where APIs are not available and the user only has access to raw files.
+Types of files include spreadsheets, PDFs, and raw genomic data.
 
-The file passed by an upload action on the frontend application is passed to the matching file importer plugin that handles the passing to the core data mapping module and after successful processing to the raw data storage module. 
+1. The file passed by an upload action to the data importer plugin user interface on the frontend application 
+2. The core framework will encrypted and store the raw file
+4. The file id and importer plugin id will be added to a queue for processing by the job scheduler
 
-1. Provide the original file to the framework for encryption and storage
-2. Add the file to a queue for processing by the job scheduler
-   The background job scheduler will:
-3. Retrieve the file from the encrypted storage
-4. Extract the data from the file
-5. Mapped to the standard format as defined by the framework OpenAPI specification
-6. The processed data will be provided to the framework's validation middleware.
-7. Valid data will be stored in the relational database.
-8. Invalid data from the plugin will be rejected and the plugin developer and data owner will be notified.
+The background job scheduler will:
+4. Retrieve the file from the encrypted storage
+5. Pass the file to the matching file importer plugin
+6. The importer plugin will extract the data from the file
+7. The importer plugin will map to the standard format as defined by the framework OpenAPI specification
+8. The processed data will be provided to the framework's validation middleware.
+9. Valid data will be stored in the relational database.
+10. Invalid data from the importer plugin will be rejected and the plugin developer and data owner will be notified.
 
-A link between the created structured data and the original file allows backup and reprocessing e.g. into future standard versions.
-This type of plugin also takes care of the error handling and user notification of this multiple step process.
+A link between the created structured data and the original file allows backup and reprocessing (e.g. if the data 
+import plugin functionality is expanded in future versions).
 
 Challenges include changing proprietary formats, spreadsheet column matching, long upload times with raw files like from genomic testing.
 
