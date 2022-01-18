@@ -6,3 +6,4 @@ vendor
 .idea
 *.lock
 /node_modules/
+/build/
