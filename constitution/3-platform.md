@@ -23,10 +23,12 @@ A simplified representation of the architecture is drafted in the following grap
 
 The platform consists of two primary components:
 
-- **Core** - This will be open-source and include only universally necessary features.  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
-- **Plugins** - These will be modules that provide additional functionality such as data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integrated into the core based on community voting.
+- **Core Open-Source Platform** - The core platform will be open-source and include only universally necessary features.  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.The DAO will compensate contributors to the core platform.
+- **Plugin Framework** - Plugins will be modules that provide additional functionality. This includes data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integrated into the core based on community voting.
 
-The possibility for development teams to easily create software modules on top of the core opens up the basis for no-code marketplaces for plugins for easier and faster application development. A famous successful example is Wordpress and it's plugin ecosystem. A possible implementation of the envisioned plugin marketplace is illustrated in the graphic below:
+The possibility for developers to easily create plugin modules on top of the core opens up the basis for no-code marketplaces.  
+A famous successful example is Wordpress 
+and it's plugin ecosystem. A possible implementation of the envisioned plugin marketplace is illustrated in the graphic below:
 
 ![framework diagram](../assets/plugins/plugin-marketplace.png)
 
@@ -34,9 +36,10 @@ The possibility for development teams to easily create software modules on top o
 
 ### 3.1.1 Data Ingestion API
 
-In theory any kind of human generated data which can be ingested and used for getting health insights should be defined as health data and be made accessible for further analysis. 
+In theory any kind of human generated data which can be ingested and used for deriving health insights should be 
+defined as health data and be made accessible for further analysis. 
 
-The goal is to acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed.
+The challenge is to acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed.
 
 Proposed is the development of an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.  Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API. SDK’s will enable developers to implement easy automatic sharing options in their applications. 
 
@@ -60,9 +63,9 @@ Addressed existing health data formats:
 - LOINC
 - SNOMED
 - RXNORM
-- MEddra
+- MedDRA
 - ICD-10
-- openMhealth
+- Open mHealth
 
 Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs. The API connector framework will allow the ongoing regular import of user data after a single user authorization.  
 
@@ -109,7 +112,7 @@ Mapping data from different formats into a one standardized format suitable for 
 
 Examples of currently used existing reference databases include LOINC, RXNORM, ICD-10 but are partly not suitable enough and have to be unified for the scope of more efficient data handling and analysis. Especially definitions for environmental factors, natural supplementation or therapies, digital biomarkers and social and lifestyle data sources have a lack of integration.
 
-The proposed solution for overcoming challenges with interoperating with data formats like FHIR is a single Table with all definitions query-able by beforehand mentioned categories and types. The main reason for this solution is the complexity of the nature of the definition of a health related measurement, that can be a observation, a intervention or an predictor. Being the input or the status or the output of the black-box system human body is not that strictly defineable always, so all measured values are thrown in one "pool" and can be queried according to the needs of analysis without having to worry about the aggregation of the data.
+The proposed solution for overcoming challenges with interoperating with data formats like FHIR is a single Table with all definitions query-able by beforehand mentioned categories and types. The main reason for this solution is the complexity of the nature of the definition of a health related measurement, that can be a observation, a intervention or an predictor. Being the input or the status or the output of the black-box system human body is not that strictly definable always, so all measured values are thrown in one "pool" and can be queried according to the needs of analysis without having to worry about the aggregation of the data.
 
 ### 3.1.6. Time Series Data Storage
 
@@ -147,7 +150,7 @@ Ownership management functionalities will allow the individual to manage their d
 
 This feature can be used by user centered applications and dashboards for personal health management, for data sharing with care providers, research or for participation in trials.
 
-### 3.1.8. Data Value Stream management
+### 3.1.8. Data Value Stream Management
 
 Health data is a sensitive and valuable commodity. 
 Many businesses profit from the direct use or further processing of this data including the individual himself. 
@@ -177,7 +180,7 @@ Defined interfaces will allow 3rd party development of software modules that int
 Plugins will be stored in their own repositories based on a plugin template repository. The plugin template
 repository will contain defined interfaces required for interoperability with the core.
 
-### 3.2.1 Data Analysis
+### 3.2.1 Data Analysis Plugins
 
 Searching for a meaning, correlations and new insights in the data is the primary goal of the project. The impact of effective and detailed analysis is the finding of root causes of disease, development of new interventions and the precise and personalized application of these.
 
@@ -197,8 +200,7 @@ For that a lot of analysis methods can be implemented:
 
 Data analysis can reach from simple correlations of lifestyle factors for personal health management to large cohort clincal analysis of new molecules for longevity. To be even more impactful, the integation with more sophisticated data science software will be brought into discussion when arriving at this point.
 
-
-### 3.2.2 Data Visualization
+### 3.2.2 Data Visualization Plugins
 
 Data visualization modules are utilized to visualize the data from individual or multiple subjects or markers to make insights and correlation visible and understandable to the human. The task of such a plugin is to query the data pools with defined filters such as time frames to get to defined data sets and transform them into formats readable by e.g. frontend charting libraries. Some regular ways to visualize data are Scatter plots, timeline charts, heatmaps or novel ways like the in the following proposed outcome labels. Visualizations can be displayed in studies, publications or to the end user.
 
@@ -207,7 +209,7 @@ Tasks of data visualisation plugins:
 - Handle the processing of data processing functions like statistical analysis
 - Map the data into a simpler format suitable for frontend visualisation libraries
 
-#### Example Visualizations
+#### Example Visualization Plugin
 
 Currently, all foods carry nutrition labels such as this one:
 
@@ -217,8 +219,8 @@ But how useful is it to the average person to know the amount of Riboflavin in s
 
 Telling the average person the amount of riboflavin in something isn’t going to achieve this. This is evidenced by the fact that these labels have existed for decades and during this time, we’ve only seen increases in most diseases they were intended to reduce.
 
-We have created a new and improved **Outcomes Label** that instead lists the degree to which the product is likely
-to improve or worsen specific health outcomes or symptoms. We currently have generated Outcome Labels for thousands
+We have created a new and improved **Outcomes Label** that instead lists the degree to which the product is likely to improve or worsen specific health outcomes or symptoms. 
+We currently have generated Outcome Labels for thousands
 of foods, drugs, and nutritional supplements that can be found at [Journal of Citizen Science](https://studies.crowdsourcingcures.org/). These labels are derived from the analysis of 10 million data points anonymously donated by over 10,000 study participants via [our web app](https://app.crowdsourcingcures.org/?swcfpc=1#/app/intro).
 
 ![](https://crowdsourcingcures.org/wp-content/uploads/2021/05/nutrition-facts-vs-outcome-labels-melatonin-1024x592.png)
@@ -233,7 +235,11 @@ These analytical results have been used to freely publish 90,000 studies on the 
 
 Although 10 million data points sound like a lot, currently, the usefulness and accuracy of these Outcome Labels are currently limited. This is due to the fact there are only a few study participants have donated data for a particular food paired with a particular symptom. In observational research such as this, a very large number of participants are required to cancel out all the errors and coincidences that can influence the data for a single individual.
 
-For instance, someone with depression may have started taking an antidepressant at the same time they started seeing a therapist. Then, if their depression improves, it’s impossible to know if the improvement was a result of the antidepressant, the therapist, both, or something else. These random factors are known as confounding variables. However, random confounding factors can cancel each other out when looking at large data sets. This is why it’s important to collect as much data as possible.
+For instance, someone with depression may have started taking an antidepressant at the same time they started seeing a therapist. 
+Then, if their depression improves, it’s impossible to know if the improvement was a result of the antidepressant, the therapist, both, or something else. 
+These random factors are known as confounding variables. 
+However, random confounding factors can cancel each other out when looking at large data sets. 
+This is why it’s important to collect as much data as possible.
 
 #### Data Sources for Outcome Labels
 
@@ -243,7 +249,7 @@ Several types of data are used to derive the Outcome Labels:
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives. This is how it was initially discovered that smoking caused lung cancer. With macro-level data, it’s even harder to distinguish correlation from causation. However, different countries often enact different policies that can serve as very useful natural experiments. For instance, 30 countries have banned the use of glyphosate. If the rates of Alzheimer’s, autism, and depression declined in these countries and did not decline in the countries still using glyphosate, this would provide very powerful evidence regarding its effects. Unfortunately, there is no global database that currently provides easy access to the incidence of these conditions in various countries over time and the levels of exposure to various chemicals.
 3. **Clinical Trial Data** – This is the gold standard with regard to the level of confidence that a factor is truly the cause of an outcome. However, it’s also the most expensive to collect. As a result, clinical trials are often very small (less than 50 people). Exclusion criteria in trials often prevent study participants from being representative of real patients. There are ethical considerations that prevent us from running trials that have any risk of harm to participants. Due to the expense involved, we have very few trials run on anything other than a molecule that can be patented and sold as a drug.
 
-### 3.2.3 Application Programming Interface (API) Connectors
+### 3.2.3 Application Programming Interface (API) Connector Plugins
 
 Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
 
@@ -258,7 +264,7 @@ An API connector plugin handles:
 
 This type of plugins also takes care of the error handling and the communication with the user within this multiple step process.
 
-### Technical Flow
+#### Connector Technical Flow
 
 API Connector plugins will be called by the webserver to:
 
@@ -273,7 +279,7 @@ A job scheduler will call the API connectors periodically (usually daily) to:
 4. Provide the processed data to the framework's validation middleware.
 5. All valid data will be stored in the relational database. Otherwise, the data will be rejected and the plugin developer and data owner will be notified.
 
-### 3.2.4 File importer
+### 3.2.4 File Importers
 
 File importing plugins are needed for specific source or devices, where APIs are not available and the user only has access to raw files.
 Types of files include spreadsheets, PDFs, and raw genomic data.
