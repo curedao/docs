@@ -1,19 +1,19 @@
 👈 [Back to Table of Contents](../README.md)
 # 3. The Platform
 
-This chapter describes the functional description of the proposed software platform and plugin framework to be develped in more detail. Scope is the development is functionalities for the aggregation, managing, processing and storage of health data from different sources.
+This chapter describes the functional description of the proposed software platform and plugin framework to be developed in more detail. Scope is the development is functionalities for the aggregation, managing, processing and storage of health data from different sources.
 
 The goal is to achieve better interoperability, portability, availability, analysis, security of the data and a basic technology layer suitable for a number of applications that can be built on top of it:
 
 - User centered dashboards for personal health management
 - Direct to customer and value-based health care
 - Data sharing with doctors, health coaches or family members
-- Dezentralised clinical trial platforms (e.g. BYOD wearables)
+- Decentralized clinical trial platforms (e.g. BYOD wearables)
 - Patient recruitment services for clinical trials
 - Citizen science platforms
 - Health data marketplaces
 - Open health data bases for research
-- Algorithm and scores development (e.g. in silico trials)
+- Algorithm and scores development (e.g. in-silico trials)
 - Niche health applications with specific custom requirements or custom integrations
 
 A simplified representation of the architecture is drafted in the following graphic:
@@ -24,7 +24,7 @@ A simplified representation of the architecture is drafted in the following grap
 The platform consists of two primary components:
 
 - **Core** - This will be open-source and include only universally necessary features.  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
-- **Plugins** - These will be modules that provide additional functionality such as data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integated into the core based on community voting.
+- **Plugins** - These will be modules that provide additional functionality such as data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integrated into the core based on community voting.
 
 The possibility for development teams to easily create software modules on top of the core opens up the basis for no-code marketplaces for plugins for easier and faster application development. A famous successful example is Wordpress and it's plugin ecosystem. A possible implementation of the envisioned plugin marketplace is illustrated in the graphic below:
 
@@ -80,7 +80,7 @@ The original raw data and files can be accessed at any time by the owner, indepe
 
 ### 3.1.3 Data Mapping
 
-To make the standardized stuctured storage of health data and the envisioned queries possible, the data has to be ingested from files or API requests and mapped from many differents standards and proprietary formats into a single purpose built definition.
+To make the standardized structured storage of health data and the envisioned queries possible, the data has to be ingested from files or API requests and mapped from many different standards and proprietary formats into a single purpose built definition.
 These will be executed in an asynchronous queue to map the raw data to a standardized format and provide it to the validator.  The most common data mappers will be integrated into the core. Less common data mappers will be available as plugins from 3rd party developers. 
 
 Core data mappers (Initial proposal):
@@ -149,8 +149,10 @@ This feature can be used by user centered applications and dashboards for person
 
 ### 3.1.8. Data Value Stream management
 
-Health data is a very sensitive and highly valuable form of personal data of individuals. Many business cases profit from the direct use or further processing  of this data including the individual himself. Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
-Value stream management functionalities will allow the exchange from data against tokenized value assets in different szenarios. It will allow:
+Health data is a sensitive and valuable commodity. 
+Many businesses profit from the direct use or further processing of this data including the individual himself. 
+Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
+Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios. It will allow:
 
 - Individuals to share data and receive defined compensation
 - Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
