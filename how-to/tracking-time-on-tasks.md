@@ -53,7 +53,7 @@ Head over to GitHub. You should now see a Toggl Track icon in the user interface
 
 Head over to [track.toggl.com](https://track.toggl.com/) to export a time report. 
 
-![](../assets/export-toggl-timesheet.png)
+![](../assets/how-to/export-toggl-timesheet.png)
 
 #### Submit Hours
 

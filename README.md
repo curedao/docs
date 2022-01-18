@@ -28,16 +28,7 @@ Creating a new software ecosystem for health data not only requires developers b
 
 Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
 
-Click 👉👉👉 [here](https://github.com/anonymous-dao/draft-whitepaper/discussions/new?category=voters) to tell us about your
-interests or project in the [Voters Discussion Channel](https://github.com/anonymous-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting.md).
-
-## FAQ
-
-👉 [How can I get involved?](https://github.com/anonymous-dao/draft-whitepaper#how-to-get-started)
-
-👉 [How can I add or edit files?](./how-to/edit-files-in-the-browser.md)
-
-👉 [Why is this called Anonymous DAO](./proposals/name-tagline-token-name-logo-proposals.md)
+### 👉 [How To Get Involved](how-to/how-to-get-involved.md)
 
 
 ## Whitepaper
