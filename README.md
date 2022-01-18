@@ -1,13 +1,30 @@
 # tl;dr
 
-Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the
-minimization of suffering.
+Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.
 
-To achieve this, we propose the creation of an open source software framework for aggregating, managing, processing and storing of health data for better interoperability, portability, availability, analysis, interpretation and security.
+To achieve this, we propose the creation of an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in the field of digital health.
 
-With that basic technology layer in place it will help health application businesses and researchers to produce a massive acceleration of large-scale research to discover new ways to prevent and treat chronic diseases, to create precision medicine and ultimately to new insights for more health performance and a longer health span.
+It consists of two primary components:
+1. An Open-Source Platform for Health Data: 
+   1. Storage
+   2. Security
+   3. Access Control
+   4. De-identified Data Sharing
+2. An Open Plugin Ecosystem enabling anyone to create or use plugins that facilitate: 
+   1. Import from any application, wearable device, or other data source
+   2. New Clinical Discoveries through Machine Learning
+   3. Personalized Real-Time Decision Support Informing Individuals of the Most Effective things they can do to treat and prevent disease
+   4. Data format transformation to enable interoperability with any system or application
+   5. Patient Management
+   6. Decentralized Clinical Trial Management
+   7. Precision Medicine
+   8. Large-scale, low-cost research to discover new ways to prevent and treat chronic diseases
+
+![platform](assets/platform-architecture.png)
 
 It will overcome the traditional barriers to collaboration and data sharing by encoding all data and intellectual property contributions to the platform in a non-fungible token (NFT). Using smart contracts, the platform will be able to compensate all contributors with royalties for their contributions.
+
+![value chain](assets/value-flow-chain.png)
 
 # Join Us Right Now!
 
