@@ -12,4 +12,4 @@ clause.
 
 See a list of pages where citations are needed at:
 
-[Search · citation_needed (github.com)](https://github.com/anonymous-dao/draft-whitepaper/search?q=citation_needed)
+[Search · citation_needed (github.com)](https://github.com/cure-dao/draft-whitepaper/search?q=citation_needed)

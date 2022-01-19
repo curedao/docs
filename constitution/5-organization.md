@@ -17,7 +17,7 @@ Given the unprecedented nature of such a project, each working group will be con
 Accordingly, the organization is composed of Laboratories.  Each Laboratory will consist of a Lab Manager who helps Lab Technicians 
 establish their Wildly Important Goals (WIG).
 
-The democratic will of the Citizen Scientists of Anonymous DAO will be carried out by:
+The democratic will of the Citizen Scientists of CureDAO will be carried out by:
 1. DAO Laboratories
 2. External Service Providers
 
@@ -64,7 +64,7 @@ The initial Laboratories will be created to carry out the following primary func
 
 ### Service Providers
 
-Service providers provide services to Anonymous DAO, such as:
+Service providers provide services to CureDAO, such as:
 - development work
 - IP sourcing and conversion to NFTs 
 - marketplace services
@@ -74,7 +74,7 @@ Service providers provide services to Anonymous DAO, such as:
 - customer support
 - marketing
 
-Anonymous DAO will contract service providers and pay for their services with any of the following:
+CureDAO will contract service providers and pay for their services with any of the following:
 1. DAO Governance Tokens
 2. Ethereum
 3. Fiat Currency

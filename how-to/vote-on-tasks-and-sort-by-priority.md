@@ -14,7 +14,7 @@ _[Interactive Walkthrough](https://app.tango.us/app/workflow/5e2db119-1a9d-4620-
 
 ***
 
-### 1. [Go to DAO repository](https://github.com/anonymous-dao?type=source)
+### 1. [Go to DAO repository](https://github.com/cure-dao?type=source)
 
 
 ### 2. Click on Issues
