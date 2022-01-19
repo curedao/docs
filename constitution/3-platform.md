@@ -36,8 +36,7 @@ and it's plugin ecosystem. A possible implementation of the envisioned plugin ma
 
 ### 3.1.1 Data Ingestion API
 
-In theory any kind of human generated data which can be ingested and used for deriving health insights should be 
-defined as health data and be made accessible for further analysis. 
+In theory any kind of human generated data which can be ingested and used for deriving health insights should be defined as health data and be made accessible for further analysis. 
 
 The challenge is to acquire, extract, transform, and normalize the countless unstandardized data export file formats and data structures and load them into a standardized structure that can be easily analyzed.
 

@@ -8,7 +8,7 @@ It’s an experiment to see if a new economic model called Collaborationism can 
 
 It’s an experiment to determine if a direct democracy can produce better results than traditional hierarchical command and control organizations.
 
-Anonymous DAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in this mission will be an exponential function of the participation of people like you. 🚀
+CureDAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in this mission will be an exponential function of the participation of people like you. 🚀
 
 Creating a new software ecosystem for health data not only requires developers but anyone with skills in:
 
@@ -44,6 +44,6 @@ Requests Tab](https://github.com/cure-dao/draft-whitepaper/pulls?q=is%3Apr+is%3A
 
 👉 [How can I contribute to the constitution?](edit-files-in-the-browser.md)
 
-👉 [Why is this called Anonymous DAO](../proposals/name-tagline-token-name-logo-proposals.md)
+👉 [Why is this called CureDAO](../proposals/name-tagline-token-name-logo-proposals.md)
 
 👉 [How can I track my time?](tracking-time-on-tasks.md)

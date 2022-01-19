@@ -1,7 +1,7 @@
 {
   "name": "draft-whitepaper",
   "version": "1.0.0",
-  "description": "Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.",
+  "description": "CureDAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.",
   "main": "index.js",
   "scripts": {
     "prepare": "npm run build",

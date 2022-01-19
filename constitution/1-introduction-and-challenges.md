@@ -145,13 +145,10 @@ Currently governments around the world are spending billions in funding closed-s
 
 ### 1.3.2 Isolated Data Silos
 
-The problem of many different proprietary data formats across different applications, service providers and missing health data standards lead to a lack of interoperability and data portability. 
-
-The specific business cases don't incentivize the businesses to open up their data for the users to access it. To be able to make efficient multi-omics data analysis a new unified data standard is necessary. Also environmental, social, new data types like digital biomarkers can be defined as health data and should be integrated in such a specification.
-
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we made or how much sleep we got are known as “descriptive statistics”.  
-
-However, by integrating all available data from individuals, similar populations, as well as existing clinical research findings and applying machine learning we may achieve “prescriptive” statistics for advanced insight generation. From that point functionalities like real-time decision support for improving health or biological age clocks and health risks can be leveraged.
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
+dashboards telling us how many steps we made or how much sleep we got are known as “descriptive statistics”.  However,
+by integrating all available data from individuals, similar populations, as well as existing clinical research
+findings and applying machine learning we may achieve “prescriptive” statistics for advanced insight generation. From that point functionalities like real-time decision support for improving health or biological age clocks and health risks can be leveraged.
 
 
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
