@@ -182,23 +182,24 @@ repository will contain defined interfaces required for interoperability with th
 
 ### 3.2.1 Data Analysis Plugins
 
-Searching for a meaning, correlations and new insights in the data is the primary goal of the project. The impact of effective and detailed analysis is the finding of root causes of disease, development of new interventions and the precise and personalized application of these.
+The impact of effective and detailed analysis is 
+- the discovery of root causes of disease
+- development of new interventions 
+- the precise and personalized application of these interventions
 
-In more detail the outcomes of processing the data are:
-- Reveal hidden factors and root causes of diseases
-- Undiscovered relationships between variables or combinations of interventions
-- Correlations between interventions/exposures and outcomes/conditions and different protocols
-- Optimal dosages of interventions or levels of markers dependent on phenotypes and demographics
-- Quantification of the effectiveness of treatments for specific individuals
-- Quantification of effect sizes of all factors on symptom severity
+Data Analysis Plugins will apply statistical and machine learning methods to the ocean of high-frequency 
+longitudinal individual and population level data. The resulting value will include:
+- Personalized Effectiveness Quantification - Determination of the precise effectiveness of treatments for specific individuals
+- Root Cause Analyses - Revelation of hidden factors and root causes of diseases
+- Precision Medicine - Determination of the personalized optimal values or dosages based on biomarkers, phenotypes and demographics
+- Combinatorial Medicine - Discover relationships between variables or combinations of interventions
+- Effect Size Quantification - Quantification of effect sizes of all factors on symptom severity
+- Optimal Daily Values - Determination of the personalized optimal dosages of nutrients or medications
+- Cost-Benefit Analysis - Determination of the most cost-effective interventions by weight clinical benefit against costs in terms of side effects and financial impact
 
-For that a lot of analysis methods can be implemented:
-- Statistical methods (e.g. Linear regression)
-- Longitudinal analysis
-- Machine learning models
-- Population analysis 
+This will mitigate the incidence of chronic illnesses by informing the user of symptom triggers, such as dietary sensitivities, to be avoided. This will also assist patients and clinicians in assessing the effectiveness of treatments despite the hundreds of uncontrollable variables in any prescriptive experiment.
 
-Data analysis can reach from simple correlations of lifestyle factors for personal health management to large cohort clincal analysis of new molecules for longevity. To be even more impactful, the integation with more sophisticated data science software will be brought into discussion when arriving at this point.
+Large cohort clinical analysis could reveal new molecules for longevity.
 
 ### 3.2.2 Data Visualization Plugins
 
