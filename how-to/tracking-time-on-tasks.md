@@ -57,7 +57,7 @@ Head over to [track.toggl.com](https://track.toggl.com/) to export a time report
 
 #### Submit Hours
 
-1. Create an [issue on GitHub](https://github.com/anonymous-dao/draft-whitepaper/issues/new).
+1. Create an [issue on GitHub](https://github.com/cure-dao/draft-whitepaper/issues/new).
 2. Add tag `timesheet`
-3. Assign `anonymous-dao-human`
+3. Assign `cure-dao-human`
 4. Attach the report by clicking the picture button and selecting the file
