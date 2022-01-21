@@ -1,4 +1,4 @@
-# ⏱ How to Track Your Time or Contributions to the Project
+# ⏱ How to Track Your Time or Contribution
 
 1. Submit name, tagline, token name, and logo ideas 👉 [here](https://forms.gle/S4SbV3VUR7JgXEScA)
 2. Track your time with Toggl and submit your weekly timesheet to the DAO
@@ -52,7 +52,7 @@ Head over to GitHub. You should now see a Toggl Track icon in the user interface
 
 Head over to [track.toggl.com](https://track.toggl.com) to export a time report.
 
-![](../assets/how-to/export-toggl-timesheet.png)
+![](../../assets/how-to/export-toggl-timesheet.png)
 
 #### Submit Hours
 

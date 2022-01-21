@@ -18,6 +18,6 @@
 
 ## Creating Pull Requests
 
-![create pull request](../assets/creating-pull-requests.png)
+![create pull request](../../assets/creating-pull-requests.png)
 
 [More Info](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)

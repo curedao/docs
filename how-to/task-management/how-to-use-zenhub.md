@@ -11,4 +11,4 @@ description: >-
 3. [Install the ZenHub extension on Chrome or Firefox](https://www.zenhub.com/extension)
 4. [Click View Tutorials](https://app.zenhub.com/workspaces/whitepaper-61d189e356639900120527a0/board?repos=440661078)
 
-![](../assets/how-to/zenhub-tutorials.png)
+![](../../assets/how-to/zenhub-tutorials.png)
