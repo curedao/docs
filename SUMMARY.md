@@ -18,7 +18,7 @@
 * [❓ How To Get Involved](how-to/README.md)
   * [➕ How to Create a Task](how-to/create-a-task.md)
   * [☑ How to Select a Task](how-to/do-a-task-and-create-pull-request.md)
-  * [💻 Edit Files in the Browser](how-to/edit-files-in-the-browser.md)
+  * [💻 How to Contribute to the Docs](how-to/edit-files-in-the-browser.md)
   * [📈 How Use ZenHub](how-to/how-to-use-zenhub.md)
   * [✍ Writing Style Guide](how-to/style-guide.md)
   * [⏱ How to Track Your Time or Contributions to the Project](how-to/tracking-time-on-tasks.md)
