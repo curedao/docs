@@ -1,6 +1,6 @@
-# Editing Files in the Browser
+# 💻 Editing Files in the Browser
 
-If you need any help to get set up, ask @mikepsinn for help in the Discussions forum.  I'd be happy to respond to any questions or have a video call with you.
+If you need any help to get set up, ask @mikepsinn for help in the Discussions forum. I'd be happy to respond to any questions or have a video call with you.
 
 ## Editing Locally
 
@@ -14,7 +14,7 @@ However, if that seems like a burden there are a few ways to edit right in your 
 
 **(recommended for beginners or small changes)**
 
-The fastest way is to edit directly on GitHub as illustrated in this [visual walk-through](https://scribehow.com/shared/How_to_Write_a_Constitution_In_a_Democratic_Fashion__XPpT_GzCQC27ouEjEF2oXg).
+The fastest way is to edit directly on GitHub as illustrated in this [visual walk-through](https://scribehow.com/shared/How\_to\_Write\_a\_Constitution\_In\_a\_Democratic\_Fashion\_\_XPpT\_GzCQC27ouEjEF2oXg).
 
 ## Editing in [Prose.io](https://prose.io)
 

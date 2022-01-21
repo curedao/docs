@@ -1,4 +1,4 @@
-# Ecosystem
+# 🌎 Ecosystem
 
 👈 [Back to Table of Contents](../)
 

@@ -4,7 +4,7 @@ description: >-
   collaboration and data sharing
 ---
 
-# Solution
+# 💡 Solution
 
 👈 [Back to Table of Contents](../)
 
