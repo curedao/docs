@@ -1,7 +1,7 @@
 # Table of contents
 
-* [CureDAO Litepaper](README.md)
-* [Constitution](constitution/README.md)
+* [💡 Litepaper](README.md)
+* [📜 Constitution](constitution/README.md)
   * [☠ Introduction and Challenges](constitution/1-introduction-and-challenges.md)
   * [💡 Solution](constitution/2-solution.md)
   * [🏭 Platform](constitution/3-platform.md)
@@ -15,11 +15,10 @@
   * [🌎 Ecosystem](constitution/10-ecosystem.md)
   * [📖 References](constitution/12-references.md)
   * [⚠ DISCLAIMER](constitution/13-disclaimer.md)
-* [How To](how-to/README.md)
+* [❓ How To Get Involved](how-to/README.md)
   * [➕ How to Create a Task](how-to/create-a-task.md)
   * [☑ How to Select a Task](how-to/do-a-task-and-create-pull-request.md)
-  * [💻 Editing Files in the Browser](how-to/edit-files-in-the-browser.md)
-  * [🤚 How to Get Involved](how-to/how-to-get-involved.md)
+  * [💻 Edit Files in the Browser](how-to/edit-files-in-the-browser.md)
   * [📈 How Use ZenHub](how-to/how-to-use-zenhub.md)
   * [✍ Writing Style Guide](how-to/style-guide.md)
   * [⏱ How to Track Your Time or Contributions to the Project](how-to/tracking-time-on-tasks.md)
