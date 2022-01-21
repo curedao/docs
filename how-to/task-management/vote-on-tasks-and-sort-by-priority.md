@@ -6,11 +6,7 @@ We can overcome this by using [crowdsourcing](https://en.wikipedia.org/wiki/Crow
 
 Additionally, the collectively defined importance of a task can be used as a variable in determining the level of compensation for completing the task.
 
-![](../../assets/vote-and-prioritize-tasks.gif)
-
-[_Interactive Walkthrough_](https://app.tango.us/app/workflow/5e2db119-1a9d-4620-b586-58354543345f)
-
-***
+### [_Interactive Walkthrough_](https://app.tango.us/app/workflow/5e2db119-1a9d-4620-b586-58354543345f)
 
 ### 1. [Go to DAO repository](https://github.com/cure-dao?type=source)
 

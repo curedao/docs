@@ -16,8 +16,4 @@
 
 #### 8. Now issues with the highest importance will be at the top.
 
-## Creating Pull Requests
-
-![create pull request](../../assets/creating-pull-requests.png)
-
-[More Info](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+### [**More Info about Issues**](https://docs.github.com/en/issues/tracking-your-work-with-issues)****
