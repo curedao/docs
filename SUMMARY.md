@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [CureDAO Litepaper](README.md)
 * [constitution](constitution/README.md)
   * [Introduction and Challenges](constitution/1-introduction-and-challenges.md)
   * [Solution](constitution/2-solution.md)
@@ -16,13 +16,12 @@
   * [12-references](constitution/12-references.md)
   * [DISCLAIMER](constitution/13-disclaimer.md)
 * [how-to](how-to/README.md)
-  * [citation-needed](how-to/citation-needed.md)
   * [How to Create a Task](how-to/create-a-task.md)
   * [do-a-task-and-create-pull-request](how-to/do-a-task-and-create-pull-request.md)
   * [Editing Files in the Browser](how-to/edit-files-in-the-browser.md)
   * [How to Get Involved](how-to/how-to-get-involved.md)
   * [How Use ZenHub](how-to/how-to-use-zenhub.md)
-  * [style-guide](how-to/style-guide.md)
+  * [✍ Style Guide](how-to/style-guide.md)
   * [How to Contribute](how-to/tracking-time-on-tasks.md)
   * [vote-on-compensation-for-tasks](how-to/vote-on-compensation-for-tasks.md)
   * [How to Vote on and Sort Issues By Priority](how-to/vote-on-tasks-and-sort-by-priority.md)
