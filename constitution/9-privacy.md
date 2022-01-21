@@ -64,7 +64,6 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 3. [Data De-Identification, Data Minimization Into Snowflake with Baffle](https://baffle.io/blog/de-identifying-data-into-snowflake/)
 4. [Use of Medicare Data (qemedicaredata.org)](https://www.qemedicaredata.org/apex/Use\_of\_Medicare\_Data)
 5. [Data De-Identification - Satori (satoricyber.com)](https://satoricyber.com/data-masking/data-de-identification/)
-6.
 
 #### [Next Privacy](10-ecosystem.md) 👉
 
