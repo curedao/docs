@@ -54,7 +54,7 @@ Creating a new software ecosystem for health data not only requires developers b
 
 Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
 
-#### 👉 [How To Get Involved](broken-reference)
+#### 👉 [How To Get Involved](how-to/)
 
 ## Whitepaper
 
