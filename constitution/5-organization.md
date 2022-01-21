@@ -9,7 +9,7 @@ description: >-
 
 👈 [Back to Table of Contents](../)
 
-## Organization
+
 
 CureDAO is a laboratory consisting of many experiments.
 
@@ -23,27 +23,26 @@ It’s an experiment to determine if a direct democracy can produce better resul
 
 Given the unprecedented nature of such a project, each working group will be constantly experimenting with new ways to execute this mission. We recognize the importance of using real-world evidence in the mission of improving human health. Execution within the working groups should take the same data-driven approach to execute their area of the overall mission.
 
-Accordingly, the organization is composed of Laboratories. Each Laboratory will consist of a Lab Manager who helps Lab Technicians establish their Wildly Important Goals (WIG).
+Accordingly, the organization is composed of three primary components
 
-The democratic will of the Citizen Scientists of CureDAO will be carried out by:
+1. Citizen Scientists - DAO data donors or token holders with voting rights
+2. DAO Laboratories - Working groups consisting of a Lab Manager who helps Lab Technicians carry out the duties of their Laboratory in accordance with the will of the Citizen Scientists.
+3. External Service Providers - Individuals or entities outside the DAO deemed necessary to carry out the will of the Citizen Scientists.
 
-1. DAO Laboratories
-2. External Service Providers
+### Citizen Scientists
 
-### Citizens
-
-As an open and permissionless organization, anyone has the right to earn their Citizenship through the contribution of labor or resources. In exchange, the Citizen Scientist will receive aDAO Governance Tokens granting full governance rights over the actions of DAO Civil Servants.
+As an open and permissionless organization, anyone has the right to earn their Citizenship through the contribution of labor or resources. In exchange, the Citizen Scientist will receive aDAO Governance Tokens granting full governance rights over the actions of DAO Lab Staff.
 
 Citizens may participate in:
 
 1. Governance Debate on Discourse
 2. Token-Based Voting by staking their Governance Tokens on smart contracts
 
-### Civil Servants
+### Lab Managers and Technicians
 
-Civil Servants comprise Working Groups who carry out the will if the DAO. Citizens can apply to join Working Groups based on their experience or expertise. Working Groups elect Working Group Organizers, who are responsible for leading Working Groups. Working Groups may decide to create incentives for their Citizens in a variety of forms, including paying them for services or creating bounties.
+Lab Staff comprises the Laboratory working groups who carry out the will of the DAO. Citizens can apply to join Laboratories based on their experience or expertise. Laboratories may elect Lab Managers, who are responsible for coordinating between Laboratory Technicians. Laboratories may decide to create incentives for their Citizen Scientists in a variety of forms, including paying them for services or creating bounties.
 
-In cases where Civil Servants are paid, Citizens may choose to compensate them with any of the following:
+In cases where Lab Staff are paid, Citizens may choose to compensate them with any of the following:
 
 1. DAO Governance Tokens
 2. Ethereum
@@ -57,17 +56,17 @@ The initial Laboratories will be created to carry out the following primary func
 * Governance Lab - Changes governance and how proposals are deployed
 * Legal Lab - Handles legal matters relating to DAO activities and
 * Ops Lab - Handles operational matters relating to DAO activities
-* Community Development - Promotes community engagement with DAO and the broader world
-* UI/UX Lab - Creates a user-friendly interface for DAO Civil Servants
+* Community Lab - Promotes community engagement with DAO and the broader world
+* UI/UX Lab - Creates a user-friendly interface for the platform front end
 * Funding Lab - Facilitates financing of DAO projects
-* Human Resource Lab - Provides resources for Lab Managers and Lab Technicians
+* Human Resource Lab - Provides resources for Lab Staff
 * Tokenomics Lab - Handles technical aspects of DAO token creation and distribution
-* Back End Development - Develops the DAO’s smart contracts
-* Front-End Development - Implements the platform user interface
-* Public Relations - Promotes DAO’s presence in the public discourse
-* Data Integration - Integrates data from various sources and formats
+* Back End Dev Lab - Develops the DAO’s smart contracts
+* Front-End Dev Lab - Implements the platform user interface
+* Public Relations Lab - Promotes DAO’s presence in the public discourse
+* Data Integration Lab - Integrates data from various sources and formats
 * Data Science Lab - Conducts research on data science and machine learning
-* CollabLab - Collaborative Development Lab
+* CollabLab - Coordinates partnerships between individuals and organizations
 
 #### Service Providers
 
@@ -88,8 +87,6 @@ CureDAO will contract service providers and pay for their services with any of t
 2. Ethereum
 3. Fiat Currency
 4. Other Incentives
-
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image002.jpg)
 
 #### [Next Tokenomics](6-tokenomics.md) 👉
 

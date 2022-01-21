@@ -4,7 +4,7 @@ description: >-
   open-source collaboration.
 ---
 
-# 🪙 Incentivization
+# ❤ Incentivization
 
 👈 [Back to Table of Contents](../)
 
