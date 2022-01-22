@@ -1,4 +1,4 @@
-# How to Contribute
+# ⏱ How to Track Your Time or Contribution
 
 1. Submit name, tagline, token name, and logo ideas 👉 [here](https://forms.gle/S4SbV3VUR7JgXEScA)
 2. Track your time with Toggl and submit your weekly timesheet to the DAO
@@ -17,7 +17,6 @@ Toggl is a free and [open source](https://github.com/toggl/track-extension) time
 [Toggl Track extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/toggl-button-time-tracker)
 
 ![Image of time tracking integration](https://public-assets.toggl.com/b/static/feature-toggltrackbutton-283c6688afbe7ab5017805fa0f5d83fc.svg)
-
 
 ## GitHub Integration Setup
 
@@ -51,9 +50,9 @@ Head over to GitHub. You should now see a Toggl Track icon in the user interface
 
 #### View and export time reports in Toggl Track’s web app
 
-Head over to [track.toggl.com](https://track.toggl.com/) to export a time report. 
+Head over to [track.toggl.com](https://track.toggl.com) to export a time report.
 
-![](../assets/how-to/export-toggl-timesheet.png)
+![](../../assets/how-to/export-toggl-timesheet.png)
 
 #### Submit Hours
 
