@@ -1,16 +1,15 @@
 ---
 description: >-
   How $dCURES governance tokens, the primary store of value in the CureDAO
-  ecosystem are created, distributed and used.
+  ecosystem, are created, distributed, and used.
 ---
-
 # 🪙 Tokenomics
 
 👈 [Back to Table of Contents](../)
 
 The $dCURES token is the economic driver of the CureDAO platform. $dCURES is obtained by contributing work, data, IP, or funds to CureDAO. The core function of $dCURES is to incentivize data sharing and open-source collaboration.
 
-$dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
+dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
 
 1. How data will be monetized
 2. How the platform will be monetized
@@ -35,19 +34,20 @@ The genesis distribution event will make 10% of CureDAO’s total token supply a
 
 ![](../.gitbook/assets/image.png)
 
+
 | Token Quantity | Fraction of Total | Recipient                 |
-| -------------- | ----------------- | ------------------------- |
+|----------------|-------------------|---------------------------|
 | 940M           | 10%               | Community Genesis         |
 | 940M           | 10%               | Service Providers (Voted) |
 | 940M           | 10%               | DAO Laboratories (Voted)  |
 | 6.58B          | 70%               | Treasury                  |
-| **9.4B**       | 100%              | **Total**                 |
+| **9.4B**       | **100%**          | **Total**                 |
 
-Since CureDAO’s genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of the platform.&#x20;
+Since CureDAO’s genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of the platform.
 
-CureDAO will be fully decentralized and community-owned from inception. No entity will own $dCURES tokens prior to the genesis contribution event.
+CureDAO will be fully decentralized and community-owned from inception. No entity will own $dCURES tokens before the genesis contribution event.
 
-$dCURE’s genesis contribution event will run via a fair launch public auction, granting all successful auction participants equal governance rights per $dCURES. Once issued the first 10% of tokens, the CureDAO core community will begin voting on the first governance proposals to allocate additional tokens to DAO Laboratory working groups and service providers.
+dCURE’s genesis contribution event will run via a fair launch public auction, granting all successful auction participants equal governance rights per $dCURES. Once issued the first 10% of tokens, the CureDAO core community will begin voting on the first governance proposals to allocate additional tokens to DAO Laboratory working groups and service providers.
 
 The approval of these allocations to [DAO Laboratories](5-organization.md), contributors, and service providers is at the full discretion of genesis [Citizen Scientists](5-organization.md) and their approval. They form the core of CureDAO’s decision-making and executive body.
 
