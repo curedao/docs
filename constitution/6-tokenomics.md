@@ -3,6 +3,7 @@ description: >-
   How $dCURES governance tokens, the primary store of value in the CureDAO
   ecosystem, are created, distributed, and used.
 ---
+
 # 🪙 Tokenomics
 
 👈 [Back to Table of Contents](../)
@@ -21,6 +22,8 @@ dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
 8. How internal [DAO Laboratories](5-organization.md) budgets and projects are funded
 9. How CureDAO is governed
 10. How the CureDAO treasury management
+11. Test
+12.
 
 ## Token Genesis
 
@@ -28,15 +31,14 @@ dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
 
 ### Token Supply and Distribution
 
-The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070.  To enable everyone to become a [Citizen Scientist](5-organization.md), upon genesis, 9.4 billion $dCURES tokens will be created as ERC20 tokens controlled by CureDAO. CureDAO’s token begins unable to exceed that number - it is a capped ERC20 token. Our core collective mission at This token supply may only increase if the world population exceeds 9.4 billion.
+The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](5-organization.md), upon genesis, 9.4 billion $dCURES tokens will be created as ERC20 tokens controlled by CureDAO. CureDAO’s token begins unable to exceed that number - it is a capped ERC20 token. Our core collective mission at This token supply may only increase if the world population exceeds 9.4 billion.
 
 The genesis distribution event will make 10% of CureDAO’s total token supply available to interested participants using a fair and open smart contract auction on the Ethereum blockchain.
 
 ![](../.gitbook/assets/image.png)
 
-
 | Token Quantity | Fraction of Total | Recipient                 |
-|----------------|-------------------|---------------------------|
+| -------------- | ----------------- | ------------------------- |
 | 940M           | 10%               | Community Genesis         |
 | 940M           | 10%               | Service Providers (Voted) |
 | 940M           | 10%               | DAO Laboratories (Voted)  |
