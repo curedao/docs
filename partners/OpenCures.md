@@ -115,7 +115,9 @@ Novato, CA 94945
 
 ***
 
-![](https://opencures.org/wp-content/uploads/2021/11/OC\_logo\_w\_tag-bht.fw\_.png) **** [**Privacy Policy**](https://opencures.org/privacy-policy/) **** [**Terms of Use**](https://opencures.org/terms-of-use/) **Taking the responsibility for**\
+**** [**Privacy Policy**](https://opencures.org/privacy-policy/) 
+**** [**Terms of Use**](https://opencures.org/terms-of-use/) 
+**Taking the responsibility for**\
 **speeding up the intervention**\
 **development cycle OpenCures Inc is a For-Benefit Enterprise**
 
