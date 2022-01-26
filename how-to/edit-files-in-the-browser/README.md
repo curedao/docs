@@ -3,10 +3,21 @@ description: >-
   If you need any help to get set up, ask @mikepsinn for help in the Discussions
   forum. I'd be happy to respond to any questions or have a video call with you.
 ---
-
 # 💻 How to Contribute to the Docs
 
 Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown/) file, which is an easy-to-learn syntax extension to plain text that makes creating links, rendering images, and nice-looking formatting simple.
+
+## Fork the Repository
+
+1. [Go to cure-dao/draft-whitepaper](https://github.com/cure-dao/draft-whitepaper)
+
+### 2. Click on Fork your own copy of cure-dao/draft-whitepaper to your account
+
+![Step 2 screenshot](https://images.tango.us/public/screenshot_82ba05a9-3700-4493-a2b1-bcafb8638640?crop=focalpoint&fit=crop&fp-x=0.8614&fp-y=0.1040&fp-z=3.0214&w=1200&mark-w=0.2&mark-pad=0&mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n&ar=1814%3A904)
+
+### 3. Click on your personal account name
+
+![Step 3 screenshot](https://images.tango.us/public/screenshot_6d9d3f57-7899-446d-8e1e-f4863b28b864?crop=focalpoint&fit=crop&fp-x=0.4956&fp-y=0.2633&fp-z=1.9253&w=1200&mark-w=0.2&mark-pad=0&mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n&ar=1814%3A904)
 
 ## Editing Directly on GitHub
 
