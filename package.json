@@ -10,7 +10,7 @@
     "prettier": "prettier --write .",
     "lint": "prettier --check . && eslint . --ext .ts && cspell '**/*' ",
     "test": "ava",
-    "check-links": "git ls-files | grep md$ | xargs -n 1 markdown-link-check",
+    "link-checker": "git ls-files | grep md$ | xargs -n 1 markdown-link-check",
     "prebuild": "npm run clean",
     "clean": "rm -rf ./build",
     "checkLoggedIn": "./scripts/verifyLoggedIn.sh"
