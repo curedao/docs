@@ -73,13 +73,13 @@ SDK’s will enable developers to implement easy automatic sharing options in th
 #### Data Formats
 
 * FHIR
-* OpenEHR
+* openEHR
 * LOINC
 * SNOMED
-* NORM
-* fedoRA
+* RXNORM
+* MedDRA
 * ICD-10
-* Open health
+* Open mHealth
 
 Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
 The API connector framework will allow the ongoing regular import of user data after a single user authorization.
@@ -118,20 +118,22 @@ The goal of a simplified, universal standard format is to make multi-omics data 
 
 #### 3.1.4. Data Validation
 
-In order to ensure a level of quality required by healthcare and clinical trials, data quality and consistency must 
+In order to ensure a level of quality required by healthcare and clinical trials, data quality and consistency must
 be ensured.
 The data validation middleware will validate the data before it is stored in the time-series database.
 
 Validation involves the following steps:
+
 * Ensure values are within allowed ranges for a variable and unit
 * Outlier detection
 * Strict data type checking for all properties
 
 Invalid Data Handling
+
 * Data deviating from allowed value ranges will be flagged for review and deletion or correction
 * Outliers will be be flagged
 * Invalid data types will be ignored and the data ingestion plugin developer will be notified
-* Duplicate data for a given timestamp will be ignored and the data ingestion plugin developer will be notified 
+* Duplicate data for a given timestamp will be ignored and the data ingestion plugin developer will be notified
 
 #### 3.1.5. Reference Data Definitions
 
@@ -142,35 +144,25 @@ Examples of currently used existing reference databases include LOINC, RXNORM, I
 Especially definitions for environmental factors, natural supplementation or therapies, digital biomarkers, and social and lifestyle data sources have a lack of integration.
 
 The proposed solution for overcoming challenges with interoperating with data formats like FHIR is a single measurements table with all definitions query-able by beforehand mentioned categories and types.
-The main reason for this solution is the complexity of the nature of the definition of a health-related measurement, which can be an observation, an intervention, or a predictor.
-Often a variable can be either be both an input factor and a health outcome with respect to the black-box system 
-human body.
-Thus, whether or not a variable can be viewed as a input factor or health outcome will be stored in the variable 
-settings table. 
-All measured values are thrown in one "pool" and can be queried according to the needs of analysis without having to 
-worry about the aggregation of the data.  (TODO: How can we rephrase this?)
+The main reason for this solution is the complexity of the nature of the definition of a health-related measurement.
+
+Often a variable can be either be both an input factor or a health outcome with respect to the black-box system human body.
+Thus, whether or not a variable is a controllable input factor and/or a health outcome is stored in the variable
+settings table.
+All measured values are thrown in one "pool" and can be retrieved in a flat universal format without having to
+worry about transforming complex nested data structures for compatibility.
 
 #### 3.1.6. Time Series Data Storage
 
-After validation and mapping, the data will be stored in a purpose-designed database. (TODO: )
-The storing of standardized and structured time series data requires a purpose-built database design to make data access and analysis queries efficient and scalable.
-Especially with value attachment, decentralized storage, and big data in mind, the architecture and technology stack used needs to be carefully selected and tested.
+After validation and mapping, the data will be stored in a standardized and structured time-series database.
 
 Functional Requirements:
 
 * Large scale data storage for time-series data
-* Standardized format (TODO: This rules out a document store, right?)
-* Toxicity (TODO: what does this mean?)
-* Data veracity (TODO: This requires a relational database with foreign keys, right?)
-* Compatibility with the value pointing (TODO: what does this mean?)
-* Compatibility with decentralized storage (TODO: This requires a relational database with foreign keys)
+* Standardized format
 * Safety and Security
 
-This core functions are central platform storage and decentralized storage for users privately.
-(TODO: Does decentralized storage mean people running private instances of the platform?  Decentralized usually 
-means blockchain.)
-
-#### 3.1.7. Data Ownership Management
+#### 3.1.7. Data Ownership
 
 Data should be owned by the individual who generated it.
 It should remain under their control throughout the entire data life-cycle from generation to deletion.
@@ -186,19 +178,15 @@ It will allow them to:
 * Restrict data access to specific data categories, types, and markers
 * Restrict time and expiration of data access
 * Configure security measures such as encryption or 2-factor authentication
-* Overview of statistics of data (amount, averages, sources, etc..) 
+* Overview of statistics of data (amount, averages, sources, etc..)
 * Export stored data or the original files
 * Delete data
 
 This feature can be used by user-centered applications and dashboards for personal health management, for data sharing with care providers, research, or for participation in trials.
 
-#### 3.1.8. Data Value Stream Management
+#### 3.1.8. Data Compensation
 
-(TODO: Value means Compensation, correct?)
-
-Health data is a sensitive and valuable commodity.
-Many businesses profit from the direct use or further processing of this data including the individual himself.
-Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
+Health data is a sensitive and valuable commodity.Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
 Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios.
 It will allow:
 
@@ -251,11 +239,9 @@ This will also assist patients and clinicians in assessing the effectiveness of 
 
 Large cohort clinical analysis could reveal new molecules for longevity.
 
-#### 3.2.2 Data Visualization Plugins
-(TODO: Should we have a separate category of plugins for things like clinical EHR systems or DCT management plugins 
-like OpenCures or should we rename this to Data Access and Management Plugins)
+#### 3.2.2 Data Presentation and Management Plugins
 
-Data visualization plugins use charting libraries to convert data from its raw form into one from which humans can derive useful insights. 
+Data visualization plugins use charting libraries to convert data from its raw form into one from which humans can derive useful insights.
 They may be used to display data from individual or multiple subjects.
 Some regular ways to visualize data are Scatter plots, timeline charts, heatmaps, or novel ways like the in the following proposed outcome labels.
 Visualizations can be embedded in studies, publications, or personal dashboards.
@@ -264,11 +250,8 @@ Tasks of data visualization plugins:
 
 * Query the database according to filters and sorting commands
 * Handle the processing of data processing functions like statistical analysis
-* Map the data into a simpler format suitable for front-end visualization libraries
-  (TODO: These plugins should include the front-end libraries, right? It sounds here like, they're separate. Or 
-  should the data access layer should already be formatting the data as needed?)
 
-**Example Visualization Plugin**
+**Example Data Presentation Plugin**
 
 Currently, all foods carry nutrition labels such as this one:
 
@@ -288,9 +271,9 @@ These labels are derived from the analysis of 10 million data points anonymously
 
 **Data Quantity Required for Outcome Labels**
 
-The platform has collected over 10 million data points on symptom severity and influencing factors from over 10,000 
+The platform has collected over 10 million data points on symptom severity and influencing factors from over 10,000
 people.
-The Foundation develops and applies predictive machine learning algorithms to the data to reveal the effectiveness 
+The Foundation develops and applies predictive machine learning algorithms to the data to reveal the effectiveness
 and side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses.
 
 These analytical results have been used to freely publish 90,000 studies on the effects of various treatments and food ingredients on symptom severity.
@@ -311,7 +294,7 @@ This is why it’s important to collect as much data as possible.
 
 Several types of data are used to derive the Outcome Labels:
 
-1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps in [our app](http://app.crowdsourcingcures.org/?swcfpc=1), This could also include shopping receipts for foods, drugs, or nutritional supplements purchased and insurance claim data.
+1. **Individual Micro-Level Data** – This could include data manually entered or imported from other devices or apps in [our app](http://app.crowdsourcingcures.org), This could also include shopping receipts for foods, drugs, or nutritional supplements purchased and insurance claim data.
 2. **Macro-Level Epidemiological Data** – This includes the incidence of various diseases over time combined with data on the amounts of different drugs or food additives.
    This is how it was initially discovered that smoking caused lung cancer.
    With macro-level data, it’s even harder to distinguish correlation from causation.
@@ -339,7 +322,7 @@ An API connector plugin handles:
 * Automation and the periodic fetching of health data
 * Mapping to the standard specification
 * Providing the responses to the origin raw storage module
-* error handling 
+* error handling
 * communication with the user
 
 **Connector Technical Flow**
