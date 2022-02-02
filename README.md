@@ -29,11 +29,11 @@ It consists of two primary components:
    7. Precision Medicine
    8. Large-scale, low-cost research to discover new ways to prevent and treat chronic diseases
 
-![platform](assets/platform-architecture.png)
+![platform](assets/diagrams/layered-platform-architecture-diagram.png)
 
 It will overcome the traditional barriers to collaboration and data sharing by encoding all data and intellectual property contributions to the platform in a non-fungible token (NFT). Using smart contracts, the platform will be able to compensate all contributors with royalties for their contributions.
 
-![value chain](assets/value-flow-chain.png)
+![value chain](assets/incentivization/value-flow-chain.png)
 
 ## Join Us Right Now!
 

@@ -84,7 +84,7 @@ However, the massive amount of automatically collected, high-frequency longitudi
 
 The primary flaw with observational research is that they lack the control group. The control group consists of the people who don't receive the intervention or medication in a randomly-controlled trial. With high-frequency longitudinal data, a single person can act as their own control group, by using an A/B experiment design.
 
-![](../assets/analytics/causal\_clues-1024x652.png)
+![](../assets/analytics/causal-clues-1024x652.png)
 
 For instance, if one is suffering from arthritis and they want to know if a Turmeric Curcumin supplement helps, the experimental sequence would look like this:
 
@@ -161,9 +161,9 @@ To validate the theory that large-scale real-world evidence can produce better h
 
 ### 2.4 The Citizen science approach
 
-An example of the application and usage of aggregated health data and applied statisitics is the publishing of observational studies of different relationships. The [Journal of Citizen Science](https://app.crowdsourcingcures.org) used an anonymously aggregated and analysed data set from over 10 million data points on symptom severity and influencing factors from over 10,000 participants. This data has been used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
+An example of the application and usage of aggregated health data and applied statistics is the publishing of observational studies of different relationships. The [Journal of Citizen Science](https://app.crowdsourcingcures.org) used an anonymously aggregated and analysed data set from over 10 million data points on symptom severity and influencing factors from over 10,000 participants. This data has been used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
 
-![journal of citizen science](../assets/journal-of-citizen-science.png)
+![journal of citizen science](../plugins/observational-studies-plugin/journal-of-citizen-science.png)
 
 Another example is to organize and harness the data and insights of the actions of the communities of people with specific conditions or performance enhancement experiments and pool this in a trial/ study way into knowledge for the public research to directly develop new cures or to take these findings as a basis to propose new clinical trials.
 

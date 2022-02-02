@@ -42,7 +42,7 @@ On top of the incentives for businesses listed above, the following incentives w
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
 3. Revenue derived through subscription or licensing agreements for usage of their plugins in the Plugin Marketplace.
 
-![Branded Plugins](../assets/plugins/plugin-marketplace.png)
+![Branded Plugins](../plugins/plugin-marketplace.png)
 
 ### 5. Disease Advocacy Non-Profit Organizations
 
