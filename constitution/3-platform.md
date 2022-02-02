@@ -27,7 +27,7 @@ The goal is to achieve better interoperability, portability, availability, analy
 
 A simplified representation of the architecture is drafted in the following graphic:
 
-![framework diagram](../assets/platform-architecture.png)
+![framework diagram](../assets/la)
 
 The platform consists of two primary components:
 
@@ -41,7 +41,7 @@ The possibility for developers to easily create plugin modules on top of the cor
 A famous successful example is WordPress and its plugin ecosystem.
 A possible implementation of the envisioned plugin marketplace is illustrated in the graphic below:
 
-![framework diagram](../assets/plugins/plugin-marketplace.png)
+![framework diagram](../plugins/plugin-marketplace.png)
 
 ### 3.1 Core Components
 
@@ -54,6 +54,9 @@ The challenge is to acquire, extract, transform, and normalize the countless uns
 Proposed is the development of an application programming interface (API) and OpenAPI specification for receiving and sharing data with the core database.
 Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API.
 SDK’s will enable developers to implement easy automatic sharing options in their applications.
+
+Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
+The API connector framework will allow the ongoing regular import of user data after a single user authorization.
 
 #### Data Sources
 
@@ -81,8 +84,33 @@ SDK’s will enable developers to implement easy automatic sharing options in th
 * ICD-10
 * Open mHealth
 
-Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
-The API connector framework will allow the ongoing regular import of user data after a single user authorization.
+#### EHR Policies
+
+* [CMS Interoperability and Patient Access Final Rule](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#CMS-Interoperability-and-Patient-Access-Final-Rule)
+* [CMS Interoperability and Prior Authorization Proposed Rule](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#CMS-Interoperability-and-Prior-Authorization-Proposed-Rule)
+* [Guidance for States](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Guidance-for-States)
+* [Best Practices for Payers and App Developers](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Best-Practices-for-Payers-and-App-Developers)
+* [Patient Privacy and Security Resources](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Patient-Privacy-and-Security-Resources)
+
+#### EHR Technical Standards
+
+* [FHIR](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#FHIR)
+* [SMART/OAUTH 2](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#SMART/OAUTH)
+* [Open ID Connect](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Open-ID-Connect)
+* [United States Core Data for Interoperability (USCDI)](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#United-States-Core-Data)
+
+#### Implementation Support for EHR APIs
+
+
+| **API Name**                                  | **Supporting IGs**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Patient Access API                            | *[The CARIN Consumer Directed Payer Data Exchange IG (also referred to as the CARIN IG for Blue Button®)](http://hl7.org/fhir/us/carin-bb/history.html)* [HL7 FHIR Da Vinci PDex IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Da_Vinci)* [HL7 US Core IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#US_Core)* [HL7 FHIR Da Vinci - PDex US Drug Formulary IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#FHIR_API) |
+| Provider Access API                           | * See Above IGs for Patient Access API                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Payer-to-Payer API                            | * See Above IGs for Patient Access API                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Provider Directory API                        | *[HL7 FHIR Da Vinci PDex Plan Net IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#P_Directory)                                                                                                                                                                                                                                                                                                                                                                                              |
+| Documentation Requirements Lookup Service API | *[HL7 FHIR Da Vinci - Coverage Requirements Discovery (CRD) IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Coverage_Discovery)* [HL7 FHIR Da Vinci - Documentation Templates and Rules (DTR) IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Coverage_Discovery)                                                                                                                                                                                          |
+| Prior Authorization Support (PAS) API         | *[HL7 FHIR Da Vinci - PAS IG](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#PA_PAS)                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Bulk Data                                     | *[HL7 FHIR Bulk Data Access(Flat FHIR) Specification](https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index#Bulk_Data)                                                                                                                                                                                                                                                                                                                                                                                |
 
 #### 3.1.2 Raw Data and Files Storage
 

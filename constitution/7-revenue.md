@@ -17,7 +17,7 @@ This growth is likely in part due to two main factors:
 * the rise of the novel coronavirus has increased the attention and importance of pharmaceutical development
 * the number of persons older than 60 is expected to more than double in the coming decades
 
-![aging-population](../assets/growth-in-aging-population.png)
+![aging-population](../assets/charts/growth-in-aging-population.png)
 
 These factors all point to a massive potential for the revenue necessary to sustain this project. The primary sources of revenue include:
 
@@ -57,7 +57,7 @@ This will ensure that anyone can afford to use it, while still providing compens
 
 ### Plugin Marketplace
 
-![plugin marketplace](../assets/plugins/plugin-marketplace.png)
+![plugin marketplace](../plugins/plugin-marketplace.png)
 
 ### References
 

@@ -68,7 +68,7 @@ We still know next to nothing about the long-term effects of 99.9% of the 4 poun
 
 Under the current system of research, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there is not a sufficient profit incentive for anyone to research the effects of any factor besides a molecule that can be patented.
 
-![how much we know](../assets/how-much-we-know.png)
+![how much we know](../assets/charts/how-much-we-know.png)
 
 **Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments**
 
