@@ -152,6 +152,12 @@ settings table.
 All measured values are thrown in one "pool" and can be retrieved in a flat universal format without having to
 worry about transforming complex nested data structures for compatibility.
 
+##### Units of Measurement
+
+The Unified Code for Units of Measure (UCUM) system will be used to
+include all units of measures being contemporarily used in international science.  The full list of units of measure 
+is available [here](../reference-databases/units/ucum_units_of_measure.csv).
+
 #### 3.1.6. Time Series Data Storage
 
 After validation and mapping, the data will be stored in a standardized and structured time-series database.
