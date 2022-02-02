@@ -27,7 +27,7 @@ Creating a new software ecosystem for health data not only requires developers b
 
 Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
 
-Click 👉👉👉 [here](https://github.com/cure-dao/draft-whitepaper/discussions/new?category=voters) to tell us about your interests or project in the [Voters Discussion Channel](https://github.com/cure-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting-on-changes.md).
+Click 👉👉👉 [here](https://github.com/cure-dao/draft-whitepaper/discussions) to tell us about your interests or project in the [Voters Discussion Channel](https://github.com/cure-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting-on-changes.md).
 
 You can join one of [Laboratories](../constitution/5-organization.md) and help to create a world free of unnecessary suffering.
 

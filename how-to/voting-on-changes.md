@@ -10,7 +10,7 @@ When a Pull Request is made to the main branch, a new comment is posted on the P
 
 ## Rules of Voting
 
-[.voting.yml](.voting.yml) contains the rules of voting:
+[.voting.yml](../.voting.yml) contains the rules of voting:
 
 * `percentageToApprove` is the percentage of up-votes needed to approve a merge.
 * `minVotersRequired` is the minimum number of unique voters needed to merge.
@@ -18,6 +18,7 @@ When a Pull Request is made to the main branch, a new comment is posted on the P
 
 ## Voters
 
-[.voters.yml](.voters.yml) defines the allowed voters and their vote weights. Each entry has the format of `<github-user>:<voting-weight>`. Each voter will be assigned a vote weight of 1 until and unless a weighting system is democratically approved.
+[.voters.yml](../.voters.yml) defines the allowed voters and their vote weights. Each entry has the format of 
+`<github-user>:<voting-weight>`. Each voter will be assigned a vote weight of 1 until and unless a weighting system is democratically approved.
 
 To be added to the voter list, please introduce yourself in the Introductions channel on the Discussions page.

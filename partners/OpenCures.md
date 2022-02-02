@@ -17,7 +17,7 @@ connecting them to research Show Video **Faster intervention development** **Tak
 **metabolomics and proteomics only**\
 **available to research so far.**
 
-![](https://opencures.org/wp-content/uploads/2021/11/2-AA.png) **** [**Launch**](https://my.opencures.org/home) **Advanced Personal**\
+![](https://opencures.org/wp-content/uploads/2021/11/2-AA.png) **** [**Launch**](https://my.opencures.org) **Advanced Personal**\
 **Health Management Think of it as your sixth sense for health.**\
 **Aggregate health data from all sources**\
 **like wearables, apps, labs, EHR and make**\
