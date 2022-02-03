@@ -1,37 +1,20 @@
 ---
 description: >-
-  How we can use existing data to reduce suffering and overcome the barriers to
-  collaboration and data sharing
+  How we reduce suffering using a decentralized autonomous organization as a vehicle to create an open-source health platform.
 ---
-
 # 💡 Solution
 
 👈 [Back to Table of Contents](../)
 
-In short the solution is to create a software ecosystem that makes it easier or even possible to aggregate and analyze the oceans of real-world evidence sitting in data silos to discover new and more precise cures.
+The solution to the lack of progress and increasing expense of healthcare is to use the oceans of real-world evidence to discover new cures.
 
-### 2.1 Open source collaboration powered by a DAO
-
-With a lot of health applications in need for the same basic underlying technology for handling health data and missing data format standards and reference databases it is obvious that an open sourced collaborative approach would distribute development efforts for these businesses and making interoperability and portabilty of data more efficient.
-
-\-> TODO: Examples of successfull open source
-
-Within this whitepaper an addition to a regular open source collaboration approach a combination with the governance through a decentralized autonomous organization (DAO) is proposed. The advantages of this combination are
-
-* Better organization in working groups with organized project management from a core team
-* Compensation of interested developers for their contributions
-* Distributed voting to the community of collaborator instead of centralized management of soource code repositories
-* Funding vehicle for achievement of the open source software
-
-\-> TODO: detail Advantages -> TODO: Example of successful Open source software development + DAO if existent
-
-With these advantages an faster success and completion of the open source framework is projected, which means that the applications that need this software can get sooner into operation to achieve the overarching mission of faster interventions.
-
-### 2.2 A data-driven Approach to Personalized Medicine
+### 2.1 A data-driven Approach to Personalized Medicine
 
 Out of an existing pool of big health data an insilico model of human biology can be developed for the discovery of new interventions and their personalized application.
 
-One way to achieve this is to view the human body from a input-output black box systematic perspective and apply predictive machine learning models to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) of similar people based on their data of their following profiles:
+One way to achieve this is to view the human body as a black box with inputs and outputs. 
+We predictive machine learning models to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) of 
+similar people based on their data of their following profiles:
 
 * [Genomic](https://en.wikipedia.org/wiki/Genomics)
 * [Transcriptomic](https://en.wikipedia.org/wiki/Transcriptome)
@@ -47,7 +30,7 @@ One way to achieve this is to view the human body from a input-output black box 
 
 This will enable the discovery of the personalized full range of positive and negative relationships for all factors without a profit incentive for traditional trials.
 
-### 2.3 The Potential of Real-World Evidence-Based Studies
+### 2.2 The Potential of Real-World Evidence-Based Studies
 
 * **Diagnostics** - Data mining and analysis to identify causes of illness
 * **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances to prevent disease
@@ -164,8 +147,6 @@ To validate the theory that large-scale real-world evidence can produce better h
 An example of the application and usage of aggregated health data and applied statistics is the publishing of observational studies of different relationships. The [Journal of Citizen Science](https://app.crowdsourcingcures.org) used an anonymously aggregated and analysed data set from over 10 million data points on symptom severity and influencing factors from over 10,000 participants. This data has been used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
 
 ![journal of citizen science](../plugins/observational-studies-plugin/journal-of-citizen-science.png)
-
-Another example is to organize and harness the data and insights of the actions of the communities of people with specific conditions or performance enhancement experiments and pool this in a trial/ study way into knowledge for the public research to directly develop new cures or to take these findings as a basis to propose new clinical trials.
 
 #### [Next 3. Platform](3-platform.md) 👉
 

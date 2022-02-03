@@ -27,7 +27,7 @@ These factors all point to a massive potential for the revenue necessary to sust
 2. Grants from governments modernizing their programs to take advantage of real-world data
 3. Digital health companies wishing to accelerate product development using existing white-label software or hosted software-as-a-service (SaaS) options
 
-![](../assets/business/value-flow-chain.svg)
+![](../assets/incentivization/value-flow-chain.svg)
 
 ### Hosted Software as a Service (SaaS)
 
