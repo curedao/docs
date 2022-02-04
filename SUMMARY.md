@@ -1,7 +1,7 @@
 # Table of contents
 
 * [💡 Litepaper](README.md)
-* [📜 Constitution](constitution/README.md)
+* [📜 Whitepaper](constitution/README.md)
   * [☠ Introduction and Challenges](constitution/1-introduction-and-challenges.md)
   * [💡 Solution](constitution/2-solution.md)
   * [🏭 Platform](constitution/3-platform.md)
