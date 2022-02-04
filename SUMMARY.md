@@ -26,7 +26,7 @@
     * [⏱ How to Track Your Time or Contribution](how-to/task-management/tracking-time-on-tasks.md)
     * [📈 How Use ZenHub](how-to/task-management/how-to-use-zenhub.md)
     * [💸 Vote on Compensation for Tasks](how-to/task-management/vote-on-compensation-for-tasks.md)
-* [🚀 Initiatives](plugins/README.md)
+* [🔌 Plugins](plugins/README.md)
   * [Outcome Labels Plugin](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
 * [🤝 Partners](partners/README.md)
   * [Ageless Partners](<partners/Ageless Partners.md>)
