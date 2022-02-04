@@ -68,7 +68,7 @@ We still know next to nothing about the long-term effects of 99.9% of the 4 poun
 
 Under the current system of research, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there is not a sufficient profit incentive for anyone to research the effects of any factor besides a molecule that can be patented.
 
-![how much we know](../assets/how-much-we-know.png)
+![how much we know](../assets/charts/how-much-we-know.png)
 
 **Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments**
 
@@ -139,22 +139,6 @@ Currently governments around the world are spending billions in funding closed-s
 The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we made or how much sleep we got are known as “descriptive statistics”. However, by integrating all available data from individuals, similar populations, as well as existing clinical research findings and applying machine learning we may achieve “prescriptive” statistics for advanced insight generation. From that point functionalities like real-time decision support for improving health or biological age clocks and health risks can be leveraged.
 
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
-
-### 1.4 Problems with knowledge about the underlying root of degenerative diseases (aging)
-
-If we would have reliable biomarkers for aging already, research could find interventions for the root cause of degenerative diseases which is aging itself. Despite many years of research, we still don’t have reliable biomarkers for aging. One of the main problems is the distance between genotype and phenotype. It is proposed that by studying the relationships between proteins and metabolites, essentially a multi-omic process, would allow the creation of “endophenotypes” to help identify a signature (Hoffman et al. 2017).
-
-![Multiomics appproach](../assets/data/omics.png)
-
-#### Problems with current biomarkers for aging:
-
-Hundreds of genes found to affect aging in model organisms do not have significant association with longevity in humans. Humans are genetically diverse in comparison to model organisms and this contributes to the weak signature of any set of genes towards longevity. Environmental effects on aging are relatively unknown.
-
-#### Problems with current approaches:
-
-A genome-wide association study (GWAS) is an approach used in genetics research to associate specific genetic variations with particular diseases. GWAS can only explain a small fraction of the heritability of many human traits, including aging. Transcriptomics can help, but it can’t explain the whole story. Proteomics is actually the enzyme workhorse of biology and the insight into protein levels is especially important. Metabolomics are the building blocks that proteins work with and is necessary for a better insight into the state of the running system.
-
-Rather than focusing on individual proteins and metabolites, a multi-omics approach can focus on pathway activation and how those pathways are maintained by individual entities and their relationships with each other. We want to identify the difference between young and old network states and be able to tell when an intervention is moving a system towards a more healthy state.
 
 #### [Next Solution](2-solution.md) 👉
 

@@ -14,10 +14,11 @@ We have created a new and improved **Outcomes Label** that instead lists the deg
 
 ## Data Quantity
 
-The Foundation has collected over 10 million data points on symptom severity and influencing factors from over 10,
-000 people. The Foundation develops and applies predictive machine learning algorithms to the data to reveal effectiveness and side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses.
+We've collected over 10 million data points on symptom severity and influencing factors from over 10,000 people. 
+Predictive machine learning algorithms are applied to reveal effectiveness and 
+side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses.
 
-These analytical results have been used to freely publish 90,000 studies on the effects of various treatments and food ingredients on symptom severity.
+These analytical results have been used to publish 90,000 studies on the effects of various treatments and food ingredients on symptom severity.
 
 ![](https://crowdsourcingcures.org/wp-content/uploads/2021/03/johnny-5-need-input.gif)
 

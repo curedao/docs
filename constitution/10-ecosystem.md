@@ -100,10 +100,10 @@ Scientists can then use this data for predictive modelling and other types of re
 * A division of the Dutch multinational company, N.V. Philips, has aggregated more than 15 [petabytes](https://techterms.com/definition/petabyte) of data taken from 390 million medical records, patient inputs, and imaging studies. Healthcare personnel can access this massive collection to obtain critical data for informing the clinical decision-making process.
 * In the U.S., the National Institute of Health established the [_Big Data to Knowledge_](https://commonfund.nih.gov/bd2k) (BD2K) program designed to bring biomedical big data to researchers, clinicians, and others. Initiatives such as these will increasingly empower healthcare providers to improve patient care while simultaneously countering the unsustainable cost trajectory. They will also provide researchers with a rich universe of accessible data and information for disease prevention and cure.
 
-### To Contact
+### Digital Health
 
 * GenomeDAO
-* CrowdfundingCures - Mike
+* CrowdfundingCures
 * LabDAO
 * Nectar
 * Doc.ai
@@ -113,7 +113,6 @@ Scientists can then use this data for predictive modelling and other types of re
 * OpenHumans
 * OpenSci Foundation
 * Citizen Health
-*
 
 ## References
 
