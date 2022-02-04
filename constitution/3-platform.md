@@ -9,13 +9,21 @@ description: >-
 
 ## 3. The Platform
 
-This chapter describes the functional description of the proposed software platform and plugin framework to be developed in more detail.
-The scope is the development is functionalities for the aggregation, managing, processing, and storage of health data from different sources.
+###  Functional Scope
+The functional scope of the platform includes:
+- aggregation
+- managing
+- processing
+- storage 
 
-The goal is to achieve better interoperability, portability, availability, analysis, security of the data, and a basic technology layer suitable for many applications that can be built on top of it:
+of health data from different sources.
 
+### Primary goal
+Create a basic foundational technology layer suitable for any digital health application providing better interoperability, portability, availability, analysis, security of the data.
+
+### Use Cases
+* EHR Systems for healthcare providers
 * User-centered dashboards for personal health management
-* Direct-to-customer and value-based health care
 * Data sharing with doctors, health coaches, or family members
 * Decentralized clinical trial platforms (e.g. BYOD wearable)
 * Patient recruitment services for clinical trials
@@ -25,21 +33,15 @@ The goal is to achieve better interoperability, portability, availability, analy
 * Algorithm and scores development (e.g. in-silico trials)
 * Niche health applications with specific requirements or custom integrations
 
-A simplified representation of the architecture is drafted in the following graphic:
-
 ![framework diagram](../assets/diagrams/layered-platform-architecture-diagram.png)
 
 The platform consists of two primary components:
 
-* **Core Open-Source Platform** - The core platform will be open-source and include only universally necessary features.
+* **Core Open-Source Platform** - The core platform is open-source and includes only universally necessary features.
   This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
-* **Plugin Framework** - Plugins will be modules that provide additional functionality.
+* **Plugin Framework** - Plugins are modules that provide additional functionality.
   This includes data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications.
   These may be free or monetized by their creator or even be integrated into the core based on community voting.
-
-The possibility for developers to easily create plugin modules on top of the core opens up the basis for no-code marketplaces.
-A famous successful example is WordPress and its plugin ecosystem.
-A possible implementation of the envisioned plugin marketplace is illustrated in the graphic below:
 
 ![framework diagram](../plugins/plugin-marketplace.png)
 
