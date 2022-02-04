@@ -31,19 +31,16 @@
 25. [Berwick, Donald M.; Nolan, Thomas W.; and Whittington, John. “The Triple Aim: Care, Health, and Cost.”_Health Affairs_: Vol. 27, No. 3. May/June 2008. Retrieved May 1, 2019](https://www.healthaffairs.org/doi/full/10.1377/hlthaff.27.3.759)
 26. [health data. (n.d.) _McGraw-Hill Concise Dictionary of Modern Medicine_. (2002). Retrieved May 1, 2019](https://medical-dictionary.thefreedictionary.com/health+data)
 27. [William H. Sorrell, Attorney General of Vermont, Et Al., Petitioners v. IMS Healthcare Inc. ET Al.](https://www.oyez.org/cases/2010/10-779)
-28. [https://www.federalregister.gov/d/2019-08530](https://www.federalregister.gov/d/2019-08530)
 29. [https://compliancy-group.com/hipaa-fines-directory-year/](https://compliancy-group.com/hipaa-fines-directory-year/)
 30. 45 CFR § 164.514 (b)(1)(i); As set forth in the HIPAA Privacy Rule
 31. https://www.bloomberg.com/graphics/infographics/reidentifying-anonymous-medical-records.html
 32. Na L, Yang C, Lo C, Zhao F, Fukuoka Y, Aswani A. Feasibility of Reidentifying Individuals in Large National Physical Activity Data Sets From Which Protected Health Information Has Been Removed With Use of Machine Learning; \[https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2719130
-33. \[https://california.public.law/codes/ca\_bus\_and\_prof\_code\_section\_650
 34. https://www.nytimes.com/2018/09/20/health/memorial-sloan-kettering-cancer-paige-ai.html
 35. [NC233 causal inference](https://nc233.com/tag/causal-inference/)
 36. [Inferring causal impact using Bayesian structural time-series models](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41854.pdf)
 37. [CausalImpact R Package](http://google.github.io/CausalImpact/CausalImpact.html)
 38. [A Comparison of Observational Studies and Randomized, Controlled Trials | NEJM](https://www.nejm.org/doi/full/10.1056/NEJM200006223422506)
 39. [FDA and Clinical Drug Trials: A Short History](https://www.fda.gov/media/110437/download#:\~:text=Efficacy%20Under%20the%201962%20Drug,%22efficacious%22%20prior%20to%20marketing.)
-40.
 
 #### Health Data Brokers
 

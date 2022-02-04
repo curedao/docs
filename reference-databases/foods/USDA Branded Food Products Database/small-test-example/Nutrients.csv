@@ -1,0 +1,29 @@
+NDB_No,Nutrient_Code,Nutrient_name,Derivation_Code,Output_value,Output_uom
+45024467,203,Protein,LCCS,28.24,g
+45024467,204,Total lipid (fat),LCCS,16.47,g
+45024467,205,"Carbohydrate, by difference",LCSL,4.71,g
+45024467,208,Energy,LCCS,282,kcal
+45024467,269,"Sugars, total",LCCS,0,g
+45024467,291,"Fiber, total dietary",LCCD,0,g
+45024467,301,"Calcium, Ca",LCCD,706,mg
+45024467,303,"Iron, Fe",LCCD,0,mg
+45024467,307,"Sodium, Na",LCCS,588,mg
+45024467,318,"Vitamin A, IU",LCCD,471,IU
+45024467,401,"Vitamin C, total ascorbic acid",LCCD,0,mg
+45024467,601,Cholesterol,LCCS,47,mg
+45024467,605,"Fatty acids, total trans",LCCS,0,g
+45024467,606,"Fatty acids, total saturated",LCCS,11.76,g
+45024464,203,Protein,LCCS,0,g
+45024464,204,Total lipid (fat),LCCD,0,g
+45024464,205,"Carbohydrate, by difference",LCCS,41.67,g
+45024464,208,Energy,LCCS,125,kcal
+45024464,269,"Sugars, total",LCCS,16.67,g
+45024464,291,"Fiber, total dietary",LCCS,8.3,g
+45024464,301,"Calcium, Ca",LCCD,0,mg
+45024464,303,"Iron, Fe",LCCD,1.5,mg
+45024464,307,"Sodium, Na",LCCS,125,mg
+45024464,318,"Vitamin A, IU",LCCD,4167,IU
+45024464,401,"Vitamin C, total ascorbic acid",LCCD,20,mg
+45024464,601,Cholesterol,LCCD,0,mg
+45024464,605,"Fatty acids, total trans",LCCS,0,g
+45024464,606,"Fatty acids, total saturated",LCCD,0,g

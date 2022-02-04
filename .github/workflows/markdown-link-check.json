@@ -1,13 +1,16 @@
 {
   "ignorePatterns": [
     {
-      "pattern": "^http://example.net"
+      "pattern": "^https://commonfund.nih.gov/bd2k"
+    },
+    {
+      "pattern": "^https://www.flaticon.com/*"
     }
   ],
   "replacementPatterns": [
     {
-      "pattern": "^.attachments",
-      "replacement": "file://some/conventional/folder/.attachments"
+      "pattern": "^\_",
+      "replacement": "_"
     },
     {
       "pattern": "^/",

@@ -16,7 +16,7 @@ Fully realizing the potential of the personalized preventative medicine of the f
 
 This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party can derive more value from participation than they have to put into it.
 
-![](../assets/business/value-flow-chain.svg)
+![](../assets/incentivization/value-flow-chain.svg)
 
 ### 1. Patients
 
@@ -42,7 +42,7 @@ On top of the incentives for businesses listed above, the following incentives w
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
 3. Revenue derived through subscription or licensing agreements for usage of their plugins in the Plugin Marketplace.
 
-![Branded Plugins](../assets/plugins/plugin-marketplace.png)
+![Branded Plugins](../plugins/plugin-marketplace.png)
 
 ### 5. Disease Advocacy Non-Profit Organizations
 
