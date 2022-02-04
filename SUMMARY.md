@@ -36,3 +36,4 @@
 * [💬 Proposals](proposals/README.md)
   * [DAO Name, Tagline, and Logo Proposals](proposals/name-tagline-token-name-logo-proposals.md)
   * [Proposal: Use GitHub Issues for Task Management](proposals/use-github-for-task-management.md)
+* [API Docs](api-docs.md)
