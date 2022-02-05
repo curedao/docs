@@ -1,0 +1,2635 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "OpenVista Common Data Set API",
+    "description": "**Patient Data For Apps - OpenVista Release 2**\n\n&copy; 2017 Medsphere Systems Corporation. All rights reserved.",
+    "version": "1.0.0"
+  },
+  "host": "host",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/HubService/services/api",
+  "tags": [
+    {
+      "name": "Patients",
+      "description": "Find accessible patients. Retrieve CCDA and Common Data Set information."
+    },
+    {
+      "name": "API Users",
+      "description": "Create and manage API Users and control access to patients."
+    }
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/patients/find": {
+      "get": {
+        "summary": "Find accessible patients, filtered by various fields.",
+        "description": "If no query parameters are provided, a list of all accessible patients is returned. *see also* /patients/findbymrn/{mrn} to retrieve patients by medical record number.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "type": "string",
+            "required": false,
+            "description": "Patient name."
+          },
+          {
+            "name": "dob",
+            "in": "query",
+            "type": "string",
+            "required": false,
+            "description": "Patient's date of birth in ISO-8601 format."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "An array of patients",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Accessible Patients"
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/findbymrn/{mrn}": {
+      "parameters": [
+        {
+          "name": "mrn",
+          "in": "path",
+          "type": "string",
+          "required": true,
+          "description": "Patient Medical Record Number."
+        }
+      ],
+      "get": {
+        "summary": "Find a single accessible patient by medical record number (mrn).",
+        "tags": [
+          "Patients"
+        ],
+        "responses": {
+          "200": {
+            "description": "A single patient.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Accessible Patients"
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/visits": {
+      "get": {
+        "summary": "Get a list of visits and care team members for a patient.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "The visit list includes the care team for each visit. *Hint:* Use visits to determine which time periods have documents and data available for a patient. ",
+        "operationId": "getVisits",
+        "responses": {
+          "200": {
+            "description": "An array of visits.",
+            "schema": {
+              "$ref": "#/definitions/Visit"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/visits/{visitId}/ccda": {
+      "get": {
+        "summary": "Get a CCDA for a specific patient visit.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient ID **Should be external ID?**",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "visitId",
+            "in": "path",
+            "description": "Return a CCDA for this Visit ID number.",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "produces": [
+          "application/xml"
+        ],
+        "description": "Return a CCDA in XML machine readable form for the specified visit.",
+        "operationId": "getVisitCCA",
+        "responses": {
+          "200": {
+            "description": "A CCDA",
+            "schema": {
+              "$ref": "#/definitions/Visit"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/allergies": {
+      "get": {
+        "summary": "Get patient allergies.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "Return patient allergies. All active allergies are returned.",
+        "operationId": "getAllergies",
+        "responses": {
+          "200": {
+            "description": "Allergies",
+            "schema": {
+              "$ref": "#/definitions/Allergies"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/assessment": {
+      "get": {
+        "summary": "Get patient assessment.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "Assessment is a visit based data collection. Requests for assessment between two dates are grouped by visit and returned in a json object keyed by visit IEN. This allows you to use the visit ien along with other data elements that are visit based.",
+        "operationId": "getAssessment",
+        "responses": {
+          "200": {
+            "description": "Assessment",
+            "schema": {
+              "$ref": "#/definitions/Assessment"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/careplan": {
+      "get": {
+        "summary": "Get patient care plan.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "Care plan is a visit based data collection. Requests for care plan between two dates are grouped by visit and returned in a json object keyed by visit IEN. This allows you to use the visit ien along with other data elements that are visit based.",
+        "operationId": "getCarePlan",
+        "responses": {
+          "200": {
+            "description": "Care Plan",
+            "schema": {
+              "$ref": "#/definitions/CarePlan"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/healthconcerns": {
+      "get": {
+        "summary": "Get patient health concerns note.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "Health concerns is a visit based data collection. Requests for health concerns between two dates are grouped by visit and returned in a json object keyed by visit IEN. This allows you to use the visit ien along with other data elements that are visit based.",
+        "operationId": "getHealthConcerns",
+        "responses": {
+          "200": {
+            "description": "Health Concerns",
+            "schema": {
+              "$ref": "#/definitions/Health Concerns"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/immunizations": {
+      "get": {
+        "summary": "Get patient immunizations.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "Return Immunizations.",
+        "operationId": "getImmunizations",
+        "responses": {
+          "200": {
+            "description": "Immunizations",
+            "schema": {
+              "$ref": "#/definitions/Immunizations"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/implants": {
+      "get": {
+        "summary": "Get patient implantable devices.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "Implantable devices is a current data element. Entire content is always returned.",
+        "operationId": "getImplantableDevices",
+        "responses": {
+          "200": {
+            "description": "Implantable Devices",
+            "schema": {
+              "$ref": "#/definitions/Implants"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/laborders/pending": {
+      "get": {
+        "summary": "Get patient's pending lab orders without results.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "Return lab orders.",
+        "operationId": "getLabOrders",
+        "responses": {
+          "200": {
+            "description": "Lab Orders",
+            "schema": {
+              "$ref": "#/definitions/Lab Orders Pending"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/labresults": {
+      "get": {
+        "summary": "Get patient lab results.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "description": "Return lab results.",
+        "operationId": "getLabResults",
+        "responses": {
+          "200": {
+            "description": "Lab Results",
+            "schema": {
+              "$ref": "#/definitions/Lab Results"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/medications/current": {
+      "get": {
+        "summary": "Get current patient medications.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "Return current patient medications in json form.",
+        "operationId": "getMedsCurrent",
+        "responses": {
+          "200": {
+            "description": "Patient's Current Medications",
+            "schema": {
+              "$ref": "#/definitions/Medications Current"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/medications/history": {
+      "get": {
+        "summary": "Get patient medications.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Return medications starting at this time.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Return medications ending at this time.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "description": "Return patient medication history.",
+        "operationId": "getMedsHistory",
+        "responses": {
+          "200": {
+            "description": "Patient Medications",
+            "schema": {
+              "$ref": "#/definitions/Medications History"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/problems": {
+      "get": {
+        "summary": "Get patient problems.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Define beginning of time period. Current problems are always returned.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Define end of time period. Current problems are always returned.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "description": "Return patient problems.",
+        "operationId": "getProblems",
+        "responses": {
+          "200": {
+            "description": "Patient Problems",
+            "schema": {
+              "$ref": "#/definitions/Problems"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/procedures/date": {
+      "get": {
+        "summary": "Get patient procedures.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Return procedures starting with this time.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Return procedures ending with this time.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Return procedures occurring on this date.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "description": "Return Procedures.",
+        "operationId": "getProcedures",
+        "responses": {
+          "200": {
+            "description": "Procedures",
+            "schema": {
+              "$ref": "#/definitions/Procedures"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/smoking": {
+      "get": {
+        "summary": "Get patient smoking status.",
+        "tags": [
+          "Patients"
+        ],
+        "description": "Smoking status as recorded during visits within the requested time period.",
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Find information for visits starting at or after this date-time.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Find information for visits ending before this date-time",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Find information for visits occuring on this date.",
+            "required": false,
+            "type": "string",
+            "format": "datetime"
+          }
+        ],
+        "operationId": "getTeam",
+        "responses": {
+          "200": {
+            "description": "Smoking Status",
+            "schema": {
+              "$ref": "#/definitions/Procedures"
+            }
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/patients/{dfn}/vitals": {
+      "get": {
+        "summary": "Get patient vitals.",
+        "tags": [
+          "Patients"
+        ],
+        "parameters": [
+          {
+            "name": "dfn",
+            "in": "path",
+            "description": "Patient External ID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Return vitals starting at this time.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "description": "Return vitals ending at this time.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Return vitals from this date.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/xml"
+        ],
+        "description": "Return a CCDA in XML machine readable form for the specified visit.",
+        "operationId": "getVitals",
+        "responses": {
+          "200": {
+            "description": "Patient Vitals"
+          },
+          "default": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Response Wrapper": {
+      "type": "object",
+      "description": "This structure wraps every data response from the API, except the full data CCDA response, which simply returns a CCDA as application/xml. The response data is found in the property named content:.",
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "description": "Time of the response in epoch time."
+        },
+        "url": {
+          "type": "string",
+          "description": "The request url that produced the response."
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "apiUser": {
+              "type": "string",
+              "description": "External ID of the user who made the request."
+            },
+            "patientDFN": {
+              "type": "string",
+              "description": "Unique identifier of the patient."
+            }
+          },
+          "description": "This property contains the data content of the request as json object with named categories such as vitals, careplan, problems."
+        }
+      }
+    },
+    "Patient": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique Identifier for the patient. **Remove this?**"
+        },
+        "externalId": {
+          "type": "string",
+          "description": "External Unique Identifier for the patient.",
+          "example": "##12345"
+        }
+      }
+    },
+    "Error": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "A reasonably short message potentially appropriate to show to users or technical support."
+        },
+        "detail": {
+          "type": "string",
+          "description": "When present, a longer message with details appropriate for technical support or developers."
+        },
+        "logid": {
+          "type": "string",
+          "description": "When present, an error reference number that may be helpful when discussing a problem with Medsphere."
+        }
+      }
+    },
+    "Accessible Patients": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505840926463
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "http://sdvmovcrt03.medsphere.com:18080/CERT-ConnectorService/UAPI/patients"
+        },
+        "content": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "",
+            "properties": {
+              "ien": {
+                "type": "integer",
+                "format": "int32",
+                "description": "Unique identifier.",
+                "example": 617
+              },
+              "mrn": {
+                "type": "string",
+                "example": "181818801"
+              },
+              "dob": {
+                "type": "string",
+                "description": "Patient date of birth.",
+                "example": "1980-01-01"
+              },
+              "name": {
+                "type": "string",
+                "description": "The First,Last name of the patient.",
+                "example": "CHEN,REPRO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Allergies": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505853093655
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/allergies"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            },
+            "allergies": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "signs": {
+                    "type": "string",
+                    "example": "HIVES~247472004"
+                  },
+                  "inactivateDate": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "status": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "dateTime": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "allergyType": {
+                    "type": "string",
+                    "example": "DRUG"
+                  },
+                  "mechanism": {
+                    "type": "string",
+                    "example": "ALLERGY"
+                  },
+                  "severity": {
+                    "type": "string",
+                    "example": "MODERATE"
+                  },
+                  "observationType": {
+                    "type": "string",
+                    "example": "OBSERVED"
+                  },
+                  "type": {
+                    "type": "string",
+                    "example": "Allergy"
+                  },
+                  "rxnorm": {
+                    "type": "string",
+                    "example": "733"
+                  },
+                  "id": {
+                    "type": "string",
+                    "example": "296"
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "AMPICILLIN"
+                  },
+                  "originationDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1480625201000
+                  },
+                  "verificationDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1480625202000
+                  },
+                  "verified": {
+                    "type": "boolean",
+                    "example": true
+                  },
+                  "drugIngredients": {
+                    "type": "array",
+                    "items": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Assessment": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505849552262
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/assessment"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            },
+            "assessment": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "text": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": " LOCAL TITLE: ASSESSMENT                                         "
+                    }
+                  },
+                  "referenceDateTime": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1481064480000
+                  },
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "911"
+                  },
+                  "dischargeDateTime": {
+                    "type": "string",
+                    "example": "        "
+                  },
+                  "visitDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1480448820000
+                  },
+                  "title": {
+                    "type": "string",
+                    "example": "ASSESSMENT"
+                  },
+                  "patientName": {
+                    "type": "string",
+                    "example": "LARSON, REBECCA J (L1566)"
+                  },
+                  "signatureDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1481064691000
+                  },
+                  "authorName": {
+                    "type": "string",
+                    "example": "HENRY SEVEN"
+                  },
+                  "signatureStatus": {
+                    "type": "string",
+                    "example": "completed"
+                  },
+                  "hospitalLocation": {
+                    "type": "string",
+                    "example": "MED-SURG"
+                  },
+                  "authorIen": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "visitIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 2309
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "CarePlan": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505850345285
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/careplan"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "careplan": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "text": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": " LOCAL TITLE: GOALS                                              "
+                    }
+                  },
+                  "referenceDateTime": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1481064720000
+                  },
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "914"
+                  },
+                  "dischargeDateTime": {
+                    "type": "string",
+                    "example": "        "
+                  },
+                  "visitDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1480448820000
+                  },
+                  "title": {
+                    "type": "string",
+                    "example": "GOALS"
+                  },
+                  "patientName": {
+                    "type": "string",
+                    "example": "LARSON, REBECCA J (L1566)"
+                  },
+                  "signatureDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1481064861000
+                  },
+                  "authorName": {
+                    "type": "string",
+                    "example": "HENRY SEVEN"
+                  },
+                  "signatureStatus": {
+                    "type": "string",
+                    "example": "completed"
+                  },
+                  "hospitalLocation": {
+                    "type": "string",
+                    "example": "MED-SURG"
+                  },
+                  "authorIen": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "visitIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 2309
+                  }
+                }
+              }
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Health Concerns": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505850641739
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/assessment"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            },
+            "assessment": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "text": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": " LOCAL TITLE: ASSESSMENT                                         "
+                    }
+                  },
+                  "referenceDateTime": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1481064480000
+                  },
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "911"
+                  },
+                  "dischargeDateTime": {
+                    "type": "string",
+                    "example": "        "
+                  },
+                  "visitDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1480448820000
+                  },
+                  "title": {
+                    "type": "string",
+                    "example": "ASSESSMENT"
+                  },
+                  "patientName": {
+                    "type": "string",
+                    "example": "LARSON, REBECCA J (L1566)"
+                  },
+                  "signatureDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1481064691000
+                  },
+                  "authorName": {
+                    "type": "string",
+                    "example": "HENRY SEVEN"
+                  },
+                  "signatureStatus": {
+                    "type": "string",
+                    "example": "completed"
+                  },
+                  "hospitalLocation": {
+                    "type": "string",
+                    "example": "MED-SURG"
+                  },
+                  "authorIen": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "visitIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 2309
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Immunizations": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505852890698
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/immunizations"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "immunizations": {
+              "type": "object",
+              "description": "",
+              "properties": {
+                "vaccinations": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "description": "",
+                    "properties": {
+                      "recordType": {
+                        "type": "string",
+                        "example": "I"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "The First,Last name of the patient.",
+                        "example": "FLU, UNSP"
+                      },
+                      "visitDate": {
+                        "type": "string",
+                        "example": "05/10/2014"
+                      },
+                      "vImmunizationIen": {
+                        "type": "string",
+                        "example": "354"
+                      },
+                      "outsideLocation": {
+                        "type": "string",
+                        "example": "HEB"
+                      },
+                      "group": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "immunizationIen": {
+                        "type": "string",
+                        "example": "108"
+                      },
+                      "lot": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "reaction": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "visDate": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "age": {
+                        "type": "string",
+                        "example": "44yrs"
+                      },
+                      "visitDateTime": {
+                        "type": "string",
+                        "example": "10-May-2014"
+                      },
+                      "providerIen": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "providerName": {
+                        "type": "object",
+                        "example": null
+                      },
+                      "injSiteID": {
+                        "type": "object",
+                        "example": null
+                      },
+                      "injSiteName": {
+                        "type": "object",
+                        "example": null
+                      },
+                      "volume": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "visitIen": {
+                        "type": "string",
+                        "example": "2310"
+                      },
+                      "visitCategory": {
+                        "type": "string",
+                        "example": "E"
+                      },
+                      "fullName": {
+                        "type": "string",
+                        "example": "influenza virus vaccine, unspecified formulation"
+                      },
+                      "locationIen": {
+                        "type": "string",
+                        "example": "67"
+                      },
+                      "locationName": {
+                        "type": "string",
+                        "example": "GENERAL HOSPITAL"
+                      },
+                      "isVisitLocked": {
+                        "type": "boolean",
+                        "example": true
+                      },
+                      "eventDateTime": {
+                        "type": "integer",
+                        "format": "int64",
+                        "example": 1399705200000
+                      },
+                      "vfcEligibility": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "administrativeNotes": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "informationSource": {
+                        "type": "string",
+                        "example": "PATIENT RECALL"
+                      },
+                      "visNames": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "manufacturer": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "counseled": {
+                        "type": "object",
+                        "example": null
+                      },
+                      "cvx": {
+                        "type": "string",
+                        "example": "88"
+                      }
+                    }
+                  }
+                },
+                "contraindications": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "description": "",
+                    "properties": {
+                      "recordType": {
+                        "type": "string",
+                        "example": "C"
+                      },
+                      "contraindicationIen": {
+                        "type": "string",
+                        "example": "45"
+                      },
+                      "vaccineName": {
+                        "type": "string",
+                        "example": "FLU, ID, QUAD"
+                      },
+                      "reason": {
+                        "type": "string",
+                        "example": "Patient Refusal"
+                      },
+                      "date": {
+                        "type": "string",
+                        "example": "05-Dec-2016"
+                      }
+                    }
+                  }
+                },
+                "forecasts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "description": "",
+                    "properties": {
+                      "recordType": {
+                        "type": "string",
+                        "example": "F"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "The First,Last name of the patient.",
+                        "example": "Immunization Forecasting disabled (see Site Parameters). #314"
+                      },
+                      "status": {
+                        "type": "object",
+                        "example": null
+                      }
+                    }
+                  }
+                },
+                "refusals": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "description": "",
+                    "properties": {
+                      "recordType": {
+                        "type": "string",
+                        "example": "R"
+                      },
+                      "refusalIen": {
+                        "type": "string",
+                        "example": "67"
+                      },
+                      "typeIen": {
+                        "type": "string",
+                        "example": "3"
+                      },
+                      "typeName": {
+                        "type": "string",
+                        "example": "IMMUNIZATION"
+                      },
+                      "itemIen": {
+                        "type": "string",
+                        "example": "253"
+                      },
+                      "itemName": {
+                        "type": "string",
+                        "example": "INFLUENZA, QUAD, PRESFREE"
+                      },
+                      "providerIen": {
+                        "type": "string",
+                        "example": "235"
+                      },
+                      "providerName": {
+                        "type": "string",
+                        "example": "SEVEN,HENRY"
+                      },
+                      "date": {
+                        "type": "string",
+                        "example": "12/01/2016"
+                      },
+                      "locked": {
+                        "type": "boolean",
+                        "example": true
+                      },
+                      "reason": {
+                        "type": "string",
+                        "example": "Refused"
+                      },
+                      "comment": {
+                        "type": "string",
+                        "example": ""
+                      },
+                      "snomedTerm": {
+                        "type": "string",
+                        "example": "DECLINED SERVICE"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Implants": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505852802510
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/implant"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "implant": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "1"
+                  },
+                  "udi": {
+                    "type": "string",
+                    "example": "(01)00643169007222(17)160128(21)BLC200461H"
+                  },
+                  "recordedDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1504076400000
+                  },
+                  "recordedBy": {
+                    "type": "string",
+                    "example": "LITELLA,EMILY"
+                  },
+                  "dateOfImplant": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1480445460000
+                  },
+                  "status": {
+                    "type": "string",
+                    "example": "ACTIVE"
+                  },
+                  "partName": {
+                    "type": "string",
+                    "example": "Cardiac resynchronization therapy implantable defibrillator"
+                  },
+                  "snomedCode": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "snomedDescription": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "details": {
+                    "type": "object",
+                    "example": null
+                  }
+                }
+              }
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Lab Orders Pending": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505851855037
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/laborders/pending"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            },
+            "laborders": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "ordered": {
+                    "type": "string",
+                    "example": "Urinalysis macro (dipstick) panel"
+                  },
+                  "ordergroup": {
+                    "type": "string",
+                    "example": "CHEMISTRY"
+                  },
+                  "ordernumber": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 12474
+                  },
+                  "date": {
+                    "type": "string",
+                    "example": "SEP 20,2017@09"
+                  },
+                  "urgency": {
+                    "type": "string",
+                    "example": "ROUTINE"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Lab Results": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505852380008
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/labresults"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            },
+            "labresults": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "example": "ORR:12477"
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "CHEST 2 VIEWS PA&LAT"
+                  },
+                  "status": {
+                    "type": "string",
+                    "example": "COMPLETE"
+                  },
+                  "dateTime": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1505808000000
+                  },
+                  "type": {
+                    "type": "string",
+                    "example": "Result"
+                  },
+                  "text": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": "Exm Date: SEP 19,2017@09:57"
+                    }
+                  },
+                  "details": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "comments": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "orderId": {
+                    "type": "string",
+                    "example": "12477"
+                  },
+                  "labType": {
+                    "type": "string",
+                    "example": "RAD"
+                  },
+                  "orderableItemId": {
+                    "type": "string",
+                    "example": "1199"
+                  },
+                  "labReferenceId": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "accountNumber": {
+                    "type": "string",
+                    "example": "2000000359"
+                  },
+                  "visitIEN": {
+                    "type": "string",
+                    "example": "2309"
+                  },
+                  "visitLocation": {
+                    "type": "string",
+                    "example": "4"
+                  },
+                  "visitCategory": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "visitDate": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "specimenDate": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "completedDate": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "orderDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1505840160000
+                  },
+                  "verifyingPerson": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "specimen": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "loincCode": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "orderingPhysician": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "receivedDate": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "requestingLocation": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "accessionInstitution": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "labTestIEN": {
+                    "type": "string",
+                    "example": "58"
+                  },
+                  "labTestName": {
+                    "type": "string",
+                    "example": "CHEST 2 VIEWS PA&LAT"
+                  },
+                  "laboratoryTest": {
+                    "type": "object",
+                    "example": null
+                  },
+                  "accessionNumber": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "dateTimeString": {
+                    "type": "string",
+                    "example": "2017/09/19 01:00:00"
+                  },
+                  "isTimeRangeDependent": {
+                    "type": "boolean",
+                    "example": true
+                  },
+                  "timeRangeIndependent": {
+                    "type": "boolean",
+                    "example": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Medications Current": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505873599058
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/medications/current"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "medications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "12489"
+                  },
+                  "type": {
+                    "type": "string",
+                    "example": "UNITDOSE"
+                  },
+                  "status": {
+                    "type": "string",
+                    "example": "ACTIVE"
+                  },
+                  "startDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1505867700000
+                  },
+                  "drug": {
+                    "type": "string",
+                    "example": "DARBEPOETIN ALFA,RECOMBINANT"
+                  },
+                  "schedule": {
+                    "type": "string",
+                    "example": "DAILY"
+                  },
+                  "rxNorm": {
+                    "type": "string",
+                    "example": "731241"
+                  },
+                  "orderText": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": "DARBEPOETIN ALFA,RECOMBINANT INJ,SOLN  500MCG/ML"
+                    }
+                  },
+                  "description": {
+                    "type": "string",
+                    "example": "DARBEPOETIN ALFA 0.5MG/ML 1ML SYR"
+                  },
+                  "dose": {
+                    "type": "string",
+                    "example": "500MCG/1ML"
+                  },
+                  "drugClass": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": "BL400"
+                    }
+                  },
+                  "ivtype": {
+                    "type": "boolean",
+                    "example": false
+                  }
+                }
+              }
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Medications History": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505853483653
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/medications/history"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "medications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "12438"
+                  },
+                  "type": {
+                    "type": "string",
+                    "example": "UNITDOSE"
+                  },
+                  "status": {
+                    "type": "string",
+                    "example": "DISCONTINUED"
+                  },
+                  "startDate": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1503534540000
+                  },
+                  "drug": {
+                    "type": "string",
+                    "example": "cefTRIAXone"
+                  },
+                  "schedule": {
+                    "type": "string",
+                    "example": "BID"
+                  },
+                  "rxNorm": {
+                    "type": "string",
+                    "example": "1665046"
+                  },
+                  "orderText": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": "cefTRIAXone INJ,SOLN "
+                    }
+                  },
+                  "description": {
+                    "type": "string",
+                    "example": "CEFTRIAXONE NA 2GM/VI INJ"
+                  },
+                  "dose": {
+                    "type": "string",
+                    "example": "1GM/1VIAL"
+                  },
+                  "drugClass": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "example": "AM117"
+                    }
+                  },
+                  "ivtype": {
+                    "type": "boolean",
+                    "example": false
+                  }
+                }
+              }
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Problems": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505853811388
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/problems"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "problems": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "Patient problems.",
+                "properties": {
+                  "ien": {
+                    "type": "string",
+                    "description": "Unique identifier.",
+                    "example": "956"
+                  },
+                  "providerNarrative": {
+                    "type": "string",
+                    "description": "Snomed description of the problem.",
+                    "example": "Anemia of renal disease | "
+                  },
+                  "dateEntered": {
+                    "type": "integer",
+                    "format": "int64",
+                    "description": "The date the problem was recorded.",
+                    "example": 1480579200000
+                  },
+                  "dateOfOnset": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1434956400000
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Deprecated. To be removed.",
+                    "example": "PRIMARY_POV"
+                  },
+                  "snomedCode": {
+                    "type": "string",
+                    "description": "Snomed concept id.",
+                    "example": "234348004"
+                  }
+                }
+              }
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Procedures": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505853919636
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/procedures"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            },
+            "procedures": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "Patient Procedures",
+                "properties": {
+                  "visitDate": {
+                    "type": "string",
+                    "description": "The visitDate of the procedure.",
+                    "example": "11/29/2016"
+                  },
+                  "facIEN": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "facName": {
+                    "type": "string",
+                    "example": "GENERAL HOSPITAL"
+                  },
+                  "cpt": {
+                    "type": "string",
+                    "description": "CPT code of the procedure.",
+                    "example": "31640"
+                  },
+                  "cptName": {
+                    "type": "string",
+                    "description": "CPT code description.",
+                    "example": "BRONCHOSCOPY W/TUMOR EXCISE"
+                  },
+                  "narrative": {
+                    "type": "string",
+                    "example": "Bronchoscopy, Rigid Or Flexible, Including Fluoroscopic Guidance, When Performed; With Excision Of Tumor"
+                  },
+                  "dx": {
+                    "type": "string",
+                    "description": "Associated diagnosis.",
+                    "example": ""
+                  },
+                  "prim": {
+                    "type": "string",
+                    "example": "Y"
+                  },
+                  "mod1": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "mod2": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "vFileIEN": {
+                    "type": "string",
+                    "example": "1842"
+                  },
+                  "visitIEN": {
+                    "type": "string",
+                    "example": "2309"
+                  },
+                  "cptIEN": {
+                    "type": "string",
+                    "description": "Internal id of the CPT code for the procedure.",
+                    "example": "31640"
+                  },
+                  "quantity": {
+                    "type": "string",
+                    "example": "1"
+                  },
+                  "providername": {
+                    "type": "string",
+                    "example": "SEVEN,HENRY"
+                  },
+                  "tranCodeIEN": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "icd0IEN": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "visitLocked": {
+                    "type": "string",
+                    "example": "0"
+                  },
+                  "vFile": {
+                    "type": "string",
+                    "example": "CPT"
+                  },
+                  "dx2": {
+                    "type": "string",
+                    "description": "Secondary diagnosis.",
+                    "example": ""
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Smoking": {
+      "type": "object",
+      "description": "This is the return resource of the current request.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Time, when the response was sent in epoch time format.",
+          "example": 1505854022871
+        },
+        "url": {
+          "type": "string",
+          "description": "The url used to request this response.",
+          "example": "https://mobile01.medsphere.com:18181/HubService/services/api/patients/823/smoking"
+        },
+        "content": {
+          "type": "object",
+          "description": "This is the content of the resource object.",
+          "properties": {
+            "smoking": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "patientIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 823
+                  },
+                  "visitIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 2309
+                  },
+                  "locName": {
+                    "type": "string",
+                    "example": "MED-SURG"
+                  },
+                  "date": {
+                    "type": "string",
+                    "example": "3161129.1147"
+                  },
+                  "snomed": {
+                    "type": "string",
+                    "example": "449868002"
+                  },
+                  "value": {
+                    "type": "string",
+                    "example": "CURRENT EVERY DAY SMOKER"
+                  }
+                }
+              }
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "f081447b-9ce2-11e7-8375-12313f0435ed"
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "Unique id for patient. Same as patient ien.",
+              "example": 823
+            }
+          }
+        }
+      }
+    },
+    "Visit": {
+      "type": "object",
+      "description": "List of visits for requested dates. Date range is based on visit date which is admission date for inpatient visits.",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Timestamp of the current request in epoch format.",
+          "example": 1505433971061
+        },
+        "url": {
+          "type": "string",
+          "description": "Url that produced tihs result.",
+          "example": "http://localhost:8080/HubService/services/api/patients/649/visits"
+        },
+        "content": {
+          "type": "object",
+          "description": "",
+          "properties": {
+            "visits": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "",
+                "properties": {
+                  "date": {
+                    "type": "string",
+                    "description": "",
+                    "example": "3140312.1507"
+                  },
+                  "ccda": {
+                    "type": "string",
+                    "description": "",
+                    "example": "http://localhost:8080/HubService/services/api/patients/649/visits/1761/ccda"
+                  },
+                  "visitIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "",
+                    "example": 1761
+                  },
+                  "provider": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "",
+                    "example": 10
+                  },
+                  "locName": {
+                    "type": "string",
+                    "description": "",
+                    "example": "CARDIOLOGY"
+                  },
+                  "team": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "description": "",
+                      "properties": {
+                        "providerIEN": {
+                          "type": "string",
+                          "description": "",
+                          "example": "10"
+                        },
+                        "name": {
+                          "type": "string",
+                          "description": "The Patient's First and Last name.",
+                          "example": "MANAGER,SYSTEM"
+                        },
+                        "primary": {
+                          "type": "boolean",
+                          "description": "",
+                          "example": true
+                        },
+                        "encounterDateStr": {
+                          "type": "string",
+                          "description": "",
+                          "example": ""
+                        }
+                      }
+                    }
+                  },
+                  "patientIen": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "",
+                    "example": 649
+                  },
+                  "providerName": {
+                    "type": "string",
+                    "description": "",
+                    "example": "MANAGER,SYSTEM"
+                  },
+                  "status": {
+                    "type": "string",
+                    "description": "",
+                    "example": "AMBULATORY"
+                  }
+                }
+              }
+            },
+            "patientDfn": {
+              "type": "integer",
+              "format": "int32",
+              "description": "The dfn of the patient.",
+              "example": 649
+            },
+            "apiuser": {
+              "type": "string",
+              "description": "The external unique id of the user.",
+              "example": "c3f232d8-85b1-11e7-a312-ad8dbd0c04ed"
+            }
+          }
+        }
+      }
+    }
+  }
+}
