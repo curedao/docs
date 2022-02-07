@@ -1,5 +1,7 @@
 # Outcome Labels Plugin
 
+![outcome-labels-plugin.png](outcome-labels.PNG)
+
 Currently, all foods carry nutrition labels such as this one:
 
 ![](https://crowdsourcingcures.org/wp-content/uploads/2021/02/nutrition-label-436x1024-1.jpg)
