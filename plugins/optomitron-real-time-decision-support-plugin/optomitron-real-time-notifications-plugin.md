@@ -34,7 +34,7 @@ your life.
 4. [artemis-toumazi/dfpk (github.com)](https://github.com/artemis-toumazi/dfpk)
 5. [miroslavgasparek/MPC_Cancer: Model Predictive Control for the optimisation of the tumour treatment through the combination of the chemotherapy and immunotherapy. (github.com)](https://github.com/miroslavgasparek/MPC_Cancer)
 6. [Doubly Robust Learning — econml 0.12.0 documentation](https://econml.azurewebsites.net/spec/estimation/dr.html)
-7. [Untitled (harvard.edu)](https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?sequence=1&isAllowed=y)
+7. [AGUILAR-SENIORTHESIS-2019.pdf (harvard.edu)](https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?sequence=1&isAllowed=y)
 8. [A control systems engineering approach for adaptive behavioral interventions: illustration with a fibromyalgia intervention (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167895/)
 9. [The promise of machine learning in predicting treatment outcomes in psychiatry - Chekroud - 2021 - World Psychiatry - Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20882)
 10. [CURATE.AI: Optimizing Personalized Medicine with Artificial Intelligence - Agata Blasiak, Jeffrey Khong, Theodore Kee, 2020 (sagepub.com)](https://journals.sagepub.com/doi/full/10.1177/2472630319890316)
