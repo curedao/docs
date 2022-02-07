@@ -1,3 +1,31 @@
+# Optomitron Real-Time Decision Support Plugin
+A personalized AI assistant that analyzes your data to inform you of the most effective things you can do to improve 
+your life.
+
+### [DEMO VIDEO](https://youtu.be/hd50A74o8YI)
+
+
+
+![optomitron](optomitron-cover.PNG)
+
+
+![inflammation worldwide](inflammation-worldwide.PNG)
+
+
+![inflammation factors](inflammation-factors.PNG)
+
+
+![how much we know](how-much-we-know.PNG)
+
+
+![optomitron diagram](optomitron-diagram.PNG)
+
+
+![screenshot](optomitron-notifications-screenshot.png)
+
+
+
+
 # References
 
 1. [SunilDeshpande_S2014_ETD.pdf (asu.edu)](https://keep.lib.asu.edu/_flysystem/fedora/c7/114023/Deshpande_asu_0010E_14022.pdf)
