@@ -1,30 +1,50 @@
 # Optomitron Real-Time Decision Support Plugin
-A personalized AI assistant that analyzes your data to inform you of the most effective things you can do to improve 
-your life.
+
+![optomitron](Optomitron-Cover.png)
+
+Optomitron is an AI assistant that analyzes your data discover which hidden factors are most likely to worsen or improve inflammatory symptom severity.
 
 ### [DEMO VIDEO](https://youtu.be/hd50A74o8YI)
 
+### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/ionic/src/index.html#/app/chat)
 
+### What
 
-![optomitron](optomitron-cover.PNG)
+Optimitron is an AI assistant that asks you about your symptoms and potential factors. Then she applies pharmacokinetic predictive analysis to inform you of the most important things you can do to minimize symptom severity.
 
+### Why
 
 ![inflammation worldwide](inflammation-worldwide.PNG)
 
+A half-billion are suffering from autoimmune diseases like Crone's disease, psoriasis, and Fibromyalgia. There’s also a great deal of mounting evidence that treatment-resistant depression and other mental illnesses are strongly related to immune dysregulation.
+What all these diseases have in common is that they can be exacerbated or improved by hundreds of factors in daily life.
 
 ![inflammation factors](inflammation-factors.PNG)
 
+Probably the most significant is the 3 pounds of thousands of chemicals that we consume every day through our diets. Since the thousands of chemicals in our food have been GRAS or “Generally recognized as safe” by the FDA, there’s no incentive to do research.
 
-![how much we know](how-much-we-know.PNG)
+![how much we know](../../assets/charts/how-much-we-know.PNG)
 
+### How
+
+We've built a connector framework that imports data on diet,
+physical activity, sleep, social interaction, environmental factors, symptom severity, vital signs, and others.
 
 ![optomitron diagram](optomitron-diagram.PNG)
 
+Then we apply pharmacokinetic predictive analysis to obtain personalized effectiveness values (similar to
+recommended daily values) for treatments and reveal root causes of chronic conditions.
 
-![screenshot](optomitron-notifications-screenshot.png)
+![screenshot](optomitron-screenshots/optomitron-notifications-screenshot.png)
 
+### When
 
+The accuracy of the results obtained from quasi-experimental techniques and observational data is highly dependent
+on the quantity and quality of the data.  To maximize the amount of available data, we're currently in the
+process of creating a decentralized autonomous organization called CureDAO. Its mission is
+to create an open-source platform for crowd-sourced clinical research. It incentivizes collaboration and data sharing by competing entities by issuing non-fungible tokens to any contributor of intellectual property or data.
 
+Contributors of data and intellectual property will receive ongoing royalties for their contributions linked to their non-fungible tokens.  We are currently meeting with investors and recruiting members. We plan to hold a fair and public auction for CureDAO tokens in May 2022.
 
 # References
 
@@ -34,7 +54,7 @@ your life.
 4. [artemis-toumazi/dfpk (github.com)](https://github.com/artemis-toumazi/dfpk)
 5. [miroslavgasparek/MPC_Cancer: Model Predictive Control for the optimisation of the tumour treatment through the combination of the chemotherapy and immunotherapy. (github.com)](https://github.com/miroslavgasparek/MPC_Cancer)
 6. [Doubly Robust Learning — econml 0.12.0 documentation](https://econml.azurewebsites.net/spec/estimation/dr.html)
-7. [AGUILAR-SENIORTHESIS-2019.pdf (harvard.edu)](https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?sequence=1&isAllowed=y)
+7. [Untitled (harvard.edu)](https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?sequence=1&isAllowed=y)
 8. [A control systems engineering approach for adaptive behavioral interventions: illustration with a fibromyalgia intervention (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167895/)
 9. [The promise of machine learning in predicting treatment outcomes in psychiatry - Chekroud - 2021 - World Psychiatry - Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20882)
 10. [CURATE.AI: Optimizing Personalized Medicine with Artificial Intelligence - Agata Blasiak, Jeffrey Khong, Theodore Kee, 2020 (sagepub.com)](https://journals.sagepub.com/doi/full/10.1177/2472630319890316)

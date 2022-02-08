@@ -14,7 +14,8 @@
     "prebuild": "npm run clean",
     "clean": "rm -rf ./build",
     "checkLoggedIn": "./scripts/verifyLoggedIn.sh",
-    "mega-lint-fix": "mega-linter-runner --fix"
+    "mega-lint-fix": "mega-linter-runner --fix",
+    "gitbook-summary": "book sm"
   },
   "keywords": [],
   "author": "",
@@ -45,7 +46,7 @@
     "textlint-rule-terminology": "2.1.5",
     "textlint-rule-write-good": "^2.0.0",
     "typescript": "^4.2.4",
-    "write-good": "^1.0.8"
-  },
-  "dependencies": {}
+    "write-good": "^1.0.8",
+    "gitbook-summary": "^1.2.4"
+  }
 }

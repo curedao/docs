@@ -3,7 +3,6 @@ description: >-
   How to enable the DAO to enter contracts and limit personal liability for DAO
   members.
 ---
-
 # 📔 Legal Framework
 
 👈 [Back to Table of Contents](../)
@@ -26,6 +25,7 @@ A potential means by which personal liability could be limited for the members o
 2. [LexDAO](https://www.lexdao.coop) - The World's First Web 3 Legal Engineering Guild
 3. [Legal Contract Templates for Crypto and DAO's | OpenLaw](https://lib.openlaw.io/web/default/search/general)
 4. [https://a16z.com/wp-content/uploads/2021/10/DAO-Legal-Framework-Jennings-Kerr10.19.21-Final.pdf](https://a16z.com/wp-content/uploads/2021/10/DAO-Legal-Framework-Jennings-Kerr10.19.21-Final.pdf)
+5. [Radicle TERMS OF USE](https://radicle.xyz/terms.html)
 
 #### [Next Privacy](9-privacy.md) 👉
 
