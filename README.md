@@ -1,6 +1,6 @@
 ---
 description: >-
-  CureDAO is a decentralized alliance of individuals, government, businesses,
+  CuraDAO is a decentralized alliance of individuals, government, businesses,
   and nonprofits devoted to the minimization of suffering.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## tl;dr
 
-CureDAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.
+CuraDAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.
 
 To achieve this, we propose the creation of an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in the field of digital health.
 
@@ -39,7 +39,7 @@ It will overcome the traditional barriers to collaboration and data sharing by e
 
 Hey, you! 👀
 
-CureDAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in this mission will be an exponential function of the participation of people like you. 🚀
+CuraDAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in this mission will be an exponential function of the participation of people like you. 🚀
 
 Creating a new software ecosystem for health data not only requires developers but anyone with skills in:
 
