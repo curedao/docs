@@ -13,7 +13,10 @@ The solution to the lack of progress and increasing expense of healthcare is to 
 Out of an existing pool of big health data an insilico model of human biology can be developed for the discovery of new interventions and their personalized application.
 
 One way to achieve this is to view the human body as a black box with inputs and outputs. 
-We predictive machine learning models to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) of 
+We can apply [predictive machine learning models](../plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to 
+[stratified groups](https://en.wikipedia.
+org/wiki/Stratified\_sampling)
+of 
 similar people based on their data of their following profiles:
 
 * [Genomic](https://en.wikipedia.org/wiki/Genomics)
