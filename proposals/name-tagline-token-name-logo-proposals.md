@@ -5,7 +5,7 @@ The likelihood of success of the DAO will be a function of the number of its Cit
 Once the initial core Civil Servant Working Groups have been established, a name, tagline, logo, and token name 
 can be selected.
 
-Until that time, the DAO shall be referred to with the placeholder Anonymous DAO.
+Until that time, the DAO shall be referred to with the placeholder CureDAO.
 
 The name, tagline, token name, and logo for the DAO will be determined using the following method:
 

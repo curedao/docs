@@ -1,29 +1,51 @@
 {
   "name": "draft-whitepaper",
   "version": "1.0.0",
-  "description": "Anonymous DAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.",
+  "description": "CureDAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run checkLoggedIn && npm run lint && npm run test",
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "lint": "prettier --check . && eslint . --ext .ts && cspell '**/*' ",
+    "test": "ava",
+    "link-checker": "git ls-files | grep md$ | xargs -n 1 markdown-link-check",
+    "prebuild": "npm run clean",
+    "clean": "rm -rf ./build",
+    "checkLoggedIn": "./scripts/verifyLoggedIn.sh",
+    "mega-lint-fix": "mega-linter-runner --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "textlint": "^12.1.0",
-    "textlint-filter-rule-allowlist": "2.0.1",
+    "@notionhq/client": "^0.4.12",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "cspell": "^5.4.1",
+    "dictionary-en": "^3.1.0",
+    "eslint": "^7.24.0",
+    "markdown-link-check": "^3.8.7",
+    "mega-linter-runner": "^5.7.0",
+    "mocha": "^9.1.3",
+    "prettier": "^2.3.0",
+    "textlint": "^12.0.2",
+    "textlint-filter-rule-allowlist": "^3.0.0",
+    "textlint-rule-alex": "^3.0.0",
     "textlint-rule-common-misspellings": "1.0.1",
     "textlint-rule-en-capitalization": "2.0.3",
+    "textlint-rule-en-max-word-count": "^1.1.0",
     "textlint-rule-no-empty-section": "1.1.0",
     "textlint-rule-no-exclamation-question-mark": "1.1.0",
+    "textlint-rule-one-sentence-per-line": "^2.0.0",
     "textlint-rule-period-in-list-item": "0.3.2",
     "textlint-rule-rousseau": "1.4.6",
     "textlint-rule-spelling": "0.3.0",
     "textlint-rule-terminology": "2.1.5",
-    "textlint-rule-write-good": "1.6.2",
-    "textlint-rule-en-max-word-count": "^1.1.0"
-  },
-  "dependencies": {
+    "textlint-rule-write-good": "^2.0.0",
+    "typescript": "^4.2.4",
     "write-good": "^1.0.8"
-  }
+  },
+  "dependencies": {}
 }

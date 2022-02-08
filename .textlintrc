@@ -1,7 +1,227 @@
-{
-  "filters": {},
-  "rules": {
-    "en-max-word-count": {
-        "max" : 100
-    }
-}
+rules:
+  # The `alex` rule flags usage of inconsiderate wording.
+  # https://alexjs.com
+  alex:
+    allow:
+    - execute
+    - execution
+    - special
+    - stroke
+    - traps
+    profanitySureness: 2
+
+  # Corrections for:
+  # https://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines
+  common-misspellings: true
+
+  # Enforcement of correct usage of capitalization in different contexts.
+  en-capitalization:
+    allowWords:
+    - etcd
+
+  # Checks for headings that have been defined with no content.
+  no-empty-section: true
+
+  # Enforces semantic line breaks (https://sembr.org)
+  one-sentence-per-line: true
+
+  # Dictionary
+  spelling:
+    language: en
+    skipPatterns:
+    # Patterns
+    - '/\b[0-9]+\b/'             # numbers
+    - '/\b\S*\.\S{2,4}/'         # filenames
+    - '/\b(pre)|(un)-\w/i'       # hyphenated prefixes
+    - '/\b\d*(px)|(pt)\b/'       # pt and px measures
+    - '/\bbase\d+\b/'            # base2, base16 etc
+
+    # Notes
+    - '/\btodo\b/i'
+
+    # Product components
+    - '/\b[Aa]uth\b/'
+    - Backoffice
+    - '/\b[Ii]nit\b/'
+    - PlaceOS
+
+    # Protocols/common acronyms
+    #
+    # Only _very_ widely understood terms should be listed here. Abbreviations
+    # that are local to document context should be defined inline.
+    # See: https://github.com/PlaceOS/docs#abbreviations
+    - API
+    - DNS
+    - HTTP
+    - IO
+    - IP
+    - IoT
+    - JSON
+    - JWT
+    - MQTT
+    - OAuth
+    - SaaS
+    - SAML
+    - SMS
+    - SMTP
+    - SNMP
+    - SSL
+    - SSO
+    - SVG
+    - TCP
+    - TLS
+    - UAT
+    - UDP
+    - URI
+    - XML
+
+    # Jargon
+    - '/analytics/i'
+    - '/artboards?/i'
+    - '/automations/i'
+    - '/chatbots?/i'
+    - '/frontend/i'
+    - '/integrations/i'
+    - '/integrators?/i'
+    - '/load balancer/i'
+    - '/microservices?/i'
+    - '/minify/i'
+    - '/preconfigure[ds]?/i'
+    - '/proxying/i'
+    - '/README/'
+    - '/rebalance/i'
+    - '/serverless/i'
+    - '/subnet/i'
+    - '/tokeniz(e|er|ed|ing)/i'
+    - '/webhooks?/i'
+    - '/websocket/i'
+
+    # Brands/brand terms
+    - AD FS
+    - Amazon SES
+    - Amazon SNS
+    - AOpen
+    - Arial
+    - Atlona
+    - Auth0
+    - AWS
+    - B2C
+    - BACnet
+    - Barco
+    - Biamp
+    - Chromebase
+    - ChromeBox
+    - ChromeOS
+    - Cisco CMX
+    - Cisco ISE
+    - ClearOne
+    - ClickShare
+    - CloudFormation
+    - Cognipoint
+    - ControlSpace
+    - Denon
+    - DNA Spaces
+    - DynaLite
+    - Echo360
+    - ElastiCache
+    - Elasticsearch
+    - etcd
+    - Extron
+    - Fargate
+    - Floorsense
+    - Foxtel
+    - Gantner Relaxx
+    - Google CDM
+    - GSuite
+    - Helvar
+    - HP
+    - InTouch
+    - Kentix
+    - KNX
+    - Kubernetes
+    - Lenel
+    - LG
+    - Lightware
+    - Lumens
+    - Lutron
+    - MediaSite
+    - Meraki
+    - MessageMedia
+    - Mimo
+    - Modbus
+    - Moki
+    - Multicast
+    - NEC
+    - NGINX
+    - NX
+    - OpenStack
+    - Optica
+    - Pexip
+    - PJLink
+    - PointGrab
+    - Polycom
+    - PowerSoft
+    - Pressac
+    - Q-SYS
+    - QBic
+    - QSC
+    - Rackspace
+    - RealPresence
+    - RethinkDB
+    - S3
+    - Screen Technics
+    - Shure
+    - SVSI
+    - Symmetrix
+    - TriplePlay
+    - Vergesense
+    - VISCA
+    - Webex
+    - Whispir
+    - Wolfvision
+    - Xovis
+    - XY Sense
+
+  # Semantics
+    - walkthrough
+
+  # Enforcement of capitalization, words breaks and other well defined
+  # structure.
+  terminology:
+    defaultTerms: true
+    terms:
+    - ['adfs', 'AD FS']
+    - ['back[- ]?office', 'Backoffice']
+    - ['config', 'configuration']
+    - ['front[- ]end', 'frontend']
+    - ['google work((sp)|(pl))ace', 'Google Workspace']
+    - ['(cisco )?meraki', 'Cisco Meraki']
+    - ['place\W?os', 'PlaceOS']
+    - ['place\W?tech(nology)?', 'Place Technology']
+    - ['web[ -]?socket', 'WebSocket']
+    exclude:
+    - 'Node(?:js)?'
+    - 'web[- ]?site(s)?'
+
+  # Suggestions for direct and concise writing style.
+  write-good:
+    severity: warning
+
+
+# Filters defined here exluded matching content for _all_ of the rules above.
+#
+# This should be used sparsely and as a last resort. While it may be tempting to
+# place terms here, this will result in sentences containing them not being
+# checked for complexity.
+filters:
+  allowlist:
+    allow:
+    # Link text that also appears within the URL
+    - '/\[(.*\W)?(.+)(\W.*)?\]\(.*\2.*\)/i'
+
+    # Heading ID's (https://github.com/PlaceOS/docs#heading-ids)
+    - '/\{#\S+\}/'
+
+    # Abbreviations (https://github.com/PlaceOS/docs#abbreviations)
+    - '/^\*\[\S+\]:/m'                # definition
+    - '/(\S+)(?=[^]*^\*\[\1\]:.+)/m'  # usage
