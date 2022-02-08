@@ -8,7 +8,8 @@ description: >-
 
 ## tl;dr
 
-CureDAO is a decentralized alliance of individuals, government, businesses, and nonprofits devoted to the minimization of suffering.
+CureDAO is a decentralized autonomous organization (DAO) of citizen scientists, governments, businesses, and 
+nonprofits devoted to the minimization of suffering.
 
 To achieve this, we propose the creation of an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in the field of digital health.
 
