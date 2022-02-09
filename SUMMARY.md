@@ -20,6 +20,7 @@
     * [✍ Writing Style Guide](how-to/edit-files-in-the-browser/style-guide.md)
   * [👍 Vote on Amendments to the Constitution](how-to/voting-on-changes.md)
   * [Task Management](how-to/task-management/README.md)
+    * [How to Execute](how-to/task-management/how-to-execute.md)
     * [➕ How to Create a Task](how-to/task-management/create-a-task.md)
     * [❗ How to Vote on and Sort Issues By Priority](how-to/task-management/vote-on-tasks-and-sort-by-priority.md)
     * [☑ How to Select a Task](how-to/task-management/do-a-task-and-create-pull-request.md)
