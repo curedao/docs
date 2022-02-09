@@ -44,15 +44,6 @@ Give back to the community via open source and blog posts
 Help customers via support to ensure they have the best experience possible
 Experiment: this is a startup so everything can change
 
-ABOUT CureDAO
-For the past two years, CureDAO has been working to usher in an era of personalized preventative medicine through 
-crowd-sourced clinical research by providing a new secure platform capable of aggregating massive amounts of heterogeneous life-tracking data. 
-We will create a tool to help clinicians and those suffering from chronic conditions determine personalized effectiveness rates of treatments and the percent likelihood of root causes. 
-Furthermore, we will give researchers the ability to run and publish large-scale observational research studies in a matter of minutes on stratified user groups.
 
-We believe that with the right tools, you can have 10x the impact with less work.
-
-We believe that credentials are not needed. 
-What you love doing is way more important than the credentials you have.
 
 If you're still interested, please apply at: https://goo.gl/SyqJqe

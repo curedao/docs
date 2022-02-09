@@ -1,4 +1,4 @@
-# Director of Product Management and Design
+# Product Management and Design
 
 You have demonstrated an ability to ship and grow exceptional consumer products. You’re looking for a role where you can define the product direction of a company and shape the growth of the product management team.
 
