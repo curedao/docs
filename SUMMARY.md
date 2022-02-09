@@ -31,7 +31,7 @@
   * [Crowdsourcing Cures](<partners/Crowdsourcing Cures.md>)
   * [OpenCures](partners/OpenCures.md)
   * [QuAnTiMoDo](partners/QuAnTiMoDo.md)
-* [🚀 Plugins](plugins/README.md)
+* [🔌 Plugins](plugins/README.md)
   * [Api Integration Plugins](plugins/api-integration-plugins/api-integration-plugins.md)
   * [Data Analysis Plugins](plugins/data-analysis-plugins/data-analysis-plugins.md)
   * [Data Collection Plugins](plugins/data-collection-plugins/data-collection-plugins.md)
