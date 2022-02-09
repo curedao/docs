@@ -30,7 +30,7 @@ We've built a connector framework that imports data on diet, physical activity, 
 
 ![optomitron diagram](optomitron-diagram.PNG)
 
-Then we apply pharmacokinetic predictive analysis to obtain personalized effectiveness values (similar to recommended daily values) for treatments and reveal root causes of chronic conditions.
+Then we apply pharmacokinetic predictive analysis that accounts for onset delays and durations of action. This enables her to obtain personalized effectiveness values (similar to recommended daily values) for treatments and reveal potential root causes of chronic conditions.
 
 ![screenshot](optomitron-screenshots/optomitron-notifications-screenshot.png)
 
