@@ -12,6 +12,8 @@ coverY: 203.93538913362704
 Optomitron in Action
 {% endembed %}
 
+#### [DEMO VIDEO](https://youtu.be/hd50A74o8YI)
+
 #### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/ionic/src/index.html#/app/chat)
 
 ## What The Hell Is This?
