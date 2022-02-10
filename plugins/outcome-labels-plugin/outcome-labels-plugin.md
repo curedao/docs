@@ -1,4 +1,4 @@
-# Outcome Labels Plugin
+# 🏷 Outcome Labels Plugin
 
 ![outcome-labels-plugin.png](outcome-labels.PNG)
 
@@ -16,9 +16,7 @@ We have created a new and improved **Outcomes Label** that instead lists the deg
 
 ## Data Quantity
 
-We've collected over 10 million data points on symptom severity and influencing factors from over 10,000 people. 
-Predictive machine learning algorithms are applied to reveal effectiveness and 
-side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses.
+We've collected over 10 million data points on symptom severity and influencing factors from over 10,000 people. Predictive machine learning algorithms are applied to reveal effectiveness and side-effects of treatments and the degree to which hidden dietary and environmental improve or exacerbate chronic illnesses.
 
 These analytical results have been used to publish 90,000 studies on the effects of various treatments and food ingredients on symptom severity.
 
