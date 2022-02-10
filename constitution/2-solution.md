@@ -145,7 +145,7 @@ Since abandonment of the former efficacy trial model, costs have exploded. ![cos
 
 To validate the theory that large-scale real-world evidence can produce better health outcomes requires further validation of this method of experimentation.
 
-### 2.4 The Citizen science approach
+### 2.4 The Citizen Science Approach
 
 An example of the application and usage of aggregated health data and applied statistics is the publishing of observational studies of different relationships. The [Journal of Citizen Science](https://app.crowdsourcingcures.org) used an anonymously aggregated and analysed data set from over 10 million data points on symptom severity and influencing factors from over 10,000 participants. This data has been used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
 
