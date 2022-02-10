@@ -2,7 +2,7 @@
 
 Some benefits I see of using GitHub issues for task management:
 
-- **Universal Searchability**: The search box in the upper left of the repo can act as a universal search engine for the project if we keep everything in one place. By typing in the search box you'll be able to instantly find Issues, Code, Documentation, Wikis, Discussions, Pull Requests, Commits. (i.e. https://github.com/cure-dao/draft-whitepaper/search?q=dao)
+- **Universal Searchability**: The search box in the upper left of the repo can act as a universal search engine for the project if we keep everything in one place. By typing in the search box you'll be able to instantly find Issues, Code, Documentation, Wikis, Discussions, Pull Requests, Commits. (i.e. <https://github.com/cure-dao/draft-whitepaper/search?q=dao>)
 - **Prioritization**: We can use crowdsourcing to prioritize issue importance. Anyone can click thumbs up or down on an issue.  Then it's possible to sort issues based on the number of thumbs up 👍 or down 👎.
 - **Expertise Filtering**: We can `tag` issues with areas of expertise required  (such as legal expertise, programming languages, graphic design, etc).   That way people can filter the issues by those that they can help with.
 - **Fine-Grained Notification Settings**: Anyone can click the `Subscribe` or `Unsubscribe` button on the right. to follow the issues that they're interested in and get notifications on comments.  This is important because we don't want to overwhelm anyone with notifications that may not be relevant to them.

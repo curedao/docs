@@ -55,7 +55,7 @@ Flags (or tags) can be appended to text to signify a need for verification, revi
 The various kinds of flags available for use are listed below:
 
 | **Flag type**       | **Purpose**                      |
-| ------------------- | -------------------------------- |
+|---------------------|----------------------------------|
 | \[citation\_needed] | Statement is missing citation    |
 | \[clarify]          | Statement needs clarification    |
 | \[imperative]       | Statement uses imperative speech |

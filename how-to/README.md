@@ -45,8 +45,4 @@ Decide what goes in the constitution by voting thumbs up 👍 or down 👎 or pr
 
 ## FAQ
 
-👉 [How can I contribute to the constitution?](edit-files-in-the-browser/)
-
-👉 [Why is this called CureDAO](../proposals/name-tagline-token-name-logo-proposals.md)
-
 👉 [How can I track my time?](task-management/tracking-time-on-tasks.md)
