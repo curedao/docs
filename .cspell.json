@@ -7,6 +7,8 @@
     "**/.git/**",
     ".vscode",
     "megalinter",
+    "**/reference-databases/**",
+    "**/root-cause-analysis-reports-plugin/**",
     "package-lock.json",
     "report"
   ],
