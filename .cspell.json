@@ -5,8 +5,13 @@
     "**/node_modules/**",
     "**/vscode-extension/**",
     "**/.git/**",
+    ".git/**",
+    ".git/*",
+    ".git",
     ".vscode",
     "megalinter",
+    "**/reference-databases/**",
+    "**/root-cause-analysis-reports-plugin/**",
     "package-lock.json",
     "report"
   ],

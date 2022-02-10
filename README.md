@@ -8,7 +8,7 @@ description: >-
 
 ## tl;dr
 
-CureDAO is a decentralized autonomous organization (DAO) of citizen scientists, governments, businesses, and 
+CureDAO is a decentralized autonomous organization (DAO) of citizen scientists, governments, businesses, and
 nonprofits devoted to the minimization of suffering.
 
 To achieve this, we propose the creation of an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in the field of digital health.
@@ -36,7 +36,7 @@ It will overcome the traditional barriers to collaboration and data sharing by e
 
 ![value chain](assets/incentivization/value-flow-chain.png)
 
-## Join Us Right Now!
+## Join Us Right Now
 
 Hey, you! 👀
 
