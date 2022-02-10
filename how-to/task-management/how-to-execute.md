@@ -1,20 +1,17 @@
 ---
 description: A simple, repeatable formula for executing your most important priorities
 ---
-
 # How to Execute
 
 Although the 4 Disciplines of Execution may seem simple at first glance, they are not simplistic. They will profoundly change the way you approach your goals. Once you adopt them, you will never lead in the same way again, whether you are a project coordinator, lead a small sales team, or run a Fortune 500 company. We believe they represent a major breakthrough in how to move teams and organizations forward.
 
 The 4 Disciplines are sequential and interdependent—they must be done in order and done well to achieve breakthrough results.
 
-![](<../../.gitbook/assets/image (2).png>)
-
 ## 1 Focus on the Wildly Important
 
 Basically, the more you try to do, the less you actually accomplish. There will always be more good ideas than you and your team have the capacity to execute. That’s why your first challenge is to focus on the wildly important.
 
-Discipline 1: Focus on the Wildly Important requires you to go against your basic wiring as a leader and focus on less, so that your team can achieve more. When you implement Discipline 1, you start by selecting one, or at the most, two extremely important goals, instead of trying to significantly improve everything all at once. We call this a Wildly Important Goal (WIG), to make it clear to the team that this is the goal that matters most. Failure to achieve it will make every other accomplishment seem secondary, or possibly even inconsequential.
+Discipline 1: Focus on the Wildly Important requires you to go against your basic wiring as a leader and focus on less so that your team can achieve more. When you implement Discipline 1, you start by selecting one, or at the most, two extremely important goals, instead of trying to significantly improve everything all at once. We call this a Wildly Important Goal (WIG), to make it clear to the team that this is the goal that matters most. Failure to achieve it will make every other accomplishment seem secondary, or possibly even inconsequential.
 
 If you’re currently trying to execute 5, 10, or even 20 important goals, the truth is that your team can’t focus. When you narrow the focus of your team to one or two Wildly Important Goals, the team can easily distinguish between what is truly top priority and what is the “Whirlwind.” They move from a loosely defined and difficult-to-communicate collection of objectives to a small, focused set of targets that are achievable.
 
@@ -32,8 +29,6 @@ A good lead measure has two basic characteristics: it’s predictive of achievin
 
 Acting on the lead measures is one of the little-known secrets of execution. Once you’ve identified your lead measures, they become the key leverage points for achieving your goal.
 
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image006.gif)
-
 ## 3 Keep a compelling Scoreboard
 
 People play differently when they’re keeping score. However, the truth of this statement is more clearly revealed by a change in emphasis: People play differently when they are keeping score. It’s not about you keeping score for them.
@@ -42,9 +37,7 @@ Discipline 3 is the discipline of engagement. In principle, the highest level of
 
 The kind of scoreboard that will drive the highest levels of engagement with your team will be one that is designed solely for, and often by, the players. It must be simple so that members of the team can determine instantly if they are winning or losing. If the scoreboard isn’t clear, the game you want people to play will be abandoned in the Whirlwind of other activities. And if your team doesn’t know whether or not they are winning the game, they are probably on their way to losing.
 
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image008.gif)
-
-## 4 create a cadence of Accountability
+## 4 Create a cadence of Accountability
 
 Discipline 4 is where execution really happens. The first three disciplines set up the game, but until you apply Discipline 4, your team isn’t in the game. It is based on the principle of accountability: that unless we consistently hold each other accountable, the goal naturally disintegrates in the Whirlwind.
 
@@ -58,26 +51,6 @@ Because the team commits to a new set of objectives each week, this discipline c
 
 When your team begins to see the lag measure of a big goal moving as a direct result of their efforts, they will know they are winning. And, we have found nothing drives the morale and engagement of a team more than winning.
 
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image010.gif)
-
-\
-
-
-&#x20;****&#x20;
-
-### 4 disciplines thinking
-
-#### 4 disciplines **Thinking**
-
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image011.gif)![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image012.gif)Too many organizational goals are hazy and imprecise, leaving people wondering, “what” they are supposed to do and “how” they are supposed to do it. Discipline 1 provides clear, unmistakable finish lines so people know exactly what success looks like.
-
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image014.gif)
-
-#### Moving the Middle
-
-The performance of any group of people generally looks like the graph to the left. There is a big bulge in the middle. There is always a top 20 percent—the models, the bottom 20 percent— the resisters, and the middle 60 percent—the potentials, the majority who could do better if they were motivated to do so. What if that middle 60 percent performed more like the top 20 percent? What would it mean to your organization if your performance looked like the graph below, instead?
-
-![](file:///C:/Users/m/AppData/Local/Temp/msohtmlclip1/01/clip\_image016.gif)
 
 ## &#x20;**References**
 

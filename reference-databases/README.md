@@ -6,15 +6,15 @@ The Unified Health API integrates the disparate health data standards in order t
 
 Contact m@thinkbynumbers.org if you desire access.
 
-### [1. Nutritional Supplements](supplements/supplements.md)
+### [1. Nutritional Supplements](supplements/supplement-databases.md)
 
 ### [2. Units of Measurement](units/units.md)
 
-### [3. Medication](medications/medications.md)
+### [3. Medication](medications/medication-databases.md)
 
 ### [4. Symptoms and Diseases](diseases/diseases.md)
 
-### [5. Observations, Lab Test Results, and Biomarkers](biomarkers/biomarkers.md)
+### [5. Observations, Lab Test Results, and Biomarkers](biomarkers/biomarker-databases.md)
 
 ### 6. Clinical Trials
 

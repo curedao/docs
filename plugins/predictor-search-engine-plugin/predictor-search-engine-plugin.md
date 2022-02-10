@@ -26,7 +26,7 @@ The search engine is available in a variety of layout settings.
 
 [Study Cards in Ionic App Demo](https://web.quantimo.do/dev/src/ionic/src/index.html#/app/predictors/Overall%20Mood)
 
-![Study Cards in Ionic App](overall-mood-predictors-ionic.png)
+![Study Cards in Ionic App](overall-mood-predictors.png)
 
 ### Nutrition Facts Style
 

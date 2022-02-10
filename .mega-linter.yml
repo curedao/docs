@@ -3,12 +3,29 @@
 
 APPLY_FIXES: all # all, none, or list of linter keys
 # ENABLE: # If you use ENABLE variable, all other languages/formats/tooling-formats will be disabled by default
-# ENABLE_LINTERS: # If you use ENABLE_LINTERS variable, all other linters will be disabled by default
-# DISABLE:
-  # - COPYPASTE # Uncomment to disable checks of excessive copy-pastes
-  # - SPELL # Uncomment to disable checks of spelling mistakes
+ENABLE_LINTERS:
+  [
+    YAML_YAMLLINT,
+    YAML_PRETTIER,
+    SQL_SQL_LINT,
+    MARKDOWN_MARKDOWN_LINK_CHECK,
+    ENV_DOTENV_LINTER,
+    CREDENTIALS_SECRETLINT,
+  ]
+#DISABLE:
+# - HTML
+# - COPYPASTE # Uncomment to disable checks of excessive copy-pastes
+# - SPELL # Uncomment to disable checks of spelling mistakes
 SHOW_ELAPSED_TIME: true
 FILEIO_REPORTER: true
 FILTER_REGEX_EXCLUDE: tsconfig.json
-EXCLUDED_DIRECTORIES: [.obsidian]
+EXCLUDED_DIRECTORIES:
+  [
+    .obsidian,
+    plugins/optomitron-real-time-decision-support-plugin/analysis-data,
+    plugins/optomitron-real-time-decision-support-plugin/analysis-data/*,
+    .git,
+    .github,
+    .vscode,
+  ]
 # DISABLE_ERRORS: true # Uncomment if you want MegaLinter to detect errors but not block CI to pass
