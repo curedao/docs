@@ -4,11 +4,13 @@
 **:rocket:  OUR MISSION  :rocket:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
-Clinical Research and personal health management today have a data problem. not just a funding problem.
-To find new cures faster and minimize the suffering from disease we aim to develop an open source health data software infrastructure for health data businesses to focus more on their core work instead of duplicating software development.
-Think of it as what Wordpress is for Web-Designers or what Firebase is for Application developers.
-Our Vision memo: <https://medium.com/@vincenzo.domina/the-health-data-layer-4009593e15fc>
+Today, clinical research and personal health management have a data problem, not just a funding problem.
 
+To find new cures faster and minimize the suffering from disease, we aim to develop an open-source infrastructure for health data businesses. 
+This will enable them to focus on their unique value proposition instead of duplicating universally necessary infrastructure. 
+Think of it as what WordPress is for web-designers or Firebase for application developers.
+
+Our Vision Memo: https://medium.com/@vincenzo.domina/the-health-data-layer-4009593e15fc
 \
 **:round_pushpin: STARTING CHECKLIST :round_pushpin:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
