@@ -1,8 +1,8 @@
-# Data Collection Integrations
+# 📲 Data Collection Plugins
 
 ![](data-collection-plugins.PNG)
 
-It all begins with self-tracking and initial data collection.  
+It all begins with self-tracking and initial data collection.\
 This can be done using wearable sensors, third-party applications, and client applications.
 
 ![Diagram showing data collection ranging from human and public data
@@ -34,5 +34,3 @@ The data sources would include:
 * Prescription Records: Microsoft HealthVault can automatically collect lab results, prescription history, and visit records from a growing list of labs, pharmacies, hospitals, and clinics.
 
 ![data import](../../assets/aggregation/data-import.PNG)
-
-

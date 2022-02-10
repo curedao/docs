@@ -10,14 +10,14 @@ connecting them to research Show Video **Faster intervention development** **Tak
 **personal health management and**\
 **connecting them to research**
 
-![](https://opencures.org/wp-content/uploads/2021/12/Trial.svg) **Explore Scientific assays**\
+**Explore Scientific assays**\
 **and biobanking You should own your health data.**\
 **We let you also own your samples and**\
 **provide access to assays like**\
 **metabolomics and proteomics only**\
 **available to research so far.**
 
-![](https://opencures.org/wp-content/uploads/2021/11/2-AA.png) **** [**Launch**](https://my.opencures.org) **Advanced Personal**\
+**** [**Launch**](https://my.opencures.org) **Advanced Personal**\
 **Health Management Think of it as your sixth sense for health.**\
 **Aggregate health data from all sources**\
 **like wearables, apps, labs, EHR and make**\
@@ -28,7 +28,7 @@ connecting them to research Show Video **Faster intervention development** **Tak
 **and automations they need to manage**\
 **participants, their health data and**\
 **workflows for their clinical, product**\
-**or community studies.** ![](https://opencures.org/wp-content/plugins/revslider/public/assets/assets/dummy.png)
+**or community studies.** 
 
 **Biobanking & Testing**
 
@@ -115,8 +115,8 @@ Novato, CA 94945
 
 ***
 
-**** [**Privacy Policy**](https://opencures.org/privacy-policy/) 
-**** [**Terms of Use**](https://opencures.org/terms-of-use/) 
+**** [**Privacy Policy**](https://opencures.org/privacy-policy/)
+**** [**Terms of Use**](https://opencures.org/terms-of-use/)
 **Taking the responsibility for**\
 **speeding up the intervention**\
 **development cycle OpenCures Inc is a For-Benefit Enterprise**

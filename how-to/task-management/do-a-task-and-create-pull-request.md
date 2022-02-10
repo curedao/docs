@@ -14,6 +14,6 @@
 
 ![Step 7 screenshot](https://images.tango.us/public/screenshot\_ed1cd799-e984-4f79-991d-2327affdfc41?crop=focalpoint\&fit=crop\&fp-x=0.6902\&fp-y=0.6702\&fp-z=3.1969\&w=1200\&mark-w=0.2\&mark-pad=0\&mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\&ar=1706%3A937)
 
-#### 8. Now issues with the highest importance will be at the top.
+#### 8. Now issues with the highest importance will be at the top
 
 ### [**More Info about Issues**](https://docs.github.com/en/issues/tracking-your-work-with-issues)****

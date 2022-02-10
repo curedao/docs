@@ -6,21 +6,15 @@ cover: optomitron-cover.PNG
 coverY: 203.93538913362704
 ---
 
-# Optomitron Real-Time Decision Support Plugin
+# 🤖 Optomitron Real-Time Decision Support Plugin
 
 {% embed url="https://youtu.be/hd50A74o8YI" %}
 Optomitron in Action
 {% endembed %}
 
-#### [DEMO VIDEO](https://youtu.be/hd50A74o8YI)
-
 #### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/ionic/src/index.html#/app/chat)
 
-## What The Hell Is This?
-
 Optimitron is an AI assistant that asks you about your symptoms and potential factors. Then she applies pharmacokinetic predictive analysis to inform you of the most important things you can do to minimize symptom severity.
-
-## Why Would We Create Such a Monster?
 
 ![inflammation worldwide](inflammation-worldwide.PNG)
 
@@ -32,17 +26,13 @@ Probably the most significant is the 3 pounds of thousands of chemicals that we 
 
 ![](how-much-we-know.PNG)
 
-## How it Works
-
 We've built a connector framework that imports data on diet, physical activity, sleep, social interaction, environmental factors, symptom severity, vital signs, and others.
 
 ![optomitron diagram](optomitron-diagram.PNG)
 
-Then we apply pharmacokinetic predictive analysis to obtain personalized effectiveness values (similar to recommended daily values) for treatments and reveal root causes of chronic conditions.
+Then we apply pharmacokinetic predictive analysis that accounts for onset delays and durations of action. This enables her to obtain personalized effectiveness values (similar to recommended daily values) for treatments and reveal potential root causes of chronic conditions.
 
 ![screenshot](optomitron-screenshots/optomitron-notifications-screenshot.png)
-
-## When Can I Use Optimitron?
 
 The accuracy of the results obtained from quasi-experimental techniques and observational data is highly dependent on the quantity and quality of the data. To maximize the amount of available data, we're currently in the process of creating a decentralized autonomous organization called CureDAO. Its mission is to create an open-source platform for crowd-sourced clinical research. It incentivizes collaboration and data sharing by competing entities by issuing non-fungible tokens to any contributor of intellectual property or data.
 

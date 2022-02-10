@@ -7,14 +7,14 @@
 Clinical Research and personal health management today have a data problem. not just a funding problem.
 To find new cures faster and minimize the suffering from disease we aim to develop an open source health data software infrastructure for health data businesses to focus more on their core work instead of duplicating software development.
 Think of it as what Wordpress is for Web-Designers or what Firebase is for Application developers.
-Our Vision memo: https://medium.com/@vincenzo.domina/the-health-data-layer-4009593e15fc
+Our Vision memo: <https://medium.com/@vincenzo.domina/the-health-data-layer-4009593e15fc>
 
 \
 **:round_pushpin: STARTING CHECKLIST :round_pushpin:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
 :white_check_mark:  Introduce yourself in the  :raised_hand:ㆍintroduce-yourself  channel.\
-:white_check_mark:  Read our Whitepaper: https://docs.curedao.org/ \
+:white_check_mark:  Read our Whitepaper: <https://docs.curedao.org/> \
 :white_check_mark:  Check our Tools and Social media to see our progress.\
 :white_check_mark:  If you want to help, head to the  :point_right:ㆍget-involved  channel to join a working group. (see how to below)\
 :white_check_mark:  Read, understand and follow the rules.\
@@ -24,18 +24,19 @@ Our Vision memo: https://medium.com/@vincenzo.domina/the-health-data-layer-40095
 \
 **:link:  TOOLS  :link:**\
 ⋯⋯⋯⋯⋯⋯⋯
-- Github: https://github.com/cure-dao/
-- Notion: https://www.notion.so/cure-dao/Cure-DAO-Haus-242d38077dcc41f6a138ecdf27a4ba58 (Our Notion wiki if you want to learn more or contribute)
-- Miro Board: https://miro.com/app/board/uXjVOSkmQw8=/
-- Figma: https://www.figma.com/team_invite/redeem/m9YWqegKCzTq8DB66MRd6B
+- Github: <https://github.com/cure-dao/>
+- Notion: <https://www.notion.so/anonymous-dao/Cure-DAO-Haus-242d38077dcc41f6a138ecdf27a4ba58> (Our Notion wiki if you 
+  want to learn more or contribute)
+- Miro Board: <https://miro.com/app/board/uXjVOSkmQw8=/>
+- Figma: <https://www.figma.com/team_invite/redeem/m9YWqegKCzTq8DB66MRd6B>
 
 \
 **:speech_balloon:  SOCIAL MEDIA  :eyes:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
-- Twitter: https://twitter.com/curadao_org
-- Facebook: https://www.facebook.com/Cure_DAO-100606099197777
-- Youtube: https://www.youtube.com/channel/UCVE5_gN5JWpLLPIyV5D1hnA
-- Website: https://www.curadao.org/
+- Twitter: <https://twitter.com/curadao_org>
+- Facebook: <https://www.facebook.com/Cure_DAO-100606099197777>
+- Youtube: <https://www.youtube.com/channel/UCVE5_gN5JWpLLPIyV5D1hnA>
+- Website: <https://www.curadao.org/>
 
 \
 **:point_right:  WE NEED YOU  :point_left:**\
@@ -43,7 +44,7 @@ Our Vision memo: https://medium.com/@vincenzo.domina/the-health-data-layer-40095
 
 Do you believe in the acceleration of finding new cures through the power of data and web3?
 
-This is why we need contributors from many backgrounds: 
+This is why we need contributors from many backgrounds:
 
 :point_right:  Software developers/engineers\
 :point_right:  Web3 / DAO / crypto experts\
@@ -61,28 +62,28 @@ This is why we need contributors from many backgrounds:
 
 We rely heavily on Github (also for non-coders for project management, don't worry it's not that difficult)
 
-1.  Get an account on https://github.com
-2. Star our Github: https://github.com/cure-dao/
-3. Get the free ZenHub extension (to view issues from Github in Kanban boards and Gantt charts -> very cool) 
-     https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd
-4. Choose your working group (or more than one, more info here: 
-     https://github.com/cure-dao/draft-whitepaper/blob/main/constitution/5-organization.md)
+1. Get an account on <https://github.com>
+2. Star our Github: <https://github.com/cure-dao/>
+3. Get the free ZenHub extension (to view issues from Github in Kanban boards and Gantt charts -> very cool)
+     <https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd>
+4. Choose your working group (or more than one, more info here:
+     <https://github.com/cure-dao/draft-whitepaper/blob/main/constitution/5-organization.md>)
 5. Create, comment in Issues and contribute with linked pull requests
      (also for finished documents, presentations, design files Github is very cool for version management)
-6. Help prioritize tasks (More Info and howto: 
-     https://github.com/cure-dao/draft-whitepaper/blob/main/how-to/task-management/vote-on-tasks-and-sort-by-priority.md)
-7. Issues and tasks are assigned, discussed, reported, moved in the specific calls (see Events) to maintain overview and communication 
+6. Help prioritize tasks (More Info and howto:
+     <https://github.com/cure-dao/draft-whitepaper/blob/main/how-to/task-management/vote-on-tasks-and-sort-by-priority.md>)
+7. Issues and tasks are assigned, discussed, reported, moved in the specific calls (see Events) to maintain overview and communication
 8. Your contributions are tracked already within your github activity and discord activity and manually tracking your time for now
      (designers don't worry, everything will be weighted accordingly, details coming)
 
-More information to contribution and instructions here: https://github.com/cure-dao/draft-whitepaper/tree/main/how-to
+More information to contribution and instructions here: <https://github.com/cure-dao/draft-whitepaper/tree/main/how-to>
 
 \
 **:thumbsup:  BEST PRACTICES  :thumbsup:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
 - If you post links: What's your take/summary/learning from this? What's the ToDo here?
-- Stay in the relevant channel with your topics. 
+- Stay in the relevant channel with your topics.
 - Avoid "non informative answers" like agreeing and use thumbs up emojis instead
 - Ask the channel creator to update the first pinned message with summarized relevant information about the channel
 - Debate less how and do more, often "done" is better than "perfect"
@@ -92,7 +93,7 @@ More information to contribution and instructions here: https://github.com/cure-
 **:rotating_light:  CAUTION  :rotating_light:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯
 
-As seen in other DAO's: 
+As seen in other DAO's:
 - Be careful about scams - our team will never ask you for passwords or private keys. DM an admin or a moderator if anything ever seems sketchy!
 - We do **NOT have a token yet** and any coin with our name is unaffiliated with our project or community.
 
@@ -109,12 +110,12 @@ We just started in 2022! We started to focus on the DAO infrastructure first, bu
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
 **1. Follow Discord's TOS**\
-https://discordapp.com/terms
-https://discordapp.com/guidelines
+<https://discordapp.com/terms>
+<https://discordapp.com/guidelines>
 
 **2. Be respectful with all members**\
 Be respectful and civil to others!
-No death threats, sexism, hate speech, racism, doxxing, swatting, witch hunting, bullying, racism, misogyny, or discrimination of any kind 
+No death threats, sexism, hate speech, racism, doxxing, swatting, witch hunting, bullying, racism, misogyny, or discrimination of any kind
 
 **3. No Advertising**\
 Includes DM Advertising. We do not allow advertising of any kind.
@@ -124,8 +125,8 @@ Anything involving gore or sexual content is not allowed.
 NSFW = Not Safe for Work
 
 **5. No spamming in text or VC**\
-Do not spam messages, soundboards, voice changers, or earrape in any channel. 
-Stay in the relevant channel with your topics. 
+Do not spam messages, soundboards, voice changers, or earrape in any channel.
+Stay in the relevant channel with your topics.
 Avoid "non informative answers" like agreeing and use thumbs up emojis instead
 
 **6. Do not discuss about sensitive topics**\
@@ -160,4 +161,4 @@ Do not post or share low quality research, surveys, or studies.  If you are inte
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
 **DAOs**
-- Developer DAO Wiki: https://developerdao.notion.site/developerdao/Developer-DAO-Wiki-eff4dcb00bef46fbaa93e9e4cf940e2e
+- Developer DAO Wiki: <https://developerdao.notion.site/developerdao/Developer-DAO-Wiki-eff4dcb00bef46fbaa93e9e4cf940e2e>
