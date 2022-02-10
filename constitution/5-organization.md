@@ -9,8 +9,6 @@ description: >-
 
 👈 [Back to Table of Contents](../)
 
-
-
 CureDAO is a laboratory consisting of many experiments.
 
 It’s a global laboratory where the 7 billion human “natural experiments” revealing the effects of various factors on human health and happiness are conducted.
@@ -53,20 +51,15 @@ In cases where Lab Staff are paid, Citizens may choose to compensate them with a
 
 The initial Laboratories will be created to carry out the following primary functions:
 
-* Governance Lab - Changes governance and how proposals are deployed
-* Legal Lab - Handles legal matters relating to DAO activities and
-* Ops Lab - Handles operational matters relating to DAO activities
-* Community Lab - Promotes community engagement with DAO and the broader world
-* UI/UX Lab - Creates a user-friendly interface for the platform front end
-* Funding Lab - Facilitates financing of DAO projects
-* Human Resource Lab - Provides resources for Lab Staff
-* Tokenomics Lab - Handles technical aspects of DAO token creation and distribution
-* Back End Dev Lab - Develops the DAO’s smart contracts
-* Front-End Dev Lab - Implements the platform user interface
-* Public Relations Lab - Promotes DAO’s presence in the public discourse
-* Data Integration Lab - Integrates data from various sources and formats
-* Data Science Lab - Conducts research on data science and machine learning
-* CollabLab - Coordinates partnerships between individuals and organizations
+* Governance Lab - Changes governance and how proposals are created and deployed. Handles technical aspects of DAO token creation and distribution. Develops the DAO’s smart contracts.
+* Legal Lab - Handles legal matters regarding business structure, health data, liability issues, and business contracts.
+* Coordination Lab - Handles operational matters such as human resources, compensation, project management, onboarding.  Provides resources for Lab Staff.
+* Community Lab - Promotes community engagement with DAO and the broader world.
+* UI/UX Lab - Creates a user-friendly interface for the platform front end.
+* Collaborations - Facilitates financing of DAO projects. Coordinates partnerships between individuals and organizations.
+* Dev Lab - Implements the platform back end and user interface
+* Public Relations Lab - Promotes DAO’s presence in the public discourse.
+* Data Lab - Integrates data from various sources and formats. Conducts research on data science and machine learning.
 
 #### Service Providers
 

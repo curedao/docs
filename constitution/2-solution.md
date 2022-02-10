@@ -13,7 +13,10 @@ The solution to the lack of progress and increasing expense of healthcare is to 
 Out of an existing pool of big health data an insilico model of human biology can be developed for the discovery of new interventions and their personalized application.
 
 One way to achieve this is to view the human body as a black box with inputs and outputs. 
-We predictive machine learning models to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) of 
+We can apply [predictive machine learning models](../plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to 
+[stratified groups](https://en.wikipedia.
+org/wiki/Stratified\_sampling)
+of 
 similar people based on their data of their following profiles:
 
 * [Genomic](https://en.wikipedia.org/wiki/Genomics)
@@ -142,7 +145,7 @@ Since abandonment of the former efficacy trial model, costs have exploded. ![cos
 
 To validate the theory that large-scale real-world evidence can produce better health outcomes requires further validation of this method of experimentation.
 
-### 2.4 The Citizen science approach
+### 2.4 The Citizen Science Approach
 
 An example of the application and usage of aggregated health data and applied statistics is the publishing of observational studies of different relationships. The [Journal of Citizen Science](https://app.crowdsourcingcures.org) used an anonymously aggregated and analysed data set from over 10 million data points on symptom severity and influencing factors from over 10,000 participants. This data has been used to publish 90,000 studies on the effects of various treatments and food ingredients on condition severity.
 

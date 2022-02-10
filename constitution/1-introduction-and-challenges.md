@@ -11,11 +11,9 @@ Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-d
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) Holocausts every year
 
-### 1.1 The status quo in numbers
-
 **Will throwing more money at the existing healthcare system save us?**
 
-Since 2014, healthcare spending per person has been [increasing faster than ever before](https://fred.stlouisfed.org/series/HLTHSCPCHCSA).
+Since 2014, healthcare spending per person has been [increasing faster than ever](https://fred.stlouisfed.org/series/HLTHSCPCHCSA) faster than ever before.
 
 ![health spending](../assets/cost/us-healthcare-expenditure-per-person.png)
 
@@ -30,7 +28,9 @@ There has been an explosion of recent technological advances in digital health i
 * [350,000](https://www2.deloitte.com/us/en/blog/health-care-blog/2021/how-digital-health-apps-are-empowering-patients.html) digital health apps
 * a [billion](https://www.statista.com/statistics/487291/global-connected-wearable-devices/) connected wearable devices
 
-These innovations have produced [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it. ([chart](../assets/data/growth-in-health-data-chart.png))
+These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) 
+growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it. 
+![chart](../assets/data/growth-in-health-data-chart.png)
 
 This data exists in the form of:
 
@@ -92,7 +92,7 @@ Pharmaceutical companies that sponsor research often report only “positive” 
 
 This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
 
-#### 1.2.3 Questionable Representation of Real Patients through Trials
+### 1.2.3 Trials Often Aren't Representative of Real Patients
 
 External validity is the extent to which the results can be generalized to a population of interest. The population of interest is usually defined as the people the intervention is intended to help.
 
@@ -118,25 +118,47 @@ Furthermore, patient sample sizes are very small. The number of subjects per tri
 
 In the example in graphic above a drug is prescribed to millions of patients based on a study with only 36 subjects, where a representation of the general public is questionable.
 
-The Vision of personalized Precision Medicine still opens up a lot of room to grow for our knowledge about the efficacy of drugs. Therefore a patient would like to know which drug or therapy has the most potential success with his specific demographic or phenotypic profile like age, gender, ethnicity, lifestyle and factors like family history and interferences with other conditions and interventions.
+### **Solution: Collect Data on Actual Patients**
 
-### 1.3 Problems in Digital Health Innovation
+In the real world, no patient can be excluded. Even people with a history of drug or alcohol abuse, people on multiple medications, and people with multiple conditions must be treated. Only through the crowdsourcing of this research, would physicians have access to the true effectiveness rates and risks for their real-world patients.
 
-#### 1.3.1 Resources Wasted on Duplication of Effort
+The results of crowd-sourced studies would exhibit complete and utter external validity since the test subjects are identical to the population of interest.
 
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average. Most of these have a big overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
+Furthermore, self-trackers represent a massive pool of potential subjects dwarfing any traditional trial cohort.
+Diet tracking is the most arduous form of self-tracking. Yet, just one of the many available diet tracking apps, **MyFitnessPal,** has 30 million users.
 
-Therefore the rate of progress could in theory be increased by a estimated 350,000 times with shared source code of the overlapping functionalities.
+Tracking any variable in isolation is nearly useless in that it cannot provide the causal which can be derived from combining data streams. Hence, this 30 million user cohort is a small fraction of the total possible [stratifiable](https://en.wikipedia.org/wiki/Stratified_sampling) base.
 
-!\[closed source competition vs open source collaboration]\(.. /assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
+## 1.3 Problems in Digital Health Innovation
 
-The obstacle has been the free-rider problem. Businesses that open source their code give their closed-source competitors an unfair advantage. This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
+### 1.2.1 $157 Billion Wasted on Duplication of Effort
 
-Currently governments around the world are spending billions in funding closed-source propriety health software. The Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) and require that publicly-funded software be open source.
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Most of these
+have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
 
-#### 1.3.2 Isolated Data Silos
+If this code was freely shared, everyone could build on what everyone else had done. 
+Theoretically, this could increase the rate of progress by 350,000 times.
 
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we made or how much sleep we got are known as “descriptive statistics”. However, by integrating all available data from individuals, similar populations, as well as existing clinical research findings and applying machine learning we may achieve “prescriptive” statistics for advanced insight generation. From that point functionalities like real-time decision support for improving health or biological age clocks and health risks can be leveraged.
+![closed source competition vs open source collaboration](../assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
+
+The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
+
+#### How DAOs Overcomes the Free-Rider Problem
+
+1. Currently governments around the world are spending billions funding closed-source propriety health software. The
+   Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
+2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the
+   form of royalties.
+
+### 1.2.2 Isolated Data Silos
+
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
+dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However,
+by integrating all available data from individuals, similar populations, as well as existing clinical research
+findings and applying machine learning we may achieve “prescriptive” real-time decision support.
+
+To facilitate data sharing, the CureDAO will provide data providers with an onsite easily provisionable OAuth2 API 
+server that will allow individuals to anonymously share their data with the global biobank.
 
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
 
