@@ -233,22 +233,28 @@ The currently highly restrictive overly cautious method of clinical research pre
 
 We’re at the very beginning of thousands or millions of years of systematic discovery. So it’s unlikely that this decline in lifespan growth is the result of diminishing returns due to our running out of things to discover.
 
-However, to validate the theory that large-scale real-world evidence can produce better health outcomes requires
-further validation of this method of experimentation.  That's the purpose of CureDAO.
+However, to validate the theory that large-scale real-world evidence can produce better health outcomes requires further validation of this method of experimentation.  That's the purpose of CureDAO.
 
 ### 2.4 Proof of Concept
 
 So far, CureDAO has anonymously aggregated and analyzed data set from over 10 million data points on symptom severity and influencing factors from over 10,000 participants.
 This data has been used to publish 90,000 studies on the effects of various treatments and food ingredients on
 condition severity in The [Journal of Citizen Science](https://studies.crowdsourcingcures.org).
-The accuracy and precision of these studies will continue to improve as more data points are collected and better
-machine-learning plugins are implemented in the platform.
+The accuracy and precision of these studies will continue to improve as more data points are collected and better machine-learning plugins are implemented in the platform.
 
 ![journal of citizen science](../plugins/observational-studies-plugin/studies.crowdsourcingcures.org-cropped.jpg)
 
 ## References
 1. https://go.drugbank.com/stats
-2. 
+2. https://www.ahajournals.org/doi/10.1161/strokeaha.111.621904
+3. https://www.fda.gov/media/110437/download
+4. https://www.academia.edu/2801726/Is_the_FDA_safe_and_effective
+5. https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence
+6. https://www.cato.org/commentary/end-fda-drug-monopoly-let-patients-choose-their-medicines
+7.https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/21st-century-cures-act
+7. https://www.fda.gov/files/about%20fda/published/The-Sulfanilamide-Disaster.pdf
+8. https://www.fda.gov/media/79922/download
+9. https://www.fda.gov/media/120060/download
 
 #### [Next 3. Platform](3-platform.md) 👉
 
