@@ -57,7 +57,6 @@ Failed drug applications are expensive. A global database of treatments and outc
   in terms of trial cost reductions.
 - In phase III studies, decentralization produced a [1300%](../assets/financial-benefits-of-decentralized-trials.pdf) return on investment.
 
-
 ### Problems with Historical Observational Research
 
 When people think of observational research, they typically think of correlational association studies.
@@ -225,7 +224,7 @@ There's another problem with the increasing costs of treatment development.
 In the past, a genius scientist could come up with a treatment, raise a few million dollars, and do safety testing.
 Now that it costs a billion dollars to get a drug to market, the scientist has to persuade one of a few giant drug companies that can afford it to buy his patent.
 
-Then the drug company has 2 options:
+Then the drug company has two options:
 
 **Option 1: Risk $1 billion on clinical trials**
 
@@ -234,9 +233,9 @@ GIVE BANKER A BILLION DOLLARS. DO NOT PASS GO.
 
 **Possibility B:** Drug turns out to be one of the 10%, the FDA approves.
 Now it's time to try to recover that billion dollars.
-However, there are very few drug companies with enough money to survive this game.
+However, very few drug companies have enough money to survive this game.
 So, this company almost certainly already has an existing inferior drug on the market to treat the same condition.
-Hence, any profit they make from this drug will likely be subtracting from revenue from other drugs they've already spent a billion dollars on.
+Hence, any profit they make from this drug will likely be subtracted from revenue from other drugs they've already spent a billion dollars on.
 
 **Option 2: Put the patent on the shelf**
 
@@ -248,14 +247,13 @@ Either way, the profit incentive is entirely in favor of just buying better trea
 
 ###### Cures Are Far Less Profitable Than Lifetime Treatments
 
-Imagine you had to pay a lifetime of power bills all at once And that's just if the new drug is a lifelong treatment.
-If the new treatment is a permanent cure for the disease, replacing a lifetime of refills with a one-time purchase would be economically disastrous.
+If the new treatment is a permanent cure for the disease, replacing a lifetime of refills with a one-time purchase would be economically disastrous for the drug developer.  With a lifetime prescription, a company can recover its costs over time. Depending on the number of people with the disease, one-time cures would require a massive upfront payment to recover development costs.
 
 How is there any financial incentive for medical progress at all?
 
-Fortunately, we don't have a complete monopoly on treatment development.
-However, the more expensive it is, the fewer participants can afford to be in that business.
-So it inevitably becomes more monopolistic and there arise more of these situations where the cost of trials exceeds the profits from selling the drug.
+Fortunately, there isn't a complete monopoly on treatment development.
+However, the more expensive it is to get a drug to market, the fewer companies can afford the upfront R&D investment.
+So the drug industry inevitably becomes more monopolistic. Thus there are more situations where the cost of trials for a superior treatment exceeds the profits from existing treatments.
 
 ###### People With Rare Disease are Particularly Harmed
 
@@ -273,33 +271,33 @@ After that point, whenever they released some new cancer or heart medication tha
 
 ###### Deaths Due to US Regulatory "Drug Lag"
 
-A comparative analysis between countries suggest that delays in new interventions cost anywhere from [21,000 to 120,
+A comparative analysis between countries suggests that delays in new interventions cost anywhere from [21,000 to 120,
 000](https://www.fdareview.org/features/references/#gieringer85) US lives per decade.
 
 Deaths owing to drug lag have been numbered in the [hundreds of thousands](https://www.fdareview.org/features/references/#wardell78a).
-It's estimated that practolol, a drug in the beta-blocking family, could save ten thousand lives a year is allowed in the United States. Although the FDA allowed a first beta-blocker, propranolol, in 1968, three years after that drug had been available in Europe, it waited until 1978 to allow the use of propranolol for the treatment of hypertension and angina pectoris, its most important indications.
+It's estimated that practolol, a drug in the beta-blocking family, could save ten thousand lives a year if allowed in the United States. Although the FDA allowed a first beta-blocker, propranolol, in 1968, three years after that drug had been available in Europe, it waited until 1978 to allow the use of propranolol for the treatment of hypertension and angina pectoris, its most important indications.
 Despite clinical evidence as early as 1974, only in 1981 did the FDA allow a second beta-blocker, timolol, for the prevention of a second heart attack. The agency’s withholding of beta-blockers was alone responsible for probably [tens of thousands of deaths](https://www.fdareview.org/features/references/#gieringer85).
 
 [Data](http://csdd.tufts.edu/databases) from the Tufts Center for the Study of Drug Development suggests that thousands of patients have died because
 of US regulatory delays relative to other countries, for new drugs and devices, including:
 
 - interleukin-2
-- taxotere
+- Taxotere
 - vasoseal
 - ancrod
-- glucophage
+- Glucophage
 - navelbine
-- lamictal
+- Lamictal
 - ethyol
 - photofrin
 - rilutek
 - citicoline
 - panorex
-- femara
-- prostar
+- Femara
+- ProStar
 - omnicath
 
-Prior to US FDA approval most of these drugs and devices had already been available in other countries for a year or longer.
+Before US FDA approval most of these drugs and devices had already been available in other countries for a year or longer.
 
 Following the 1962 increase in US regulations, one can see a divergence from the growth in life expectancy in Switzerland which did not introduce the same delays to availability.
 
@@ -312,7 +310,7 @@ Then US approvals go back down in the '90s and the gap expands again.
 
 ##### Increase in Patent Monopoly
 
-Industry agitation surrounding the “drug lag” finally led to the modification of the drug patenting system in the Drug Price Competition and Patent Term Restoration Act of 1984. This further extended the life of drug patents. Thus Kefauver's amendments ultimately affected both pharmaceutical pricing and patenting — in a manner diametrically opposed to the one he intended.
+Industry agitation surrounding the “drug lag” finally led to the modification of the drug patenting system in the Drug Price Competition and Patent Term Restoration Act of 1984. This further extended the life of drug patents. Thus Kefauver's amendments ultimately made drugs more expensive by granting longer monopolies.
 
 ##### Decreased Ability to Determine Comparative Efficacy
 
@@ -367,10 +365,10 @@ But lots of people with AIDS and cancer will die while waiting for treatment.
 Humans have a cognitive bias towards weighting harmful acts of commission to be worse than acts of omission even if the act of omission causes greater harm.
 It's seen in the trolley problem where people generally aren't willing to push a fat man in front of a train to save a family even though more lives would be saved.
 
-Medical researcher Dr. Henry I. Miller, MS, MD described his experience working at the FDA, 
-“In the early 1980s,” Miller wrote, “when I headed the team at the FDA that was reviewing the NDA [application] for recombinant human insulin…my supervisor refused to sign off on the approval,” 
-despite ample evidence of the drug’s ability to safely and effectively treat patients. 
-His supervisor rationally concluded that, if there was a death or complication due to the medication, heads would roll at the FDA—including his own.  
+Medical researcher Dr. Henry I. Miller, MS, MD described his experience working at the FDA,
+“In the early 1980s,” Miller wrote, “when I headed the team at the FDA that was reviewing the NDA [application] for recombinant human insulin…my supervisor refused to sign off on the approval,”
+despite ample evidence of the drug’s ability to safely and effectively treat patients.
+His supervisor rationally concluded that, if there was a death or complication due to the medication, heads would roll at the FDA—including his own.
 So the personal risk of approving a drug is magnitudes larger than the risk of rejecting it.
 
 ### It's Impossible to Report on Deaths That Occurred Due to Unavailable Treatments
@@ -379,27 +377,29 @@ Here's a news story from the Non-Existent Times by No One Ever without a picture
 
 ![](../assets/trials/non-existent-times.png)
 
-This means that it's only logical to regulators to reject drug applications by default. 
+This means that it's only logical to regulators to reject drug applications by default.
 The personal risks of approving a drug with any newsworthy side effect far outweigh the personal risk preventing access to a life-saving treatment.
 
 ## Current Regulation Expects Drug Developers to Have Psychic Powers
 
-When running an efficacy trial, the FDA expects that the drug developer has the psychic ability to predict which 
-conditions a treatment will be most effective for in advance of collecting the human trial data.  
+When running an efficacy trial, the FDA expects that the drug developer has the psychic ability to predict which
+conditions a treatment will be most effective for in advance of collecting the human trial data.
 If it was possible to magically determine this without any trials, it would render efficacy trials completely pointless.
 
-In 2007, manufacturer Dendreon submitted powerful evidence attesting to the safety and efficacy of its immunotherapy drug Provenge, which targets prostate cancer. 
-They wer able to show that the drug resulted in a significant decline in deaths among its study population, which even 
-swayed the FDA advisory committee weighing in on the application. But ultimately, the FDA rejected its application.
+In 2007, manufacturer Dendreon submitted powerful evidence attesting to the safety and efficacy of its immunotherapy drug Provenge, which targets prostate cancer.
+They were able to show that the drug resulted in a significant decline in deaths among its study population, which
+even persuaded the FDA advisory committee weighing in on the application.
+But ultimately, the FDA rejected its application.
 
-The FDA was unmoved by the evidence, simply because Dendreon didn’t properly specify beforehand what its study was trying to measure. 
-Efficacy regulations state that finding a decline in deaths is not enough. 
-The mountains of paperwork must be filled out just-so, and in the correct order. 
+The FDA was unmoved by the evidence, simply because Dendreon didn’t properly specify beforehand what its study was trying to measure.
+Efficacy regulations state that finding a decline in deaths is not enough.
+The mountains of paperwork must be filled out just-so, and in the correct order.
 It took three more years and yet another large trial before the FDA finally approved the life-saving medication.
 
-Due to all the additional costs imposed by the efficacy trial burden, Dendreon ultimately filed for chapter 11 bankruptcy.
+Due to all the additional costs imposed by the efficacy trial burden, Dendreon ultimately [filed for chapter 11
+bankruptcy](https://www.targetedonc.com/view/dendreon-files-for-bankruptcy-provenge-still-available).
 
-In addition to the direct costs to companies, the extreme costs and financial risks imposed by efficacy trials have a huge chilling effect on investment in new drugs.  
+In addition to the direct costs to companies, the extreme costs and financial risks imposed by efficacy trials have a huge chilling effect on investment in new drugs.
 If you're an investment adviser, trying to avoid losing your clients retirement savings, you're much better off investing in a more stable company like a bomb manufacturer building products to intentionally kill people than a drug developer trying to save lives.
 So it's impossible to know all of the treatments that never even got to an efficacy trial stage due to the effects of decreased investment due to the regulatory risks.
 

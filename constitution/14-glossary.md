@@ -18,7 +18,6 @@ interpretation of the patient’s response by a clinician or anyone else. A
 PRO can be measured by self-report or by interview, provided that the
 interviewer records only the patient’s response.
 
-
 Real-World Data (RWD): data relating to patient health status and/
 or the delivery of health care routinely collected from a variety of sources.
 Real-World Evidence (RWE): clinical evidence regarding the
