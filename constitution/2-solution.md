@@ -4,7 +4,7 @@ description: >-
 ---
 # 💡 Solution
 
-👈 [Back to Table of Contents](../)
+👈 [Back to Table of Contents](../README.md)
 
 The solution to the lack of progress and increasing healthcare expense is to use the oceans of real-world evidence to discover new cures.
 
@@ -41,6 +41,22 @@ This will enable the discovery of the full personalized range of positive and ne
 * **Reduction of adverse medication events** - Harnessing of big data to spot medication errors and flag potential adverse reactions
 * **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
 * **Population health** - Monitor big data to identify disease trends and health strategies based on demographics, geography, and socioeconomic
+
+#### Cost Savings in Drug Development
+
+Failed drug applications are expensive. A global database of treatments and outcomes could provide information that could avoid massive waste on failed trials.
+
+- A 10% improvement in predicting failure before clinical trials could save [$100 million](https://drugwonks.com/blog/the-dog-days-of-drug-approvals) in development costs.
+- Shifting 5% of clinical failures from Phase III to Phase I reduces out-of-pocket costs by [$15 to $20 million](https://drugwonks.com/blog/the-dog-days-of-drug-approvals).
+- Shifting failures from Phase II to Phase I would reduce out-of-pocket costs by [$12 to $21 million](https://drugwonks.com/blog/the-dog-days-of-drug-approvals).
+
+#### Cost Savings Through Decentralization
+
+- In phase II studies, the typical decentralized clinical trial (DCT) deployment produced a [400%](../assets/financial-benefits-of-decentralized-trials.pdf) return on
+  investment
+  in terms of trial cost reductions.
+- In phase III studies, decentralization produced a [1300%](../assets/financial-benefits-of-decentralized-trials.pdf) return on investment.
+
 
 ### Problems with Historical Observational Research
 
@@ -208,6 +224,7 @@ Since 1962, the cost of bringing a new treatment to market has gone from [$74 mi
 There's another problem with the increasing costs of treatment development.
 In the past, a genius scientist could come up with a treatment, raise a few million dollars, and do safety testing.
 Now that it costs a billion dollars to get a drug to market, the scientist has to persuade one of a few giant drug companies that can afford it to buy his patent.
+
 Then the drug company has 2 options:
 
 **Option 1: Risk $1 billion on clinical trials**
@@ -265,6 +282,7 @@ Despite clinical evidence as early as 1974, only in 1981 did the FDA allow a sec
 
 [Data](http://csdd.tufts.edu/databases) from the Tufts Center for the Study of Drug Development suggests that thousands of patients have died because
 of US regulatory delays relative to other countries, for new drugs and devices, including:
+
 - interleukin-2
 - taxotere
 - vasoseal
@@ -287,11 +305,10 @@ Following the 1962 increase in US regulations, one can see a divergence from the
 
 ![swiss life expectancy](../assets/trials/us-swiss-life-expectancy-5.png)
 
-Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s and at the same time the gap between Switzerland and the US gets smaller then. 
+Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s and at the same time the gap between Switzerland and the US gets smaller then.
 Then US approvals go back down in the '90s and the gap expands again.
 
 ![swiss life expectancy](../assets/trials/us-swiss-life-expectancy-drug-approvals.png)
-
 
 ##### Increase in Patent Monopoly
 
@@ -299,7 +316,7 @@ Industry agitation surrounding the “drug lag” finally led to the modificatio
 
 ##### Decreased Ability to Determine Comparative Efficacy
 
-The placebo-controlled, randomized controlled trial helped researchers gauge the efficacy of an individual drug. However, it makes determination of comparative efficacy much more difficult.  
+The placebo-controlled, randomized controlled trial helped researchers gauge the efficacy of an individual drug. However, it makes determination of comparative efficacy much more difficult.
 
 ##### Slowed Growth in Life Expectancy
 
@@ -312,10 +329,9 @@ Following this new 70% reduction in the pace of medical progress, the growth in 
 ###### Diminishing Returns?
 
 You might say “It seems more likely — or as likely — to me that drug development provides diminishing returns to
-life expectancy.” 
-However, diminishing returns produce a slope of exponential decay. 
-It may be partially responsible,
-but it’s not going to produce a sudden change in the linear slope of a curve a linear as life expectancy was before and after the 1962 regulations.
+life expectancy.”
+However, diminishing returns produce a slope of exponential decay.
+It may be partially responsible, but it’s not going to produce a sudden change in the linear slope of a curve a linear as life expectancy was before and after the 1962 regulations.
 
 ![diminishing returns](../assets/trials/diminishing-returns.png)
 
@@ -344,9 +360,6 @@ Increasing lifespan is not the congressional mandate of the FDA.
 Its mandate is to ensure the "safety and efficacy of drugs and medical devices".
 It has been very successful at fulfilling its mandate.
 
-However, if you reduce the speed limit to 1 mile per hour, it will be much safer for everyone and you could reduce traffic fatalities by 40k per year.
-However, there is an economic and societal cost to only moving 1 mph that would likely exceed the safety benefit.
-Likewise, if you dramatically slow the development of life-saving treatments, you will avoid the risk of flipper babies.
 But lots of people with AIDS and cancer will die while waiting for treatment.
 
 ### Cognitive Bias Against Acts of Commission
@@ -354,15 +367,47 @@ But lots of people with AIDS and cancer will die while waiting for treatment.
 Humans have a cognitive bias towards weighting harmful acts of commission to be worse than acts of omission even if the act of omission causes greater harm.
 It's seen in the trolley problem where people generally aren't willing to push a fat man in front of a train to save a family even though more lives would be saved.
 
+Medical researcher Dr. Henry I. Miller, MS, MD described his experience working at the FDA, 
+“In the early 1980s,” Miller wrote, “when I headed the team at the FDA that was reviewing the NDA [application] for recombinant human insulin…my supervisor refused to sign off on the approval,” 
+despite ample evidence of the drug’s ability to safely and effectively treat patients. 
+His supervisor rationally concluded that, if there was a death or complication due to the medication, heads would roll at the FDA—including his own.  
+So the personal risk of approving a drug is magnitudes larger than the risk of rejecting it.
+
+### It's Impossible to Report on Deaths That Occurred Due to Unavailable Treatments
+
 Here's a news story from the Non-Existent Times by No One Ever without a picture of all the people that die from lack of access to life-saving treatments that might have been.
 
 ![](../assets/trials/non-existent-times.png)
+
+This means that it's only logical to regulators to reject drug applications by default. 
+The personal risks of approving a drug with any newsworthy side effect far outweigh the personal risk preventing access to a life-saving treatment.
+
+## Current Regulation Expects Drug Developers to Have Psychic Powers
+
+When running an efficacy trial, the FDA expects that the drug developer has the psychic ability to predict which 
+conditions a treatment will be most effective for in advance of collecting the human trial data.  
+If it was possible to magically determine this without any trials, it would render efficacy trials completely pointless.
+
+In 2007, manufacturer Dendreon submitted powerful evidence attesting to the safety and efficacy of its immunotherapy drug Provenge, which targets prostate cancer. 
+They wer able to show that the drug resulted in a significant decline in deaths among its study population, which even 
+swayed the FDA advisory committee weighing in on the application. But ultimately, the FDA rejected its application.
+
+The FDA was unmoved by the evidence, simply because Dendreon didn’t properly specify beforehand what its study was trying to measure. 
+Efficacy regulations state that finding a decline in deaths is not enough. 
+The mountains of paperwork must be filled out just-so, and in the correct order. 
+It took three more years and yet another large trial before the FDA finally approved the life-saving medication.
+
+Due to all the additional costs imposed by the efficacy trial burden, Dendreon ultimately filed for chapter 11 bankruptcy.
+
+In addition to the direct costs to companies, the extreme costs and financial risks imposed by efficacy trials have a huge chilling effect on investment in new drugs.  
+If you're an investment adviser, trying to avoid losing your clients retirement savings, you're much better off investing in a more stable company like a bomb manufacturer building products to intentionally kill people than a drug developer trying to save lives.
+So it's impossible to know all of the treatments that never even got to an efficacy trial stage due to the effects of decreased investment due to the regulatory risks.
 
 ## What We Don't Know
 
 We’re only 2 lifetimes from the use of the modern scientific method in medicine.
 Thus it's only been applied for 0.0001% of human history.
-The more clinical research studies we read, the more we realize we don’t know.  
+The more clinical research studies we read, the more we realize we don’t know.
 Nearly every study ends with the phrase "more research is needed".
 We know basically nothing at this point compared to what will eventually be known about the human body.
 
@@ -416,6 +461,71 @@ The accuracy and precision of these studies will continue to improve as more dat
 16. https://www.visualcapitalist.com/which-rare-diseases-are-the-most-common/
 17. http://valueofinnovation.org/
 18. https://www.medicinesaustralia.com.au/wp-content/uploads/2020/11/Prof-Frank-Lichtenberg_session-3.pdf
+19. Anglemyer A., Horvath H.T., and Bero, L. (2014). Healthcare Outcomes Assessed with Observational Study Designs
+    Compared with Those Assessed in Randomized Trials (Review), Cochrane Database of Systematic Reviews, Issue
+    4, Art No MR000034. doi:10.1002/14651858.MR000034.pub2.
+20. Ball, R., Robb, M., Anderson, S.A., and Dal Pan, G. (2016). The FDA’s Sentinel Initiative—A Comprehensive Approach
+    to Medical Product Surveillance, Clinical Pharmacology & Therapeutics, 99(3):265-268. doi:10.1002/cpt.320.
+    Benson, K. and Hartz, A.J. (2000). A Comparison of Observational Studies and Randomized, Controlled Trials, New
+    England Journal of Medicine, 342:1878-1886. doi:10.1056/NEJM200006223422506.
+21. Berger, M.J, Sox, H., Willke, R.J., Brixner, D.L., Hans-Georg, E., Goettsch, W., Madigan, D., Makady, A., Schneeweiss,
+    S., Tarricone, R., Wang, S.V., Watkins, J., and Mullins, C.D. (2017). Good Practices for Real-World Data Studies of
+    Treatment and/or Comparative Effectiveness: Recommendations from the Joint ISPOR-ISPE Special Task Force
+    on Real-World Evidence in Health Care Decision Making, Pharmacoepidemiology and Drug Safety, 26(9):1033-
+    1039. doi:10.1002/pds.4297.
+22. Clinical Trial Transformation Initiative (CTTI) (2017). CTTI Recommendations: Registry Trials. Retrieved from
+    https://www.ctti-clinicaltrials.org/files/recommendations/registrytrials-recs.pdf.
+23. Cooper, C.J., Murphy, T.P., Cutlip, D.E., Jamerson, K., Henrich, W., Reid, D.M., Cohen, D.J., Matsumoto, A.H.,
+    Steffes, M., Jaff, M.R., Prince, M.R., Lewis, E.F., Tuttle, K.R., Shapiro, J.I., Rundback, J.H., Massaro, J.M.,
+    D’Agostino, R.B., and Dworkin, L.D. (2014). Stenting and Medical Therapy for Atherosclerotic Renal-Artery
+    Stenosis, New England Journal of Medicine, 370(1):13-22. doi:10.1056/NEJMoa1310753.
+24. Eapen, Z.J., Lauer, M., and Temple, R.J. (2014). The Imperative of Overcoming Barriers to the Conduct of Large,
+    Simple Trials. Journal of the American Medical Association, 311(14): 1397-1398. doi:10.1001/jama.2014.1030.
+    Eworuke, E. (2017). Integrating Sentinel into Routine Regulatory Drug Review: A Snapshot of the First Year Risk of
+    Seizures Associated with Ranolazine [Power Point Presentation]. Retrieved from https://www.sentinelinitiative.
+    org/sites/default/files/communications/publications-presentations/Sentinel-ICPE-2017-Symposium-Snapshotof-the-First-Year_Ranexa-Seizures.pdf.
+25. Food and Drug Administration, Center for Medicare Services, and Acumen Team. (2018). Centers for Disease Control
+    and Prevention, Advisory Committee on Immunization Practices Meeting: Relative Effectiveness of Cell-cultured
+    versus Egg-based Influenza Vaccines, 2017-18 [Power Point Presentation]. Retrieved from https://www.cdc.gov/
+    vaccines/acip/meetings/downloads/slides-2018-06/flu-03-Lu-508.pdf.
+    Ford, I. and Norrie, J. (2016). Pragmatic Trials. New England Journal of Medicine, 375:454-463. doi:10.1056/
+    NEJMra1510059.
+26. Fralick, M., Kesselheim, A.S., Avorn, J., and Schneeweiss, S. (2018). Use of Health Care Databases to Support
+    Supplemental Indications of Approved Medications, JAMA Internal Medicine, 178(1): 55-63. doi:10.1001/
+    jamainternmed.2017.3919
+27. Franklin, J.M., and Schneeweiss, S. (2017). When and How Can Real World Data Analyses Substitute for Randomized
+    Controlled Trials, Clinical Pharmacology & Therapeutics, 102(6):924-933. doi:10.1002/cpt.857.
+28. Fröbert, O., Lagerqvist, B., Olivecrona, G., Omerovic, E., Gudnason, T., Maeng, M., Aasa, M., Angerås, O., Calais,
+    F., Danielewicz, M., Erlinge, D., Hellsten, L., Jensen, U., Johansson, A.C., Kåregren, A., Nilsson, J., Robertson,
+    L., Sandhall, L., Sjögren, I., Östlund, O., Harnek, J., and James, S.K. (2013). Thrombus Aspiration during STSegment Elevation Myocardial Infarction, New England Journal of Medicine, 369:1587-1597. doi:10.1056/
+    NEJMoa1308789.
+29. Guadino, M., Di Franco, A., Rahouma, M., Tam, D.Y., Iannaccone, M., Deb, S., D’Ascenzo, F., Abouarab, A.A., Girardi,
+    L.N., Taggart, D.P., and Fremes, S.E. (2018). Unmeasured Confounders in Observational Studies Comparing
+    Bilateral Versus Single Internal Thoracic Artery for Coronary Artery Bypass Grafting: A Meta-Analysis, Journal of
+    the American Heart Association, 7:e008010. doi.org/10.1161/JAHA.117.008010.
+30. Gliklich, R.E., Dreyer, N.A., and Leavy, M.B., editors. (2014). Registries for Evaluating Patient Outcomes: A User’s
+    Guide [Internet]. 3rd edition. Rockville (MD): Agency for Healthcare Research and Quality (US); 2014 Apr. 1,
+    Patient Registries. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK208643.
+31. Hemkens, L.G., Contopoulos-Ioannidis, D.G., and Ioannidis, J.P. (2016). Agreement of Treatment Effects for
+    Mortality from Routinely Collected Data and Subsequent Randomized Trials: Meta-Epidemiological Survey, BMJ,
+    352:i493. doi:10.1136/bmj.i493.
+32. Hernandez, A.F., Fleurence, R.L., and Rothman, R.L. (2015). The ADAPTABLE Trial and PCORnet: Shining Light on a
+    New Research Paradigm, Annals of Internal Medicine, 163(8):635-636. doi:10.7326/M15-1460.
+33. Izurieta, H.S., Thadani, N., Shay, D.K., Lu, Y., Maurer, A., Foppa, I.M., Franks, R., Pratt, D., Forshee, R.A., MaCurdy,
+    T., Worrall, C., Howery, A.E., and Kelman, J. (2015). Comparative Effectiveness of High-dose versus Standarddose Influenza Vaccines in US Residents Aged 65 Years and Older from 2012 to 2012 Using Medicare Data: a
+    Retrospective Cohort, Lancet Infect Dis, 15(3):293-300. doi:10.1016/S1473-3099(14)71087-4.
+34. Izurieta, H.S., Wernecke, M., Kelman, J., Wong, S., Forshee, R., Pratt, D., Lu, Y., Sun, Q., Jankosky, C., Krause, P.,
+    Worrall, C., MaCurdy, T., Harpaz, R. (2017). Effectiveness and Duration of Protection Provided by the Liveattenuated Herpes Zoster Vaccine in the Medicare Population Ages 65 Years and Older, Clinical Infectious
+    Diseases, 64(6):785-793. doi.org/10.1093/cid/ciw854.
+35. Khozin, S., Abernethy, A.P., Nussbaum, N.C., Zhi, J., Curtis, M.D., Tucker, M., Lee, S.E., Light, D.E., Gossai, A., Sorg,
+    R.A., Torres, A.Z., Patel, P., Blumenthal, G.M., and Pazdur, R. (2018). Characteristics of Real-World Metastatic
+    Non-small Cell Lung Cancer Patients Treated with Nivolumab and Pembrolizumab During the Year Following
+    Approval, Oncologist, 23(3): 328-336. doi: 10.1634/theoncologist.2017-0353.
+36. Maggiono, A.P., Franzosi, M.G., Fresco, C., Turazza, F., and Tognoni, G. (1990). GISSI Trials in Acute Myocardial
+    Infarction, CHEST Journal, 97(4), Supplement: 146S-150S. doi:10.1378/chest.97.4_Supplement.146S
+37. [Historical Changes in Causes of Death - Sociological Images (thesocietypages.org)](https://thesocietypages.org/socimages/2012/06/25/historical-changes-in-causes-of-death/)
+38. [Causes of Death - Our World in Data](https://ourworldindata.org/causes-of-death)]
+39. [NVSS - Mortality - Historical Data (cdc.gov)](https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm)
 
 #### [Next 3. Platform](3-platform.md) 👉
 
