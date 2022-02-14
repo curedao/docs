@@ -9,3 +9,5 @@ vendor
 /build/
 /.obsidian/workspace
 /report/
+
+autogit.sh
