@@ -12,7 +12,7 @@ coverY: 203.93538913362704
 Optomitron in Action
 {% endembed %}
 
-#### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/ionic/src/index.html#/app/chat)
+#### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/index.html#/app/chat)
 
 Optimitron is an AI assistant that asks you about your symptoms and potential factors. Then she applies pharmacokinetic predictive analysis to inform you of the most important things you can do to minimize symptom severity.
 
@@ -40,8 +40,6 @@ Contributors of data and intellectual property will receive ongoing royalties fo
 
 ## References
 
-{% embed url="https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?isAllowed=y&sequence=1" %}
-
 1. [SunilDeshpande\_S2014\_ETD.pdf (asu.edu)](https://keep.lib.asu.edu/\_flysystem/fedora/c7/114023/Deshpande\_asu\_0010E\_14022.pdf)
 2. [LocalControl: An R Package for Comparative Safety and Effectiveness Research | Journal of Statistical Software (jstatsoft.org)](https://www.jstatsoft.org/article/view/v096i04)
 3. [bbotk: A brief introduction (r-project.org)](https://cran.r-project.org/web/packages/bbotk/vignettes/bbotk.html)
@@ -54,3 +52,4 @@ Contributors of data and intellectual property will receive ongoing royalties fo
 10. [Using nonlinear model predictive control to find optimal therapeutic strategies to modulate inflammation (aimspress.com)](https://www.aimspress.com/article/id/2665)
 11. [Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks (nips.cc)](https://papers.nips.cc/paper/2018/hash/56e6a93212e4482d99c84a639d254b67-Abstract.html)
 12. [Estimating counterfactual treatment outcomes over time through adversarially balanced representations | OpenReview](https://openreview.net/forum?id=BJg866NFvB)
+13. [https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?isAllowed=y\&sequence=1](https://dash.harvard.edu/bitstream/handle/1/37366470/AGUILAR-SENIORTHESIS-2019.pdf?isAllowed=y\&sequence=1)
