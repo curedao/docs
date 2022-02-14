@@ -53,7 +53,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/Accessible Patients"
+                "$ref": "#/definitions/AccessiblePatients"
               }
             }
           },
@@ -87,7 +87,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/Accessible Patients"
+                "$ref": "#/definitions/AccessiblePatients"
               }
             }
           },
@@ -390,9 +390,9 @@
         "operationId": "getHealthConcerns",
         "responses": {
           "200": {
-            "description": "Health Concerns",
+            "description": "HealthConcerns",
             "schema": {
-              "$ref": "#/definitions/Health Concerns"
+              "$ref": "#/definitions/HealthConcerns"
             }
           },
           "default": {
@@ -539,7 +539,7 @@
           "200": {
             "description": "Lab Orders",
             "schema": {
-              "$ref": "#/definitions/Lab Orders Pending"
+              "$ref": "#/definitions/LabOrdersPending"
             }
           },
           "default": {
@@ -594,9 +594,9 @@
         "operationId": "getLabResults",
         "responses": {
           "200": {
-            "description": "Lab Results",
+            "description": "LabResults",
             "schema": {
-              "$ref": "#/definitions/Lab Results"
+              "$ref": "#/definitions/LabResults"
             }
           },
           "default": {
@@ -629,7 +629,7 @@
           "200": {
             "description": "Patient's Current Medications",
             "schema": {
-              "$ref": "#/definitions/Medications Current"
+              "$ref": "#/definitions/MedicationsCurrent"
             }
           },
           "default": {
@@ -676,7 +676,7 @@
           "200": {
             "description": "Patient Medications",
             "schema": {
-              "$ref": "#/definitions/Medications History"
+              "$ref": "#/definitions/MedicationsHistory"
             }
           },
           "default": {
@@ -961,7 +961,7 @@
         }
       }
     },
-    "Accessible Patients": {
+    "AccessiblePatients": {
       "type": "object",
       "description": "This is the return resource of the current request.",
       "properties": {
@@ -974,7 +974,7 @@
         "url": {
           "type": "string",
           "description": "The url used to request this response.",
-          "example": "http://sdvmovcrt03.medsphere.com:18080/CERT-ConnectorService/UAPI/patients"
+          "example": "https://sdvmovcrt03.medsphere.com:18080/CERT-ConnectorService/UAPI/patients"
         },
         "content": {
           "type": "array",
@@ -1322,7 +1322,7 @@
         }
       }
     },
-    "Health Concerns": {
+    "HealthConcerns": {
       "type": "object",
       "description": "This is the return resource of the current request.",
       "properties": {
@@ -1798,7 +1798,7 @@
         }
       }
     },
-    "Lab Orders Pending": {
+    "LabOrdersPending": {
       "type": "object",
       "description": "This is the return resource of the current request.",
       "properties": {
@@ -1862,7 +1862,7 @@
         }
       }
     },
-    "Lab Results": {
+    "LabResults": {
       "type": "object",
       "description": "This is the return resource of the current request.",
       "properties": {
@@ -2046,7 +2046,7 @@
         }
       }
     },
-    "Medications Current": {
+    "MedicationsCurrent": {
       "type": "object",
       "description": "This is the return resource of the current request.",
       "properties": {
@@ -2145,7 +2145,7 @@
         }
       }
     },
-    "Medications History": {
+    "MedicationsHistory": {
       "type": "object",
       "description": "This is the return resource of the current request.",
       "properties": {
