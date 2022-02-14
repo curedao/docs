@@ -12,7 +12,7 @@ coverY: 203.93538913362704
 Optomitron in Action
 {% endembed %}
 
-#### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/ionic/src/index.html#/app/chat)
+#### [DEMO WEBSITE](https://demo.quantimo.do/dev/src/index.html#/app/chat)
 
 Optimitron is an AI assistant that asks you about your symptoms and potential factors. Then she applies pharmacokinetic predictive analysis to inform you of the most important things you can do to minimize symptom severity.
 
