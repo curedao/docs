@@ -156,21 +156,22 @@ In the late nineteenth and early twentieth century, clinical objectivity grew.
 The independent peer-reviewed Journal of the American Medical Association (JAMA) was founded in 1893.
 It would gather case reports from the 144,000 physicians members of the AMA on the safety and effectiveness of drugs.
 The leading experts in the area of a specific medicine would review all of the data and compile them into a study listing side effects and the conditions for which a drug was or was not effective.
-If a medicine was found to be safe, JAMA would give its seal of approval for the conditions where it was found to be effective.
+If a medicine were found to be safe, JAMA would give its seal of approval for the conditions where it was found to be effective.
 
 The adoption of this system of crowd-sourced, observational, objective, and peer-reviewed clinical research was followed by a sudden shift in the growth of human life expectancy.
 After over 10,000 years of almost no improvement, we suddenly saw a strangely linear 4-year increase in life expectancy every single year.
 
 #### 1938 - The FDA Requires Phase 1 Safety Trials
 
-**Elixir sulfanilamide** was an improperly prepared [sulfonamide antibiotic](https://en.wikipedia.org/wiki/Sulfonamide_(medicine)) that caused deaths in the United States in 1937.
+A drug called Elixir sulfanilamide caused over [100 deaths](https://www.fda.gov/files/about%20fda/published/The-Sulfanilamide-Disaster.pdf) in the United States in 1937.
 
-Congress [reacted](https://en.wikipedia.org/wiki/Elixir_sulfanilamide) to the tragedy by requiring all new drugs to include
-"adequate tests by all methods reasonably applicable to show whether or not such drug is safe for use under the conditions prescribed, recommended, or suggested in the proposed labeling thereof."
+Congress [reacted](https://en.wikipedia.org/wiki/Elixir_sulfanilamide) to the tragedy by requiring all new drugs to include:
+
+> "adequate tests by all methods reasonably applicable to show whether or not such drug is safe for use under the conditions prescribed, recommended, or suggested in the proposed labeling thereof."
 
 These requirements evolved to what is now called the [Phase 1 Safety Trial](https://en.wikipedia.org/wiki/Phase_1_safety_trial).
 
-This consistent 4 year/year increase in life expectancy remained unchanged before and after the new safety regulations.
+This consistent four-year/year increase in life expectancy remained unchanged before and after the new safety regulations.
 
 ![Fda safety trials life expectancy](../assets/trials/fda-safety-trials-life-expectancy.png)
 
@@ -179,12 +180,12 @@ This suggests that the regulations did not have a large-scale positive or negati
 #### 1950's - Thalidomide Causes Thousands of Birth Defects Outside US
 
 Thalidomide was first marketed in Europe in [1957](https://en.wikipedia.org/wiki/Thalidomide) for morning sickness.
-While it was initially thought to be safe in pregnancy, it resulted in thousands of horrific birth defects.
+While it was initially thought to be safe in pregnancy, it resulted in thousands of horrific congenital disabilities.
 
 Fortunately, the existing FDA safety regulations prevented any birth defects in the US.
 Despite the effectiveness of the existing US regulatory framework in protecting Americans, newspaper stories such as the one below created a strong public outcry for increased regulation.
 
-![Thalidomide](../assets/trials/thalidomide.jpg)
+![Thalidomide](../assets/trials/thalidomide.jpg)[](https://)[](https://)
 
 #### 1962 - New Efficacy Regulations Reduce the Amount and Quality of Efficacy Data Collected
 
@@ -255,19 +256,19 @@ Fortunately, there isn't a complete monopoly on treatment development.
 However, the more expensive it is to get a drug to market, the fewer companies can afford the upfront R&D investment.
 So the drug industry inevitably becomes more monopolistic. Thus there are more situations where the cost of trials for a superior treatment exceeds the profits from existing treatments.
 
-###### People With Rare Disease are Particularly Harmed
+###### People With Rare Disease are Severely Punished
 
 In the case of rare diseases, increasing the cost of treatment development to over a billion makes it impossible to recover your investment from a small number of patients.
-So rare disease patients are suffering the greatest harm from the added regulatory burden on development.
+So rare disease patients suffer the most severe harm from the added regulatory burden on development.
 
 How high should the cost of drug development be on our list of human problems?
 Well, when something costs more, you get less of it.
-For people who are dying of cancer, the fact that we couldn't afford enough research to cure them is definitely at the top of their list of human problems.
+For people dying of cancer, the fact that we couldn't afford enough research to cure them is definitely at the top of their list of human problems.
 
 ##### Delayed Life-Saving Treatments
 
 One unanticipated consequence of the amendments was that the new burden of proof made the process of drug development both more expensive and much longer, leading to increasing drug prices and a “drug lag”.
-After that point, whenever they released some new cancer or heart medication that was going to save 50 thousand lives a year, it meant that over the previous 10 years of trials 500 people died because they didn't have access to the drug earlier.
+After that point, whenever they released some new cancer or heart medication that would save 50 thousand lives a year, it meant that over the previous ten years of trials, 500 people died because they didn't have access to the drug earlier.
 
 ###### Deaths Due to US Regulatory "Drug Lag"
 
@@ -275,8 +276,8 @@ A comparative analysis between countries suggests that delays in new interventio
 000](https://www.fdareview.org/features/references/#gieringer85) US lives per decade.
 
 Deaths owing to drug lag have been numbered in the [hundreds of thousands](https://www.fdareview.org/features/references/#wardell78a).
-It's estimated that practolol, a drug in the beta-blocking family, could save ten thousand lives a year if allowed in the United States. Although the FDA allowed a first beta-blocker, propranolol, in 1968, three years after that drug had been available in Europe, it waited until 1978 to allow the use of propranolol for the treatment of hypertension and angina pectoris, its most important indications.
-Despite clinical evidence as early as 1974, only in 1981 did the FDA allow a second beta-blocker, timolol, for the prevention of a second heart attack. The agency’s withholding of beta-blockers was alone responsible for probably [tens of thousands of deaths](https://www.fdareview.org/features/references/#gieringer85).
+It's estimated that practolol, a drug in the beta-blocking family, could save ten thousand lives a year if allowed in the United States. Although the FDA allowed a first beta-blocker, propranolol, in 1968, three years after that drug had been available in Europe, it waited until 1978 to allow propranolol to treat hypertension and angina pectoris, its most essential indications.
+Despite clinical evidence as early as 1974, only in 1981 did the FDA allow a second beta-blocker, timolol, to prevent a second heart attack. The agency’s withholding of beta-blockers was alone responsible for probably [tens of thousands of deaths](https://www.fdareview.org/features/references/#gieringer85).
 
 [Data](http://csdd.tufts.edu/databases) from the Tufts Center for the Study of Drug Development suggests that thousands of patients have died because
 of US regulatory delays relative to other countries, for new drugs and devices, including:
@@ -297,14 +298,14 @@ of US regulatory delays relative to other countries, for new drugs and devices, 
 - ProStar
 - omnicath
 
-Before US FDA approval most of these drugs and devices had already been available in other countries for a year or longer.
+Before US FDA approval, most of these drugs and devices had already been available in other countries for a year or longer.
 
-Following the 1962 increase in US regulations, one can see a divergence from the growth in life expectancy in Switzerland which did not introduce the same delays to availability.
+Following the 1962 increase in US regulations, one can see a divergence from Switzerland's growth in life expectancy, which did not introduce the same delays to availability.
 
 ![swiss life expectancy](../assets/trials/us-swiss-life-expectancy-5.png)
 
-Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s and at the same time the gap between Switzerland and the US gets smaller then.
-Then US approvals go back down in the '90s and the gap expands again.
+Perhaps it's a coincidence, but you can see an increase in drug approvals in the '80s. At the same time, the gap between Switzerland and the US gets smaller.
+Then US approvals go back down in the '90s, and the gap expands again.
 
 ![swiss life expectancy](../assets/trials/us-swiss-life-expectancy-drug-approvals.png)
 
@@ -314,11 +315,11 @@ Industry agitation surrounding the “drug lag” finally led to the modificatio
 
 ##### Decreased Ability to Determine Comparative Efficacy
 
-The placebo-controlled, randomized controlled trial helped researchers gauge the efficacy of an individual drug. However, it makes determination of comparative efficacy much more difficult.
+The placebo-controlled, randomized controlled trial helped researchers gauge the efficacy of an individual drug. However, it makes the determination of comparative effectiveness much more difficult.
 
 ##### Slowed Growth in Life Expectancy
 
-Prior to 1962, rapid advancements in medical science had been producing a 4-year increase in human lifespan every year.
+From 1890 to 1960, there was a linear 4-year increase in human lifespan every year.
 This amazingly linear growth rate had followed millennia with a flat human lifespan of around 28 years.
 Following this new 70% reduction in the pace of medical progress, the growth in human lifespan was immediately cut in half to an increase of 2 years per year.
 
@@ -326,7 +327,7 @@ Following this new 70% reduction in the pace of medical progress, the growth in 
 
 ###### Diminishing Returns?
 
-You might say “It seems more likely — or as likely — to me that drug development provides diminishing returns to
+One might say “It seems more likely — or as likely — to me that drug development provides diminishing returns to
 life expectancy.”
 However, diminishing returns produce a slope of exponential decay.
 It may be partially responsible, but it’s not going to produce a sudden change in the linear slope of a curve a linear as life expectancy was before and after the 1962 regulations.
