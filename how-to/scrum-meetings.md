@@ -16,9 +16,8 @@ Instead, it is a meeting in which team members make commitments to each other.
 # SCRUM MASTER
 
 It requires discipline and assertiveness to be a SCRUM master.
-If the meeting goes over time and hasn't gotten through everyone, the current SCRUM master gets fired from that role.
-Then someone else becomes the SCRUM master.
-If they fail, they get fired, and so on.
+If the meeting goes over time and everyone hasn't shared their thoughts, the current SCRUM gets a notice.
+If, this happens 2 times, we look for another SCRUM master.
 
 # SCHEDULING
 
