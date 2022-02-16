@@ -1,4 +1,3 @@
-\
 **:pushpin:  RESOURCES  :pushpin:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
