@@ -6,8 +6,6 @@ description: >-
 
 # 💻 How to Contribute to the Docs
 
-Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown/) file, which is an easy-to-learn syntax extension to plain text that makes creating links, rendering images, and nice-looking formatting simple.
-
 {% hint style="danger" %}
 Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use [Grammarly](https://grammarly.com) when editing.
 {% endhint %}
@@ -34,6 +32,8 @@ Make sure to enter a descriptive subject when submitting changes.
 ## Option 2: Edit Locally
 
 This is a good option if you want to get familiar with git or need to contribute code.
+
+Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown/) file, which is an easy-to-learn syntax extension to plain text that makes creating links, rendering images, and nice-looking formatting simple.
 
 ### Fork the Repository
 
