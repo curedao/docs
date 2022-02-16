@@ -150,7 +150,7 @@ For over 99% of recorded human history, the average human life expectancy has be
 
 ![historical life expectancy](../assets/life-expectancy/life-expectancy-historical.jpg)
 
-#### 1893 - The Advent of Safety and Efficiency Trials
+#### 1893 - The Advent of Safety and Efficacy Trials
 
 In the late nineteenth and early twentieth century, clinical objectivity grew.
 The independent peer-reviewed Journal of the American Medical Association (JAMA) was founded in 1893.

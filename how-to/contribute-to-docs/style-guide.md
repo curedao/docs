@@ -2,7 +2,11 @@
 description: How to contribute to the CureDAO documentation.
 ---
 
-# ✍ Style Guide
+# ✍ Writing Style Guide
+
+{% hint style="danger" %}
+Be sure to use [Grammarly ](https://grammarly.com)when editing to avoid any grammatical errors.
+{% endhint %}
 
 ## General principles
 
@@ -55,7 +59,7 @@ Flags (or tags) can be appended to text to signify a need for verification, revi
 The various kinds of flags available for use are listed below:
 
 | **Flag type**       | **Purpose**                      |
-|---------------------|----------------------------------|
+| ------------------- | -------------------------------- |
 | \[citation\_needed] | Statement is missing citation    |
 | \[clarify]          | Statement needs clarification    |
 | \[imperative]       | Statement uses imperative speech |
