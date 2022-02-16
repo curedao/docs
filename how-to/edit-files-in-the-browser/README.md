@@ -17,6 +17,7 @@ Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use 
 This is the easiest option if you're not familiar with git.&#x20;
 
 1. Click this link to get access to the Githbook space [https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb](https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb)
+2. If you've already clicked the above link and have access, go here to edit or comment: [https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF](https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF/)
 
 ### Commenting on Githubook
 
@@ -25,6 +26,10 @@ This is the easiest option if you're not familiar with git.&#x20;
 ### Editing On Gitbook
 
 1. Follow the instructions here to edit and submit a change request: [https://docs.gitbook.com/editing-content/editing-pages/change-requests#creating-a-change-request](https://docs.gitbook.com/editing-content/editing-pages/change-requests#creating-a-change-request)
+
+{% hint style="danger" %}
+Make sure to enter a descriptive subject when submitting changes.
+{% endhint %}
 
 ## Option 2: Edit Locally
 
