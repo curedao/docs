@@ -8,6 +8,10 @@ description: >-
 
 Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown/) file, which is an easy-to-learn syntax extension to plain text that makes creating links, rendering images, and nice-looking formatting simple.
 
+{% hint style="danger" %}
+Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use [Grammarly](https://grammarly.com) when editing.
+{% endhint %}
+
 ## Option 1: Edit or Comment On Gitbook
 
 This is the easiest option if you're not familiar with git.&#x20;
