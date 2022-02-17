@@ -16,18 +16,21 @@ CureDAO is open to anyone interested in preventing suffering and death from chro
 
 Creating a new software ecosystem for health data not only requires developers but anyone with skills in:
 
-* user interface and user experience design
-* project management
-* communications and marketing
-* web3 technologies
-* business development
-* life sciences
-* medicine
-* data science
+* User interface and user experience design
+* Project management
+* Communications and marketing
+* Web3 technologies
+* Business development
+* Life sciences
+* Medicine
+* Data science
 
 Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
 
-Click 👉👉👉 [here](https://github.com/cure-dao/draft-whitepaper/discussions) to tell us about your interests or project in the [Voters Discussion Channel](https://github.com/cure-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list](voting-on-changes.md).
+Click 👉👉👉 [here](https://github.com/cure-dao/draft-whitepaper/discussions) to tell us about your interests or 
+project in the [Voters Discussion Channel](https://github.
+com/cure-dao/draft-whitepaper/discussions/categories/voters) and we'll add you to the [voter list]
+(contributing-to-docs/voting-on-changes.md).
 
 You can join one of [Laboratories](../constitution/5-organization.md) and help to create a world free of unnecessary suffering.
 
@@ -37,7 +40,7 @@ You can join one of [Laboratories](../constitution/5-organization.md) and help t
 
 ☎️ [Schedule a Call](https://calendly.com/optomitron)
 
-📜 Add to or edit the constitution
+📜 [Add to or edit the constitution](contribute-to-docs/README.md)
 
 👍 [Help to prioritize tasks](task-management/vote-on-tasks-and-sort-by-priority.md)
 
