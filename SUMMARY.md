@@ -18,7 +18,7 @@
 * [❓ How To Get Involved](how-to/README.md)
   * [💻 How to Contribute to the Docs](how-to/contribute-to-docs/README.md)
     * [✍ Writing Style Guide](how-to/contribute-to-docs/style-guide.md)
-  * [👍 Vote on Amendments to the Constitution](how-to/voting-on-changes.md)
+  * [👍 Vote on Amendments to the Constitution](how-to/vote-on-amendments-to-the-constitution.md)
   * [Task Management](how-to/task-management/README.md)
     * [How to Execute](how-to/task-management/how-to-execute.md)
     * [➕ How to Create a Task](how-to/task-management/create-a-task.md)
