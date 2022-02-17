@@ -27,7 +27,7 @@ Click 👉👉👉 [here](https://notionforms.io/forms/join-curedao) to tell us 
 
 You can join one of our [Laboratories](../constitution/5-organization.md) and help to create a world free of unnecessary suffering.
 
-💬 [Join Our Discord Channel](https://discord.com/invite/vxdfPqdjaG)
+💬 [Join Our Discord Channel](https://discord.com/invite/metKYrPuym)
 
 🔨 [Work on an Open Issue](https://github.com/cure-dao/draft-whitepaper/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
