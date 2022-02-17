@@ -10,7 +10,7 @@ description: Timeline for DAO organization and technical development
 
 ### Q1/2022 Build the DAO
 
-* Create Whitepaper, Website, Media presence, CI
+* Create Whitepaper, Website, Media presence
 * Define collaborators and partners (DAO infrastructure, health data tech)
 * Setup DAO architecture and infrastructure
 * Build community, social media content
