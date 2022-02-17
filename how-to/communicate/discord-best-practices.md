@@ -1,4 +1,4 @@
-**:thumbsup:  BEST PRACTICES  :thumbsup:**\
+**:thumbsup: DISCORD BEST PRACTICES  :thumbsup:**\
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
 - If you post links: What's your take/summary/learning from this? What's the ToDo here?

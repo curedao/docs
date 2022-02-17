@@ -5,12 +5,13 @@ APPLY_FIXES: all # all, none, or list of linter keys
 # ENABLE: # If you use ENABLE variable, all other languages/formats/tooling-formats will be disabled by default
 ENABLE_LINTERS:
   [
-    YAML_YAMLLINT,
-    YAML_PRETTIER,
-    SQL_SQL_LINT,
+    #YAML_YAMLLINT,
+    #YAML_PRETTIER,
+    #SQL_SQL_LINT,
     MARKDOWN_MARKDOWN_LINK_CHECK,
     ENV_DOTENV_LINTER,
     CREDENTIALS_SECRETLINT,
+    COPYPASTE_JSCPD,
   ]
 #DISABLE:
 # - HTML

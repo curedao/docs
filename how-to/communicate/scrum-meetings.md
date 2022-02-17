@@ -1,4 +1,4 @@
-# AGENDA
+# SCRUM AGENDA
 
 The daily scrum meeting is not used as a problem-solving or issue resolution meeting.
 Issues raised are taken offline and usually dealt with by the relevant subgroup immediately after the meeting.

@@ -11,6 +11,7 @@
     "**/.idea/**",
     "**/report/**",
     "**/plugins/optomitron-real-time-decision-support-plugin/analysis-data/**",
-    "**/*.svg"
+    "**/*.svg",
+    "**/*.html"
   ]
 }
