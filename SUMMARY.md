@@ -60,3 +60,5 @@
   * [💊 Supplement Databases](reference-databases/supplements/supplement-databases.md)
   * [📏 Units](reference-databases/units/units.md)
 * [🕸 API Docs](api-docs.md)
+* [Discord Best Practices](discord-best-practices.md)
+* [👍 Discord Best Practices](discord-best-practices-1.md)
