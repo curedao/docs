@@ -1,4 +1,12 @@
+---
+description: We need you!
+---
+
 # 👷 Positions At Cure Dao
+
+{% hint style="info" %}
+Click 👉👉👉 [here](https://notionforms.io/forms/join-curedao) to tell us about your interests or project and we'll get in touch with you.
+{% endhint %}
 
 One billion people are suffering from chronic conditions without knowing the root causes and most effective solutions.
 
