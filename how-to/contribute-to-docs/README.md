@@ -4,7 +4,9 @@ description: >-
   forum. I'd be happy to respond to any questions or have a video call with you.
 ---
 
-# 💻 How to Contribute to the Docs
+# 💻 Contribute to the Docs
+
+
 
 {% hint style="danger" %}
 Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use [Grammarly](https://grammarly.com) when editing.
@@ -12,14 +14,14 @@ Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use 
 
 ## Option 1: Edit or Comment On Gitbook
 
-This is the easiest option if you're not familiar with git.&#x20;
+This is the easiest option if you're not familiar with git.
 
-1. Click this link to get access to the Githbook space [https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb](https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb)
+1. Click this link to get access to the Gitbook space [https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb](https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb)
 2. If you've already clicked the above link and have access, go here to edit or comment: [https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF](https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF/)
 
 ### Commenting on Githubook
 
-1. Just click the speech bubble to the right of any text.  More info here [https://docs.gitbook.com/collaboration/comments](https://docs.gitbook.com/collaboration/comments)
+1. Just click the speech bubble to the right of any text. More info here [https://docs.gitbook.com/collaboration/comments](https://docs.gitbook.com/collaboration/comments)
 
 ### Editing On Gitbook
 
@@ -39,7 +41,7 @@ Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown
 
 1. [Go to cure-dao/draft-whitepaper](https://github.com/cure-dao/draft-whitepaper)
 
-2\. Click on Fork your own copy of cure-dao/draft-whitepaper to your account
+2\. Click on "Fork" to create your own copy of cure-dao/draft-whitepaper to your account
 
 ![Step 2 screenshot](https://images.tango.us/public/screenshot\_82ba05a9-3700-4493-a2b1-bcafb8638640?crop=focalpoint\&fit=crop\&fp-x=0.8614\&fp-y=0.1040\&fp-z=3.0214\&w=1200\&mark-w=0.2\&mark-pad=0\&mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\&ar=1814%3A904)
 
@@ -89,4 +91,3 @@ You can also instantly open anything in an online version of VSCode in either of
 8. Click the sync button at the bottom to upload your changes
 9. Open YOUR FORKED repository on GitHub
 10. Click "Contribute" to make a pull request back to the main repo.
-
