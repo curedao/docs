@@ -10,54 +10,45 @@ To achieve this, we're building an open-source framework that overcomes the trad
 
 ## The Problem: You and Everyone You Love Will Suffer and Die
 
-Over [2 billion](https://www.george-health.com/global-health-challenge/) people suffering from chronic diseases.
-
-![](assets/charts/global-disease.PNG)
-
-Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day by possibly preventable degenerative diseases. For perspective, this is equivalent to:
+[150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day by preventable degenerative diseases. 
+For perspective, this is equivalent to:
 
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://www.haaretz.com/israel-news/6-million-where-is-the-figure-from-1.10570907) Holocausts every year
 
 ![deaths from disease](assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
 
-**Will digital health innovation save us?**
+Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering from chronic diseases.
 
-There has been an explosion of recent technological advances in digital health, including 350,000 new digital health 
-apps.  These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
-growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
+![](assets/charts/global-disease.PNG)
 
-![chart](assets/charts/data-and-apps.PNG)
 
-Despite this growth, all we've seen is increasing costs, increasing disease burden, and decreasing life expectancy.
 
-![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
+## What We Don't Know
 
-The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
+We’re only two lifetimes from the use of the modern scientific method in medicine.
+Thus it's only been applied for 0.0001% of human history.
+The more clinical research studies we read, the more we realize we don’t know.
+Nearly every study ends with the phrase "more research is needed".
 
-![](assets/open-source/collaboration-is-punished.PNG)
+There are over [7,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans.
+There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion).
+If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,000,000 combinations. 
+So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent).
+That means we only know 0.000000002% of what is left to be known.
 
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  
+![](assets/charts/how-much-we-know-numbers.png)
 
-![](assets/open-source/thousands-of-dashboards.PNG)
+### The Cost of Clinical Research
 
-However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
-
-![](assets/open-source/vertical-innovation.PNG)
-
-### Problems in Clinical Research
-
-#### The Cost of Clinical Research
-
-* It costs [$2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
-* The process takes over ten years.
-* It costs [$36k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001) per subject in Phase III clinical trials.
+It takes over 10 years and [$2.6 billion](https://www.semanticscholar.
+org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
 
 ![clinical trial cost](assets/cost/cost-of-clinical-trials.png) [source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
 
 This high cost leads to the following problems:
 
-**No Data on Unpatentable Molecules**
+**1. No Data on Unpatentable Molecules**
 
 We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural chemicals you consume every day.
 
@@ -77,44 +68,10 @@ Under the current system, it's not financially feasible to collect data on a par
 
 Pharmaceutical companies that sponsor research often report only “positive” results. This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
 
-### Trials Often Aren't Representative of Real Patients
+**Trials Often Aren't Representative of Real Patients**
 
 Phase III clinical trials are designed to exclude a vast majority of the population of interest. One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant efficacy trial.
 Furthermore, patient sample sizes are very small and sometimes include as few as 20 people.
-
-### Solution: Collect Data on Actual Patients
-
-Through the crowdsourcing of research, would physicians have access to the actual effectiveness rates and risks for their real-world patients. 
-
-## Problems in Digital Health Innovation
-
-### $157 Billion Wasted on Duplication of Effort
-
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.
-Most of these
-have significant overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
-If this code was freely shared, everyone could build on what everyone else had done.
-Theoretically, this could increase the rate of progress by 350,000 times.
-
-![closed source competition vs open source collaboration](assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
-
-The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
-
-#### How DAOs Overcomes the Free-Rider Problem
-
-1. Currently, governments worldwide are spending billions funding closed-source propriety health software. 
-The Public Money, Public Code initiative, would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the form of royalties.
-
-### Isolated Data Silos
-
-The best that isolated data on individual aspects of human health can do is tell us about the past. 
-For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  
-However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
-
-To facilitate data sharing, the CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server that will allow individuals to share their data with the global biobank anonymously.
-
-![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
 
 # 💡 Solution
 
@@ -154,23 +111,58 @@ This will enable the discovery of the full personalized range of positive and ne
 * **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
 * **Population health** - Monitor big data to identify disease trends and health strategies based on demographics, geography, and socioeconomic
 
-## What We Don't Know
+# Problems in Digital Health Innovation
 
-We’re only two lifetimes from the use of the modern scientific method in medicine.
-Thus it's only been applied for 0.0001% of human history.
-The more clinical research studies we read, the more we realize we don’t know.
-Nearly every study ends with the phrase "more research is needed".
-We know basically nothing compared to what will eventually be known about the human body.
+### $157 Billion Wasted on Duplication of Effort
 
-There are over [7,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans.
-There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion).
-If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,
-000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent).
-That means we only know 0.000000002% of what is left to be known.
 
-![](assets/charts/how-much-we-know-numbers.png)
+There has been an explosion of recent technological advances in digital health, including 350,000 new digital health apps.  
+These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
+growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
 
-The currently highly restrictive, overly cautious clinical research method prevents us from knowing more faster.
+![chart](assets/charts/data-and-apps.PNG)
+
+Despite this growth, all we've seen is increasing costs, increasing disease burden, and decreasing life expectancy.
+
+![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
+
+The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
+
+![](assets/open-source/collaboration-is-punished.PNG)
+
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.
+
+![](assets/open-source/thousands-of-dashboards.PNG)
+
+However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
+
+![](assets/open-source/vertical-innovation.PNG)
+
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.
+Most of these have significant overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
+If this code was freely shared, everyone could build on what everyone else had done.
+Theoretically, this could increase the rate of progress by 350,000 times.
+
+![closed source competition vs open source collaboration](assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
+
+The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
+
+#### How DAOs Overcomes the Free-Rider Problem
+
+1. Currently, governments worldwide are spending billions funding closed-source propriety health software.
+   The Public Money, Public Code initiative, would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
+2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation for data and software in
+   the form of royalties.
+
+### Isolated Data Silos
+
+The best that isolated data on individual aspects of human health can do is tell us about the past.
+For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  
+However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
+
+To facilitate data sharing, the CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server that will allow individuals to share their data with the global biobank anonymously.
+
+![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
 
 # 🏭 Platform
 
@@ -212,9 +204,9 @@ The platform consists of two primary components:
 
 ![framework diagram](plugins/plugin-marketplace.png)
 
-### 3.1 Core Components
+### Core Components
 
-#### 3.1.1 Data Ingestion API
+#### Data Ingestion API
 
 The application programming interface (API) includes an OpenAPI specification for receiving and sharing data with the 
 core database.
@@ -301,7 +293,7 @@ It will allow them to:
 
 This feature can be used by user-centered applications and dashboards for personal health management, for data sharing with care providers, research, or for participation in trials.
 
-#### 3.1.8. Data Compensation
+#### Data Compensation
 
 Health data is a sensitive and valuable commodity.Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
 Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios.
@@ -324,14 +316,14 @@ Data Value Scenarios:
 
 This feature can be used for exchanging data on marketplace applications or clinical trial platforms.
 
-### 3.2 Plugins
+### Plugin Integrations
 
 ![Branded Plugins](plugins/plugin-marketplace.png)
 
 3rd party plugins can interact with the core and provide additional functionality.
 They may be free or monetized by their creator.
 
-#### 3.2.1 Data Analysis Plugins
+#### Data Analysis Plugins
 
 The impact of effective and detailed analysis is
 
@@ -355,7 +347,7 @@ This will also assist patients and clinicians in assessing the effectiveness of 
 
 Large cohort clinical analysis could reveal new molecules for longevity.
 
-#### 3.2.2 Data Presentation and Management Plugins
+#### Data Presentation and Management Plugins
 
 Data visualization plugins convert data from its raw form into useful insights.
 They may be used to display data from individual or multiple subjects.
@@ -376,7 +368,7 @@ Tasks of data visualization plugins:
 - [Observational Studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
 - [Real-Time Decision Support Notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
 
-#### 3.2.3 Application Programming Interface (API) Connector Plugins
+#### Application Programming Interface (API) Connector Plugins
 
 Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
 
@@ -408,29 +400,10 @@ A job scheduler will call the API connectors periodically (usually daily) to:
 5. All valid data will be stored in the relational database.
 6. Invalid data will be rejected and the plugin developer and data owner will be notified.
 
-#### 3.2.4 File Importers
+#### File Importer Plugins
 
 File importing plugins are needed for specific sources or devices, where APIs are not available and the user only has access to raw files.
 Types of files include spreadsheets, PDFs, and raw genomic data.
-
-1. The file passed by an upload action to the data importer plugin user interface on the frontend application
-2. The core framework will encrypt and store the raw file
-3. The file ID and importer plugin ID will be added to a queue for processing by the job scheduler
-
-The background job scheduler will:
-
-1. Retrieve the file from the encrypted storage
-2. Pass the file to the matching file importer plugin
-3. The importer plugin will extract the data from the file
-4. The importer plugin will map to the standard format as defined by the framework OpenAPI specification
-5. The processed data will be provided to the framework's validation middleware.
-6. Valid data will be stored in the relational database.
-7. Invalid data from the importer plugin will be rejected and the plugin developer and data owner will be notified.
-
-A link between the created structured data and the original file allows backup and reprocessing (e.g. if the data import plugin functionality is expanded in future versions).
-
-Challenges include changing proprietary formats, spreadsheet column matching, long upload times with raw files like from genomic testing.
-
 
 # ❤ Incentivization
 
@@ -493,7 +466,7 @@ Citizens of the DAO will be incentivized to contribute to the development of the
 
 ## Compensation Determination
 
-Compensation for various tasks will be determined democratically by voting here 👉 [Vote on Compensation for Specific Tasks](https://docs.google.com/forms/d/1zNRRLEOnrQmlbKu33NORJQDktJhgneQHsQtJHW3erL0/edit)
+Compensation for various tasks will be determined democratically by voting.
 
 # 🏛 Organization
 
@@ -684,10 +657,8 @@ equivalent data synthetically derived from actual patient data.
 
 ## De-identification Methods
 
-Data de-identification is the process of eliminating Personally Identifiable Data (PII) from any document or other media, including an individual’s Protected Health Information (PHI).
-
-### Safe Harbor Method of De-identification
-
+Data de-identification is the process of eliminating Personally Identifiable Data (PII) from any document or other 
+media, including an individual’s Protected Health Information (PHI). 
 The HIPAA Safe Harbor Method is a precise standard for the de-identification of personal health information when disclosed for secondary purposes.
 
 ## Data De-identification Tools
