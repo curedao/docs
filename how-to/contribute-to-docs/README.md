@@ -9,7 +9,7 @@ description: >-
 
 
 {% hint style="danger" %}
-Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use [Grammarly](https://grammarly.com) when editing.
+Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use [Grammarly ](https://grammarly.com)(or [Language Tool ](https://languagetool.org)if editing on Githbook) to avoid any grammatical errors.
 {% endhint %}
 
 ## Option 1: Edit or Comment On Gitbook

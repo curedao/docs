@@ -62,7 +62,7 @@
   * [Name Tagline Token Name Logo Proposals](proposals/name-tagline-token-name-logo-proposals.md)
   * [Use Github For Task Management](proposals/use-github-for-task-management.md)
 * [🔗 Resources](resources/README.md)
-  * [🔗 Page 1](resources/page-1.md)
+  * [🔗 Related Projects](resources/page-1.md)
   * [🛠 Tools](resources/tools.md)
 * [📖 Reference Databases](reference-databases/README.md)
   * [🩸 Biomarker Databases](reference-databases/biomarkers/biomarker-databases.md)
