@@ -11,6 +11,8 @@ Additionally, [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-d
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) Holocausts every year
 
+![deaths from disease](../assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
+
 **Will throwing more money at the existing healthcare system save us?**
 
 Since 2014, healthcare spending per person has been [increasing faster than ever](https://fred.stlouisfed.org/series/HLTHSCPCHCSA) faster than ever before.
@@ -28,8 +30,8 @@ There has been an explosion of recent technological advances in digital health i
 * [350,000](https://www2.deloitte.com/us/en/blog/health-care-blog/2021/how-digital-health-apps-are-empowering-patients.html) digital health apps
 * a [billion](https://www.statista.com/statistics/487291/global-connected-wearable-devices/) connected wearable devices
 
-These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) 
-growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it. 
+These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
+growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
 ![chart](../assets/data/growth-in-health-data-chart.png)
 
 This data exists in the form of:
@@ -136,7 +138,7 @@ Tracking any variable in isolation is nearly useless in that it cannot provide t
 There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Most of these
 have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
 
-If this code was freely shared, everyone could build on what everyone else had done. 
+If this code was freely shared, everyone could build on what everyone else had done.
 Theoretically, this could increase the rate of progress by 350,000 times.
 
 ![closed source competition vs open source collaboration](../assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
@@ -157,7 +159,7 @@ dashboards telling us how many steps we got or how much sleep we got are known a
 by integrating all available data from individuals, similar populations, as well as existing clinical research
 findings and applying machine learning we may achieve “prescriptive” real-time decision support.
 
-To facilitate data sharing, the CureDAO will provide data providers with an onsite easily provisionable OAuth2 API 
+To facilitate data sharing, the CureDAO will provide data providers with an onsite easily provisionable OAuth2 API
 server that will allow individuals to anonymously share their data with the global biobank.
 
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
