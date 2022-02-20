@@ -6,9 +6,8 @@ To achieve this, we're building an open-source framework that overcomes the trad
 
 ![](assets/diagrams/simplfied-platform-architecture-diagram.png)
 
-# ☠ Introduction and Challenges
 
-## The Problem: You and Everyone You Love Will Suffer and Die
+# The Problem: You and Everyone You Love Will Suffer and Die
 
 [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day by preventable degenerative diseases. 
 For perspective, this is equivalent to:
@@ -21,7 +20,6 @@ For perspective, this is equivalent to:
 Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering from chronic diseases.
 
 ![](assets/charts/global-disease.PNG)
-
 
 
 ## What We Don't Know
@@ -48,7 +46,7 @@ org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3
 
 This high cost leads to the following problems:
 
-**1. No Data on Unpatentable Molecules**
+#### 1. No Data on Unpatentable Molecules
 
 We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural chemicals you consume every day.
 
@@ -56,22 +54,70 @@ Under the current system of research, it costs [$41k](https://www.clinicalleader
 
 ![how much we know](assets/charts/how-much-we-know-numbers.png)
 
-**Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments**
+#### Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments
 
 There are roughly [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans, most of which (approximately 95%) are classified as “orphan” (rare) diseases. The current system requires that a pharmaceutical company predict a particular condition in advance of running clinical trials. If a drug is found to be effective for other diseases after the patent has expired, no one has the financial incentive to get it approved for another disease.
 
-**No Long-Term Outcome Data**
+#### No Long-Term Outcome Data
 
 Under the current system, it's not financially feasible to collect data on a participant for years or decades. So we have no idea if the long-term effects of a drug are worse than the initial benefits.
 
-**Negative Results are Never Published**
+#### Negative Results are Never Published
 
 Pharmaceutical companies that sponsor research often report only “positive” results. This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
 
-**Trials Often Aren't Representative of Real Patients**
+#### Trials Often Aren't Representative of Real Patients
 
 Phase III clinical trials are designed to exclude a vast majority of the population of interest. One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant efficacy trial.
 Furthermore, patient sample sizes are very small and sometimes include as few as 20 people.
+
+# Problems in Digital Health Innovation
+
+### 1. Wasted Duplication of Effort
+
+There has been an explosion of recent technological advances in digital health, including 350,000 new digital health apps.  
+These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
+growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
+
+![chart](assets/charts/data-and-apps.PNG)
+
+Despite this growth, all we've seen is increasing costs, increasing disease burden, and decreasing life expectancy.
+
+![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
+
+The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
+
+![](assets/open-source/collaboration-is-punished.PNG)
+
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.
+
+![](assets/open-source/thousands-of-dashboards.PNG)
+
+However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
+
+![](assets/open-source/vertical-innovation.PNG)
+
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.
+Most of these have significant overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
+If this code was freely shared, everyone could build on what everyone else had done.
+Theoretically, this could increase the rate of progress by 350,000 times.
+
+![closed source competition vs open source collaboration](assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
+
+The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
+
+### 2. Isolated Data Silos
+
+To facilitate data sharing, the CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server that will allow individuals to share their data with the global biobank anonymously.
+
+![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
+
+#### Solution: How DAOs Overcomes the Free-Rider Problem
+
+1. Currently, governments worldwide are spending billions funding closed-source propriety health software.
+   The Public Money, Public Code initiative, would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
+2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation for data and software in
+   the form of royalties.
 
 # 💡 Solution
 
@@ -111,58 +157,7 @@ This will enable the discovery of the full personalized range of positive and ne
 * **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
 * **Population health** - Monitor big data to identify disease trends and health strategies based on demographics, geography, and socioeconomic
 
-# Problems in Digital Health Innovation
 
-### $157 Billion Wasted on Duplication of Effort
-
-
-There has been an explosion of recent technological advances in digital health, including 350,000 new digital health apps.  
-These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
-growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
-
-![chart](assets/charts/data-and-apps.PNG)
-
-Despite this growth, all we've seen is increasing costs, increasing disease burden, and decreasing life expectancy.
-
-![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
-
-The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
-
-![](assets/open-source/collaboration-is-punished.PNG)
-
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.
-
-![](assets/open-source/thousands-of-dashboards.PNG)
-
-However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
-
-![](assets/open-source/vertical-innovation.PNG)
-
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.
-Most of these have significant overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
-If this code was freely shared, everyone could build on what everyone else had done.
-Theoretically, this could increase the rate of progress by 350,000 times.
-
-![closed source competition vs open source collaboration](assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
-
-The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
-
-#### How DAOs Overcomes the Free-Rider Problem
-
-1. Currently, governments worldwide are spending billions funding closed-source propriety health software.
-   The Public Money, Public Code initiative, would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation for data and software in
-   the form of royalties.
-
-### Isolated Data Silos
-
-The best that isolated data on individual aspects of human health can do is tell us about the past.
-For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  
-However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
-
-To facilitate data sharing, the CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server that will allow individuals to share their data with the global biobank anonymously.
-
-![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
 
 # 🏭 Platform
 
@@ -355,11 +350,6 @@ Some regular ways to visualize data are scatter plots, timeline charts, heatmaps
 following proposed outcome labels.
 Visualizations can be embedded in studies, publications, or personal dashboards.
 
-Tasks of data visualization plugins:
-
-* Query the database according to filters and sorting commands
-* Handle the processing of data processing functions like statistical analysis
-
 **Example Data Presentation Plugins**
 
 - [Outcome Labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
@@ -372,33 +362,7 @@ Tasks of data visualization plugins:
 
 Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
 
-So far the proprietary silo developments have produced many different data formats, which could be replaced with the data standard proposed within this project.
 Until the success of a common language for all types of health data and between all stakeholders, many API connecting plugins are necessary for this interoperability.
-
-An API connector plugin handles:
-
-* User interface and tokens for authentication and authorization with the 3rd party applications
-* Automation and the periodic fetching of health data
-* Mapping to the standard specification
-* Providing the responses to the origin raw storage module
-* error handling
-* communication with the user
-
-**Connector Technical Flow**
-
-API Connector plugins will be called by the webserver to:
-
-1. Handle the OAuth2 authorization flow and store their credentials in the relational database
-2. Provide the original raw response to the core platform for encryption and storage
-
-A job scheduler will call the API connectors periodically (usually daily) to:
-
-1. Refresh the user's OAuth access token
-2. Fetch new data or data that has been modified since the last import
-3. Map the response to the standard format as defined by the OpenAPI specification for the framework API
-4. Provide the processed data to the framework's validation middleware.
-5. All valid data will be stored in the relational database.
-6. Invalid data will be rejected and the plugin developer and data owner will be notified.
 
 #### File Importer Plugins
 
@@ -422,7 +386,6 @@ Incentives for Patients to share their de-identified data will include:
 
 1. Actionable ways to prevent and mitigate chronic illnesses.
 2. The ability to license and earn a share of income for the use of their data for research and development by pharmaceutical companies and other businesses. This will be achieved by encoding the user data using non-fungible tokens (NFTs) and issuing them to the user. The NFTs will be linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
-3. TODO: Determine the amount of reward for sharing.
 
 ### 2. Businesses Housing Data Silos
 
@@ -440,8 +403,6 @@ On top of the incentives for businesses listed above, the following incentives w
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
 3. Revenue derived through subscription or licensing agreements for the usage of their plugins in the Plugin Marketplace.
 
-
-
 ### 5. Disease Advocacy Non-Profit Organizations
 
 Disease advocacy non-profits will be incentivized to promote observational studies through the anonymous donation data by their members by:
@@ -457,12 +418,15 @@ Governments will be incentivized by:
 2. Furtherance of their stated reason for existence to protect and promote the general welfare. General welfare is defined as the overall health and happiness of the population.
 3. Their duty to protect the rights of individuals' data. To fulfill this, they must require businesses in possession of it to give them the ability to access and share their data via a well-documented OAuth2 API
 4. Cost-savings from using open-source software. All publicly funded digital-health software projects should be free, secure, and open-source. Currently, the majority of government contracts go to closed-source and proprietary software. This leads to massive waste as governments worldwide are paying to reinvent the wheel instead of sharing the costs. Shockingly, there is even a great deal of wasted money on duplicated software contracts between different agencies within the same governments.
-5. Require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
-6. Epidemiological discoveries from allowing citizens to anonymously share their data in a global database. This will enable us to take advantage of natural experiments resulting from differing public health regulations between nations. For instance, 27 countries have banned the use of the pesticide glyphosate due to concerns about the health effects. If no overall change in the health of the populations is observed, it will suggest that the health concerns may be unfounded.
+5. International cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
+6. Epidemiological discoveries would be made by allowing citizens to anonymously share their data in a global database. 
+   This will enable us to take advantage of natural experiments resulting from differing public health regulations between nations. For instance, 27 countries have banned the use of the pesticide glyphosate due to concerns about the health effects. If no overall change in the health of the populations is observed, it will suggest that the health concerns may be unfounded.
 
 ### 7. Contributors to the Development of the Platform
 
-Citizens of the DAO will be incentivized to contribute to the development of the platform by: TODO: Determine amount and type of reward for contributing to the development of the platform by voting here 👉 Vote on the Amount of Compensation for Specific Tasks
+Citizens of the DAO will be incentivized to contribute to the development of the platform by: 
+1. Gitcoin Bounties for specific tasks
+2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
 
 ## Compensation Determination
 
@@ -618,7 +582,8 @@ Digital health companies can save months of development time and tens of thousan
 
 106,000 people die annually in the U.S. from properly prescribed drugs. The number of people having in-hospital, adverse reactions to prescribed drugs to be 2.2 million per year. The total number of deaths caused by conventional medicine is 783,936 per year. Pharmaceutical companies spend over $2 billion a year on over 314,000 events attended by doctors.
 
-Initial sponsor applications focus on tracking adverse reactions to the medications known to produce the most adverse reactions. Using our treatment, and symptom tracking application can reduce the number of deaths and costs of intervention by alerting patients and their practitioners to conditions before they become irreversible. Additionally, the opportunity to meet and promote these applications to physicians would also serve as a novel new way for pharmaceutical manufacturers to connect with physicians.
+Initial sponsor applications focus on tracking adverse reactions to the medications known to produce the most adverse reactions. Using our treatment, and symptom tracking application can reduce the number of deaths and costs of intervention by alerting patients and their practitioners to conditions before they become irreversible. 
+Additionally, the opportunity to meet and promote these applications to physicians would also serve as a novel new way for pharmaceutical manufacturers to connect with physicians.
 
 This technology can also be used to dramatically drive down the costs of pharmaceutical post-marketing research.
 Sponsor apps using the platform can be provided to hospitals, insurers, and pharmaceutical companies who wish to improve patient outcomes and potentially gather patient-authorized anonymized patient data.
@@ -626,11 +591,14 @@ Pricing would follow a subscription model starting at $2 per end-user per month.
 
 ### Data Licensing
 
-Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/). Using NFTs we can link donated data to the patient so that they may receive ongoing royalty payments for the use of their data once new interventions reach the market. A fraction of the revenue, to be determined democratically by the patients and DAO Citizens, may be directed to the DAO treasury to sustain the project.
+Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/). 
+Using NFTs we can link donated data to the patient so that they may receive ongoing royalty payments for the use of their data once new interventions reach the market. 
+A fraction of the revenue, to be determined democratically by the patients and DAO Citizens, may be directed to the DAO treasury to sustain the project.
 
 ### Software Licensing
 
-Although the project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when utilized by for-profit entities. Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's use of the project.
+Although the project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when utilized by for-profit entities. 
+Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's use of the project.
 
 This will ensure that anyone can afford to use it, while still providing compensation to the developers of the platform.
 
