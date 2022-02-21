@@ -12,7 +12,7 @@ Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use 
 
 ## Option 1: Edit or Comment On Gitbook
 
-This is the easiest option if you're not familiar with git.&#x20;
+This is the easiest option if you're not familiar with git.
 
 1. Click this link to get access to the Githbook space [https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb](https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb)
 2. If you've already clicked the above link and have access, go here to edit or comment: [https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF](https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF/)
