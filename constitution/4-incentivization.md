@@ -24,7 +24,6 @@ Incentives for Patients to share their de-identified data will include:
 
 1. Actionable ways to prevent and mitigate chronic illnesses.
 2. The ability to license and earn a share of income for use of their data for research and development by pharmaceutical companies and other businesses. This will be achieved by encoding the user data using non-fungible tokens (NFTs) and issuing them to the user. The NFTs will be linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product that was developed using their data for research and development.
-3. TODO: Determine the amount of reward for sharing.
 
 ### 2. Businesses Housing Data Silos
 
@@ -64,7 +63,9 @@ Governments will be incentivized by:
 
 ### 7. Contributors to the Development of the Platform
 
-Citizens of the DAO will be incentivized to contribute to the development of the platform by: TODO: Determine amount and type of reward for contributing to the development of the platform by voting here 👉 Vote on the Amount of Compensation for Specific Tasks
+Citizens of the DAO will be incentivized to contribute to the development of the platform by:
+1. Gitcoin Bounties for specific tasks
+2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
 
 ### 8. Compensation
 

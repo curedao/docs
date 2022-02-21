@@ -21,7 +21,7 @@ dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
 7. What IP contributors will receive funds and how much
 8. How internal [DAO Laboratories](5-organization.md) budgets and projects are funded
 9. How CureDAO is governed
-10. How the CureDAO treasury management
+10. How the CureDAO treasury will be managed
 
 ## Token Genesis
 
@@ -33,7 +33,7 @@ The goal of CureDAO is for every human on earth to share the natural experiments
 
 The genesis distribution event will make 10% of CureDAO’s total token supply available to interested participants using a fair and open smart contract auction on the Ethereum blockchain.
 
-![](<../.gitbook/assets/image (1).png>)
+![](../assets/charts/token-distribution.png)
 
 | Token Quantity | Fraction of Total | Recipient                 |
 | -------------- | ----------------- | ------------------------- |

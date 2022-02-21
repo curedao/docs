@@ -56,3 +56,4 @@ When your team begins to see the lag measure of a big goal moving as a direct re
 
 1. [**https://www.amazon.com/Disciplines-Execution-Achieving-Wildly-Important/dp/145162705X**](https://www.amazon.com/Disciplines-Execution-Achieving-Wildly-Important/dp/145162705X)
 2. [**https://drive.google.com/file/d/0B5728AmQzoPQSmpnX2NtR0I4NTg/view?resourcekey=0-OKPhmLCXW1DChCHpmaX-Ug**](https://drive.google.com/file/d/0B5728AmQzoPQSmpnX2NtR0I4NTg/view?resourcekey=0-OKPhmLCXW1DChCHpmaX-Ug)
+
