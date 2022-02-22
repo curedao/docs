@@ -1,19 +1,21 @@
 # Health web3 projects
 
 - https://www.healthblocks.ai/
-- https://www.tamarin.health/nectar and https://nectar.haus/
+- https://www.tamarin.health/nectar
+- https://nectar.haus/
 - https://www.prifina.com/
 - https://showcase.ethglobal.com/web3jam/clinfts
 
 # Health Data aggregation
 
-- https://www.basishealth.io/ with their discord community Basis Health Club
+- https://www.basishealth.io/
 - https://www.joinvitalhealth.com/
 - https://www.juli.co/
 
 # DAO's, Discords, Web3
 
-- https://www.vitadao.com/ and https://www.molecule.to/
+- https://www.vitadao.com/
+- https://www.molecule.to/
 - https://www.psydao.io/
 - https://crowdfundedcures.org/
 - https://www.labdao.com/
@@ -24,7 +26,22 @@
 - https://re-public.io/
 - https://www.apexoptimizers.com/
 - https://rootine.co/precision-health-club
-- Also in Developer DAO, Journo DAO, Klima DAO, Diatom DAO, Data Union DAO.
+
+# Healthcare API's
+
+https://www.questdiagnostics.com/content/dam/corporate/restricted/documents/qps_qecs/Quanum_EHR_FHIR_API_Nov21.pdf
+https://www.labcorp.com/provider-services/connectivity-solutions
+https://healthgorilla.com/
+
+# Data standards and references
+
+- https://www.hl7.org/fhir/
+- https://loinc.org/
+- https://www.snomed.org/
+- https://www.nlm.nih.gov/research/umls/rxnorm/index.html
+- https://www.openehr.org/
+- https://openmhealth.org/
+- https://developer.apple.com/documentation/healthkit/data_types
 
 # Other Projects
 
