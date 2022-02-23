@@ -41,7 +41,7 @@
     * [💬 Social Media](how-to/communication/social-media/README.md)
       * [Discord](how-to/communication/social-media/discord/README.md)
         * [✅ Starting Checklist](how-to/communication/social-media/discord/starting-checklist.md)
-        * [👍 Discord Best Practices](discord-best-practices-1.md)
+        * [👍 Discord Best Practices](how-to/communication/social-media/discord/discord-best-practices.md)
         * [⚠ Discord Code of Conduct](how-to/communication/social-media/discord/discord-code-of-conduct.md)
         * [🚨 Caution](how-to/communication/social-media/discord/caution.md)
     * [📘 Scrum Meetings](how-to/communication/scrum-meetings.md)
