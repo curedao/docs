@@ -17,6 +17,7 @@
   * [🔓 Data Security](constitution/data-security.md)
   * [⚠ DISCLAIMER](constitution/13-disclaimer.md)
 * [❓ How To Get Involved](how-to/README.md)
+  * [🪙 Get Tokens](how-to/get-tokens.md)
   * [💻 Contribute to the Docs](how-to/contribute-to-docs/README.md)
     * [✍ Writing Style Guide](how-to/contribute-to-docs/style-guide.md)
     * [👍 Vote on Amendments to the Constitution](how-to/vote-on-amendments-to-the-constitution.md)
