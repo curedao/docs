@@ -49,6 +49,28 @@ Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown
 
 ![Step 3 screenshot](https://images.tango.us/public/screenshot\_6d9d3f57-7899-446d-8e1e-f4863b28b864?crop=focalpoint\&fit=crop\&fp-x=0.4956\&fp-y=0.2633\&fp-z=1.9253\&w=1200\&mark-w=0.2\&mark-pad=0\&mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\&ar=1814%3A904)
 
+### Install IntelliJ Community Edition
+
+After installation during setup
+
+1. Install Markdown Editor Plugin
+2. Get from VCS
+3. Select repository
+4. Select the file you want to edit on the left in "Projects" tab
+5. Click "Markdown Editor" tab at the bottom for the visual editor
+
+#### Edit with IntelliJ
+
+1. Go to your GitHub fork and Fetch Upstream
+2. Press Shift twice quickly in succession and type "Update Project" to update local copy
+3. **Make changes/edits**
+4. Press Shift twice quickly in succession and start typing "Show Local Changes"
+5. Double-click on "Show Local Changes"
+6. Review changes
+7. Type in a commit message and click "Commit and push"
+8. Go to your forked GitHub repository and click "Contribute" button
+9. Click Create Pull Request&#x20;
+
 ### How to Edit and Submit Your Changes
 
 Here are some helpful tutorials:
