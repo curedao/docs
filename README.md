@@ -5,7 +5,7 @@ description: >-
 ---
 ## tl;dr
 
-To achieve this, we are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health.
+We are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health to achieve this.
 
 It consists of two primary components:
 
@@ -28,7 +28,7 @@ It consists of two primary components:
 
 ![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
 
-It overcomes the traditional barriers of collaboration and data sharing by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
+It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
 ![The Value Chain](assets/incentivization/value-flow-chain.png)
 
@@ -110,7 +110,7 @@ Using the current research system, it costs [$41k](https://www.clinicalleader.co
 
 **Lack of Incentive to Discover Every Application of Off-Patent Treatments**
 
-Most of the known diseases (approximately 95%) are classified as rare diseases. 
+Most of the known diseases (approximately 95%) are classified as rare diseases.
 Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. If a drug is effective for other diseases after the patent expires, there isn't a financial incentive to get it approved for the other diseases.
 
 **No Long-Term Outcome Data**
@@ -158,13 +158,13 @@ The obstacle has been the free-rider problem. Software developers that open sour
 
 #### 2. Isolated Data Silos
 
-To facilitate data sharing, CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server. That will allow individuals to share their data anonymously.
+CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server to facilitate data sharing. That will allow individuals to share their data anonymously.
 
 ![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
 
 **Solution: How DAOs Overcomes the Free-Rider Problem**
 
-1. Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) that is open source.
+1. Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as an open-source [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)).
 2. By encoding contributions to the project with NFTs, we guarantee ongoing compensation for data and software.
 
 ## 💡 Solution
@@ -205,79 +205,83 @@ This will enable the discovery of the full personalized range of positive and ne
 
 # 🏭 Platform
 
-A global open-source platform and plugin framework will enable the transformation of data into clinical discoveries.
+An open-source platform and plugin framework transforms data into clinical discoveries.
 
 ### Functional Scope
 
 The functional scope of the platform includes:
 
-- aggregation
-- managing
-- processing
-- storage
+- Aggregating
+- Managing
+- Processing
+- Storaging
 
-of health data from different sources.
+health data from different sources.
 
 ### Primary goal
 
-Create a basic foundational technology layer suitable for any digital health application providing better interoperability, portability, availability, analysis, security of the data.
+Create a foundational technology layer, for any digital health application, providing better interoperability, portability, availability, analysis, and security of the data.
 
 ### Use Cases
 
 * EHR Systems for healthcare providers
 * User-centered dashboards for personal health management
-* Data sharing with doctors, health coaches, or family members
-* Decentralized clinical trial platforms (e.g. BYOD wearable)
+* Data sharing with anyone
+* Decentralized clinical trial platforms
 * Patient recruitment services for clinical trials
 * Citizen science platforms
 * Health data marketplaces
 * Open health databases for research
-* Algorithm and scores development (e.g. in-silico trials)
-* Niche health applications with specific requirements or custom integrations
+* Algorithm and scores development
+* Niche health applications with specific requirements
 
 ![framework diagram](assets/diagrams/layered-platform-architecture-diagram.png)
 
+
+
 The platform consists of two primary components:
 
-* **Core Open-Source Platform** - The core platform is open-source and includes only universally necessary features.
-  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
-* **Plugin Framework** - Plugins are modules that provide additional functionality.
-  This includes data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications.
-  These may be free or monetized by their creator or even be integrated into the core based on community voting.
+* **Open-Source Platform**
+  * The platform primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.
+  * The DAO compensates for platform contributions.
+* **Plugin Framework**
+  * Plugins provide data import from specific sources, data mapping to various formats, data analysis, data visualization, and notifications.
+  * These are either free or monetized by their creator.
+  * Some might be integrated into the platform based on a community voting.
 
 ![framework diagram](plugins/plugin-marketplace.png)
 
-### Core Components
+### Platform Components
 
 #### Data Ingestion API
 
 The application programming interface (API) includes an OpenAPI specification for receiving and sharing data with the
-core database.
-Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API.
-SDK’s will enable developers to implement easy automatic sharing options in their applications.
+platform database.
+Software development kits (SDK’s) available for 3rd party applications, allow interaction with the API.
+SDK’s lets developers implement automatic sharing options in their applications.
 
-Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
-The API connector framework will allow the ongoing regular import of user data after a single user authorization.
+Separate plugins enables spreadsheet upload/import and scheduled imports from existing third-party APIs.
+The API connector framework allows the ongoing regular import of user data after a single user authorization.
 
 #### Data Sources
 
-* Laboratory and Home tests (Standard Blood panels, Metabolomics, Proteomics, Genetics, Urinalysis, Toxins, etc)
-* Wearable (Sleep and Fitness trackers, etc)
-* Health apps (Meal tracking, Fertility, etc)
+* Laboratory and home tests
+* Wearables
+* Health apps
 * User reported symptoms and intervention application
-* Electronic Heath Records
+* Electronic Health Records
 * Imaging
 * Questionnaires
 * Functional tests
-* Environmental and context data (Twosome)
-* Life events, Calendar, Social media, and Lifestyle
+* Environmental and context data
+* Life events, calendars, social media, and lifestyles
 * Digital biomarkers
-* Location
+* Locations
 
 #### Data Formats
 
 * FHIR
-* openEHR
+* OpenEHR
 * LOINC
 * SNOMED
 * RXNORM
@@ -285,67 +289,66 @@ The API connector framework will allow the ongoing regular import of user data a
 * ICD-10
 * Open mHealth
 
-#### Raw Data and Files Storage
+#### Raw Data and File Storage
 
-To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files, PDF reports, and the raw API responses are stored separately in a binary data and file storage system.
-Data will be encrypted and stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.
+To preserve originality, in the case of data processing errors or protocol changes, the ingested raw files like CSV files, PDF files, and the raw API responses, are stored separately in a binary data and file storage system.
+Data is encrypted and stored in its raw format, in flat files, on a secure cloud provider, defined in the framework instance platform settings.
 
 #### Data Mapping
 
-To make the standardized structured storage of health data and the envisioned queries possible, the data has to be ingested from files or API requests and mapped from many different standards and proprietary formats into a standard schema.
+Makes the standardized structured storage of health data and the envisioned queries possible. The data is ingested from files or API requests and mapped from many standards and proprietary formats into a standard schema.
 
 #### Data Validation
 
-The data validation middleware will validate the data before it is stored in the time-series database.
+The data validation middleware validates the data before it is stored in the time-series database.
 
 #### Reference Data Definitions
 
-Mapping data from different formats into one standardized format suitable for a analysis requires a reference database with tables of definitions and descriptions to be used by the data mappers and by the API for displaying this information in applications.
-The includes biomarkers, health-related variables of any kind, interventions, therapies, outcomes, conditions, etc.
+To map data from different formats into a standardized one, which is suitable for analysis, requires a reference database with tables of definitions and descriptions for the data mappers and by the API for displaying it in applications.
+They include biomarkers, health-related variables, interventions, therapies, outcomes, conditions, etc.
 Examples of reference databases include LOINC, RXNORM, and ICD-10.
 
 ##### Units of Measurement
 
-The Unified Code for Units of Measure (UCUM) system will be used to
-include all units of measures being contemporarily used in international science.  The full list of units of measure is available [here](reference-databases/units/ucum_units_of_measure.csv).
+The Unified Code for Units of Measure (UCUM) system is used to include all units of measures in international science.
 
 #### Time Series Data Storage
 
-After validation and mapping, the data will be stored in a standardized and structured time-series database.
+After validation and mapping, the data is stored in a standardized and structured time-series database.
 
 #### Data Ownership
 
-Data should be owned by the individual who generated it.
-It should remain under their control throughout the entire data life-cycle from generation to deletion.
-The data owner shall have the unrestricted ability to manage their digital health identity.
+Data is owned by the individual who generated it, throughout the entire data life-cycle.
 
-Ownership management functionalities will allow the individual to manage their data and access control settings for sharing purposes.
-It will allow them to:
+Ownership management functionalities allow individuals to manage their data and access control settings for sharing purposes.
 
-* View and Access their data
-* View the OAuth clients with access to the data
+It allows them to:
+
+* View and access their data
+* View the OAuth clients.
 * Modify read/write permissions for specific OAuth clients
-* Restrict data access to specific users, groups, researchers, or applications
+* Restrict data access to specific users, groups, researchers, and applications
 * Restrict data access to specific data categories, types, and markers
 * Restrict time and expiration of data access
 * Configure security measures such as encryption or 2-factor authentication
-* Overview of statistics of data (amount, averages, sources, etc..)
-* Export stored data or the original files
+* Overview of statistics of data
+* Export stored data or original files
 * Delete data
 
-This feature can be used by user-centered applications and dashboards for personal health management, for data sharing with care providers, research, or for participation in trials.
+This feature can be used by user-centered applications and dashboards for personal health management, data sharing with healthcare providers, participation in trials, and research.
 
 #### Data Compensation
 
-Health data is a sensitive and valuable commodity.Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
-Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios.
-It will allow:
+The handling of the data alongside its attached value is built natively into the platform.
+Value stream management functionalities allow the exchange of data for value assets.
 
-* Individuals to share data and receive defined compensation
-* Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
-* Researchers apply, formulate and visualize values of data sets
-* Connect data to value in general for administration purposes
-* Applications to create a value-based feedback loop for research or behavioral outcomes
+It allows them to:
+
+* Individuals to share data and receive compensation
+* Groups to sell insights for value assets
+* Researchers to apply, formulate, and visualize the value of data sets
+* Value data for administration purposes
+* Create a value-based feedback loop for research or behavioral outcomes
 
 Data Value Scenarios:
 
@@ -353,10 +356,10 @@ Data Value Scenarios:
 * Cohort raw data sets of grouped individuals
 * Interpreted data, scores, and recommendations
 * Generated insights and IP out of data analysis
-* Specifically aggregated data according to requested needs from buyers
-* Phenotypic, demographic, lifestyle, conditions, environmental context
+* Aggregated data based on the requested needs
+* Phenotypic, demographic, lifestyle, condition, and environmental contexts
 
-This feature can be used for exchanging data on marketplace applications or clinical trial platforms.
+This feature is used for exchanging data on marketplace applications or clinical trial platforms.
 
 ### Plugin Integrations
 
