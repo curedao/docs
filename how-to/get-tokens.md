@@ -1,5 +1,5 @@
 ---
-description: How to compete in challenges for dCures tokens
+description: How to earn CURE1 tokens
 ---
 
 # 🪙 Get Tokens
@@ -20,14 +20,14 @@ Provide your Harmony ONE address and tell us about your interests
 
 ### Other Ways to Earn Tokens
 
-### Enter A Challenge
+#### Complete a Task
+
+{% embed url="https://github.com/cure-dao/docs/issues" %}
+Find one you're interested in and comment if you have questions
+{% endembed %}
+
+#### Enter A Challenge
 
 {% embed url="https://prizes.curedao.org" %}
 Earn rewards by helping to end suffering.
-{% endembed %}
-
-### Complete a Task
-
-{% embed url="https://github.com/cure-dao/docs/issues" %}
-Just comment on&#x20;
 {% endembed %}
