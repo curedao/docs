@@ -6,29 +6,27 @@ description: >-
 
 # 💻 Contribute to the Docs
 
-
-
 {% hint style="danger" %}
 Make sure to adhere to the [Writing Style Guide](style-guide.md) and always use [Grammarly ](https://grammarly.com)(or [Language Tool ](https://languagetool.org)if editing on Githbook) to avoid any grammatical errors.
 {% endhint %}
 
 ## Option 1: Edit or Comment On Gitbook
 
-This is the easiest option if you're not familiar with git.
+For quick, small changes, Gitbook is the easiest option.
 
-1. Click this link to get access to the Gitbook space [https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb](https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb)
-2. If you've already clicked the above link and have access, go here to edit or comment: [https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF](https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF/)
+1. [Click this link](https://app.gitbook.com/invite/5VrxfXthJ6nareW3125z/p0fM9cYNQCjl8W9EvAlb) to get access to the Gitbook space&#x20;
+2. If you've already clicked the above link and have access, [click here](https://app.gitbook.com/o/5VrxfXthJ6nareW3125z/s/ALpB7mDyBf0ce3vSyslF/) to edit or comment.
 
 ### Commenting on Githubook
 
-1. Just click the speech bubble to the right of any text. More info here [https://docs.gitbook.com/collaboration/comments](https://docs.gitbook.com/collaboration/comments)
+1. Just click the speech bubble to the right of any text. [More info here](https://docs.gitbook.com/collaboration/comments)&#x20;
 
 ### Editing On Gitbook
 
-1. Follow the instructions here to edit and submit a change request: [https://docs.gitbook.com/editing-content/editing-pages/change-requests#creating-a-change-request](https://docs.gitbook.com/editing-content/editing-pages/change-requests#creating-a-change-request)
+1. Follow the instructions [here ](https://docs.gitbook.com/editing-content/editing-pages/change-requests#creating-a-change-request)to edit and submit a change request.
 
 {% hint style="danger" %}
-Make sure to enter a descriptive subject when submitting changes.
+Make sure to enter a descriptive subject at the bottom when submitting changes.
 {% endhint %}
 
 ## Option 2: Edit Locally
@@ -39,9 +37,9 @@ Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown
 
 ### Fork the Repository
 
-1. [Go to cure-dao/draft-whitepaper](https://github.com/cure-dao/draft-whitepaper)
+1. [Go to cure-dao/docs](https://github.com/cure-dao/docs)
 
-2\. Click on "Fork" to create your own copy of cure-dao/draft-whitepaper to your account
+2\. Click on "Fork" to create your own copy of cure-dao/docs to your account
 
 ![Step 2 screenshot](https://images.tango.us/public/screenshot\_82ba05a9-3700-4493-a2b1-bcafb8638640?crop=focalpoint\&fit=crop\&fp-x=0.8614\&fp-y=0.1040\&fp-z=3.0214\&w=1200\&mark-w=0.2\&mark-pad=0\&mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\&ar=1814%3A904)
 
@@ -51,13 +49,13 @@ Every page is a [MarkDown](https://guides.github.com/features/mastering-markdown
 
 ### Install IntelliJ Community Edition
 
-After installation during setup
-
-1. Install Markdown Editor Plugin
-2. Get from VCS
-3. Select repository
-4. Select the file you want to edit on the left in "Projects" tab
-5. Click "Markdown Editor" tab at the bottom for the visual editor
+1. Download [here](https://www.jetbrains.com/idea/download/#section=windows)
+2. Install it
+3. Install Markdown Editor Plugin
+4. Click "Get from VCS"
+5. Select repository
+6. Select the file you want to edit on the left in "Projects" tab
+7. Click "Markdown Editor" tab at the bottom for the visual editor
 
 #### Edit with IntelliJ
 
@@ -87,7 +85,7 @@ Here are some helpful tutorials:
 
 The fastest way is to edit directly on GitHub.
 
-Each page has an "Edit on Github" link to the right of the content. By clicking it you are taken to the GitHub sign-in page, where you can either log in or create an account.
+Each page has an "Edit on GitHub" link to the right of the content. By clicking it you are taken to the GitHub sign-in page, where you can either log in or create an account.
 
 Once logged in, you'll be taken to the GitHub built-in text editor where you can make your edits directly. When you've completed your changes, you can add any specific details on what was changed create a new Pull Request to the repository. From there one of the maintainers will review your changes, and either merge them or request changes.
 
@@ -104,7 +102,7 @@ The process is illustrated in this [visual walk-through](https://scribehow.com/s
 You can also instantly open anything in an online version of VSCode in either of the following ways:
 
 1. Click the `Fork` button to create your own copy of this repository.
-2. Press the `.` charcter while browsing YOUR FORKED repository or pull request on GitHub.
+2. Press the `.` character while browsing YOUR FORKED repository or pull request on GitHub.
 3. Edit in VS Code
 4. Click the Branch icon on the left
 5. Click the plus next to modified files
