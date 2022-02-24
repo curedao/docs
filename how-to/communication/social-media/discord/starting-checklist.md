@@ -16,7 +16,7 @@ description: How to get involved with CureDAO
 🧪 [Fill out this form](https://notionforms.io/forms/join-curedao) to join one of our [Laboratories ](../../../../constitution/5-organization.md#initial-laboratories)and use your skills and the scientific method to end suffering in the universe!
 
 \
-📆 Come to a [pizza party](https://calendar.google.com/calendar/u/0?cid=aGVsbG9AY3VyZWRhby5vcmc) 🍕 or [event](https://calendar.google.com/calendar/u/0?cid=aGVsbG9AY3VyZWRhby5vcmc)! (DISCLAIMER: No pizza will be provided at said pizza parties.)
+📆 Join any of our [pizza parties/events](https://calendar.google.com/calendar/u/0?cid=aGVsbG9AY3VyZWRhby5vcmc) on our [calendar](https://calendar.google.com/calendar/u/0?cid=aGVsbG9AY3VyZWRhby5vcmc)! (DISCLAIMER: No pizza will be provided at said pizza parties.)
 
 ❓ Is anything unclear? Want to know the meaning of life? [Ask a question in Discord](https://discord.gg/9yyYFBqs5H) or [schedule a call](https://calendly.com/optomitron)!
 
