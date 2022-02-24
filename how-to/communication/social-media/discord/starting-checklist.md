@@ -1,9 +1,17 @@
-# ✅ Starting Checklist
+---
+description: How to get involved with CureDAO
+---
 
-:white\_check\_mark: Introduce yourself in the :raised\_hand:ㆍintroduce-yourself channel.\
-:white\_check\_mark: Read our Whitepaper: [https://docs.curedao.org/](https://docs.curedao.org)\
-:white\_check\_mark: Check our Tools and Social media to see our progress.\
-:white\_check\_mark: If you want to help, head to the :point\_right:ㆍget-involved channel to join a working group. (see how to below)\
-:white\_check\_mark: Read, understand and follow the rules.\
-:white\_check\_mark: Join our weekly Wednesday onboarding/AMA meeting (see events tab).\
-:white\_check\_mark: Contact @Vincenzo Domina#1343 or @Mike P. Sinn#9542 for community-related questions and access to tools.\\
+# ✅ Getting Started
+
+:white\_check\_mark: [Introduce yourself](https://discord.gg/n6Xcn2f7Y3) 🙋‍♂️ Don't be shy!  We're really very nice! (At least we try to give that impression to people we've recently met)\
+:white\_check\_mark: Have you run out of appliance manuals to read?  Then read our enthralling [manifesto](https://docs.curedao.org) 📜\
+:white\_check\_mark: [Get some free $CUREDAO tokens](../../../get-tokens.md) just for being you! 🎁\
+:white\_check\_mark: [Join a Laboratory](https://notionforms.io/forms/join-curedao) 🧪 and use your skills and the scientific method to end suffering in the universe!
+
+
+
+\
+:white\_check\_mark: Come to a [pizza party](https://calendar.google.com/calendar/u/0?cid=aGVsbG9AY3VyZWRhby5vcmc)! (DISCLAIMER: No pizza will be provided at said pizza parties.)
+
+:white\_check\_mark: [Ask a question!](https://discord.gg/9yyYFBqs5H)
