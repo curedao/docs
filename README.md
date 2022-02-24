@@ -205,11 +205,11 @@ This will enable the discovery of the full personalized range of positive and ne
 
 # 🏭 Platform
 
-An open-source platform and plugin framework transforms data into clinical discoveries.
+An open-source core platform and plugin framework transform data into clinical discoveries.
 
 ### Functional Scope
 
-The functional scope of the platform includes:
+The functional scope of the core platform includes:
 
 - Aggregating
 - Managing
@@ -241,26 +241,26 @@ Create a foundational technology layer, for any digital health application, prov
 
 The platform consists of two primary components:
 
-* **Open-Source Platform**
-  * The platform primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.
-  * The DAO compensates for platform contributions.
+* **Open-Source Core**
+  * It primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.
+  * The DAO compensates for core contributions.
 * **Plugin Framework**
   * Plugins provide data import from specific sources, data mapping to various formats, data analysis, data visualization, and notifications.
   * These are either free or monetized by their creator.
-  * Some might be integrated into the platform based on a community voting.
+  * Some might be integrated into the core based on a community voting.
 
 ![framework diagram](plugins/plugin-marketplace.png)
 
-### Platform Components
+### Core Components
 
 #### Data Ingestion API
 
 The application programming interface (API) includes an OpenAPI specification for receiving and sharing data with the
-platform database.
+core database.
 Software development kits (SDK’s) available for 3rd party applications, allow interaction with the API.
 SDK’s lets developers implement automatic sharing options in their applications.
 
-Separate plugins enables spreadsheet upload/import and scheduled imports from existing third-party APIs.
+Separate plugins enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
 The API connector framework allows the ongoing regular import of user data after a single user authorization.
 
 #### Data Sources
@@ -292,7 +292,7 @@ The API connector framework allows the ongoing regular import of user data after
 #### Raw Data and File Storage
 
 To preserve originality, in the case of data processing errors or protocol changes, the ingested raw files like CSV files, PDF files, and the raw API responses, are stored separately in a binary data and file storage system.
-Data is encrypted and stored in its raw format, in flat files, on a secure cloud provider, defined in the framework instance platform settings.
+Data is encrypted and stored in its raw format, in flat files, on a secure cloud provider, defined in the framework instance core settings.
 
 #### Data Mapping
 
@@ -339,7 +339,7 @@ This feature can be used by user-centered applications and dashboards for person
 
 #### Data Compensation
 
-The handling of the data alongside its attached value is built natively into the platform.
+The handling of the data alongside its attached value is built natively into the core.
 Value stream management functionalities allow the exchange of data for value assets.
 
 It allows them to:
@@ -366,76 +366,78 @@ This feature is used for exchanging data on marketplace applications or clinical
 ![Branded Plugins](plugins/plugin-marketplace.png)
 
 3rd party plugins can interact with the core and provide additional functionality.
-They may be free or monetized by their creator.
+They are free or monetized by their creator.
 
 #### Data Analysis Plugins
 
-The impact of effective and detailed analysis is
+The impact of effective and detailed analysis:
 
-* The discovery of root causes of disease
+* The discovery of root causes of diseases
 * Development of new interventions
 * The precise and personalized application of these interventions
 
-Data Analysis Plugins will apply statistical and machine learning methods to the ocean of high-frequency longitudinal individual and population-level data.
+Data Analysis Plugins apply statistical and machine learning methods to the ocean of high-frequency longitudinal individual and population-level data.
 The resulting value will include:
 
-* Personalized Effectiveness Quantification - Determination of the precise effectiveness of treatments for specific individuals
-* Root Cause Analyses - Revelation of hidden factors and root causes of diseases
-* Precision Medicine - Determination of the personalized optimal values or dosages based on biomarkers, phenotype, and demographics
-* Combinatorial Medicine - Discover relationships between variables or combinations of interventions
-* Effect Size Quantification - Quantification of effect sizes of all factors on symptom severity
-* Optimal Daily Values - Determination of the personalized optimal dosages of nutrients or medications
-* Cost-Benefit Analysis - Determination of the most cost-effective interventions by weight clinical benefit against costs in terms of side effects and financial impact
+* Personalized effectiveness quantification
+  * Determination of the precise effectiveness of treatments for specific individuals
+* Root Cause Analyses
+  * Revelation of hidden factors and root causes of diseases
+* Precision Medicine
+  * Determination of the personalized optimal values or dosages based on biomarkers, phenotype, and demographics
+* Combinatorial Medicine
+  * Discover relationships between variables or combinations of interventions
+* Effect Size Quantification
+  * Quantification of effect sizes of all factors on symptom severity
+* Optimal Daily Values
+  * Determination of the personalized optimal dosages of nutrients or medications
+* Cost-Benefit Analysis
+  * Determination of the most cost-effective interventions
 
-This will mitigate the incidence of chronic illnesses by informing the user of symptom triggers, such as dietary sensitivities, to be avoided.
-This will also assist patients and clinicians in assessing the effectiveness of treatments despite the hundreds of uncontrollable variables in any prescriptive experiment.
-
-Large cohort clinical analysis could reveal new molecules for longevity.
+That mitigates the incidence of illnesses, by informing the user of symptom triggers, such as dietary sensitivities.
+It also assists patients and clinicians in assessing the effectiveness of treatments.
+Further, large cohort clinical analysis might reveal new molecules for healthy longevity.
 
 #### Data Presentation and Management Plugins
 
-Data visualization plugins convert data from its raw form into useful insights.
-They may be used to display data from individual or multiple subjects.
-Some regular ways to visualize data are scatter plots, timeline charts, heatmaps, or novel ways like the in the
-following proposed outcome labels.
+Data visualization plugins convert raw data into useful insights for individuals or multiple subjects.
+Some ways to visualize data are scatter plots, timeline charts, heatmaps, or novel ways like those in the
+following outcome labels.
 Visualizations can be embedded in studies, publications, or personal dashboards.
 
 **Example Data Presentation Plugins**
 
-- [Outcome Labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
-- [Predictor Search Engines](plugins/predictor-search-engine-plugin/predictor-search-engine-plugin.md)
-- [Root Cause Analysis Reports](plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
-- [Observational Studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
-- [Real-Time Decision Support Notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
+- [Outcome labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
+- [Predictor search engines](plugins/predictor-search-engine-plugin/predictor-search-engine-plugin.md)
+- [Root cause analysis reports](plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
+- [Observational studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
+- [Real-time decision support notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
 
 #### Application Programming Interface (API) Connector Plugins
 
-Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
+Many applications and service providers offer direct exchanges of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
 
 Until the success of a common language for all types of health data and between all stakeholders, many API connecting plugins are necessary for this interoperability.
 
 #### File Importer Plugins
 
-File importing plugins are needed for specific sources or devices, where APIs are not available and the user only has access to raw files.
+File importing plugins are needed for specific sources or devices, where the user only has access to raw files.
 Types of files include spreadsheets, PDFs, and raw genomic data.
 
 # ❤ Incentivization
 
-How we use the DAO structure and NFT IP royalties reward data sharing and
-open-source collaboration.
+How we use the DAO structure to reward data sharing and open-source collaboration.
 
 ## Incentive Alignment
 
-This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party can derive more value from participation than they have to put into it.
+CureDAO provides each participant with more value than their amount of effort.
 
 ![Value flow chain](assets/incentivization/value-flow-chain.svg)
 
-### 1. Patients
+### 1. Incentives for Patients
 
-Incentives for Patients to share their de-identified data will include:
-
-1. Actionable ways to prevent and mitigate chronic illnesses.
-2. The ability to license and earn a share of income for the use of their data for research and development by pharmaceutical companies and other businesses. This will be achieved by encoding the user data using non-fungible tokens (NFTs) and issuing them to the user. The NFTs will be linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
+1. Actionable insights to prevent and mitigate illnesses.
+2. Income for the use of data for research and drug development. The data is encoded into non-fungible tokens (NFTs) and linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
 
 ### 2. Businesses Housing Data Silos
 
