@@ -3,59 +3,58 @@ description: >-
   CureDAO is a decentralized alliance of individuals, government, businesses,
   and nonprofits devoted to the minimization of suffering.
 ---
-
 ## tl;dr
 
-CureDAO is a decentralized autonomous organization (DAO) of citizen scientists, governments, businesses, and
-nonprofits devoted to the minimization of suffering.
-
-To achieve this, we propose the creation of an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in the field of digital health.
+We are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health to achieve this.
 
 It consists of two primary components:
 
 1. An Open-Source Platform for Health Data:
+
    1. Storage
    2. Security
    3. Access Control
    4. De-identified Data Sharing
 2. An Open Plugin Ecosystem enabling anyone to create or use plugins that facilitate:
-   1. Import from any application, wearable device, or other data source
-   2. New Clinical Discoveries through Machine Learning
-   3. Personalized Real-Time Decision Support Informing Individuals of the Most Effective things they can do to treat and prevent disease
-   4. Data format transformation to enable interoperability with any system or application
+
+   1. Data from any data source
+   2. New Clinical Discoveries through machine learning
+   3. Personalized Real-Time Decision Suggestions to most effectively treat and prevent diseases
+   4. Data Format Transformation to enable interoperability with any system or application
    5. Patient Management
    6. Decentralized Clinical Trial Management
    7. Precision Medicine
-   8. Large-scale, low-cost research to discover new ways to prevent and treat chronic diseases
+   8. Large-scale, Low-cost Research to discover new ways to prevent and treat diseases
 
-![platform](assets/diagrams/layered-platform-architecture-diagram.png)
+![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
 
-It will overcome the traditional barriers to collaboration and data sharing by encoding all data and intellectual property contributions to the platform in a non-fungible token (NFT). Using smart contracts, the platform will be able to compensate all contributors with royalties for their contributions.
+It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
-![value chain](assets/incentivization/value-flow-chain.png)
+![The Value Chain](assets/incentivization/value-flow-chain.png)
 
-## Join Us Right Now
+### Join Us
 
 Hey, you! 👀
 
-CureDAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases. Our success in this mission will be an exponential function of the participation of people like you. 🚀
+CureDAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases.
+Our success in this mission will be an exponential function of the participation of people like you. 🚀
 
 Creating a new software ecosystem for health data not only requires developers but anyone with skills in:
 
-* user interface and user experience design
-* project management
-* communications and marketing
-* web3 technologies
-* business development
-* life sciences
-* medicine
-* data science
+* User interface and user experience design
+* Project management
+* Communications and marketing
+* Web3 technologies
+* Business development
+* Life sciences
+* Medicine
+* Data science
 
-Our main philosophy is: It's not what you CAN do but what do you WANT to do is what counts.
+Our main philosophy is: It's not what you CAN do but what you WANT to do.
 
 #### 👉 [How To Get Involved](https://docs.curedao.org/how-to)
 
-## Whitepaper
+### Whitepaper
 
 1. [Introduction and Challenges](constitution/1-introduction-and-challenges.md)
 2. [Solution](constitution/2-solution.md)
@@ -70,131 +69,113 @@ Our main philosophy is: It's not what you CAN do but what do you WANT to do is w
 11. [Roadmap](constitution/11-roadmap.md)
 12. [References](constitution/12-references.md)
 
-# 💡 Litepaper
+## 💡 Litepaper
 
-# The Problem: You and Everyone You Love Will Suffer and Die
+## The Problem: You and Everyone You Love Will Suffer and Die
 
-[150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day by preventable degenerative diseases.
-For perspective, this is equivalent to:
+[150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day from preventable diseases. For perspective, this is equivalent to:
 
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://www.haaretz.com/israel-news/6-million-where-is-the-figure-from-1.10570907) Holocausts every year
 
-![deaths from disease](assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
+![Deaths from disease](assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
 
 Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering from chronic diseases.
 
 ![](assets/charts/global-disease.PNG)
 
+### What We Don't Know
 
-## What We Don't Know
+The more research studies we read, the more we realize we don’t know. Nearly every study ends with the phrase "more research is needed".
 
-We’re only two lifetimes from the use of the modern scientific method in medicine.
-Thus it's only been applied for 0.0001% of human history.
-The more clinical research studies we read, the more we realize we don’t know.
-Nearly every study ends with the phrase "more research is needed".
-
-There are over [7,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans.
-There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion).
-If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,000,000 combinations.
-So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent).
-That means we only know 0.000000002% of what is left to be known.
+Today, there are about 1[0,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans. There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion). If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of what is left to be known.
 
 ![](assets/charts/how-much-we-know-numbers.png)
 
-### The Cost of Clinical Research
+#### The Cost of Clinical Research
 
-It takes over 10 years and [$2.6 billion](https://www.semanticscholar.
-org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasi-Grabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
+It takes over 10 years and $2.6 billion to bring a drug to market (including failed attempts). ([https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41))
 
 ![clinical trial cost](assets/cost/cost-of-clinical-trials.png) [source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
 
-This high cost leads to the following problems:
+The high costs lead to:
 
-#### 1. No Data on Unpatentable Molecules
+**1. No Data on Unpatentable Molecules**
 
-We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural chemicals you consume every day.
+We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural compounds.
 
-Under the current system of research, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there is not a sufficient profit incentive for anyone to research the effects of any factor besides a molecule that can be patented.
+Using the current research system, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there are only sufficient incentives to research patentable molecules.
 
 ![how much we know](assets/charts/how-much-we-know-numbers.png)
 
-#### Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments
+**Lack of Incentive to Discover Every Application of Off-Patent Treatments**
 
-There are roughly [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans, most of which (approximately 95%) are classified as “orphan” (rare) diseases. The current system requires that a pharmaceutical company predict a particular condition in advance of running clinical trials. If a drug is found to be effective for other diseases after the patent has expired, no one has the financial incentive to get it approved for another disease.
+Most of the known diseases (approximately 95%) are classified as rare diseases.
+Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. If a drug is effective for other diseases after the patent expires, there isn't a financial incentive to get it approved for the other diseases.
 
-#### No Long-Term Outcome Data
+**No Long-Term Outcome Data**
 
-Under the current system, it's not financially feasible to collect data on a participant for years or decades. So we have no idea if the long-term effects of a drug are worse than the initial benefits.
+Under the current system, it's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the long-term effects of a drug are worse than the initial benefits.
 
-#### Negative Results are Never Published
+**Negative Results aren't Published**
 
-Pharmaceutical companies that sponsor research often report only “positive” results. This leads to a massive waste of money by other companies repeating the same research and going down the same dead-end streets that could have been avoided.
+Pharmaceutical companies that sponsor research, tend to only report “positive” results. That leads to poor health outcomes and companies wasting money on conducting the same research.
 
-#### Trials Often Aren't Representative of Real Patients
+**Trials Exclude a Vast Majority of The Population**
 
-Phase III clinical trials are designed to exclude a vast majority of the population of interest. One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant efficacy trial.
-Furthermore, patient sample sizes are very small and sometimes include as few as 20 people.
+One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant trial. Furthermore, most patient sample sizes are very small and sometimes include only 20 people.
 
-# Problems in Digital Health Innovation
+## Problems in Digital Health Innovation
 
-### 1. Wasted Duplication of Effort
+#### 1. Duplication of Effort
 
-There has been an explosion of recent technological advances in digital health, including 350,000 new digital health apps.  
-These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
-growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
+There has been an explosion in digital health with more than 350,000 new digital health apps.
+These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) growth in health data.
 
 ![chart](assets/charts/data-and-apps.PNG)
 
-Despite this growth, all we've seen is increasing costs, increasing disease burden, and decreasing life expectancy.
+Despite this growth, we've seen increased costs and disease burden, and decreased life expectancy.
 
 ![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
 
-The reason, in a single word, is **incentives**. The current economic system punishes every stakeholder in the ecosystem for doing the things that would lead to progress.
+The reason is **incentives**.
 
 ![](assets/open-source/collaboration-is-punished.PNG)
 
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.
+The isolated health data can only tell us about the past. For example, dashboards filled with descriptive statistics such as our daily steps or sleep.
 
 ![](assets/open-source/thousands-of-dashboards.PNG)
 
-However, by integrating all available data from individuals, similar populations, and existing clinical research findings and applying machine learning, we may achieve “prescriptive” real-time decision support.
+However, by consolidating the data, using existing clinical research findings, and applying machine learning, we may receive personalized health suggestions.
 
 ![](assets/open-source/vertical-innovation.PNG)
 
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.
-Most of these have significant overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
-If this code was freely shared, everyone could build on what everyone else had done.
-Theoretically, this could increase the rate of progress by 350,000 times.
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort. If these efforts were combined, theoretically, this could increase the rate of progress by 350,000 times.
 
 ![closed source competition vs open source collaboration](assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
 
-The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
+The obstacle has been the free-rider problem. Software developers that open source their code, give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
 
-### 2. Isolated Data Silos
+#### 2. Isolated Data Silos
 
-To facilitate data sharing, the CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server that will allow individuals to share their data with the global biobank anonymously.
+CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server to facilitate data sharing. That will allow individuals to share their data anonymously.
 
 ![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
 
-#### Solution: How DAOs Overcomes the Free-Rider Problem
+**Solution: How DAOs Overcomes the Free-Rider Problem**
 
-1. Currently, governments worldwide are spending billions funding closed-source propriety health software.
-   The Public Money, Public Code initiative, would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation for data and software in
-   the form of royalties.
+1. Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as an open-source [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)).
+2. By encoding contributions to the project with NFTs, we guarantee ongoing compensation for data and software.
 
-# 💡 Solution
+## 💡 Solution
 
-The solution to the lack of progress and increasing healthcare expense is to use the oceans of real-world evidence to discover new cures.
+The solution is to use the oceans of real-world evidence to discover new cures.
 
-### The Personalized, Preventive, Precision Medicine of the Future
+#### The Personalized, Preventive, Precision Medicine of the Future
 
-Out of an existing pool of big health data, an insilico model of human biology can be developed to discover new interventions and their personalized dosages and combinations.
+An in silico model of human biology can be developed to discover new interventions and their personalized usage.
 
-One way to achieve this is to view the human body as a black box with inputs and outputs.
-We can apply [predictive machine learning models](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling)
-of similar people based on their data of their following profiles:
+We can achieve it by viewing the human body as a black box with inputs and outputs. We can apply [predictive machine learning models](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) based on the following data:
 
 * [Genomic](https://en.wikipedia.org/wiki/Genomics)
 * [Transcriptomic](https://en.wikipedia.org/wiki/Transcriptome)
@@ -222,45 +203,51 @@ This will enable the discovery of the full personalized range of positive and ne
 * **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
 * **Population health** - Monitor big data to identify disease trends and health strategies based on demographics, geography, and socioeconomic
 
-
-
 # 🏭 Platform
 
-A global open-source platform and plugin framework will enable the transformation of data into clinical discoveries.
+An open-source core platform and plugin framework transform data into clinical discoveries.
 
 ### Functional Scope
-The functional scope of the platform includes:
-- aggregation
-- managing
-- processing
-- storage
 
-of health data from different sources.
+The functional scope of the core platform includes:
+
+- Aggregating
+- Managing
+- Processing
+- Storaging
+
+health data from different sources.
 
 ### Primary goal
-Create a basic foundational technology layer suitable for any digital health application providing better interoperability, portability, availability, analysis, security of the data.
+
+Create a foundational technology layer, for any digital health application, providing better interoperability, portability, availability, analysis, and security of the data.
 
 ### Use Cases
+
 * EHR Systems for healthcare providers
 * User-centered dashboards for personal health management
-* Data sharing with doctors, health coaches, or family members
-* Decentralized clinical trial platforms (e.g. BYOD wearable)
+* Data sharing with anyone
+* Decentralized clinical trial platforms
 * Patient recruitment services for clinical trials
 * Citizen science platforms
 * Health data marketplaces
 * Open health databases for research
-* Algorithm and scores development (e.g. in-silico trials)
-* Niche health applications with specific requirements or custom integrations
+* Algorithm and scores development
+* Niche health applications with specific requirements
 
 ![framework diagram](assets/diagrams/layered-platform-architecture-diagram.png)
 
+
+
 The platform consists of two primary components:
 
-* **Core Open-Source Platform** - The core platform is open-source and includes only universally necessary features.
-  This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
-* **Plugin Framework** - Plugins are modules that provide additional functionality.
-  This includes data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications.
-  These may be free or monetized by their creator or even be integrated into the core based on community voting.
+* **Open-Source Core**
+  * It primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.
+  * The DAO compensates for core contributions.
+* **Plugin Framework**
+  * Plugins provide data import from specific sources, data mapping to various formats, data analysis, data visualization, and notifications.
+  * These are either free or monetized by their creator.
+  * Some might be integrated into the core based on a community voting.
 
 ![framework diagram](plugins/plugin-marketplace.png)
 
@@ -270,31 +257,31 @@ The platform consists of two primary components:
 
 The application programming interface (API) includes an OpenAPI specification for receiving and sharing data with the
 core database.
-Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API.
-SDK’s will enable developers to implement easy automatic sharing options in their applications.
+Software development kits (SDK’s) available for 3rd party applications, allow interaction with the API.
+SDK’s lets developers implement automatic sharing options in their applications.
 
-Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
-The API connector framework will allow the ongoing regular import of user data after a single user authorization.
+Separate plugins enable spreadsheet upload/import and scheduled imports from existing third-party APIs.
+The API connector framework allows the ongoing regular import of user data after a single user authorization.
 
 #### Data Sources
 
-* Laboratory and Home tests (Standard Blood panels, Metabolomics, Proteomics, Genetics, Urinalysis, Toxins, etc)
-* Wearable (Sleep and Fitness trackers, etc)
-* Health apps (Meal tracking, Fertility, etc)
+* Laboratory and home tests
+* Wearables
+* Health apps
 * User reported symptoms and intervention application
-* Electronic Heath Records
+* Electronic Health Records
 * Imaging
 * Questionnaires
 * Functional tests
-* Environmental and context data (Twosome)
-* Life events, Calendar, Social media, and Lifestyle
+* Environmental and context data
+* Life events, calendars, social media, and lifestyles
 * Digital biomarkers
-* Location
+* Locations
 
 #### Data Formats
 
 * FHIR
-* openEHR
+* OpenEHR
 * LOINC
 * SNOMED
 * RXNORM
@@ -302,68 +289,66 @@ The API connector framework will allow the ongoing regular import of user data a
 * ICD-10
 * Open mHealth
 
-#### Raw Data and Files Storage
+#### Raw Data and File Storage
 
-To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files, PDF reports, and the raw API responses are stored separately in a binary data and file storage system.
-Data will be encrypted and stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.
+To preserve originality, in the case of data processing errors or protocol changes, the ingested raw files like CSV files, PDF files, and the raw API responses, are stored separately in a binary data and file storage system.
+Data is encrypted and stored in its raw format, in flat files, on a secure cloud provider, defined in the framework instance core settings.
 
 #### Data Mapping
 
-To make the standardized structured storage of health data and the envisioned queries possible, the data has to be ingested from files or API requests and mapped from many different standards and proprietary formats into a standard schema.
-
+Makes the standardized structured storage of health data and the envisioned queries possible. The data is ingested from files or API requests and mapped from many standards and proprietary formats into a standard schema.
 
 #### Data Validation
 
-The data validation middleware will validate the data before it is stored in the time-series database.
+The data validation middleware validates the data before it is stored in the time-series database.
 
 #### Reference Data Definitions
 
-Mapping data from different formats into one standardized format suitable for a analysis requires a reference database with tables of definitions and descriptions to be used by the data mappers and by the API for displaying this information in applications.
-The includes biomarkers, health-related variables of any kind, interventions, therapies, outcomes, conditions, etc.
+To map data from different formats into a standardized one, which is suitable for analysis, requires a reference database with tables of definitions and descriptions for the data mappers and by the API for displaying it in applications.
+They include biomarkers, health-related variables, interventions, therapies, outcomes, conditions, etc.
 Examples of reference databases include LOINC, RXNORM, and ICD-10.
 
 ##### Units of Measurement
 
-The Unified Code for Units of Measure (UCUM) system will be used to
-include all units of measures being contemporarily used in international science.  The full list of units of measure is available [here](reference-databases/units/ucum_units_of_measure.csv).
+The Unified Code for Units of Measure (UCUM) system is used to include all units of measures in international science.
 
 #### Time Series Data Storage
 
-After validation and mapping, the data will be stored in a standardized and structured time-series database.
+After validation and mapping, the data is stored in a standardized and structured time-series database.
 
 #### Data Ownership
 
-Data should be owned by the individual who generated it.
-It should remain under their control throughout the entire data life-cycle from generation to deletion.
-The data owner shall have the unrestricted ability to manage their digital health identity.
+Data is owned by the individual who generated it, throughout the entire data life-cycle.
 
-Ownership management functionalities will allow the individual to manage their data and access control settings for sharing purposes.
-It will allow them to:
+Ownership management functionalities allow individuals to manage their data and access control settings for sharing purposes.
 
-* View and Access their data
-* View the OAuth clients with access to the data
+It allows them to:
+
+* View and access their data
+* View the OAuth clients.
 * Modify read/write permissions for specific OAuth clients
-* Restrict data access to specific users, groups, researchers, or applications
+* Restrict data access to specific users, groups, researchers, and applications
 * Restrict data access to specific data categories, types, and markers
 * Restrict time and expiration of data access
 * Configure security measures such as encryption or 2-factor authentication
-* Overview of statistics of data (amount, averages, sources, etc..)
-* Export stored data or the original files
+* Overview of statistics of data
+* Export stored data or original files
 * Delete data
 
-This feature can be used by user-centered applications and dashboards for personal health management, for data sharing with care providers, research, or for participation in trials.
+This feature can be used by user-centered applications and dashboards for personal health management, data sharing with healthcare providers, participation in trials, and research.
 
 #### Data Compensation
 
-Health data is a sensitive and valuable commodity.Therefore the handling of the data alongside its attached value is proposed to be built natively into the core.
-Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios.
-It will allow:
+The handling of the data alongside its attached value is built natively into the core.
+Value stream management functionalities allow the exchange of data for value assets.
 
-* Individuals to share data and receive defined compensation
-* Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
-* Researchers apply, formulate and visualize values of data sets
-* Connect data to value in general for administration purposes
-* Applications to create a value-based feedback loop for research or behavioral outcomes
+It allows them to:
+
+* Individuals to share data and receive compensation
+* Groups to sell insights for value assets
+* Researchers to apply, formulate, and visualize the value of data sets
+* Value data for administration purposes
+* Create a value-based feedback loop for research or behavioral outcomes
 
 Data Value Scenarios:
 
@@ -371,86 +356,88 @@ Data Value Scenarios:
 * Cohort raw data sets of grouped individuals
 * Interpreted data, scores, and recommendations
 * Generated insights and IP out of data analysis
-* Specifically aggregated data according to requested needs from buyers
-* Phenotypic, demographic, lifestyle, conditions, environmental context
+* Aggregated data based on the requested needs
+* Phenotypic, demographic, lifestyle, condition, and environmental contexts
 
-This feature can be used for exchanging data on marketplace applications or clinical trial platforms.
+This feature is used for exchanging data on marketplace applications or clinical trial platforms.
 
 ### Plugin Integrations
 
 ![Branded Plugins](plugins/plugin-marketplace.png)
 
 3rd party plugins can interact with the core and provide additional functionality.
-They may be free or monetized by their creator.
+They are free or monetized by their creator.
 
 #### Data Analysis Plugins
 
-The impact of effective and detailed analysis is
+The impact of effective and detailed analysis:
 
-* The discovery of root causes of disease
+* The discovery of root causes of diseases
 * Development of new interventions
 * The precise and personalized application of these interventions
 
-Data Analysis Plugins will apply statistical and machine learning methods to the ocean of high-frequency longitudinal individual and population-level data.
+Data Analysis Plugins apply statistical and machine learning methods to the ocean of high-frequency longitudinal individual and population-level data.
 The resulting value will include:
 
-* Personalized Effectiveness Quantification - Determination of the precise effectiveness of treatments for specific individuals
-* Root Cause Analyses - Revelation of hidden factors and root causes of diseases
-* Precision Medicine - Determination of the personalized optimal values or dosages based on biomarkers, phenotype, and demographics
-* Combinatorial Medicine - Discover relationships between variables or combinations of interventions
-* Effect Size Quantification - Quantification of effect sizes of all factors on symptom severity
-* Optimal Daily Values - Determination of the personalized optimal dosages of nutrients or medications
-* Cost-Benefit Analysis - Determination of the most cost-effective interventions by weight clinical benefit against costs in terms of side effects and financial impact
+* Personalized effectiveness quantification
+  * Determination of the precise effectiveness of treatments for specific individuals
+* Root Cause Analyses
+  * Revelation of hidden factors and root causes of diseases
+* Precision Medicine
+  * Determination of the personalized optimal values or dosages based on biomarkers, phenotype, and demographics
+* Combinatorial Medicine
+  * Discover relationships between variables or combinations of interventions
+* Effect Size Quantification
+  * Quantification of effect sizes of all factors on symptom severity
+* Optimal Daily Values
+  * Determination of the personalized optimal dosages of nutrients or medications
+* Cost-Benefit Analysis
+  * Determination of the most cost-effective interventions
 
-This will mitigate the incidence of chronic illnesses by informing the user of symptom triggers, such as dietary sensitivities, to be avoided.
-This will also assist patients and clinicians in assessing the effectiveness of treatments despite the hundreds of uncontrollable variables in any prescriptive experiment.
-
-Large cohort clinical analysis could reveal new molecules for longevity.
+That mitigates the incidence of illnesses, by informing the user of symptom triggers, such as dietary sensitivities.
+It also assists patients and clinicians in assessing the effectiveness of treatments.
+Further, large cohort clinical analysis might reveal new molecules for healthy longevity.
 
 #### Data Presentation and Management Plugins
 
-Data visualization plugins convert data from its raw form into useful insights.
-They may be used to display data from individual or multiple subjects.
-Some regular ways to visualize data are scatter plots, timeline charts, heatmaps, or novel ways like the in the
-following proposed outcome labels.
+Data visualization plugins convert raw data into useful insights for individuals or multiple subjects.
+Some ways to visualize data are scatter plots, timeline charts, heatmaps, or novel ways like those in the
+following outcome labels.
 Visualizations can be embedded in studies, publications, or personal dashboards.
 
 **Example Data Presentation Plugins**
 
-- [Outcome Labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
-- [Predictor Search Engines](plugins/predictor-search-engine-plugin/predictor-search-engine-plugin.md)
-- [Root Cause Analysis Reports](plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
-- [Observational Studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
-- [Real-Time Decision Support Notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
+- [Outcome labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
+- [Predictor search engines](plugins/predictor-search-engine-plugin/predictor-search-engine-plugin.md)
+- [Root cause analysis reports](plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
+- [Observational studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
+- [Real-time decision support notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
 
 #### Application Programming Interface (API) Connector Plugins
 
-Many applications and service providers offer a direct exchange of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
+Many applications and service providers offer direct exchanges of structured health data through an API, which upon user authentication allow access to automated and scheduled exports of the generated data.
 
 Until the success of a common language for all types of health data and between all stakeholders, many API connecting plugins are necessary for this interoperability.
 
 #### File Importer Plugins
 
-File importing plugins are needed for specific sources or devices, where APIs are not available and the user only has access to raw files.
+File importing plugins are needed for specific sources or devices, where the user only has access to raw files.
 Types of files include spreadsheets, PDFs, and raw genomic data.
 
 # ❤ Incentivization
 
-How we use the DAO structure and NFT IP royalties reward data sharing and
-open-source collaboration.
+How we use the DAO structure to reward data sharing and open-source collaboration.
 
 ## Incentive Alignment
 
-This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party can derive more value from participation than they have to put into it.
+CureDAO provides each participant with more value than their amount of effort.
 
 ![Value flow chain](assets/incentivization/value-flow-chain.svg)
 
-### 1. Patients
+### 1. Incentives for Patients
 
-Incentives for Patients to share their de-identified data will include:
-
-1. Actionable ways to prevent and mitigate chronic illnesses.
-2. The ability to license and earn a share of income for the use of their data for research and development by pharmaceutical companies and other businesses. This will be achieved by encoding the user data using non-fungible tokens (NFTs) and issuing them to the user. The NFTs will be linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
+1. Actionable insights to prevent and mitigate illnesses.
+2. Income for the use of data for research and drug development. The data is encoded into non-fungible tokens (NFTs) and linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
 
 ### 2. Businesses Housing Data Silos
 
@@ -490,6 +477,7 @@ Governments will be incentivized by:
 ### 7. Contributors to the Development of the Platform
 
 Citizens of the DAO will be incentivized to contribute to the development of the platform by:
+
 1. Gitcoin Bounties for specific tasks
 2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
 
@@ -606,7 +594,7 @@ The genesis distribution event will make 10% of CureDAO’s total token supply a
 
 
 | Token Quantity | Fraction of Total | Recipient                 |
-|----------------|-------------------|---------------------------|
+| ---------------- | ------------------- | --------------------------- |
 | 940M           | 10%               | Community Genesis         |
 | 940M           | 10%               | Service Providers (Voted) |
 | 940M           | 10%               | DAO Laboratories (Voted)  |
