@@ -51,6 +51,16 @@ dCURE’s genesis contribution event will run via a fair launch public auction, 
 
 The approval of these allocations to [DAO Laboratories](5-organization.md), contributors, and service providers is at the full discretion of genesis [Citizen Scientists](5-organization.md) and their approval. They form the core of CureDAO’s decision-making and executive body.
 
+## References
+
+{% embed url="https://docs.mint.club" %}
+[Mint Club](https://mint.club) is a smart token building platform that has no need to code and provides instant liquidity.&#x20;
+{% endembed %}
+
+{% embed url="https://commonsstack.org/abc#simulation" %}
+The Augmented Bonding Curve (ABC) aligns the incentives of a community to support an underlying public good. It creates the seed funding that will be used to achieve the goal of the Commons, and acts as the interface between the internal economy of the Commons and the outside world.
+{% endembed %}
+
 #### [Next Revenue](7-revenue.md) 👉
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
