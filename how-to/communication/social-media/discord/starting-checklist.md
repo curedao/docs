@@ -1,5 +1,5 @@
 ---
-description: How to get involved with CureDAO
+description: How to help us minimize suffering in the universe
 ---
 
 # ✅ Getting Started
