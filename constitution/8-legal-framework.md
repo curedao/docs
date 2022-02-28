@@ -7,13 +7,13 @@ description: >-
 
 👈 [Back to Table of Contents](../)
 
-A decentralized autonomous organization, or a “DAO,” is an “organization” encoded as a transparent computer program, controlled by the organization members, and not by a central corporate entity.&#x20;
+A decentralized autonomous organization, or a “DAO,” is an “organization” encoded as a transparent computer program, controlled by the organization members, and not by a central corporate entity.
 
-## Facilitating Contracts&#x20;
+## Facilitating Contracts
 
-In order to facilitate the entering of contracts, CureDAO will utilize an unincorporated nonprofit association (UNA) as a ‘wrapper’.  Unincorporated nonprofit associations are broadly defined and, in many jurisdictions, can consist of just a few people agreeing to work, either orally or with an agreement, on a charitable endeavor together.&#x20;
+In order to facilitate the entering of contracts, CureDAO will utilize an unincorporated nonprofit association (UNA) as a ‘wrapper’.  Unincorporated nonprofit associations are broadly defined and, in many jurisdictions, can consist of just a few people agreeing to work, either orally or with an agreement, on a charitable endeavor together.
 
-The Uniform Unincorporated Nonprofit Association Act (UUNAA) allows the DAO members to loan IP to the UNA. Then DAO members may be repaid with interest from the UNA.&#x20;
+The Uniform Unincorporated Nonprofit Association Act (UUNAA) allows the DAO members to loan IP to the UNA. Then DAO members may be repaid with interest from the UNA.
 
 ## Limiting Personal Liability
 

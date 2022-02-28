@@ -4,10 +4,8 @@ description: How to contribute to the CureDAO documentation.
 
 # ✍ Writing Style Guide
 
-
-
 {% hint style="danger" %}
-Be sure to use [Grammarly ](https://grammarly.com)and/or [Language Tool ](https://languagetool.org)when editing to avoid any grammatical errors.
+Be sure to use [Grammarly ](https://grammarly.com)(or [Language Tool ](https://languagetool.org)if editing on Githbook) to avoid any grammatical errors.
 {% endhint %}
 
 ## General principles

@@ -1,7 +1,8 @@
 ---
 description: A simple, repeatable formula for executing your most important priorities
 ---
-# How to Execute
+
+# 🚀 How to Execute
 
 Although the 4 Disciplines of Execution may seem simple at first glance, they are not simplistic. They will profoundly change the way you approach your goals. Once you adopt them, you will never lead in the same way again, whether you are a project coordinator, lead a small sales team, or run a Fortune 500 company. We believe they represent a major breakthrough in how to move teams and organizations forward.
 
@@ -51,8 +52,8 @@ Because the team commits to a new set of objectives each week, this discipline c
 
 When your team begins to see the lag measure of a big goal moving as a direct result of their efforts, they will know they are winning. And, we have found nothing drives the morale and engagement of a team more than winning.
 
+## **References**
 
-## &#x20;**References**
+1. [**https://www.amazon.com/Disciplines-Execution-Achieving-Wildly-Important/dp/145162705X**](https://www.amazon.com/Disciplines-Execution-Achieving-Wildly-Important/dp/145162705X)
+2. [**https://drive.google.com/file/d/0B5728AmQzoPQSmpnX2NtR0I4NTg/view?resourcekey=0-OKPhmLCXW1DChCHpmaX-Ug**](https://drive.google.com/file/d/0B5728AmQzoPQSmpnX2NtR0I4NTg/view?resourcekey=0-OKPhmLCXW1DChCHpmaX-Ug)
 
-1. ****[**https://www.amazon.com/Disciplines-Execution-Achieving-Wildly-Important/dp/145162705X**](https://www.amazon.com/Disciplines-Execution-Achieving-Wildly-Important/dp/145162705X)****
-2. ****[**https://drive.google.com/file/d/0B5728AmQzoPQSmpnX2NtR0I4NTg/view?resourcekey=0-OKPhmLCXW1DChCHpmaX-Ug**](https://drive.google.com/file/d/0B5728AmQzoPQSmpnX2NtR0I4NTg/view?resourcekey=0-OKPhmLCXW1DChCHpmaX-Ug)****
