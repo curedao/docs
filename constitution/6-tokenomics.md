@@ -21,7 +21,7 @@ dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
 7. What IP contributors will receive funds and how much
 8. How internal [DAO Laboratories](5-organization.md) budgets and projects are funded
 9. How CureDAO is governed
-10. How the CureDAO treasury management
+10. How the CureDAO treasury will be managed
 
 ## Token Genesis
 
@@ -33,7 +33,7 @@ The goal of CureDAO is for every human on earth to share the natural experiments
 
 The genesis distribution event will make 10% of CureDAO’s total token supply available to interested participants using a fair and open smart contract auction on the Ethereum blockchain.
 
-![](<../.gitbook/assets/image (1).png>)
+![](../assets/charts/token-distribution.png)
 
 | Token Quantity | Fraction of Total | Recipient                 |
 | -------------- | ----------------- | ------------------------- |
@@ -50,6 +50,16 @@ CureDAO will be fully decentralized and community-owned from inception. No entit
 dCURE’s genesis contribution event will run via a fair launch public auction, granting all successful auction participants equal governance rights per $dCURES. Once issued the first 10% of tokens, the CureDAO core community will begin voting on the first governance proposals to allocate additional tokens to DAO Laboratory working groups and service providers.
 
 The approval of these allocations to [DAO Laboratories](5-organization.md), contributors, and service providers is at the full discretion of genesis [Citizen Scientists](5-organization.md) and their approval. They form the core of CureDAO’s decision-making and executive body.
+
+## References
+
+{% embed url="https://docs.mint.club" %}
+[Mint Club](https://mint.club) is a smart token building platform that has no need to code and provides instant liquidity.&#x20;
+{% endembed %}
+
+{% embed url="https://commonsstack.org/abc#simulation" %}
+The Augmented Bonding Curve (ABC) aligns the incentives of a community to support an underlying public good. It creates the seed funding that will be used to achieve the goal of the Commons, and acts as the interface between the internal economy of the Commons and the outside world.
+{% endembed %}
 
 #### [Next Revenue](7-revenue.md) 👉
 
