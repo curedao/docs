@@ -85,6 +85,6 @@ Feel free to add more here.
 
 ### Awards
 
-* Winner - $500
-* Runner-Up - $100
-* Honorable Mentions - $50
+* Winner - 500 $CURE1 Tokens
+* Runner-Up - 100 $CURE1 Tokens
+* Honorable Mentions - 50 $CURE1 Tokens
