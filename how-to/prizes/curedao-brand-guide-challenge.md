@@ -58,6 +58,7 @@ _How are we talking to them?_
     3. Horizontal - Wide logo with the text "CureDAO" and the image combined
 3. Font Files
 4. Color Palette
+5. Website landing page
 
 ## Example Brand Guide
 
@@ -79,8 +80,8 @@ Feel free to add more here.
 
 ## Timeline
 
-* Submission Deadline - 2/27/2022
-* Voting Period - 2/28/2022 - 3/5/2022 - Voting will be done using a rank-choice voting methodology
+* Submission Deadline - 3/31/2022
+* Voting Period - 4/1/2022 - 4/5/2022 - Voting will be done using a rank-choice voting methodology
 
 ### Awards
 
