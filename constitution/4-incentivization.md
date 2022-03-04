@@ -41,7 +41,7 @@ On top of the incentives for businesses listed above, the following incentives w
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
 3. Revenue derived through subscription or licensing agreements for usage of their plugins in the Plugin Marketplace.
 
-![Branded Plugins](../plugins/plugin-marketplace.png)
+![Branded Plugins](<../plugins/plugin-marketplace (1).png>)
 
 ### 5. Disease Advocacy Non-Profit Organizations
 
@@ -64,6 +64,7 @@ Governments will be incentivized by:
 ### 7. Contributors to the Development of the Platform
 
 Citizens of the DAO will be incentivized to contribute to the development of the platform by:
+
 1. Gitcoin Bounties for specific tasks
 2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
 

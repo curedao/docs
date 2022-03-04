@@ -5,7 +5,7 @@ description: >-
   minimization of suffering from diseases.
 ---
 
-# 💡 Litepaper
+# Litepaper
 
 ## tl;dr
 
@@ -13,16 +13,13 @@ To achieve this, we are creating an open-source framework that overcomes the tra
 
 It consists of two primary components:
 
-1.  An Open-Source Platform for Health Data:
-
-    1. Storage
-    2. Security
-    3. Access Control
-    4. De-identified Data Sharing
-
-
+1. An Open-Source Platform for Health Data:
+   1. Storage
+   2. Security
+   3. Access Control
+   4. De-identified Data Sharing
 2. An Open Plugin Ecosystem enabling anyone to create or use plugins that facilitate:
-   1. &#x20;Data from any data source
+   1. Data from any data source
    2. New Clinical Discoveries through machine learning
    3. Personalized Real-Time Decision Suggestions to most effectively treat and prevent diseases
    4. Data Format Transformation to enable interoperability with any system or application
@@ -86,23 +83,25 @@ Our main philosophy is: It's not what you CAN do but what you WANT to do.
 
 Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering from chronic diseases.
 
-![](assets/charts/global-disease.PNG)
+![](<assets/charts/global-disease (1).PNG>)
 
 ### What We Don't Know
 
 The more research studies we read, the more we realize we don’t know. Nearly every study ends with the phrase "more research is needed".
 
-Today, there are about 1[0,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans. There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion). If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of what is left to be known.
+Today, there are about [1](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/)[0,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans. There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion). If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of what is left to be known.
 
 ![](assets/charts/how-much-we-know-numbers.png)
 
 #### The Cost of Clinical Research
 
-It takes over 10 years and $2.6 billion to bring a drug to market (including failed attempts). ([https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41))
+It takes over [10 years and $2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
 
-![clinical trial cost](assets/cost/cost-of-clinical-trials.png) [source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
+![clinical trial cost](assets/cost/cost-of-clinical-trials.png)&#x20;
 
-The high costs lead to:
+[source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
+
+### The high costs lead to:
 
 **1. No Data on Unpatentable Molecules**
 
@@ -110,22 +109,20 @@ We still know next to nothing about the long-term effects of 99.9% of the 4 poun
 
 Using the current research system, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there are only sufficient incentives to research patentable molecules.
 
-![how much we know](assets/charts/how-much-we-know-numbers.png)
+**2. Lack of Incentive to Discover Every Application of Off-Patent Treatments**
 
-**Lack of Incentive to Discover Every Application of Off-Patent Treatments**
-
-Most of the known diseases (approximately 95%) are classified as rare diseases. \
+Most of the known diseases (approximately 95%) are classified as rare diseases.\
 Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. If a drug is effective for other diseases after the patent expires, there isn't a financial incentive to get it approved for the other diseases.
 
-**No Long-Term Outcome Data**
+**3. No Long-Term Outcome Data**
 
 Under the current system, it's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the long-term effects of a drug are worse than the initial benefits.
 
-**Negative Results aren't Published**
+**4. Negative Results aren't Published**
 
 Pharmaceutical companies that sponsor research, tend to only report “positive” results. That leads to poor health outcomes and companies wasting money on conducting the same research.
 
-**Trials Exclude a Vast Majority of The Population**
+**5. Trials Exclude a Vast Majority of The Population**
 
 One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant trial. Furthermore, most patient sample sizes are very small and sometimes include only 20 people.
 
@@ -246,7 +243,7 @@ The platform consists of two primary components:
 * **Core Open-Source Platform** - The core platform is open-source and includes only universally necessary features. This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
 * **Plugin Framework** - Plugins are modules that provide additional functionality. This includes data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integrated into the core based on community voting.
 
-![framework diagram](plugins/plugin-marketplace.png)
+![framework diagram](<plugins/plugin-marketplace (1).png>)
 
 #### Core Components
 
@@ -296,7 +293,7 @@ The data validation middleware will validate the data before it is stored in the
 
 **Reference Data Definitions**
 
-Mapping data from different formats into one standardized format suitable for a analysis requires a reference database with tables of definitions and descriptions to be used by the data mappers and by the API for displaying this information in applications. The includes biomarkers, health-related variables of any kind, interventions, therapies, outcomes, conditions, etc. Examples of reference databases include LOINC, RXNORM, and ICD-10.
+Mapping data from different formats into one standardized format suitable for analysis requires a reference database with tables of definitions and descriptions to be used by the data mappers and by the API for displaying this information in applications. The includes biomarkers, health-related variables of any kind, interventions, therapies, outcomes, conditions, etc. Examples of reference databases include LOINC, RXNORM, and ICD-10.
 
 **Units of Measurement**
 
@@ -348,7 +345,7 @@ This feature can be used for exchanging data on marketplace applications or clin
 
 #### Plugin Integrations
 
-![Branded Plugins](plugins/plugin-marketplace.png)
+![Branded Plugins](<plugins/plugin-marketplace (1).png>)
 
 3rd party plugins can interact with the core and provide additional functionality. They may be free or monetized by their creator.
 
@@ -666,7 +663,7 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 ### Q2/2022 Minimal Viable Product (MVP)
 
 * Collaborators vote for core features
-* Build MVP along side use in show case trial
+* Build MVP alongside use in showcase trial
 * Closed Testing with collaborators
 * Release V1 of the Software Framework
 * Open Testing with partners
@@ -675,7 +672,7 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 
 * Integrate with other tech architecture (storage providers, data marketplaces, analysis software, etc.. )
 * Integrate with operating health data standards and Electronic Health Record
-* Build show case plugins
+* Build showcase plugins
 * Release V2 of the Software Framework
 * Promote broader usage
 
@@ -685,7 +682,7 @@ Accompany pilot programs and partners for applications in the fields:
 
 * Open shared health database for research access
 * Trials platform with participation royalty payback
-* User centered health management
+* User-centered health management
 * Algorithm and scores development
 * Data marketplaces
 
@@ -695,6 +692,6 @@ Accompany pilot programs and partners for applications in the fields:
 * Share health data to research
 * Get to know new insights
 * Take newly developed interventions
-* Educate loved ones about longer health span
+* Educate loved ones about longer healthspan
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).

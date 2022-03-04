@@ -57,7 +57,7 @@ This will ensure that anyone can afford to use it, while still providing compens
 
 ### Plugin Marketplace
 
-![plugin marketplace](../plugins/plugin-marketplace.png)
+![plugin marketplace](<../plugins/plugin-marketplace (1).png>)
 
 ### References
 
