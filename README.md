@@ -9,7 +9,7 @@ description: >-
 
 ## tl;dr
 
-To achieve this, we are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health.
+We are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health.
 
 It consists of two primary components:
 
@@ -34,7 +34,7 @@ It overcomes the traditional barriers of collaboration and data sharing by encod
 
 ![The Value Chain](assets/incentivization/value-flow-chain.png)
 
-### Join Us
+### Join Us Right Now!
 
 Hey, you! 👀
 
@@ -74,16 +74,10 @@ Our main philosophy is: It's not what you CAN do but what you WANT to do.
 
 ## The Problem: You and Everyone You Love Will Suffer and Die
 
-[150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day from preventable diseases. For perspective, this is equivalent to:
+Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering and [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day from preventable diseases. For perspective, this is equivalent to:
 
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://www.haaretz.com/israel-news/6-million-where-is-the-figure-from-1.10570907) Holocausts every year
-
-![Deaths from disease](assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
-
-Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering from chronic diseases.
-
-![](<assets/charts/global-disease (1).PNG>)
 
 ### What We Don't Know
 
@@ -93,15 +87,15 @@ Today, there are about [1](https://www.washingtonpost.com/news/fact-checker/wp/2
 
 ![](assets/charts/how-much-we-know-numbers.png)
 
-#### The Cost of Clinical Research
+### The Cost of Clinical Research
 
 It takes over [10 years and $2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
 
-![clinical trial cost](assets/cost/cost-of-clinical-trials.png)&#x20;
+![clinical trial cost](assets/cost/cost-of-clinical-trials.png)
 
 [source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
 
-### The high costs lead to:
+The high costs lead to:
 
 **1. No Data on Unpatentable Molecules**
 
@@ -118,7 +112,7 @@ Currently, a pharmaceutical company must predict particular conditions to treat 
 
 Under the current system, it's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the long-term effects of a drug are worse than the initial benefits.
 
-**4. Negative Results aren't Published**
+**4. Negative Results Aren't Published**
 
 Pharmaceutical companies that sponsor research, tend to only report “positive” results. That leads to poor health outcomes and companies wasting money on conducting the same research.
 
@@ -130,16 +124,13 @@ One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14
 
 #### 1. Duplication of Effort
 
-There has been an explosion in digital health with more than 350,000 new digital health apps.\
-These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) growth in health data.
-
 ![chart](assets/charts/data-and-apps.PNG)
 
 Despite this growth, we've seen increased costs and disease burden, and decreased life expectancy.
 
 ![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
 
-The reason is **incentives**.
+The reason is awful **incentives**. There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort.
 
 ![](assets/open-source/collaboration-is-punished.PNG)
 
@@ -147,15 +138,15 @@ The isolated health data can only tell us about the past. For example, dashboard
 
 ![](assets/open-source/thousands-of-dashboards.PNG)
 
-However, by consolidating the data, using existing clinical research findings, and applying machine learning, we may receive personalized health suggestions.
+However, by consolidating the data, using existing clinical research findings, and applying machine learning, we may receive personalized health suggestions.   If these efforts were combined, theoretically, this could increase the rate of progress by 350,000 times.
+
+
 
 ![](assets/open-source/vertical-innovation.PNG)
 
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort. If these efforts were combined, theoretically, this could increase the rate of progress by 350,000 times.
-
-![closed source competition vs open source collaboration](assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
-
 The obstacle has been the free-rider problem. Software developers that open source their code, give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
+
+
 
 #### 2. Isolated Data Silos
 
@@ -324,7 +315,7 @@ This feature can be used by user-centered applications and dashboards for person
 
 **Data Compensation**
 
-Health data is a sensitive and valuable commodity.Therefore the handling of the data alongside its attached value is proposed to be built natively into the core. Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios. It will allow:
+Health data is a sensitive and valuable commodity. Therefore the handling of the data alongside its attached value is proposed to be built natively into the core. Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios. It will allow:
 
 * Individuals to share data and receive defined compensation
 * Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
@@ -424,7 +415,7 @@ On top of the incentives for businesses listed above, the following incentives w
 
 1. A license to use a white-labeled version of the framework. This will dramatically reduce the costs of software development. These reduced costs will allow them to focus on innovating their unique value proposition, making them more competitive in the market.
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
-3. Revenue derived through subscription or licensing agreements for the usage of their plugins in the Plugin Marketplace.
+3. Revenue is derived through subscription or licensing agreements for the usage of their plugins in the Plugin Marketplace.
 
 #### 5. Disease Advocacy Non-Profit Organizations
 
@@ -451,9 +442,7 @@ Citizens of the DAO will be incentivized to contribute to the development of the
 1. Gitcoin Bounties for specific tasks
 2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
 
-### Compensation Determination
 
-Compensation for various tasks will be determined democratically by voting.
 
 ## 🏛 Organization
 
