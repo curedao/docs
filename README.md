@@ -5,7 +5,7 @@ description: >-
   minimization of suffering from diseases.
 ---
 
-# Litepaper
+# 💡 Litepaper
 
 ## tl;dr
 
@@ -18,7 +18,7 @@ It consists of two primary components:
    2. Security
    3. Access Control
    4. De-identified Data Sharing
-2. An Open Plugin Ecosystem enabling anyone to create or use plugins that facilitate:
+2. A Plugin Framework enabling anyone to create or use plugins that facilitate:
    1. Data from any data source
    2. New Clinical Discoveries through machine learning
    3. Personalized Real-Time Decision Suggestions to most effectively treat and prevent diseases
@@ -26,7 +26,7 @@ It consists of two primary components:
    5. Patient Management
    6. Decentralized Clinical Trial Management
    7. Precision Medicine
-   8. Large-scale, Low-cost Research to discover new ways to prevent and treat diseases
+   8. Large-scale, low-cost research to discover new ways to prevent and treat diseases
 
 ![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
 
@@ -39,19 +39,6 @@ It overcomes the traditional barriers of collaboration and data sharing by encod
 Hey, you! 👀
 
 CureDAO is open to anyone interested in preventing suffering from diseases. Our success is dependent on the participation of people like you. 🚀
-
-Creating the new software ecosystem requires developers and anyone with skills in:
-
-* User interface and user experience design
-* Project management
-* Communications and marketing
-* Web3 technologies
-* Business development
-* Life sciences
-* Medicine
-* Data science
-
-Our main philosophy is: It's not what you CAN do but what you WANT to do.
 
 **👉** [**How To Get Involved**](how-to/)
 
@@ -72,102 +59,26 @@ Our main philosophy is: It's not what you CAN do but what you WANT to do.
 
 ## 💡 Litepaper
 
-## The Problem: You and Everyone You Love Will Suffer and Die
+### :skull\_crossbones: Problem: You and Everyone You Love Will Suffer and Die
 
 Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering and [150,000](https://www.weforum.org/agenda/2020/05/how-many-people-die-each-day-covid-19-coronavirus/) people die every single day from preventable diseases. For perspective, this is equivalent to:
 
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://www.haaretz.com/israel-news/6-million-where-is-the-figure-from-1.10570907) Holocausts every year
 
-### What We Don't Know
+### Solution: A Collaborative Framework for Personalized, Precision Health
 
-The more research studies we read, the more we realize we don’t know. Nearly every study ends with the phrase "more research is needed".
+The solution is to use the oceans of real-world evidence to accelerate the discovery of new cures and reveal hidden causes of disease.
 
-Today, there are about [1](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/)[0,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases afflicting humans. There are as many untested compounds with drug-like properties as there are [atoms in the solar system](https://www.nature.com/articles/549445a) (166 billion). If you multiply the number of molecules with drug-like properties by the number of diseases, that's 1,162,000,000,000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of what is left to be known.
+The human body can be viewed as a black box with inputs (like diet, treatments, etc) and outputs (like symptom severity).  We're creating a mathematical model of human biology can be developed to discover new interventions and their personalized optimal daily values.
 
-![](assets/charts/how-much-we-know-numbers.png)
+That facilitates the discovery of personalized positive and negative outcomes while removing the traditional profit incentives.
 
-### The Cost of Clinical Research
+![Machine Learning Health Optimization Protocol](assets/analytics/black-box-model-animation.gif)
 
-It takes over [10 years and $2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts).
+####
 
-![clinical trial cost](assets/cost/cost-of-clinical-trials.png)
-
-[source: clinicalresearch.io](https://www.clinicalresearch.io/blog/industry-trends/cost-of-clinical-trials-breakdown/)
-
-The high costs lead to:
-
-**1. No Data on Unpatentable Molecules**
-
-We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural compounds.
-
-Using the current research system, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there are only sufficient incentives to research patentable molecules.
-
-**2. Lack of Incentive to Discover Every Application of Off-Patent Treatments**
-
-Most of the known diseases (approximately 95%) are classified as rare diseases.\
-Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. If a drug is effective for other diseases after the patent expires, there isn't a financial incentive to get it approved for the other diseases.
-
-**3. No Long-Term Outcome Data**
-
-Under the current system, it's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the long-term effects of a drug are worse than the initial benefits.
-
-**4. Negative Results Aren't Published**
-
-Pharmaceutical companies that sponsor research, tend to only report “positive” results. That leads to poor health outcomes and companies wasting money on conducting the same research.
-
-**5. Trials Exclude a Vast Majority of The Population**
-
-One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant trial. Furthermore, most patient sample sizes are very small and sometimes include only 20 people.
-
-## Problems in Digital Health Innovation
-
-#### 1. Duplication of Effort
-
-![chart](assets/charts/data-and-apps.PNG)
-
-Despite this growth, we've seen increased costs and disease burden, and decreased life expectancy.
-
-![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
-
-The reason is awful **incentives**. There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort.
-
-![](assets/open-source/collaboration-is-punished.PNG)
-
-The isolated health data can only tell us about the past. For example, dashboards filled with descriptive statistics such as our daily steps or sleep.
-
-![](assets/open-source/thousands-of-dashboards.PNG)
-
-However, by consolidating the data, using existing clinical research findings, and applying machine learning, we may receive personalized health suggestions.   If these efforts were combined, theoretically, this could increase the rate of progress by 350,000 times.
-
-
-
-![](assets/open-source/vertical-innovation.PNG)
-
-The obstacle has been the free-rider problem. Software developers that open source their code, give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
-
-
-
-#### 2. Isolated Data Silos
-
-To facilitate data sharing, CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server. That will allow individuals to share their data anonymously.
-
-![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
-
-**Solution: How DAOs Overcomes the Free-Rider Problem**
-
-1. Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) that is open source.
-2. By encoding contributions to the project with NFTs, we guarantee ongoing compensation for data and software.
-
-## 💡 Solution
-
-The solution is to use the oceans of real-world evidence to discover new cures.
-
-#### The Personalized, Preventive, Precision Medicine of the Future
-
-An in silico model of human biology can be developed to discover new interventions and their personalized usage.
-
-We can achieve it by viewing the human body as a black box with inputs and outputs. We can apply [predictive machine learning models](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) based on the following data:
+We can apply [predictive machine learning models](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) based on the following data:
 
 * [Genomic](https://en.wikipedia.org/wiki/Genomics)
 * [Transcriptomic](https://en.wikipedia.org/wiki/Transcriptome)
@@ -181,10 +92,6 @@ We can achieve it by viewing the human body as a black box with inputs and outpu
 * [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
 * [Exposome](https://en.wikipedia.org/wiki/Environmental\_factor#Exposome)
 
-That facilitates the discovery of personalized positive and negative outcomes while removing the traditional profit incentives.
-
-![](assets/analytics/black-box-model-animation.gif)
-
 #### The Potential of Evidence-Based Studies
 
 * **Diagnostics** - Data mining and analysis to identify causes of illness
@@ -194,6 +101,85 @@ That facilitates the discovery of personalized positive and negative outcomes wh
 * **Reduction of adverse medication events** - Harnessing big data to spot medication errors and flag potential adverse reactions
 * **Cost reduction** - Driving better patient outcomes for long-term savings
 * **Population health** - Identify health strategies based on demographic, geographic, and socioeconomic trends
+
+### Why Clinical Research Has Failed
+
+It takes over [10 years and $2.6 billion](https://www.semanticscholar.org/paper/Innovation-in-the-pharmaceutical-industry%3A-New-of-DiMasiGrabowski/3275f31c072ac11c6ca7a5260bd535720f07df41) to bring a drug to market (including failed attempts). It costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials.&#x20;
+
+The high costs lead to:
+
+**1. No Data on Unpatentable Molecules**
+
+We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural compounds.
+
+Using the current research system, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there are only sufficient incentives to research patentable molecules.
+
+**2. Lack of Incentive to Discover Every Application of Off-Patent Treatments**
+
+Most of the known diseases (approximately 95%) are classified as rare diseases. Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. If a drug is effective for other diseases after the patent expires, there isn't a financial incentive to get it approved for the other diseases.
+
+**3. No Long-Term Outcome Data**
+
+Under the current system, it's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the long-term effects of a drug are worse than the initial benefits.
+
+**4. Negative Results Aren't Published**
+
+Pharmaceutical companies that sponsor research, tend to only report “positive” results. That leads to poor health outcomes and companies wasting money on conducting the same research.
+
+**5. Trials Exclude a Vast Majority of The Population**
+
+One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14628985) of patients with major depressive disorder fulfilled eligibility requirements for enrollment in an antidepressant trial. Furthermore, most patient sample sizes are very small and sometimes include only 20 people.
+
+**6. We Only Know 0.000000002% of What is Left to be Researched**
+
+The more research studies we read, the more we realize we don’t know. Nearly every study ends with the phrase "more research is needed".
+
+If you multiply the [166 billion](https://www.nature.com/articles/549445a) molecules with drug-like properties by the [1](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/)[0,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases, that's 1,162,000,000,000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of the effects left to be discovered.
+
+### Why Digital Health Innovation Has Failed
+
+### 1. Duplication of Effort
+
+![chart](assets/charts/data-and-apps.PNG)
+
+Despite this growth, we've seen increased costs and disease burden and decreased life expectancy.
+
+![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
+
+The reason is awful **incentives**. There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort.
+
+![](assets/open-source/collaboration-is-punished.PNG)
+
+The isolated health data can only tell us about the past. For example, dashboards filled with descriptive statistics such as our daily steps or sleep.
+
+![](assets/open-source/thousands-of-dashboards.PNG)
+
+If these efforts were combined, theoretically, this could increase the rate of progress by 350,000 times.
+
+
+
+![](assets/open-source/vertical-innovation.PNG)
+
+The obstacle has been the free-rider problem. Software developers that open source their code, give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
+
+
+
+#### 2. Isolated Data Silos
+
+However, by consolidating the data, using existing clinical research findings, and applying machine learning, we may receive personalized health suggestions.  &#x20;
+
+To facilitate data sharing, CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server. That will allow individuals to share their data anonymously.
+
+![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
+
+**Solution: How DAOs Overcomes the Free-Rider Problem**
+
+1. Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) that is open source.
+2. By encoding contributions to the project with NFTs, we guarantee ongoing compensation for data and software.
+
+## 💡 Solution
+
+
 
 ## 🏭 Platform
 
