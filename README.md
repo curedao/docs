@@ -78,7 +78,7 @@ Our main philosophy is: It's not what you CAN do but what you WANT to do.
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://www.haaretz.com/israel-news/6-million-where-is-the-figure-from-1.10570907) Holocausts every year
 
-![Deaths from disease](assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart.png)
+![Deaths from disease](assets/charts/deaths-from-disease-vs-deaths-from-terrorism-chart-small.png)
 
 Over [2 billion](https://www.george-health.com/global-health-challenge/) people are suffering from chronic diseases.
 
@@ -242,12 +242,12 @@ Create a foundational technology layer, for any digital health application, prov
 The platform consists of two primary components:
 
 * **Open-Source Core**
-  * It primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.
-  * The DAO compensates for core contributions.
+    * It primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval.
+    * The DAO compensates for core contributions.
 * **Plugin Framework**
-  * Plugins provide data import from specific sources, data mapping to various formats, data analysis, data visualization, and notifications.
-  * These are either free or monetized by their creator.
-  * Some might be integrated into the core based on a community voting.
+    * Plugins provide data import from specific sources, data mapping to various formats, data analysis, data visualization, and notifications.
+    * These are either free or monetized by their creator.
+    * Some might be integrated into the core based on a community voting.
 
 ![framework diagram](plugins/plugin-marketplace.png)
 
@@ -380,19 +380,19 @@ Data Analysis Plugins apply statistical and machine learning methods to the ocea
 The resulting value will include:
 
 * Personalized effectiveness quantification
-  * Determination of the precise effectiveness of treatments for specific individuals
+    * Determination of the precise effectiveness of treatments for specific individuals
 * Root Cause Analyses
-  * Revelation of hidden factors and root causes of diseases
+    * Revelation of hidden factors and root causes of diseases
 * Precision Medicine
-  * Determination of the personalized optimal values or dosages based on biomarkers, phenotype, and demographics
+    * Determination of the personalized optimal values or dosages based on biomarkers, phenotype, and demographics
 * Combinatorial Medicine
-  * Discover relationships between variables or combinations of interventions
+    * Discover relationships between variables or combinations of interventions
 * Effect Size Quantification
-  * Quantification of effect sizes of all factors on symptom severity
+    * Quantification of effect sizes of all factors on symptom severity
 * Optimal Daily Values
-  * Determination of the personalized optimal dosages of nutrients or medications
+    * Determination of the personalized optimal dosages of nutrients or medications
 * Cost-Benefit Analysis
-  * Determination of the most cost-effective interventions
+    * Determination of the most cost-effective interventions
 
 That mitigates the incidence of illnesses, by informing the user of symptom triggers, such as dietary sensitivities.
 It also assists patients and clinicians in assessing the effectiveness of treatments.
@@ -532,12 +532,13 @@ The initial Laboratories will be created to carry out the following primary func
 * Governance Lab - Changes governance and how proposals are created and deployed. Handles technical aspects of DAO token creation and distribution. Develops the DAO’s smart contracts.
 * Legal Lab - Handles legal matters regarding business structure, health data, liability issues, and business contracts.
 * Coordination Lab - Handles operational matters such as human resources, compensation, project management, and onboarding.  Provides resources for Lab Staff.
-* Community Lab - Promotes community engagement with DAO and the broader world.
-* UI/UX Lab - Creates a user-friendly interface for the platform front end.
-* Collaborations - Facilitates financing of DAO projects. Coordinates partnerships between individuals and organizations.
-* Dev Lab - Implements the platform back end and user interface
-* Public Relations Lab - Promotes DAO’s presence in the public discourse.
-* Data Lab - Integrates data from various sources and formats. Conducts research on data science and machine learning.
+* Communications Lab - Promotes community engagement with DAO and the broader world. Promotes DAO’s presence in the public discourse. Includes designers, writers, social media experts, and any other relevant skills.
+* UI/UX/Dev Lab - Creates a user-friendly interface for the platform front end. Implements the platform back end and user interface.
+* Collab Lab - Coordinates partnerships between individuals and organizations.
+* Fin Lab - Facilitates financing of DAO projects.
+* Data Lab - Integrates data from various sources and formats. Conducts research on data science and machine 
+  learning. Handles analytics required for informing all other labs of the effectiveness of their processes.
+* Med Lab - Focuses on formal clinical research and partnerships.
 
 ### Service Providers
 
@@ -622,8 +623,8 @@ These factors all point to a massive potential for the revenue necessary to sust
 The primary sources of revenue include:
 
 1. Sale of high-frequency longitudinal de-identified data to
-   1. pharma for drug discovery
-   2. research institutions for funded studies
+    1. pharma for drug discovery
+    2. research institutions for funded studies
 2. Grants from governments modernizing their programs to take advantage of real-world data
 3. Digital health companies wishing to accelerate product development using existing white-label software or hosted software-as-a-service (SaaS) options
 
