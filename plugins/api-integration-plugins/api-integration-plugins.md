@@ -1,6 +1,6 @@
 # 🕸 Api Integration Plugins
 
-![](integrations-screenshot.PNG)
+![](<../../assets/aggregation/data-import (3).PNG>)
 
 ![](importer-plugins.PNG)
 

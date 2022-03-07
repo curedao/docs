@@ -30,9 +30,7 @@ There has been an explosion of recent technological advances in digital health i
 * [350,000](https://www2.deloitte.com/us/en/blog/health-care-blog/2021/how-digital-health-apps-are-empowering-patients.html) digital health apps
 * a [billion](https://www.statista.com/statistics/487291/global-connected-wearable-devices/) connected wearable devices
 
-These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/)
-growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it.
-![chart](../assets/data/growth-in-health-data-chart.png)
+These innovations have produced a [50-fold](https://www.weforum.org/agenda/2015/10/who-should-own-our-health-data/) growth in the amount of data on every disease and every factor that could improve, exacerbate, or prevent it. ![chart](../assets/data/growth-in-health-data-chart.png)
 
 This data exists in the form of:
 
@@ -70,7 +68,7 @@ We still know next to nothing about the long-term effects of 99.9% of the 4 poun
 
 Under the current system of research, it costs [$41k](https://www.clinicalleader.com/doc/getting-a-handle-on-clinical-trial-costs-0001#:\~:text=The%20clinical%20trials%20cost%20a,and%20benchmarking%20clinical%20trial%20costs.) per subject in Phase III clinical trials. As a result, there is not a sufficient profit incentive for anyone to research the effects of any factor besides a molecule that can be patented.
 
-![how much we know](../assets/charts/how-much-we-know.png)
+![how much we know](<../assets/how-much-we-know (1).png>)
 
 **Lack of Incentive to Discover the Full Range of Applications for Off-Patent Treatments**
 
@@ -126,41 +124,32 @@ In the real world, no patient can be excluded. Even people with a history of dru
 
 The results of crowd-sourced studies would exhibit complete and utter external validity since the test subjects are identical to the population of interest.
 
-Furthermore, self-trackers represent a massive pool of potential subjects dwarfing any traditional trial cohort.
-Diet tracking is the most arduous form of self-tracking. Yet, just one of the many available diet tracking apps, **MyFitnessPal,** has 30 million users.
+Furthermore, self-trackers represent a massive pool of potential subjects dwarfing any traditional trial cohort. Diet tracking is the most arduous form of self-tracking. Yet, just one of the many available diet tracking apps, **MyFitnessPal,** has 30 million users.
 
-Tracking any variable in isolation is nearly useless in that it cannot provide the causal which can be derived from combining data streams. Hence, this 30 million user cohort is a small fraction of the total possible [stratifiable](https://en.wikipedia.org/wiki/Stratified_sampling) base.
+Tracking any variable in isolation is nearly useless in that it cannot provide the causal which can be derived from combining data streams. Hence, this 30 million user cohort is a small fraction of the total possible [stratifiable](https://en.wikipedia.org/wiki/Stratified\_sampling) base.
 
 ## 1.3 Problems in Digital Health Innovation
 
 ### 1.2.1 $157 Billion Wasted on Duplication of Effort
 
-There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average.  Most of these
-have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
+There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps. Mobile health app development costs [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on average. Most of these have a ton of overlap in functionality representing [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) wasted on duplication of effort.
 
-If this code was freely shared, everyone could build on what everyone else had done.
-Theoretically, this could increase the rate of progress by 350,000 times.
+If this code was freely shared, everyone could build on what everyone else had done. Theoretically, this could increase the rate of progress by 350,000 times.
 
 ![closed source competition vs open source collaboration](../assets/open-source/closed-source-competition-vs-open-source-collaboration.sketch.png)
 
-The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage.  This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
+The obstacle has been the free-rider problem. Software Developers that open source their code give their closed-source competitors an unfair advantage. This increases their likelihood of bankruptcy even higher than the 90% failure rate they already faced.
 
 #### How DAOs Overcomes the Free-Rider Problem
 
-1. Currently governments around the world are spending billions funding closed-source propriety health software. The
-   Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)) and require that publicly-funded software be open source.
-2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the
-   form of royalties.
+1. Currently governments around the world are spending billions funding closed-source propriety health software. The Public Money Public Code initiative would require governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) and require that publicly-funded software be open source.
+2. By encoding contributions to the project with NFTs, we can guarantee ongoing compensation in the form of royalties.
 
 ### 1.2.2 Isolated Data Silos
 
-The best that isolated data on individual aspects of human health can do is tell us about the past. For example,
-dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”.  However,
-by integrating all available data from individuals, similar populations, as well as existing clinical research
-findings and applying machine learning we may achieve “prescriptive” real-time decision support.
+The best that isolated data on individual aspects of human health can do is tell us about the past. For example, dashboards telling us how many steps we got or how much sleep we got are known as “descriptive statistics”. However, by integrating all available data from individuals, similar populations, as well as existing clinical research findings and applying machine learning we may achieve “prescriptive” real-time decision support.
 
-To facilitate data sharing, the CureDAO will provide data providers with an onsite easily provisionable OAuth2 API
-server that will allow individuals to anonymously share their data with the global biobank.
+To facilitate data sharing, the CureDAO will provide data providers with an onsite easily provisionable OAuth2 API server that will allow individuals to anonymously share their data with the global biobank.
 
 ![APIs make siloed data useful](../assets/apis/apis-siloed-data.svg)
 

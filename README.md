@@ -32,7 +32,7 @@ It consists of two primary components:
 
 It overcomes the traditional barriers of collaboration and data sharing by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
-![The Value Chain](assets/incentivization/value-flow-chain.png)
+![The Value Chain](<assets/value-flow-chain (3).png>)
 
 ### Join Us Right Now!
 
@@ -66,31 +66,13 @@ Over [2 billion](https://www.george-health.com/global-health-challenge/) people 
 * [**FIFTY-ONE**](https://en.wikipedia.org/wiki/Casualties\_of\_the\_September\_11\_attacks) September 11th attacks every day
 * [**NINE**](https://www.haaretz.com/israel-news/6-million-where-is-the-figure-from-1.10570907) Holocausts every year
 
-### Solution: A Collaborative Framework for Personalized, Precision Health
+### 💡 Solution: A Collaborative Framework for Personalized, Precision Health
 
 The solution is to use the oceans of real-world evidence to accelerate the discovery of new cures and reveal hidden causes of disease.
 
-The human body can be viewed as a black box with inputs (like diet, treatments, etc) and outputs (like symptom severity).  We're creating a mathematical model of human biology can be developed to discover new interventions and their personalized optimal daily values.
-
-That facilitates the discovery of personalized positive and negative outcomes while removing the traditional profit incentives.
+The human body can be viewed as a black box with inputs (like diet, treatments, etc) and outputs (like symptom severity).  We're creating a mathematical model of human biology to the personalized optimal daily values that produce optimal health outcomes.
 
 ![Machine Learning Health Optimization Protocol](assets/analytics/black-box-model-animation.gif)
-
-####
-
-We can apply [predictive machine learning models](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md) to [stratified groups](https://en.wikipedia.org/wiki/Stratified\_sampling) based on the following data:
-
-* [Genomic](https://en.wikipedia.org/wiki/Genomics)
-* [Transcriptomic](https://en.wikipedia.org/wiki/Transcriptome)
-* [Proteomic](https://en.wikipedia.org/wiki/Proteomics)
-* [Metabolomic](https://en.wikipedia.org/wiki/Metabolomics)
-* [Microbiomic](https://en.wikipedia.org/wiki/Microbiota)
-* [Phenotype](https://en.wikipedia.org/wiki/Phenotype)
-* [Diseasomic](http://ijream.org/papers/IJREAMV05I0250057.pdf)
-* [Pharmacomicrobiomic](https://en.wikipedia.org/wiki/Pharmacomicrobiomics)
-* [Pharmacogenomic](https://en.wikipedia.org/wiki/Pharmacogenomics)
-* [Foodomic](https://en.wikipedia.org/wiki/Foodomics)
-* [Exposome](https://en.wikipedia.org/wiki/Environmental\_factor#Exposome)
 
 #### The Potential of Evidence-Based Studies
 
@@ -140,46 +122,31 @@ If you multiply the [166 billion](https://www.nature.com/articles/549445a) molec
 
 ### 1. Duplication of Effort
 
-![chart](assets/charts/data-and-apps.PNG)
+![Health Data and Innovation Explosion](assets/charts/data-and-apps.PNG)
 
 Despite this growth, we've seen increased costs and disease burden and decreased life expectancy.
 
-![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
+![No Improvement in Outcomes](assets/cost/health-care-costs-and-life-expectancy.png)
 
 The reason is awful **incentives**. There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort.
 
-![](assets/open-source/collaboration-is-punished.PNG)
+![](assets/open-source/closed-source-horizontal-stagnation.PNG)
 
-The isolated health data can only tell us about the past. For example, dashboards filled with descriptive statistics such as our daily steps or sleep.
+Isolated streams of health data can only tell us about the past. For example, dashboards filled with descriptive statistics such as our daily steps or sleep.
 
-![](assets/open-source/thousands-of-dashboards.PNG)
+![](assets/open-source/thousands-of-descriptive-statistic-dashboards.PNG)
 
-If these efforts were combined, theoretically, this could increase the rate of progress by 350,000 times.
+If this data and innovation efforts were combined, this could increase the rate of progress by 350,000 times.
 
-
-
-![](assets/open-source/vertical-innovation.PNG)
+![](assets/open-source/benefits-of-open-source-collaboration.PNG)
 
 The obstacle has been the free-rider problem. Software developers that open source their code, give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
-
-
-
-#### 2. Isolated Data Silos
-
-However, by consolidating the data, using existing clinical research findings, and applying machine learning, we may receive personalized health suggestions.  &#x20;
-
-To facilitate data sharing, CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server. That will allow individuals to share their data anonymously.
-
-![APIs make siloed data useful](assets/apis/apis-siloed-data.svg)
 
 **Solution: How DAOs Overcomes the Free-Rider Problem**
 
 1. Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) that is open source.
 2. By encoding contributions to the project with NFTs, we guarantee ongoing compensation for data and software.
-
-## 💡 Solution
-
-
+3. To facilitate data sharing, CureDAO will provide data providers with an onsite, easily provisionable OAuth2 API server. That will allow individuals to share their data anonymously.
 
 ## 🏭 Platform
 
@@ -220,45 +187,19 @@ The platform consists of two primary components:
 * **Core Open-Source Platform** - The core platform is open-source and includes only universally necessary features. This primarily consists of user authentication, data owner access controls, data storage, data validation, and an API for storage and retrieval. The DAO will compensate contributors to the core platform.
 * **Plugin Framework** - Plugins are modules that provide additional functionality. This includes data import from specific sources, data mapping to various formats, data analysis, data visualization, notifications. These may be free or monetized by their creator or even be integrated into the core based on community voting.
 
-![framework diagram](<plugins/plugin-marketplace (1).png>)
+![framework diagram](plugins/plugin-marketplace.png)
 
-#### Core Components
+### Core Components
 
 **Data Ingestion API**
 
-The application programming interface (API) includes an OpenAPI specification for receiving and sharing data with the core database. Software development kits (SDK’s) made available for 3rd party applications allow the interaction with the API. SDK’s will enable developers to implement easy automatic sharing options in their applications.
+The Unified Health application programming interface (API) includes an OpenAPI specification for receiving and sharing data with the core database. Software development kits (SDKs) made available for 3rd party applications allow the interaction with the Unified Health API. SDKs will enable developers to implement easy automatic sharing options in their applications.
 
-Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs. The API connector framework will allow the ongoing regular import of user data after a single user authorization.
-
-**Data Sources**
-
-* Laboratory and Home tests (Standard Blood panels, Metabolomics, Proteomics, Genetics, Urinalysis, Toxins, etc)
-* Wearable (Sleep and Fitness trackers, etc)
-* Health apps (Meal tracking, Fertility, etc)
-* User reported symptoms and intervention application
-* Electronic Heath Records
-* Imaging
-* Questionnaires
-* Functional tests
-* Environmental and context data (Twosome)
-* Life events, Calendar, Social media, and Lifestyle
-* Digital biomarkers
-* Location
-
-**Data Formats**
-
-* FHIR
-* openEHR
-* LOINC
-* SNOMED
-* RXNORM
-* MedDRA
-* ICD-10
-* Open mHealth
+Separate plugins will enable spreadsheet upload/import and scheduled imports from existing third-party APIs. The API connector framework will allow the ongoing regular import of user data after user authorization.
 
 **Raw Data and Files Storage**
 
-To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files, PDF reports, and the raw API responses are stored separately in a binary data and file storage system. Data will be encrypted and stored in its raw format in flat files on a secure cloud provider defined in the framework instance platform settings.
+To preserve originality in case of data processing errors or protocol changes the ingested raw files like CSV files, PDF reports, and the raw API responses are stored separately in a binary data and file storage system.&#x20;
 
 **Data Mapping**
 
@@ -270,7 +211,7 @@ The data validation middleware will validate the data before it is stored in the
 
 **Reference Data Definitions**
 
-Mapping data from different formats into one standardized format suitable for analysis requires a reference database with tables of definitions and descriptions to be used by the data mappers and by the API for displaying this information in applications. The includes biomarkers, health-related variables of any kind, interventions, therapies, outcomes, conditions, etc. Examples of reference databases include LOINC, RXNORM, and ICD-10.
+This includes biomarkers, health-related variables of any kind, interventions, therapies, outcomes, conditions, etc. Examples of reference databases include LOINC, RXNORM, and ICD-10.
 
 **Units of Measurement**
 
@@ -297,11 +238,9 @@ Ownership management functionalities will allow the individual to manage their d
 * Export stored data or the original files
 * Delete data
 
-This feature can be used by user-centered applications and dashboards for personal health management, for data sharing with care providers, research, or for participation in trials.
-
 **Data Compensation**
 
-Health data is a sensitive and valuable commodity. Therefore the handling of the data alongside its attached value is proposed to be built natively into the core. Value stream management functionalities will allow the exchange from data against tokenized value assets in different scenarios. It will allow:
+Value stream management allows the exchange of data for tokenized value assets in different scenarios. It will allow:
 
 * Individuals to share data and receive defined compensation
 * Groups create and attach insights from grouped data sets to values and exchange to buyers against value assets
@@ -322,7 +261,7 @@ This feature can be used for exchanging data on marketplace applications or clin
 
 #### Plugin Integrations
 
-![Branded Plugins](<plugins/plugin-marketplace (1).png>)
+![Branded Plugins](plugins/plugin-marketplace.png)
 
 3rd party plugins can interact with the core and provide additional functionality. They may be free or monetized by their creator.
 
@@ -378,7 +317,7 @@ How we use the DAO structure and NFT IP royalties reward data sharing and open-s
 
 This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party can derive more value from participation than they have to put into it.
 
-![Value flow chain](assets/incentivization/value-flow-chain.svg)
+![Value flow chain](<assets/business/value-flow-chain (3).svg>)
 
 #### 1. Patients
 
@@ -459,51 +398,6 @@ Citizens may participate in:
 1. Governance Debate on Discourse
 2. Token-Based Voting by staking their Governance Tokens on smart contracts
 
-#### Lab Managers and Technicians
-
-Lab Staff comprises the Laboratory working groups who carry out the will of the DAO. Citizens can apply to join Laboratories based on their experience or expertise. Laboratories may elect Lab Managers, who are responsible for coordinating between Laboratory Technicians. Laboratories may decide to create incentives for their Citizen Scientists in a variety of forms, including paying them for services or creating bounties.
-
-In cases where Lab Staff are paid, Citizens may choose to compensate them with any of the following:
-
-1. DAO Governance Tokens
-2. Ethereum
-3. Fiat Currency
-4. Other Incentives
-
-#### Laboratories
-
-The initial Laboratories will be created to carry out the following primary functions:
-
-* Governance Lab - Changes governance and how proposals are created and deployed. Handles technical aspects of DAO token creation and distribution. Develops the DAO’s smart contracts.
-* Legal Lab - Handles legal matters regarding business structure, health data, liability issues, and business contracts.
-* Coordination Lab - Handles operational matters such as human resources, compensation, project management, and onboarding. Provides resources for Lab Staff.
-* Community Lab - Promotes community engagement with DAO and the broader world.
-* UI/UX Lab - Creates a user-friendly interface for the platform front end.
-* Collaborations - Facilitates financing of DAO projects. Coordinates partnerships between individuals and organizations.
-* Dev Lab - Implements the platform back end and user interface
-* Public Relations Lab - Promotes DAO’s presence in the public discourse.
-* Data Lab - Integrates data from various sources and formats. Conducts research on data science and machine learning.
-
-#### Service Providers
-
-Service providers provide services to CureDAO, such as:
-
-* development work
-* IP sourcing and conversion to NFTs
-* marketplace services
-* public relations
-* legal services
-* data science
-* customer support
-* marketing
-
-CureDAO will contract service providers and pay for their services with any of the following:
-
-1. DAO Governance Tokens
-2. Ethereum
-3. Fiat Currency
-4. Other Incentives
-
 ## Tokenomics
 
 The DAO will utilize Laboratory working groups which use a scientific experimentation-based approach to effectively carrying out the will of its Citizen Scientist voting members.
@@ -533,7 +427,7 @@ The goal of CureDAO is for every human on earth to share the natural experiments
 
 The genesis distribution event will make 10% of CureDAO’s total token supply available to interested participants using a fair and open smart contract auction on the Ethereum blockchain.
 
-![](assets/charts/token-distribution.png)
+![](<.gitbook/assets/image (1).png>)
 
 | Token Quantity | Fraction of Total | Recipient                 |
 | -------------- | ----------------- | ------------------------- |
@@ -553,9 +447,9 @@ The approval of these allocations to [DAO Laboratories](constitution/5-organizat
 
 ## 💰 Revenue
 
-CureDAO generates revenue streams to compensate IP and data contributors sustain and grow the project.
+CureDAO generates revenue streams to compensate IP and data contributors and sustain and grow the project.
 
-The biotech and pharmaceutical industries are two of the fastest growing sectors of the U.S. economy. ![sector-growth](assets/business/sector-growth-rates.png)
+The biotech and pharmaceutical industries are two of the fastest-growing sectors of the U.S. economy. ![sector-growth](assets/business/sector-growth-rates.png)
 
 These factors all point to a massive potential for the revenue necessary to sustain this project. The primary sources of revenue include:
 
