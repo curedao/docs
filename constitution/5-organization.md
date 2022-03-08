@@ -29,7 +29,7 @@ Accordingly, the organization is composed of three primary components
 
 ### Citizen Scientists
 
-As an open and permissionless organization, anyone has the right to earn their Citizenship through the contribution of labor or resources. In exchange, the Citizen Scientist will receive aDAO Governance Tokens granting full governance rights over the actions of DAO Lab Staff.
+As an open and permissionless organization, anyone has the right to earn their Citizenship through the contribution of labor or resources. In exchange, the Citizen Scientist will receive CureDAO tokens granting full governance rights over the actions of DAO Lab Staff.
 
 Citizens may participate in:
 
