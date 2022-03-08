@@ -330,24 +330,13 @@ Citizens may participate in:
 
 ## Tokenomics
 
-The CureDAO governance token is the economic driver of the CureDAO platform. The core function of the token is to incentivize data sharing and open-source collaboration.  Tokens are obtained by contributing work, data, IP, or funds to CureDAO.&#x20;
+The CureDAO governance token is used to incentivize data sharing and open-source collaboration.  Tokens are obtained by contributing work, data, IP, or funds to CureDAO.
 
-Tokens grant CureDAO [Citizen Scientists](constitution/5-organization.md) the right to decide:
-
-1. How data will be monetized
-2. How the platform will be monetized
-3. How contributors to the platform will be compensated
-4. How the platform is architected
-5. The terms on which strategic partnerships will be created
-6. Which Gitcoin Grants or Bounties receive funds
-7. What IP contributors will receive funds and how much
-8. How internal [DAO Laboratories](constitution/5-organization.md) budgets and projects are funded
-9. How CureDAO is governed
-10. How the CureDAO treasury will be managed
+Tokens grant CureDAO [Citizen Scientists](constitution/5-organization.md) the right to decide how the DAO's resources are distributed.
 
 ### Token Genesis
 
-The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](constitution/5-organization.md), upon genesis, 9.4 billion $dCURES tokens will be created as ERC20 tokens controlled by CureDAO.&#x20;
+The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](constitution/5-organization.md), upon genesis, 9.4 billion CureDAO tokens will be created as ERC20 tokens controlled by CureDAO.
 
 The genesis distribution event will make 10% of CureDAO’s total token supply available to interested participants using a fair and open smart contract auction.
 
@@ -357,7 +346,7 @@ Since CureDAO’s genesis operates via a public auction, the community decides t
 
 ## 💰 Revenue
 
-CureDAO generates revenue streams to compensate IP and data contributors and sustain and grow the project. The biotech and pharmaceutical industries are two of the fastest-growing sectors of the U.S. economy.&#x20;
+CureDAO generates revenue streams to compensate IP and data contributors and sustain and grow the project. The biotech and pharmaceutical industries are two of the fastest-growing sectors of the U.S. economy.
 
 ![sector-growth](assets/business/sector-growth-rates.png)
 
@@ -375,15 +364,11 @@ Digital health companies can save months of development time and tens of thousan
 
 #### Sponsored Apps
 
-106,000 people die annually in the U.S. from properly prescribed drugs. The number of people having in-hospital, adverse reactions to prescribed drugs to be 2.2 million per year. The total number of deaths caused by conventional medicine is 783,936 per year. Pharmaceutical companies spend over $2 billion a year on over 314,000 events attended by doctors.
-
-Initial sponsor applications focus on tracking adverse reactions to the medications known to produce the most adverse reactions. Using our treatment, and symptom tracking application can reduce the number of deaths and costs of intervention by alerting patients and their practitioners to conditions before they become irreversible. Additionally, the opportunity to meet and promote these applications to physicians would also serve as a novel new way for pharmaceutical manufacturers to connect with physicians.
-
-This technology can also be used to dramatically drive down the costs of pharmaceutical post-marketing research. Sponsor apps using the platform can be provided to hospitals, insurers, and pharmaceutical companies who wish to improve patient outcomes and potentially gather patient-authorized anonymized patient data. Pricing would follow a subscription model starting at $2 per end-user per month.
+This technology can also be used to dramatically drive down the costs of pharmaceutical post-marketing research. Sponsor apps using the platform can be provided to hospitals, insurers, and pharmaceutical companies who wish to improve patient outcomes and potentially gather patient-authorized anonymized patient data.
 
 #### Data Licensing
 
-Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/). Using NFTs we can link donated data to the patient so that they may receive ongoing royalty payments for the use of their data once new interventions reach the market. A fraction of the revenue, to be determined democratically by the patients and DAO Citizens, may be directed to the DAO treasury to sustain the project.
+Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/). Using NFTs we can link donated data to the patient so that they may receive ongoing royalty payments for the use of their data once new interventions reach the market.
 
 #### Software Licensing
 
@@ -391,7 +376,7 @@ Although the project core framework will be open-source for any non-commercial p
 
 ## 📔 Legal Framework
 
-A decentralized autonomous organization, or a “DAO,” is an “organization” encoded as a transparent computer program, controlled by the organization members, and not by a central corporate entity. In order to facilitate the entering of contracts, CureDAO will utilize an unincorporated nonprofit association (UNA) as a ‘wrapper’.&#x20;
+A decentralized autonomous organization, or a “DAO,” is an “organization” encoded as a transparent computer program, controlled by the organization members, and not by a central corporate entity. In order to facilitate the entering of contracts, CureDAO will utilize an unincorporated nonprofit association (UNA) as a ‘wrapper’.
 
 ## 😷 Privacy
 
@@ -411,7 +396,7 @@ Data de-identification is the process of eliminating Personally Identifiable Dat
 
 #### 2. deid software package
 
-The [deid software package](https://archive.physionet.org/physiotools/deid/) includes code and dictionaries that automatically locate and remove PHI in free text from medical records. It was developed using over 2,400 nursing notes that were methodically de-identified by a multi-pass process including various automated methods as well as reviews by multiple experts working autonomously.
+The [deid software package](https://archive.physionet.org/physiotools/deid/) includes code and dictionaries that automatically locate and remove PHI in free text from medical records. 
 
 #### 3. Synthetic Patient Generation
 

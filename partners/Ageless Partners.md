@@ -9,7 +9,7 @@ Our strategic focus is to build a network of like-minded individuals with the un
 
 We continue to grow strategic partnerships with skilled experts across the world to accelerate the development of reverse aging solutions. Currently, we see value in partnering with researchers and organizations focusing on genomics, nanotechnology, and artificial intelligence — the foundational building blocks to accelerate reverse aging technologies.
 
-Our involvement with CuraDAO is to accelerate the age reversal movement. We aim to create a large-scale DAO that is necessary to bring 1000+ partners together in the pursuit of age reversal and minimizing the time to curing aging.
+Our involvement with CureDAO is to accelerate the age reversal movement. We aim to create a large-scale DAO that is necessary to bring 1000+ partners together in the pursuit of age reversal and minimizing the time to curing aging.
 
 ![](https://i0.wp.com/agelesspartners.com/wp-content/uploads/2021/09/jason-headshot.jpg?fit=250%2C250&ssl=1)
 

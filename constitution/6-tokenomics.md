@@ -1,6 +1,6 @@
 ---
 description: >-
-  How $dCURES governance tokens, the primary store of value in the CureDAO
+  How CureDAO governance tokens, the primary store of value in the CureDAO
   ecosystem, are created, distributed, and used.
 ---
 
@@ -8,7 +8,8 @@ description: >-
 
 👈 [Back to Table of Contents](../)
 
-The $dCURES token is the economic driver of the CureDAO platform. $dCURES is obtained by contributing work, data, IP, or funds to CureDAO. The core function of $dCURES is to incentivize data sharing and open-source collaboration.
+The CureDAO token is the economic driver of the CureDAO platform. Tokens are obtained by contributing work, data, IP,
+or funds to CureDAO. The core function of $dCURES is to incentivize data sharing and open-source collaboration.
 
 dCURES tokens grant [Citizen Scientists](5-organization.md) the right to decide:
 
@@ -46,7 +47,7 @@ If we were to apply actuarial science and value the threat of disease as much as
 come out to $853,726,256,983,240,000 (~$853 quadrillion).  
 
 CureDAO values the suffering of all equally. Since we plan to serve as the model for a world that does the same,
-we propose to mint 853,726,256,983,240,000 $dCURES tokens to be allocated by the will of the people.
+we propose to mint 853,726,256,983,240,000 CureDAO tokens to be allocated by the will of the people.
 
 ##### Downsides
 Harmony (ONE) has a maximum supply of 12.6 billion tokens. 853 quadrillion is a lot of tokens.
@@ -60,11 +61,11 @@ Psychological benefits of receiving a large amount of tokens.
 Dollars are essentially votes on how society allocates it's resources.
 The total global money supply is [$1.3 quadrillion](https://www.google.com/search?q=global+money+supply&rlz=1C1ONGR_enUS975US975&oq=global+money+suppl&aqs=chrome.0.0i512l3j69i57j0i512l6.3376j0j7&sourceid=chrome&ie=UTF-8).
 CureDAO is an experiment in global direct democracy.  
-Thus, we propose to mint 1.3 quadrillion $dCURES tokens to be allocated by the will of the people.
+Thus, we propose to mint 1.3 quadrillion CureDAO tokens to be allocated by the will of the people.
 
 ##### Downsides
 - Harmony (ONE) has a maximum supply of 12.6 billion tokens. 85 quadrillion is a lot of tokens.
-- The value of a token relative to the USD would initially be very small.  However, the $dCURES token will be 
+- The value of a token relative to the USD would initially be very small.  However, the CureDAO token will be 
   capped at $1.3 quadrillion.  The global money supply has no cap.
 
 ##### Upsides
@@ -73,11 +74,11 @@ Thus, we propose to mint 1.3 quadrillion $dCURES tokens to be allocated by the w
 
 #### Option 3: Token Supply to Ensure One Token for Every Citizen Scientist on Earth
 
-The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](5-organization.md), upon genesis, 9.4 billion $dCURES tokens will be created as ERC20 tokens controlled by CureDAO. CureDAO’s token begins unable to exceed that number - it is a capped ERC20 token. Our core collective mission at This token supply may only increase if the world population exceeds 9.4 billion.
+The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](5-organization.md), upon genesis, 9.4 billion CureDAO tokens will be created as ERC20 tokens controlled by CureDAO. CureDAO’s token begins unable to exceed that number - it is a capped ERC20 token. Our core collective mission at This token supply may only increase if the world population exceeds 9.4 billion.
 
 ##### Downsides
 - Harmony (ONE) has a maximum supply of 12.6 billion tokens. 85 quadrillion is a lot of tokens.
-- The value of a token relative to the USD would initially be very small.  However, the $dCURES token will be
+- The value of a token relative to the USD would initially be very small.  However, the CureDAO token will be
   capped at $1.3 quadrillion.  The global money supply has no cap.
 
 ##### Upsides
@@ -98,9 +99,11 @@ The genesis distribution event will make 10% of CureDAO’s total token supply a
 
 Since CureDAO’s genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of the platform.
 
-CureDAO will be fully decentralized and community-owned from inception. No entity will own $dCURES tokens before the genesis contribution event.
+CureDAO will be fully decentralized and community-owned from inception. No entity will own CureDAO tokens before the genesis contribution event.
 
-dCURE’s genesis contribution event will run via a fair launch public auction, granting all successful auction participants equal governance rights per $dCURES. Once issued the first 10% of tokens, the CureDAO core community will begin voting on the first governance proposals to allocate additional tokens to DAO Laboratory working groups and service providers.
+dCURE’s genesis contribution event will run via a fair launch public auction, granting all successful auction 
+participants equal governance rights per CureDAO token. Once issued the first 10% of tokens, the CureDAO core community 
+will begin voting on the first governance proposals to allocate additional tokens to DAO Laboratory working groups and service providers.
 
 The approval of these allocations to [DAO Laboratories](5-organization.md), contributors, and service providers is at the full discretion of genesis [Citizen Scientists](5-organization.md) and their approval. They form the core of CureDAO’s decision-making and executive body.
 
