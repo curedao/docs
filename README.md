@@ -1,8 +1,8 @@
 ---
 description: >-
-  CureDAO is a decentralized autonomous organization (DAO) of citizen
-  scientists, governments, businesses, and nonprofits devoted to the
-  minimization of suffering from diseases.
+CureDAO is a decentralized autonomous organization (DAO) of citizen
+scientists, governments, businesses, and nonprofits devoted to the
+minimization of suffering from diseases.
 ---
 
 # 💡 Litepaper
@@ -30,7 +30,7 @@ It consists of two primary components:
 
 ![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
 
-It overcomes the traditional barriers of collaboration and data sharing by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
+It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
 ![The Value Chain](<assets/value-flow-chain (3).png>)
 
@@ -70,7 +70,7 @@ Over [2 billion](https://www.george-health.com/global-health-challenge/) people 
 
 The solution is to use the oceans of real-world evidence to accelerate the discovery of new cures and reveal hidden causes of disease.
 
-The human body can be viewed as a black box with inputs (like diet, treatments, etc) and outputs (like symptom severity).  We're creating a mathematical model of human biology to determine the input factors and values that produce optimal health outcomes.
+The human body can be viewed as a black box with inputs (like diet, treatments, etc.) and outputs (like symptom severity). We're creating a mathematical model of human biology to determine the input factors and values that produce optimal health outcomes.
 
 ![Machine Learning Health Optimization Protocol](assets/analytics/black-box-model-animation.gif)
 
@@ -92,21 +92,21 @@ The high costs lead to:
 
 **1. No Data on Unpatentable Molecules**
 
-We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural compounds. 
-This is because there's only sufficient incentives to research patentable molecules.
+We still know next to nothing about the long-term effects of 99.9% of the 4 pounds of over [7,000](https://www.dailymail.co.uk/health/article-8757191/Are-additives-food-making-ill.html) different synthetic or natural compounds.
+This is because there's only sufficient incentive to research patentable molecules.
 
 **2. Lack of Incentive to Discover Every Application of Off-Patent Treatments**
 
-Most of the known diseases (approximately 95%) are classified as rare diseases. Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. If a drug is effective for other diseases after the patent expires, there isn't a financial incentive to get it approved for the other diseases.
+Most of the known diseases (approximately 95%) are classified as rare diseases. Currently, a pharmaceutical company must predict particular conditions to treat before running a clinical trial. Suppose a drug is effective for other diseases after the patent expires. In that case, there isn't a financial incentive to get it approved for the different conditions.
 
 **3. No Long-Term Outcome Data**
 
-It's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the 
+It's not financially feasible to collect a participant's data for years or decades. Thus, we don't know if the
 long-term effects of a drug are worse than the initial benefits.
 
 **4. Negative Results Aren't Published**
 
-Pharmaceutical companies tend to only report “positive” results. That leads to other companies wasting money repeating research on the same dead ends.
+Pharmaceutical companies tend to only report "positive" results. That leads to other companies wasting money repeating research on the same dead ends.
 
 **5. Trials Exclude a Vast Majority of The Population**
 
@@ -114,9 +114,9 @@ One investigation found that only [14.5%](https://www.ncbi.nlm.nih.gov/pubmed/14
 
 **6. We Only Know 0.000000002% of What is Left to be Researched**
 
-The more research studies we read, the more we realize we don’t know. Nearly every study ends with the phrase "more research is needed".
+The more research studies we read, the more we realize we don't know. Nearly every study ends with the phrase "more research is needed".
 
-If you multiply the [166 billion](https://www.nature.com/articles/549445a) molecules with drug-like properties by the [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases, that's 1,162,000,000,000,000 combinations. So far we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of the effects left to be discovered.
+If you multiply the [166 billion](https://www.nature.com/articles/549445a) molecules with drug-like properties by the [10,000](https://www.washingtonpost.com/news/fact-checker/wp/2016/11/17/are-there-really-10000-diseases-and-500-cures/) known diseases, that's 1,162,000,000,000,000 combinations. So far, we've studied [21,000 compounds](https://www.centerwatch.com/articles/12702-new-mit-study-puts-clinical-research-success-rate-at-14-percent). That means we only know 0.000000002% of the effects left to be discovered.
 
 ### Why Digital Health Innovation Has Failed
 
@@ -128,7 +128,7 @@ Despite this growth, we've seen increased costs and disease burden and decreased
 
 ![cost and death](assets/cost/health-care-costs-and-life-expectancy.png)
 
-The reason is awful **incentives**. There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, which represents a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort.
+The reason is awful **incentives**. There are more than [350,000](https://www.emarketer.com/content/over-350k-digital-health-apps-flooding-market-here-s-how-apps-stand) health apps, and each costs an average of [$425,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) to develop. Most have significant overlap in functionality, representing a cost of [$157,500,000,000](https://www.mobihealthnews.com/content/mobile-health-app-development-costs-425000-average-likely-continuing-rise) on duplication of effort.
 
 ![](assets/open-source/closed-source-horizontal-stagnation.PNG)
 
@@ -140,15 +140,15 @@ If this data and innovation efforts were combined, this could increase the rate 
 
 ![](assets/open-source/benefits-of-open-source-collaboration.PNG)
 
-The obstacle has been the free-rider problem. Software developers that open source their code, give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
+The obstacle has been the free-rider problem. Software developers that open source their code give their closed-source competitors an unfair advantage, increasing their likelihood of bankruptcy.
 
 **How to Overcome the Free-Rider Problem**
 
-1. **Government Grants** - Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative, requires governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) that is open source. This would lead to a massive influx in grant funding for open-source digital health projects.
+1. **Government Grants** - Currently, governments spend billions funding closed-source propriety health software. The Public Money, Public Code initiative requires governments to recognize software as a [public good](https://en.wikipedia.org/wiki/Public\_good\_\(economics\)) that is open source. This would lead to a massive influx in grant funding for open-source digital health projects.
 2. **Open-Source Royalty Compensation** - By encoding contributions to the project with NFTs, we can provide ongoing royalty payments to open-source contributors.
-3. **Licensing** - Although the project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when utilized by for-profit entities. Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's use of the project.
-4. **Managed Software-as-a-Service** - Digital health companies can save months of development time and tens of thousands of dollars by using our platform instead of reinventing the wheel. A usage-based subscription platform for health application developers would start at $0.50/end-user per month.
-5. **For-Profit Plugins** - WordPress, the most widely used web framework in the world, is open-source.  Businesses 
+3. **Licensing** - The project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when used by for-profit entities. Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's project use.
+4. **Managed Software-as-a-Service** - Digital health companies can save months of development time and tens of thousands of dollars using our platform instead of reinventing the wheel. A usage-based subscription platform for health application developers would start at $0.50/end-user per month.
+5. **For-Profit Plugins** - WordPress, the most widely used web framework globally, is open-source.  Businesses
    earn revenue by creating for-profit plugins.  They contribute to improvements of the open-source core WordPress platform because these improvements benefit their business directly.
 
 ## 🏭 Platform
@@ -168,19 +168,19 @@ of health data from different sources.
 
 #### Primary goal
 
-Create a basic foundational technology layer suitable for any digital health application providing better interoperability, portability, availability, analysis, security of the data.
+Create a basic foundational technology layer suitable for any digital health application that provides better interoperability, portability, availability, analysis, and data security.
 
 #### Use Cases
 
 * EHR Systems for healthcare providers
 * User-centered dashboards for personal health management
 * Data sharing with doctors, health coaches, or family members
-* Decentralized clinical trial platforms (e.g. BYOD wearable)
+* Decentralized clinical trial platforms
 * Patient recruitment services for clinical trials
 * Citizen science platforms
 * Health data marketplaces
 * Open health databases for research
-* Algorithm and scores development (e.g. in-silico trials)
+* Algorithm and scores development (e.g., in-silico trials)
 * Niche health applications with specific requirements or custom integrations
 
 ![framework diagram](assets/diagrams/layered-platform-architecture-diagram.png)
@@ -200,7 +200,7 @@ The Unified Health application programming interface (API) includes an OpenAPI s
 
 **Data Mapping and Validation**
 
-Data from files or API requests can be mapped from many different proprietary formats 
+Data from files or API requests can be mapped from many different proprietary formats
 into a standard schema.
 
 **Data Ownership**
@@ -209,7 +209,7 @@ Data should be owned by the individual who generated it. It should remain under 
 
 **Data Compensation**
 
-Value stream management allows the exchange of data for tokens. 
+Value stream management allows the exchange of data for tokens.
 
 ### Plugin Framework
 
@@ -244,11 +244,11 @@ Data Analysis Plugins will apply statistical and machine learning methods to the
 
 ## ❤ Incentivization
 
-How we use the DAO structure and NFT IP royalties reward data sharing and open-source collaboration.
+We use the DAO structure and NFT IP royalties to reward data sharing and open-source collaboration.
 
 ### Incentive Alignment
 
-This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party can derive more value from participation than they have to put into it.
+This illustrates the flow of value between different stakeholders. Unlike traditional zero-sum games, CureDAO provides everyone with more value from participation than they have to put into it.
 
 ![Value flow chain](<assets/business/value-flow-chain (3).svg>)
 
@@ -275,18 +275,18 @@ Businesses housing data silos include health insurers, pharmacies, grocery deliv
 
 #### 5.Incentives for Disease Advocacy Non-Profit Organizations
 
-Disease advocacy non-profits will be incentivized to promote observational studies through the anonymous donation data by their members by:
+Disease advocacy nonprofits will benefit from promoting studies to their members by:
 
 1. Furtherance of their mission to reduce the incidence of chronic illnesses.
 2. Member engagement more productive than the traditional charity walk.
 
 #### 6. Incentives for Government Health Agencies
 
-1. A reduction in healthcare costs due to the discovery of new ways to prevent and mitigate chronic illnesses.
+1. A reduction in healthcare costs due to discovering new ways to prevent and mitigate chronic illnesses.
 2. Furtherance of their stated reason for existence to protect and promote the general welfare.
 3. Their duty to protect the rights of individuals' data. To fulfill this, they must require businesses in possession of it to give them the ability to access and share their data via a well-documented OAuth2 API
 4. Cost-savings from international cost-sharing by using global open-source software.
-6. Epidemiological discoveries on the effectiveness from differing public health regulations between nations.
+6. Epidemiological discoveries on the effectiveness of different public health regulations between nations.
 
 #### 7. Incentives for Contributors to the Development of the Platform
 
@@ -297,25 +297,21 @@ Disease advocacy non-profits will be incentivized to promote observational studi
 
 CureDAO is a laboratory consisting of many experiments.
 
-It’s a global laboratory where the 7 billion human “natural experiments” revealing the effects of various factors on human health and happiness are conducted.
+It's a global laboratory where the 7 billion human "natural experiments" are conducted, revealing the effects of various factors on human health and happiness.
 
-It’s an experiment to determine if a new model for clinical research using real-world data can more effectively reduce the global burden of chronic illness.
+It's an experiment to determine if a new model for clinical research using real-world data can more effectively reduce the global burden of chronic illness.
 
-It’s an experiment to see if a new economic model called Collaborationism can reward the creation of open-source “public goods” and overcome the failures of Capitalism and Communism.
+It's an experiment to see if a new economic model called Collaborationism can reward the creation of open-source "public goods" and overcome the failures of Capitalism and Communism.
 
-It’s an experiment to determine if a direct democracy can produce better results than traditional hierarchical command and control organizations.
+It's an experiment to determine if a direct democracy can produce better results than traditional hierarchical command and control organizations.
 
-Given the unprecedented nature of such a project, each working group will be constantly experimenting with new ways to execute this mission. We recognize the importance of using real-world evidence in the mission of improving human health. Execution within the working groups should take the same data-driven approach to execute their area of the overall mission.
+Given the unprecedented nature of such a project, each working group will constantly be experimenting with new ways to execute this mission. We recognize the importance of using real-world evidence in the mission of improving human health. Execution within the working groups should take the same data-driven approach to execute their area of the overall mission.
 
-Accordingly, the organization is composed of three primary components
+Accordingly, the organization is composed of three primary components.
 
-1. Citizen Scientists - DAO data donors or token holders with voting rights
-2. DAO Laboratories - Working groups consisting of a Lab Manager who helps Lab Technicians carry out the duties of their Laboratory in accordance with the will of the Citizen Scientists.
-3. External Service Providers - Individuals or entities outside the DAO deemed necessary to carry out the will of the Citizen Scientists.
-
-#### Citizen Scientists
-
-As an open and permissionless organization, anyone has the right to earn their Citizenship through the contribution of labor or resources. In exchange, the Citizen Scientist will receive CureDAO tokens granting full governance rights over the actions of DAO Lab Staff.
+1. Citizen Scientists - CureDAO is an open and permissionless organization. Anyone has the right to earn their Citizenship through the contribution of labor or resources. In exchange, the Citizen Scientist will receive CureDAO tokens granting full governance rights over the actions of DAO Lab Staff.
+2. DAO Laboratories - Internal working groups that carry out the Citizen Scientists' will.
+3. External Service Providers - Individuals or entities outside the DAO deemed necessary to carry out the Citizen Scientists' will.
 
 ## Tokenomics
 
@@ -325,13 +321,13 @@ Tokens grant CureDAO [Citizen Scientists](constitution/5-organization.md) the ri
 
 ### Token Genesis
 
-The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world’s population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](constitution/5-organization.md), upon genesis, 9.4 billion CureDAO tokens will be created.
+The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world's population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](constitution/5-organization.md), 9.4 billion CureDAO tokens will be created.
 
-The genesis distribution event will make 10% of CureDAO’s total token supply available to interested participants using a fair and open smart contract auction.
+The genesis distribution event will make 10% of CureDAO's total token supply available to interested participants using a fair and open smart contract auction.
 
 ![](<.gitbook/assets/image (1).png>)
 
-Since CureDAO’s genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of the platform.
+Since CureDAO's genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of the platform.
 
 ## 💰 Revenue
 
@@ -339,7 +335,7 @@ CureDAO generates revenue streams to compensate IP and data contributors and sus
 
 ![sector-growth](assets/business/sector-growth-rates.png)
 
-These factors all point to a massive potential for the revenue necessary to sustain this project. The primary sources of revenue include:
+These factors all point to a massive potential for the revenue necessary to sustain this project. The primary sources of income include:
 
 1. Sale of high-frequency longitudinal de-identified data to
    1. pharma for drug discovery
@@ -351,31 +347,27 @@ These factors all point to a massive potential for the revenue necessary to sust
 
 Digital health companies can save months of development time and tens of thousands of dollars by using our platform instead of reinventing the wheel. A usage-based subscription platform for health application developers would start at $0.50/end-user per month.
 
-#### Sponsored Apps
-
-This technology can also be used to dramatically drive down the costs of pharmaceutical post-marketing research. Sponsor apps using the platform can be provided to hospitals, insurers, and pharmaceutical companies who wish to improve patient outcomes and potentially gather patient-authorized anonymized patient data.
-
 #### Data Licensing
 
-Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/). Using NFTs we can link donated data to the patient so that they may receive ongoing royalty payments for the use of their data once new interventions reach the market.
+Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/). Using NFTs, we can link donated data to the patient to receive ongoing royalty payments for the use of their data once new interventions reach the market.
 
 #### Software Licensing
 
-Although the project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when utilized by for-profit entities. Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's use of the project.
+Although the project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when used by for-profit entities. Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's project use.
 
 ## 📔 Legal Framework
 
-A decentralized autonomous organization, or a “DAO,” is an “organization” encoded as a transparent computer program, controlled by the organization members, and not by a central corporate entity. In order to facilitate the entering of contracts, CureDAO will utilize an unincorporated nonprofit association (UNA) as a ‘wrapper’.
+A decentralized autonomous organization, or a "DAO," is an "organization" encoded as a transparent computer program, controlled by the organization members and not by a central corporate entity. CureDAO will utilize an unincorporated nonprofit association (UNA) as a 'wrapper' to facilitate the entering of contracts.
 
 ## 😷 Privacy
 
-To protect privacy, CureDAO will use deidentification and obfuscated but equivalent data synthetically derived from actual patient data.
+CureDAO will use deidentification and obfuscated but equivalent data synthetically derived from actual patient data to protect privacy.
 
 ![de-identification](assets/privacy/deidentification.png)
 
 ### De-identification Methods
 
-Data de-identification is the process of eliminating Personally Identifiable Data (PII) from any document or other media, including an individual’s Protected Health Information (PHI). The HIPAA Safe Harbor Method is a precise standard for the de-identification of personal health information when disclosed for secondary purposes.
+Data de-identification is the process of eliminating Personally Identifiable Data (PII) from any document or other media, including an individual's Protected Health Information (PHI). The HIPAA Safe Harbor Method is a precise standard for de-identifying personal health information when disclosed for secondary purposes.
 
 ### Data De-identification Tools
 
@@ -385,11 +377,11 @@ Data de-identification is the process of eliminating Personally Identifiable Dat
 
 #### 2. deid software package
 
-The [deid software package](https://archive.physionet.org/physiotools/deid/) includes code and dictionaries that automatically locate and remove PHI in free text from medical records. 
+The [deid software package](https://archive.physionet.org/physiotools/deid/) includes code and dictionaries that automatically locate and remove PHI in free text from medical records.
 
 #### 3. Synthetic Patient Generation
 
-[Synthea](https://synthetichealth.github.io/synthea/) is an open-source, synthetic patient generator that models the medical history of synthetic patients. Our mission is to provide high-quality, synthetic, realistic but not real, patient data and associated health records covering every aspect of healthcare. The resulting data is free from cost, privacy, and security restrictions, enabling research with Health IT data that is otherwise legally or practically unavailable.
+[Synthea](https://synthetichealth.github.io/synthea/) is an open-source, synthetic patient generator that models the medical history of artificial patients. Our mission is to provide high-quality, synthetic, realistic but not real patient data and associated health records covering every aspect of healthcare. The resulting data is free from cost, privacy, and security restrictions, enabling research with Health IT data otherwise legally or practically unavailable.
 
 ## 🚗 Roadmap
 
@@ -411,7 +403,7 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 
 ### Q3/2022 Integration and Testing
 
-* Integrate with other tech architecture (storage providers, data marketplaces, analysis software, etc.. )
+* Integrate with other tech architecture (storage providers, data marketplaces, analysis software, etc. )
 * Integrate with operating health data standards and Electronic Health Record
 * Build showcase plugins
 * Release V2 of the Software Framework
