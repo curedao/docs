@@ -1,0 +1,5 @@
+= platform-architecture Page-1
+
+image::platform-architecture-Page-1.png[Page-1]
+
+* https://crowdsourcingcures.stoplight.io[<p style="line-height: 0.8"><span style="font-size: 20px">OpenAPI <font style="font-size: 12px">Interface for all API Operations - POST data to aggregate - GET processed data - GET Statistics Options for data filtering, data sorting specific search etc.</font></p>]
