@@ -400,9 +400,9 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 
 * Collaborators vote for core features
 * Build MVP alongside use in showcase trial
-* Closed Testing with collaborators
+* Internal testing with collaborators
 * Release V1 of the Software Framework
-* Open Testing with partners
+* Open testing with partners
 
 ### Q3/2022 Integration and Testing
 
@@ -410,11 +410,8 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 * Integrate with operating health data standards and Electronic Health Record
 * Build showcase plugins
 * Release V2 of the Software Framework
-* Promote broader usage
 
-### Q4/2022 Build the Applications
-
-Accompany pilot programs and partners for applications in the fields:
+### Q4/2022 Applications pilots
 
 * Open shared health database for research access
 * Trials platform with participation royalty payback
@@ -422,12 +419,21 @@ Accompany pilot programs and partners for applications in the fields:
 * Algorithm and scores development
 * Data marketplaces
 
-### Q3/2023 Minimize time to develop new interventions
+### Q1/2023 SaaS Business, Plugins, Education
 
-* Manage personal health to prevent disease
-* Share health data to research
-* Get to know new insights
-* Take newly developed interventions
-* Educate loved ones about longer healthspan
+* Create plugin marketplace
+* Create No-code platform for instances/ connectors
+* Build hosted SaaS service for profit
+* Create documentation and education material
+* Promote broader usage
+
+
+
+## Do we have your attention?
+
+Join our Community on Discord: discord.gg/BbytmC3gay
+
+Our success is dependent on the participation of people like you 🚀
+
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
