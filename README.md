@@ -1,34 +1,37 @@
----
-description: >-
-CureDAO is a decentralized autonomous organization (DAO) of citizen
-scientists, governments, businesses, and nonprofits devoted to the
-minimization of suffering from diseases.
----
+# CureDAO
+## The WordPress of Health Data
 
-# 💡 Litepaper
+A community built open-source software infrastructure and no-code platform for health applications and researchers to perform easier and more efficient health data analysis. Our novel decentralized incentive structure paves the way for advanced precision health and faster discovery of new cures.
+
 
 ## tl;dr
 
-We are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health.
+We provide a basic foundational technology layer to remove barriers for physicians, researchers, clinical researchers, or developers of digital health applications. The goal is to have better data ...
+- Interoperability
+- Portability
+- Availability
+- Analysis
+- Security
+- Privacy and User ownership
+
 
 It consists of two primary components:
 
-1. An Open-Source Platform for Health Data:
-   1. Storage
-   2. Security
-   3. Access Control
-   4. De-identified Data Sharing
-2. A Plugin Framework enabling anyone to create or use plugins that facilitate:
-   1. Data from any data source
-   2. New Clinical Discoveries through machine learning
-   3. Personalized Real-Time Decision Suggestions to most effectively treat and prevent diseases
-   4. Data Format Transformation to enable interoperability with any system or application
-   5. Patient Management
-   6. Decentralized Clinical Trial Management
-   7. Precision Medicine
-   8. Large-scale, low-cost research to discover new ways to prevent and treat diseases
+### The Core Framework
+   - Storage
+   - Security
+   - Access Control
+   - De-identified Data Sharing
+   - API with advanced querying capabilities
+### The Plugin Platform
+   - Data import from any source
+   - Data Format Transformation
+   - Data visualisations
+   - Machine learning algorithms
+   - Data analyis solutions
+   - Personalized Health Dashboards
 
-![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
+![The Platform](assets/diagrams/simplified-platform-architecture-diagram.png)
 
 It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
@@ -38,7 +41,7 @@ It overcomes the traditional collaboration and data sharing barriers by encoding
 
 Hey, you! 👀
 
-CureDAO is open to anyone interested in preventing suffering from diseases. Our success is dependent on the participation of people like you. 🚀
+Our community is open to anyone interested in accelerating precision health and new discoveries. Our success is dependent on the participation of people like you. 🚀
 
 **👉** [**How To Get Involved**](how-to/)
 
