@@ -33,9 +33,8 @@ It consists of two primary components:
 
 ![The Platform](assets/diagrams/simplified-platform-architecture-diagram.png)
 
-It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
+Our novel incentive structure overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
-![The Value Chain](<assets/value-flow-chain (3).png>)
 
 ### Join Us Right Now!
 
@@ -45,7 +44,7 @@ Our community is open to anyone interested in accelerating precision health and 
 
 **👉** [**How To Get Involved**](how-to/)
 
-### Whitepaper
+### Read The Full Whitepaper
 
 1. [Introduction and Challenges](constitution/1-introduction-and-challenges.md)
 2. [Solution](constitution/2-solution.md)
