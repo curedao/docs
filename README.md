@@ -1,48 +1,50 @@
----
-description: >-
-CureDAO is a decentralized autonomous organization (DAO) of citizen
-scientists, governments, businesses, and nonprofits devoted to the
-minimization of suffering from diseases.
----
+# CureDAO
+## The WordPress of Health Data
 
-# 💡 Litepaper
+A community built open-source software infrastructure and no-code platform for health applications and researchers to perform easier and more efficient health data analysis. Our novel decentralized incentive structure paves the way for advanced precision health and faster discovery of new cures.
+
 
 ## tl;dr
 
-We are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health.
+We provide a basic foundational technology layer to remove barriers for physicians, researchers, clinical researchers, or developers of digital health applications. The goal is to have better data ...
+- Interoperability
+- Portability
+- Availability
+- Analysis
+- Security
+- Privacy and User ownership
+
 
 It consists of two primary components:
 
-1. An Open-Source Platform for Health Data:
-   1. Storage
-   2. Security
-   3. Access Control
-   4. De-identified Data Sharing
-2. A Plugin Framework enabling anyone to create or use plugins that facilitate:
-   1. Data from any data source
-   2. New Clinical Discoveries through machine learning
-   3. Personalized Real-Time Decision Suggestions to most effectively treat and prevent diseases
-   4. Data Format Transformation to enable interoperability with any system or application
-   5. Patient Management
-   6. Decentralized Clinical Trial Management
-   7. Precision Medicine
-   8. Large-scale, low-cost research to discover new ways to prevent and treat diseases
+### The Core Framework
+   - Storage
+   - Security
+   - Access Control
+   - De-identified Data Sharing
+   - API with advanced querying capabilities
+### The Plugin Platform
+   - Data import from any source
+   - Data Format Transformation
+   - Data visualisations
+   - Machine learning algorithms
+   - Data analyis solutions
+   - Personalized Health Dashboards
 
-![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
+![The Platform](assets/diagrams/simplified-platform-architecture-diagram.png)
 
-It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
+Our novel incentive structure overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
-![The Value Chain](<assets/value-flow-chain (3).png>)
 
 ### Join Us Right Now!
 
 Hey, you! 👀
 
-CureDAO is open to anyone interested in preventing suffering from diseases. Our success is dependent on the participation of people like you. 🚀
+Our community is open to anyone interested in accelerating precision health and new discoveries. Our success is dependent on the participation of people like you. 🚀
 
 **👉** [**How To Get Involved**](how-to/)
 
-### Whitepaper
+### Read The Full Whitepaper
 
 1. [Introduction and Challenges](constitution/1-introduction-and-challenges.md)
 2. [Solution](constitution/2-solution.md)
@@ -397,9 +399,9 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 
 * Collaborators vote for core features
 * Build MVP alongside use in showcase trial
-* Closed Testing with collaborators
+* Internal testing with collaborators
 * Release V1 of the Software Framework
-* Open Testing with partners
+* Open testing with partners
 
 ### Q3/2022 Integration and Testing
 
@@ -407,11 +409,8 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 * Integrate with operating health data standards and Electronic Health Record
 * Build showcase plugins
 * Release V2 of the Software Framework
-* Promote broader usage
 
-### Q4/2022 Build the Applications
-
-Accompany pilot programs and partners for applications in the fields:
+### Q4/2022 Applications pilots
 
 * Open shared health database for research access
 * Trials platform with participation royalty payback
@@ -419,12 +418,21 @@ Accompany pilot programs and partners for applications in the fields:
 * Algorithm and scores development
 * Data marketplaces
 
-### Q3/2023 Minimize time to develop new interventions
+### Q1/2023 SaaS Business, Plugins, Education
 
-* Manage personal health to prevent disease
-* Share health data to research
-* Get to know new insights
-* Take newly developed interventions
-* Educate loved ones about longer healthspan
+* Create plugin marketplace
+* Create No-code platform for instances/ connectors
+* Build hosted SaaS service for profit
+* Create documentation and education material
+* Promote broader usage
+
+
+
+## Do we have your attention?
+
+Join our Community on Discord: discord.gg/BbytmC3gay
+
+Our success is dependent on the participation of people like you 🚀
+
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
