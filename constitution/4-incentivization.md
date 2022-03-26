@@ -14,9 +14,9 @@ Fully realizing the potential of the personalized preventative medicine of the f
 
 ![incentive alignment](../assets/incentivization/incentive-alignment.png)
 
-This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party can derive more value from participation than they have to put into it.
+This illustrates the flow of value between different stakeholders. As opposed to traditional zero-sum games, CureDAO provides a way for each self-interested party to derive more value from participation than they have to put into it.
 
-![](../assets/incentivization/value-flow-chain.svg)
+![](../assets/diagrams/value-chain-diagram.png)
 
 ### 1. Patients
 
@@ -33,7 +33,7 @@ Businesses housing data silos include health insurers, pharmacies, grocery deliv
 2. An on-site instance of the OAuth2 server to retrieve required data from their on-premise databases.
 3. An eventual reduction in their employee healthcare costs (one of their largest expenses) by resulting from the discovery of new ways to prevent and mitigate chronic illnesses.
 
-### 4. Digital Health Businesses
+### 3. Digital Health Businesses
 
 On top of the incentives for businesses listed above, the following incentives will be provided to digital health businesses which enable data sharing:
 
@@ -41,16 +41,16 @@ On top of the incentives for businesses listed above, the following incentives w
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
 3. Revenue derived through subscription or licensing agreements for usage of their plugins in the Plugin Marketplace.
 
-![Branded Plugins](<../plugins/plugin-marketplace (1).png>)
+![Branded Plugins](../plugins/plugin-marketplace.png)
 
-### 5. Disease Advocacy Non-Profit Organizations
+### 4. Disease Advocacy Non-Profit Organizations
 
 Disease advocacy non-profits will be incentivized to promote observational studies through the anonymous donation data by their members by:
 
 1. Accelerated furtherance of their mission to reduce the incidence of chronic illnesses.
 2. A new method of member engagement more motivating and productive than the traditional charity walk.
 
-### 6. Government Health Agencies
+### 5. Government Health Agencies
 
 Governments will be incentivized by:
 
@@ -61,14 +61,14 @@ Governments will be incentivized by:
 5. Require international cooperation for all public health efforts to reduce wasted duplication of effort and take advantage of natural experiments resulting from differing public health regulations between nations.
 6. Epidemiological discoveries from allowing citizens to anonymously share their data in a global database. This will enable us to take advantage of natural experiments resulting from differing public health regulations between nations. For instance, 27 countries have banned the use of the pesticide glyphosate due to concerns about the health effects. If no overall change in the health of the populations is observed, it will suggest that the health concerns may be unfounded.
 
-### 7. Contributors to the Development of the Platform
+### 6. Contributors to the Development of the Platform
 
 Citizens of the DAO will be incentivized to contribute to the development of the platform by:
 
 1. Gitcoin Bounties for specific tasks
 2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
 
-### 8. Compensation
+### 7. Compensation
 
 Compensation for various tasks will be determined democratically by voting here 👉 [Vote on Compensation for Specific Tasks](https://docs.google.com/forms/d/1zNRRLEOnrQmlbKu33NORJQDktJhgneQHsQtJHW3erL0/edit)
 
