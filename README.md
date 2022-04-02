@@ -1,6 +1,6 @@
 ---
 description: >-
-CureDAO is an open, democratic, and meritocratic organization building. We're building a community-owned no-code digital health platform to accelerate the personalized, precision medicine of the future. 🚀 ️
+CureDAO is an open, democratic, and meritocratic organization building a community-owned no-code digital health platform to accelerate the personalized, precision medicine of the future. 🚀 ️
 ---
 ## tl;dr
 
