@@ -4,7 +4,7 @@ description: >-
   outreach for large-scale, fast-growing organizations.
 ---
 
-# Public Relations
+# Communications
 
 Conveying CureDAO's story mission of reducing suffering using data. You should be excited to embrace the challenge of managing multiple projects.
 
