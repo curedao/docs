@@ -1,6 +1,6 @@
 ---
 description: >-
-  We’re looking for a PR Director with proven experience executing media
+  We’re looking for a communications coordinator with proven experience executing media
   outreach for large-scale, fast-growing organizations.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 Conveying CureDAO's story mission of reducing suffering using data. You should be excited to embrace the challenge of managing multiple projects.
 
-You are a public relations leader who can grow communications and community at CureDAO. We have a challenging story to tell, with the potential to revolutionize clinical research and diagnosis. Experience building and scaling a world-class team is a must, as we’re only just getting started. You can effectively echo the voice of the community through acute listening and asking the right questions. You’re interested in the challenge of supporting an ecosystem of unique products that fosters imagination through creative control. You pride yourself on both a high standard of quality and an eye towards efficiency.
+You are a communications leader who can grow communications and community at CureDAO. We have a challenging story to tell, with the potential to revolutionize clinical research and diagnosis. Experience building and scaling a world-class team is a must, as we’re only just getting started. You can effectively echo the voice of the community through acute listening and asking the right questions. You’re interested in the challenge of supporting an ecosystem of unique products that fosters imagination through creative control. You pride yourself on both a high standard of quality and an eye towards efficiency.
 
 You’ll be designing and executing our media relations campaigns, managing and prioritizing incoming and outgoing inquiries, identifying and engaging key media influencers, and coordinating and pitching to prospective stakeholders.
 
@@ -38,5 +38,5 @@ If you're interested, please fill out this application: https://forms.gle/Yy4XU6
 Graphic Design, Social Media, Facebook Advertising, Writing, Social Media Marketing, WordPress, Advertising, Human Resources, Copy Writing and Editing, Google Ads, Verbal and Written Communication, Technical Writing
 
 {% hint style="info" %}
-Click 👉👉👉 [here](https://notionforms.io/forms/join-curedao) to tell us about your interests or project and we'll get in touch with you.
+Click 👉👉👉 [here](https://forms.clickup.com/10641228/f/a4quc-13060/7EPRJ8693ZE8T38SP3) to tell us about your interests or project and we'll get in touch with you.
 {% endhint %}
